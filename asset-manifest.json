@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.c9ad80f3.css",
-    "main.js": "/my-website/static/js/main.9ee0bff6.js",
-    "static/js/787.28cb0dcd.chunk.js": "/my-website/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Website.gif": "/my-website/static/media/Website.c5aed7f68c2a0e5d44f6.gif",
-    "static/media/Paint.gif": "/my-website/static/media/Paint.7965ba792a747848be39.gif",
-    "static/media/profile.jpg": "/my-website/static/media/profile.f8a8644bc63d00ef8ebd.jpg",
-    "static/media/walmart.png": "/my-website/static/media/walmart.6f1ca0896de90a098dd7.png",
-    "static/media/placeholder.webp": "/my-website/static/media/placeholder.aadba29c0fa8fe2da964.webp",
-    "index.html": "/my-website/index.html",
-    "main.c9ad80f3.css.map": "/my-website/static/css/main.c9ad80f3.css.map",
-    "main.9ee0bff6.js.map": "/my-website/static/js/main.9ee0bff6.js.map",
-    "787.28cb0dcd.chunk.js.map": "/my-website/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.c9ad80f3.css",
+    "main.js": "/static/js/main.e18aa264.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Website.gif": "/static/media/Website.c5aed7f68c2a0e5d44f6.gif",
+    "static/media/Paint.gif": "/static/media/Paint.7965ba792a747848be39.gif",
+    "static/media/profile.jpg": "/static/media/profile.f8a8644bc63d00ef8ebd.jpg",
+    "static/media/walmart.png": "/static/media/walmart.6f1ca0896de90a098dd7.png",
+    "static/media/placeholder.webp": "/static/media/placeholder.aadba29c0fa8fe2da964.webp",
+    "index.html": "/index.html",
+    "main.c9ad80f3.css.map": "/static/css/main.c9ad80f3.css.map",
+    "main.e18aa264.js.map": "/static/js/main.e18aa264.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9ad80f3.css",
-    "static/js/main.9ee0bff6.js"
+    "static/js/main.e18aa264.js"
   ]
 }
