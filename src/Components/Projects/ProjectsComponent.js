@@ -28,13 +28,13 @@ function ProjectsComponent() {
             <div className='project-component'>
                 <img className='project-component-gif' src={WebsiteGif}></img>
                 <div className='project-component-info-container'>
-                    <header className='project-component-title project-component-title-2'>ahmadmasud.github.io</header>
+                    <header className='project-component-title project-component-title-2'>My First Website</header>
                     <p className='project-component-overview'
                         >My very first website which I created in grade 12 written in plain html, css and
                         javascript. It is very responsive and you can learn a little about me scrolling through 
                         it.
                     </p>
-                    <a href='https://github.com/ahmad-masud/ahmad-masud.github.io' className='github-link' target='_blank'><i className="fa-brands fa-github"></i> Github <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                    <a href='https://github.com/ahmad-masud/my-first-website' className='github-link' target='_blank'><i className="fa-brands fa-github"></i> Github <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
                     <ul className='stacks'>
                         <li className='stack'>Html</li>
                         <li className='stack'>Css</li>
