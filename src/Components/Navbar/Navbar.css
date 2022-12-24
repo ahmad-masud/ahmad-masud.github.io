@@ -45,6 +45,16 @@
     font-size: 1.1em;
 }
 
+.visible {
+    margin-left: 10px;
+    color: white;
+}
+
+.nav-logo-container:hover .text-logo-nav-link {
+    margin-left: 10px;
+    color: white;
+}
+
 .nav-links {
     height: 100%;
     display: flex;

@@ -37,14 +37,9 @@ function Navbar() {
 window.addEventListener('scroll', function () {
   var navbar = this.document.getElementById('nav')
   var name = this.document.getElementById('name')
+  var nameContainer = this.document.getElementById('name-container')
   navbar.classList.toggle('sticky', window.scrollY > 0);
-  if (window.scrollY > 0) {
-    name.style.color = 'white'
-    name.style.marginLeft = '10px'
-  } else {
-    name.style.color = 'transparent'
-    name.style.marginLeft = '0px'
-  }
+  name.classList.toggle('visible', window.scrollY > 0);
 });
 
 function closeNav() {

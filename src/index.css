@@ -10,4 +10,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
