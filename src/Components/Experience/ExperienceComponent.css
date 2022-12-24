@@ -1,9 +1,8 @@
 .experience-header {
-    background: #111827;
-    color: white;
+    color: #111827;
     font-size: 4em;
     text-align: center;
-    padding: 100px;
+    margin-top: 100px;
     font-weight: bold;
 }
 
@@ -70,4 +69,11 @@
     font-size: 1.15em;
     line-height: 1.5em;
 }
+
+@media only screen and (max-width: 600px) {
+    .experience-header {
+        font-size: 2em;
+    }
+}
+
 

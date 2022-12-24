@@ -1,9 +1,8 @@
 .about-header {
-    background: #111827;
-    color: white;
+    color: #111827;
     font-size: 4em;
     text-align: center;
-    padding: 100px;
+    margin-top: 100px;
     font-weight: bold;
 }
 
@@ -33,5 +32,11 @@
     }
     .about-paragraph {
         width: 75%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-header {
+        font-size: 2em;
     }
 }

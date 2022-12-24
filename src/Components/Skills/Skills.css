@@ -1,0 +1,30 @@
+.skills {
+    background: #1e2841;
+    color: white;
+    padding: 10px;
+}
+
+.skills-title {
+    margin: 25px 0;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills-list {
+    list-style-type: none;
+    font-size: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 25px auto;
+    line-height: 1.5em;
+}
+
+.skills-item {
+    margin-right: 5px;
+}
+
+.skills-item-2 {
+    opacity: 0.5;
+}

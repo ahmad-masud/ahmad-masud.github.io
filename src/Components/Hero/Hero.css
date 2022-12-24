@@ -24,6 +24,7 @@
 
 .hero-greeting-text {
     font-size: 2.5em;
+    color: lightgrey;
 }
 
 .hero-name-text {
@@ -32,10 +33,13 @@
 
 .hero-job-text {
     font-size: 2em;
+    color: lightgrey;
 }
 
 .hero-name-text span {
-    background: -webkit-linear-gradient(45deg, rgb(0,200,255), rgb(0,100,255));
+    background: linear-gradient(90deg, #ee7752, #ba1d1d, #9ee5ff, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -51,11 +55,7 @@
 }
 
 .Typewriter__wrapper{
-    background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     font-weight: bold;
 }
 
@@ -113,4 +113,10 @@
 
 .hero-github-button:hover {
     filter: brightness(1.25)
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-container {
+        width: 90%;
+    }
 }

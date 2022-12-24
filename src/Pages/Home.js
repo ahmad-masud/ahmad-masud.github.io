@@ -1,16 +1,15 @@
 import Hero from '../Components/Hero/Hero.js';
 import Info from '../Components/Info/Info.js';
 import Highlights from '../Components/Highlights/Highlights.js';
-import AnimatePage from '../AnimatePage';
+import Skills from '../Components/Skills/Skills.js';
 
 function Home() {
   return (
     <div className='home'>
-      <AnimatePage>
-        <Hero />
-        <Info />
-        <Highlights />
-      </AnimatePage>
+      <Hero />
+      <Info />
+      <Highlights />
+      <Skills />
     </div>
   );
 }
