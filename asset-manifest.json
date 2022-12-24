@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab9cbd52.css",
-    "main.js": "/static/js/main.e18aa264.js",
+    "main.css": "/static/css/main.22b2de5e.css",
+    "main.js": "/static/js/main.ec8becd5.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/Website.gif": "/static/media/Website.c5aed7f68c2a0e5d44f6.gif",
     "static/media/Paint.gif": "/static/media/Paint.7965ba792a747848be39.gif",
@@ -9,12 +9,12 @@
     "static/media/walmart.png": "/static/media/walmart.6f1ca0896de90a098dd7.png",
     "static/media/placeholder.webp": "/static/media/placeholder.aadba29c0fa8fe2da964.webp",
     "index.html": "/index.html",
-    "main.ab9cbd52.css.map": "/static/css/main.ab9cbd52.css.map",
-    "main.e18aa264.js.map": "/static/js/main.e18aa264.js.map",
+    "main.22b2de5e.css.map": "/static/css/main.22b2de5e.css.map",
+    "main.ec8becd5.js.map": "/static/js/main.ec8becd5.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab9cbd52.css",
-    "static/js/main.e18aa264.js"
+    "static/css/main.22b2de5e.css",
+    "static/js/main.ec8becd5.js"
   ]
 }
