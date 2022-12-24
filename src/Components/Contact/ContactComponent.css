@@ -1,0 +1,78 @@
+.contact-header {
+    background: #111827;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    padding: 100px;
+    font-weight: bold;
+}
+
+.contact-header span {
+    opacity: 0.25;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 50px auto;
+}
+
+.contact-name-label, .contact-email-label, .contact-message-label {
+    font-size: 1.25em;
+    margin-bottom: 2px;
+}
+
+.contact-name-input, .contact-email-input {
+    border-radius: 5px;
+    height: 30px;
+    font-size: 1.25em;
+    background: rgb(225,225,225);
+    border-width: 0;
+    margin-bottom: 15px;
+}
+
+.contact-message {
+    border-radius: 5px;
+    height: 150px;
+    font-size: 1.25em;
+    background: rgb(225,225,225);
+    border-width: 0;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+.contact-submit {
+    padding: 10px;
+    background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-size: 1.25em;
+    border-radius: 5px;
+    border-width: 0;
+    cursor: pointer;
+    filter: brightness(0.9);
+    transition: all 200ms ease-in-out;
+}
+
+.contact-submit:hover {
+    filter: brightness(1);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-form {
+        width: 75%;
+    }    
+}

@@ -1,0 +1,37 @@
+.about-header {
+    background: #111827;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    padding: 100px;
+    font-weight: bold;
+}
+
+.about-header span {
+    opacity: 0.25;
+}
+
+.about-image {
+    display: block;
+    width: 30%;
+    margin: 25px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+}
+
+.about-paragraph {
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-image {
+        width: 50%;
+    }
+    .about-paragraph {
+        width: 75%;
+    }
+}
