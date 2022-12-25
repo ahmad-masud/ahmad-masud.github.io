@@ -28,3 +28,13 @@
 .skills-item-2 {
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 600px) {
+    .skills {
+        padding: 5px;
+    }
+    
+    .skills-list {
+        font-size: 1.25em;
+    }
+}

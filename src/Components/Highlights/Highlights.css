@@ -10,9 +10,8 @@
 }
 
 .project-gif {
-    width: 50%;
+    width: 40%;
     margin: auto 25px;
-    object-fit: cover;
     border-radius: 25px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
 }
