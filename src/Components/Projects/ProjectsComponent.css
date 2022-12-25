@@ -20,7 +20,7 @@
 .projects-component-container {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -53,25 +53,25 @@
 }
 
 .project-component-title-1 {
-    background: -webkit-linear-gradient(45deg, rgb(255,0,0), rgb(200,0,0));
+    background: -webkit-linear-gradient(45deg, rgb(00,150,255), rgb(0,100,200));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .project-component-title-2 {
-    background: -webkit-linear-gradient(45deg, rgb(255,150,0), rgb(255,50,0));
+    background: -webkit-linear-gradient(45deg, rgb(0,200,0), rgb(0,100,0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .project-component-title-3 {
-    background: -webkit-linear-gradient(45deg, rgb(0,255,255), rgb(0,255,200));
+    background: -webkit-linear-gradient(45deg, rgb(200,0,255), rgb(100,0,200));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .project-component-overview {
-    font-size: 1.15em;
+    font-size: 1.25em;
     margin: 0;
     line-height: 1.5em;
 }
@@ -81,10 +81,11 @@
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 7px;
     margin: 10px 0;
     transition: 200ms all ease-in-out;
-    width: 85px;
+    width: 105px;
+    font-size: 1.25em;
 }
 
 .github-link:hover {
@@ -105,13 +106,20 @@
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-right: 5px;
     transition: 200ms all ease-in-out;
+    font-size: 1.25em;
 }
 
 @media only screen and (max-width: 600px) {
     .projects-component-header  {
         font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .projects-component-container {
+        width: 90%;
     }
 }

@@ -4,7 +4,7 @@
 }
 
 .info-container {
-    width: 65%;
+    width: 1440px;
     margin: 50px auto;
 }
 
@@ -30,9 +30,8 @@
     color: white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1440px) {
     .info-container {
         width: 90%;
-        margin: 50px auto;
     }
 }

@@ -76,21 +76,23 @@
 }
 
 .hero-resume-button {
+    font-size: 1.25em;
     background: white;
     color: #111827;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 7px;
     margin: 0 5px;
     transition: 200ms all ease-in-out;
 }
 
 .hero-github-button {
+    font-size: 1.25em;
     background: rgb(37, 44, 59);
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 7px;
     margin: 0 5px;
     transition: 200ms all ease-in-out;
 }

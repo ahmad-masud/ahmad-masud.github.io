@@ -16,9 +16,10 @@
 
 .nav-container {
     height: 65px;
-    width: 100%;
+    width: 1440px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .nav-logo-container {
@@ -73,7 +74,7 @@
 .contact-nav-link {
     color: #111827;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 7px;
     background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -115,6 +116,12 @@
 
     .nav-links {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .nav-container {
+        width: 100%
     }
 }
 

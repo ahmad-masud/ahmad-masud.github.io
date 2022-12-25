@@ -18,7 +18,7 @@
 }
 
 .experience-container {
-    width: 90%;
+    width: 1440px;
     margin: 25px auto;
     display: flex;
 }
@@ -73,6 +73,12 @@
 @media only screen and (max-width: 600px) {
     .experience-header {
         font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .experience-container {
+        width: 90%;
     }
 }
 
