@@ -1,7 +1,7 @@
 import './ProjectsComponent.css';
-import PaintGif from './Paint.gif'
-import WebsiteGif from './Website.gif'
-import SortGif from './SortingVisualizer.gif'
+import PaintGif from '../../Images/Paint.gif'
+import WebsiteGif from '../../Images/Website.gif'
+import SortGif from '../../Images/SortingVisualizer.gif'
 
 function ProjectsComponent() {
   return (

@@ -1,6 +1,6 @@
 import './ExperienceComponent.css';
-import walmartImage from './walmart.png';
-import kungfuImage from './kungfu.png'
+import walmartImage from '../../Images/Walmart.png';
+import kungfuImage from '../../Images/Kungfu.png'
 
 function ExperienceComponent() {
   return (
