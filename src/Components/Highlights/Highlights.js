@@ -53,7 +53,7 @@ function Highlights() {
                             the delay in between swaps. The height of each bar corresponds to its value and its x position 
                             corresponds to it's index in the array.
                         </p>
-                        <a href='https://github.com/ahmad-masud/Sorting-Algorithm-Visualizer' className='github-link'><i className="fa-brands fa-github" target='_blank'></i> Github <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                        <a href='https://github.com/ahmad-masud/Sorting-Algorithm-Visualizer' className='github-link' target='_blank'><i className="fa-brands fa-github"></i> Github <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
                         <ul className='stacks'>
                             <li className='stack'>Java</li>
                             <li className='stack'>Java Swing</li>
