@@ -1,11 +1,10 @@
 import './AboutComponent.css';
-import profileImage from './profile.jpg'
+import profileImage from '../../Images/profile.jpg'
 
 
 function AboutComponent() {
   return (
     <div className='about'>
-      <header className='about-header'>About <span>#</span></header>
       <img src={profileImage} className='about-image'></img>
       <p className='about-paragraph'>
         Hello there! My name is Ahmad, and I attend Simon Fraser University to study computer science. 

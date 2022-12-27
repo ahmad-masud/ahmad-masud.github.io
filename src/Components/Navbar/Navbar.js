@@ -14,7 +14,7 @@ function Navbar() {
         </div>
         <div className='nav-links'>
           <Link to='/About' className='nav-link about-nav-link'>About</Link>
-          <Link to='/Experience' className='nav-link experience-nav-link'>Experience</Link>
+          <Link to='/Experiences' className='nav-link experience-nav-link'>Experiences</Link>
           <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
           <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
         </div>
@@ -25,7 +25,7 @@ function Navbar() {
       <div className='media-nav' id='media-nav'>
         <div className='media-nav-links'>
           <Link to='/About' className='media-nav-link about-media-nav-link' onClick={closeNav}>About</Link>
-          <Link to='/Experience' className='media-nav-link experience-media-nav-link' onClick={closeNav}>Experience</Link>
+          <Link to='/Experiences' className='media-nav-link experience-media-nav-link' onClick={closeNav}>Experiences</Link>
           <Link to='/Projects' className='media-nav-link projects-media-nav-link' onClick={closeNav}>Projects</Link>
           <Link to='/Contact' className='media-nav-link contact-media-nav-link' onClick={closeNav}>Contact</Link>
         </div>

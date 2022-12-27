@@ -4,7 +4,6 @@ function Info() {
   return (
     <div className='info'>
       <div className='info-container'>
-        <header class="info-sub-header">ABOUT ME</header>
         <header class="info-main-header">Nice to Meet You!</header>
         <p class='info-paragraph'>
             I study computer science and hope to work as a professional programmer someday. 

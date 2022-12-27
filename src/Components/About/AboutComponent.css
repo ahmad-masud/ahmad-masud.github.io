@@ -1,13 +1,11 @@
-.about-header {
-    color: #111827;
-    font-size: 4em;
-    text-align: center;
-    margin-top: 100px;
-    font-weight: bold;
+:root {
+    --font-size: 1.25em;
 }
 
-.about-header span {
-    opacity: 0.25;
+@media only screen and (max-width: 800px) {
+    :root {
+        --font-size: 1em;
+    }
 }
 
 .about-image {
@@ -22,7 +20,7 @@
     width: 50%;
     display: block;
     margin: 25px auto;
-    font-size: 1.25em;
+    font-size: var(--font-size);
     line-height: 1.5em;
 }
 

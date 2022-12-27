@@ -19,7 +19,6 @@ function ContactComponent() {
   
     return (
         <div className='contact'>
-            <header className='contact-header'>Contact <span>#</span></header>
             <form className='contact-form' ref={form} onSubmit={sendEmail}>
                 <label className='contact-name-label'>Name</label>
                 <input className='contact-name-input' type="text" name="from_name" required />

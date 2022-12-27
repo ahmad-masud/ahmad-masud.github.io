@@ -1,0 +1,11 @@
+.header-text {
+    color: #111827;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.header-text span {
+    opacity: 0.25;
+}

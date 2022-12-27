@@ -1,3 +1,13 @@
+:root {
+    --font-size: 1.25em;
+}
+
+@media only screen and (max-width: 800px) {
+    :root {
+        --font-size: 1em;
+    }
+}
+
 .hero {
     width: 100%;
     background: #111827;
@@ -5,7 +15,6 @@
 }
 
 .hero-container {
-    width: 75%;
     margin: 100px auto;
     display: flex;
     align-items: center;
@@ -76,7 +85,7 @@
 }
 
 .hero-resume-button {
-    font-size: 1.25em;
+    font-size: var(--font-size);
     background: white;
     color: #111827;
     text-decoration: none;
@@ -87,7 +96,7 @@
 }
 
 .hero-github-button {
-    font-size: 1.25em;
+    font-size: var(--font-size);
     background: rgb(37, 44, 59);
     color: white;
     text-decoration: none;

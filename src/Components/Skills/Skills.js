@@ -1,35 +1,48 @@
 import './Skills.css';
 
 function Skills() {
+
+  const codingSkills=[
+    'HTML',
+    'Javascript',
+    'Typescript',
+    'Python',
+    'CSS',
+    'Lua',
+    'React',
+    'Gamemaker GML',
+    'npm',
+  ];
+
+  const miscSkills=[
+    'Blender',
+    'Photoshop',
+    'Game Testing',
+    'Organization',
+    'In-store support',
+    'High-energy attitude',
+    'Computer Skills',
+    'Communication',
+    'Spanish',
+    'Urdu',
+    'Weightlifting',
+  ]
+
   return (
     <div className='skills'>
       <div className='skills-container'>
         <header className='skills-title'>Skills</header>
         <header className='skills-subtitle'>Coding</header>
         <ul className='skills-list'>
-          <li className='skills-item'>HTML</li>
-          <li className='skills-item'>Javascript</li>
-          <li className='skills-item'>Typescript</li>
-          <li className='skills-item'>Python</li>
-          <li className='skills-item'>CSS</li>
-          <li className='skills-item'>lua</li>
-          <li className='skills-item'>React</li>
-          <li className='skills-item'>Gamemaker GML</li>
-          <li className='skills-item'>Node-js</li>
+          {codingSkills.map(function (skill) {
+            return <li className='skills-item'>{skill}</li>
+          })}
         </ul>
         <header className='skills-subtitle'>Miscellaneous</header>
         <ul className='skills-list'>
-          <li className='skills-item'>Blender</li>
-          <li className='skills-item'>Photoshop</li>
-          <li className='skills-item'>Game testing</li>
-          <li className='skills-item'>Organization</li>
-          <li className='skills-item'>In-store support</li>
-          <li className='skills-item'>High-energy attitude</li>
-          <li className='skills-item'>Computer skills</li>
-          <li className='skills-item'>Communication</li>
-          <li className='skills-item'>Spanish</li>
-          <li className='skills-item'>Urdu</li>
-          <li className='skills-item'>Weightlifting</li>
+          {miscSkills.map(function (skill) {
+            return <li className='skills-item'>{skill}</li>
+          })}
         </ul>
       </div>
     </div>

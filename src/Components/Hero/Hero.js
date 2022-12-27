@@ -19,7 +19,7 @@ function Hero() {
                 </header>
             </div>
             <div className='hero-buttons'>
-              <a href='' className='hero-resume-button'  target="_blank">Resume <i class="fa-solid fa-file icon"></i></a>
+              <a href='' className='hero-resume-button'  target="_blank">Resume <i className="fa-solid fa-file icon"></i></a>
               <a href='https://github.com/ahmad-masud' className='hero-github-button' target="_blank"><i className="fa-brands fa-github icon"></i> Github <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
             </div>
         </div>
