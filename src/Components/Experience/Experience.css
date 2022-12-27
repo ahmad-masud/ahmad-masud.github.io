@@ -1,13 +1,3 @@
-:root {
-    --font-size: 1.25em;
-}
-
-@media only screen and (max-width: 800px) {
-    :root {
-        --font-size: 1em;
-    }
-}
-
 .experience-image {
     width: 30%;
     margin: auto 25px;
@@ -17,6 +7,7 @@
 
 .experience-info-container {
     margin: auto 25px;
+    color: white;
 }
 
 .experience-container {
@@ -37,7 +28,7 @@
 }
 
 .experience-date {
-    color: darkslategrey;
+    opacity: 0.75;
 }
 
 .experience-title {

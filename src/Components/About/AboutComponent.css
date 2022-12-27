@@ -1,13 +1,3 @@
-:root {
-    --font-size: 1.25em;
-}
-
-@media only screen and (max-width: 800px) {
-    :root {
-        --font-size: 1em;
-    }
-}
-
 .about-image {
     display: block;
     width: 30%;
@@ -22,6 +12,7 @@
     margin: 25px auto;
     font-size: var(--font-size);
     line-height: 1.5em;
+    color: white;
 }
 
 @media only screen and (max-width: 800px) {

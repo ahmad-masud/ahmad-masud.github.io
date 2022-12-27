@@ -1,15 +1,4 @@
-:root {
-    --font-size: 1.25em;
-}
-
-@media only screen and (max-width: 800px) {
-    :root {
-        --font-size: 1em;
-    }
-}
-
 .info {
-    background: #1e2841;
     padding: 25px;
 }
 

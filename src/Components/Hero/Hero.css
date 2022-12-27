@@ -1,13 +1,3 @@
-:root {
-    --font-size: 1.25em;
-}
-
-@media only screen and (max-width: 800px) {
-    :root {
-        --font-size: 1em;
-    }
-}
-
 .hero {
     width: 100%;
     background: #111827;

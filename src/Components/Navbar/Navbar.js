@@ -24,9 +24,13 @@ function Navbar() {
       </div>
       <div className='media-nav' id='media-nav'>
         <div className='media-nav-links'>
+          <hr className='nav-hr' />
           <Link to='/About' className='media-nav-link about-media-nav-link' onClick={closeNav}>About</Link>
+          <hr className='nav-hr' />
           <Link to='/Experiences' className='media-nav-link experience-media-nav-link' onClick={closeNav}>Experiences</Link>
+          <hr className='nav-hr' />
           <Link to='/Projects' className='media-nav-link projects-media-nav-link' onClick={closeNav}>Projects</Link>
+          <hr className='nav-hr' />
           <Link to='/Contact' className='media-nav-link contact-media-nav-link' onClick={closeNav}>Contact</Link>
         </div>
       </div>

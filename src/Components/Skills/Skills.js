@@ -31,7 +31,7 @@ function Skills() {
   return (
     <div className='skills'>
       <div className='skills-container'>
-        <header className='skills-title'>Skills</header>
+        <header className='skills-title'>Some of my Skills!</header>
         <header className='skills-subtitle'>Coding</header>
         <ul className='skills-list'>
           {codingSkills.map(function (skill) {

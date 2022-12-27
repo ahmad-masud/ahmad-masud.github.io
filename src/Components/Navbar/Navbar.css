@@ -194,5 +194,11 @@
     transition: all 200ms ease-in-out;
 }
 
+.nav-hr {
+    border: none;
+    height: 0.01em;
+    background: rgba(255,255,255,0.25);
+}
+
 
 
