@@ -13,7 +13,6 @@ function Projects() {
         <Project
           image={PaintGif} 
           title={'Paint'}
-          titleColor={'rgb(0,150,255)'}
           overview={
             `A simple java paint application, geared towards people who like digital 
             drawing and taking quick notes. There are numerous tools for drawing with differents pens,
@@ -26,7 +25,6 @@ function Projects() {
         <Project
           image={WebsiteGif} 
           title={'My First Website'}
-          titleColor={'rgb(0,150,0)'}
           overview={
             `A simple java paint application, geared towards people who like digital 
             drawing and taking quick notes. There are numerous tools for drawing with differents pens,
@@ -39,7 +37,6 @@ function Projects() {
         <Project
           image={SortGif} 
           title={'Sorting Algorithm Visualizer'} 
-          titleColor={'rgb(200,0,255)'}
           overview={
             `An application that implements java swing to draw out a visual of the process of loop sorting. 
             There are interactive buttons to visualize different sorting algorithms and a slider to change 

@@ -1,19 +1,19 @@
 .experience-image {
     width: 30%;
-    margin: auto 25px;
+    margin: auto 25px auto 0;
     border-radius: 25px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
 }
 
 .experience-info-container {
-    margin: auto 25px;
+    margin: auto 0 auto 25px;
     color: white;
 }
 
 .experience-container {
-    width: 1440px;
-    margin: 25px auto;
+    width: var(--width);
     display: flex;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -22,7 +22,6 @@
         margin: 25px auto;
     }
     .experience-container {
-        width: 80%;
         flex-direction: column;
     }
 }
@@ -57,10 +56,5 @@
     }
 }
 
-@media only screen and (max-width: 1440px) {
-    .experience-container {
-        width: 90%;
-    }
-}
 
 

@@ -1,17 +1,13 @@
-.info {
-    padding: 25px;
-}
-
 .info-container {
-    width: 1440px;
+    width: var(--width);
     margin: 50px auto;
 }
 
 .info-main-header {
-    font-size: 2em;
+    font-size: calc(var(--font-size)*2);
     font-weight: bold;
     margin: 10px 0;
-    color: white;
+    color: rgb(0,150,255);
 }
 
 .info-paragraph {
@@ -19,10 +15,4 @@
     line-height: 1.5em;
     margin: 0;
     color: white;
-}
-
-@media only screen and (max-width: 1440px) {
-    .info-container {
-        width: 90%;
-    }
 }

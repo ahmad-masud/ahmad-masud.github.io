@@ -1,17 +1,18 @@
 .skills {
     color: white;
-    padding: 10px;
+    padding: 20px 0;
 }
 
 .skills-container {
-    width: 1440px;
+    width: var(--width);
     margin: 0 auto;;
 }
 
 .skills-title {
     margin: 25px 0;
-    font-size: 2em;
+    font-size: calc(var(--font-size)*2);
     font-weight: bold;
+    color: rgb(255,50,50);
 }
 
 .skills-subtitle {
@@ -45,11 +46,5 @@
     
     .skills-list {
         font-size: var(--font-size);
-    }
-}
-
-@media only screen and (max-width: 1440px) {
-    .skills-container {
-        width: 90%;
     }
 }

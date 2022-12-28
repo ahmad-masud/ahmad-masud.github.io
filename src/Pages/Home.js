@@ -6,26 +6,18 @@ import PaintGif from '../Images/Paint.gif'
 import WebsiteGif from '../Images/Website.gif'
 import SortGif from '../Images/SortingVisualizer.gif'
 import Fade from 'react-reveal/Fade';
+import Title from '../Components/Title/Title.js'
 
 function Home() {
-
-  const headerStyle = {
-    color: 'white',
-    fontWeight: 'bold',
-    fontSize: '2em',
-    textAlign: 'center'
-  }
-
   return (
     <div className='home'>
       <Fade>
         <Hero />
         <Info />
-        <header style={headerStyle}>Highlighted Projects</header>
+        <Title text='Highlighted Projects' />
         <Project
           image={PaintGif} 
           title={'Paint'}
-          titleColor={'rgb(0,150,255)'}
           overview={
             `A simple java paint application, geared towards people who like digital 
             drawing and taking quick notes. There are numerous tools for drawing with differents pens,
@@ -38,7 +30,6 @@ function Home() {
         <Project
           image={WebsiteGif} 
           title={'My First Website'}
-          titleColor={'rgb(16,185,129)'}
           overview={
             `A simple java paint application, geared towards people who like digital 
             drawing and taking quick notes. There are numerous tools for drawing with differents pens,
@@ -51,7 +42,6 @@ function Home() {
         <Project
           image={SortGif} 
           title={'Sorting Algorithm Visualizer'} 
-          titleColor={'rgb(255,50,50)'}
           overview={
             `An application that implements java swing to draw out a visual of the process of loop sorting. 
             There are interactive buttons to visualize different sorting algorithms and a slider to change 

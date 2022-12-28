@@ -9,3 +9,16 @@
 .header-text span {
     opacity: 0.25;
 }
+
+@media only screen and (max-width: 800px) {
+    .header-text {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-text {
+        font-size: 2.5em;
+    }
+}
+
