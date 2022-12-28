@@ -6,12 +6,12 @@ function Info() {
       <div className='info-container'>
         <header class="info-main-header">Nice to Meet You!</header>
         <p class='info-paragraph'>
-            I study computer science and hope to work as a professional programmer someday. 
-            I became interested in computers and science when my father gave me his old IBM laptop when 
-            I was eight years old. Since then, as I apply the skills I've learned in school 
-            to my extracurriculars, my own projects have continued to fuel my interest for computer programming. 
-            I am a computer enthusiast that works hard and is outgoing and creative. 
-            Please don't hesitate to get in touch with me if you have any questions or requests for me.
+          Hello! Ahmad here; I attend SFU and major in computer science. As a dedicated software developer, 
+          I have worked on a wide range of projects using different technology stacks. Furthermore, 
+          I have a lot of leadership experience from both my professional and extracurricular activities. 
+          You can find me at the gym, hanging out with friends, or doing service for my community when 
+          I'm not developing! If you have any inquires please feel free to check out my resume above or 
+          head over to the contact page to send me an email.
         </p>
       </div>
     </div>
