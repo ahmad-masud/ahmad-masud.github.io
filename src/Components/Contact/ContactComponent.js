@@ -12,6 +12,10 @@ function ContactComponent() {
         emailjs.sendForm('service_3yamhe1', 'template_v2uaobc', form.current, 'tqejVuoeOE6huM6Cw')
         .then((result) => {
             console.log(result.text);
+            document.getElementById('success-label').style.marginLeft = '10px';
+            setTimeout(function () {
+                document.getElementById('success-label').style.marginLeft = '-300px';
+              }, 5000);
         }, (error) => {
             console.log(error.text);
         });
@@ -19,6 +23,7 @@ function ContactComponent() {
   
     return (
         <div className='contact'>
+            <label className='contact-success-label' id='success-label'>Sent Successfully <i className='fa-solid fa-circle-check'></i></label>
             <form className='contact-form' ref={form} onSubmit={sendEmail}>
                 <label className='contact-name-label'>Name</label>
                 <input className='contact-name-input' type="text" name="from_name" required />

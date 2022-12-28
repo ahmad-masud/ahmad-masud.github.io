@@ -74,3 +74,14 @@
     }
 }
 
+.contact-success-label {
+    color: white;
+    font-weight: bold;
+    font-size: var(--font-size);
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -300px;
+    transition: all 200ms ease-in-out;
+}
+
