@@ -7,6 +7,7 @@ import WebsiteGif from '../Images/Website.gif'
 import SortGif from '../Images/SortingVisualizer.gif'
 import Fade from 'react-reveal/Fade';
 import Title from '../Components/Title/Title.js'
+import Margin from '../Components/Margin/Margin.js'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Fade>
         <Hero />
         <Info />
+        <Margin height='100px' />
         <Title text='Highlighted Projects' />
         <Project
           image={PaintGif} 
@@ -51,6 +53,7 @@ function Home() {
           link={'https://github.com/ahmad-masud/Sorting-Algorithm-Visualizer'} 
           stacks={['Java', 'Java Swing', 'Java Frames', 'Netbeans']}
         />
+        <Margin height='100px' />
         <Skills />
       </Fade>
     </div>
