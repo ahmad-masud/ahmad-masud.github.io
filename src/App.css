@@ -42,3 +42,8 @@ body {
     flex-direction: column;
 }
 
+.home {
+    background: #111827 url(./Images/star-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
