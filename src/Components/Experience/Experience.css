@@ -13,7 +13,7 @@
 .experience-container {
     width: var(--width);
     display: flex;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
 @media only screen and (max-width: 800px) {
