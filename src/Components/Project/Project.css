@@ -73,6 +73,7 @@
 .stacks {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .stack {
@@ -81,7 +82,7 @@
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 7px;
-    margin-right: 5px;
+    margin: 0 5px 5px 0;
     transition: 200ms all ease-in-out;
     font-size: var(--font-size);
 }
