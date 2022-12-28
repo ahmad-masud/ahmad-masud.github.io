@@ -20,7 +20,7 @@ function Projects() {
             a new image from scratch.`
           }
           link={'https://github.com/ahmad-masud/Paint'} 
-          stacks={['Java', 'Java Swing']}
+          stacks={['Java', 'Java Swing', 'Java Frames', 'Netbeans']}
         />
         <Project
           image={WebsiteGif} 
@@ -44,7 +44,7 @@ function Projects() {
             corresponds to its index in the array.`
           }
           link={'https://github.com/ahmad-masud/Sorting-Algorithm-Visualizer'} 
-          stacks={['Java', 'Java Swing']}
+          stacks={['Java', 'Java Swing', 'Java Frames', 'Netbeans']}
         />
       </Fade>
     </div>
