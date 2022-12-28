@@ -10,7 +10,7 @@ function Info() {
           I have worked on a wide range of projects using different technology stacks. Furthermore, 
           I have a lot of leadership experience from both my professional and extracurricular activities. 
           You can find me at the gym, hanging out with friends, or doing service for my community when 
-          I'm not developing! If you have any inquires please feel free to check out my resume above or 
+          I'm not developing! If you have any inquires please feel free to check the about page or 
           head over to the contact page to send me an email.
         </p>
       </div>
