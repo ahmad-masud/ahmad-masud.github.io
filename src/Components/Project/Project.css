@@ -64,6 +64,12 @@
     .github-link {
         width: 85px;
     }
+    .project-info-container {
+        margin: 0;
+    }
+    .project-gif {
+        margin: 25px 0;
+    }
 }
 
 .fa-arrow-up-right-from-square {

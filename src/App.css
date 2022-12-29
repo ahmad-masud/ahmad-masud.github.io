@@ -43,7 +43,16 @@ body {
 }
 
 .home {
-    background: #111827 url(./Images/star-bg.svg);
+    background: url(./Images/star-bg.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
+}
+
+@media only screen and (max-width: 1440px) {
+    .home {
+        background: url(./Images/star-bg.svg);
+        background-repeat: no-repeat;
+        background-size: 1440px;
+        background-position: top center;
+    }
 }
