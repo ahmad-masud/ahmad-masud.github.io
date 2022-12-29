@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe51f561.css",
-    "main.js": "/static/js/main.e47717d1.js",
+    "main.css": "/static/css/main.d9698b9e.css",
+    "main.js": "/static/js/main.ef163735.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/Website.gif": "/static/media/Website.c5aed7f68c2a0e5d44f6.gif",
     "static/media/Paint.gif": "/static/media/Paint.7965ba792a747848be39.gif",
     "static/media/SortingVisualizer.gif": "/static/media/SortingVisualizer.4db5611699ca7fe9df59.gif",
     "static/media/profile.jpg": "/static/media/profile.f8a8644bc63d00ef8ebd.jpg",
+    "static/media/Paint.jar": "/static/media/Paint.12908c53a44c5ec24d4c.jar",
     "static/media/Walmart.png": "/static/media/Walmart.6f1ca0896de90a098dd7.png",
     "static/media/star-bg.svg": "/static/media/star-bg.f3476278d610c02e4ad5.svg",
+    "static/media/SortingAlgorithmVisualizer.jar": "/static/media/SortingAlgorithmVisualizer.99c9a53150af4003bcf8.jar",
     "index.html": "/index.html",
-    "main.fe51f561.css.map": "/static/css/main.fe51f561.css.map",
-    "main.e47717d1.js.map": "/static/js/main.e47717d1.js.map",
+    "main.d9698b9e.css.map": "/static/css/main.d9698b9e.css.map",
+    "main.ef163735.js.map": "/static/js/main.ef163735.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe51f561.css",
-    "static/js/main.e47717d1.js"
+    "static/css/main.d9698b9e.css",
+    "static/js/main.ef163735.js"
   ]
 }
