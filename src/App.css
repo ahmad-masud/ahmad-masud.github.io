@@ -50,8 +50,6 @@ body {
 
 @media only screen and (max-width: 1440px) {
     .home {
-        background: url(./Images/star-bg.svg);
-        background-repeat: no-repeat;
         background-size: 1440px;
         background-position: top center;
     }

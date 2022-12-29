@@ -1,5 +1,5 @@
 .nav {
-    background: rgba(17, 24, 39, 0.5);
+    background: transparent;
     height: 65px;
     position: fixed;
     top: 0;
@@ -7,11 +7,12 @@
     transition: 200ms all ease-in-out;
     transition: 500ms height ease-in-out;
     z-index: 1000;
-    backdrop-filter: blur(8px);
 }
 
 .sticky {
+    background: rgba(17, 24, 39, 0.5);
     border-bottom: 0.01em solid rgba(255,255,255,0.25);
+    backdrop-filter: blur(8px);
 }
 
 .nav-container {

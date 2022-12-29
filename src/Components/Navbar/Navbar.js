@@ -41,25 +41,33 @@ function Navbar() {
 window.addEventListener('scroll', function () {
   var navbar = this.document.getElementById('nav')
   var name = this.document.getElementById('name')
+  var elem = document.getElementById('media-nav');
+  var Style = window.getComputedStyle(elem);
+  var Top = Style.getPropertyValue('margin-top');
   var nameContainer = this.document.getElementById('name-container')
-  navbar.classList.toggle('sticky', window.scrollY > 0);
+  if (Top == "-265px") {
+    navbar.classList.toggle('sticky', window.scrollY > 0);
+  }
   name.classList.toggle('visible', window.scrollY > 0);
 });
 
 function closeNav() {
   var elem = document.getElementById("media-nav");
   var elem2 = document.getElementById('nav');
+  var navbar = this.document.getElementById('nav')
 
   elem.style.marginTop = '-265px';
   elem2.style.height = '65px';
   elem.style.height = '0px';
   document.getElementById('toggle-button').classList.remove('open2');
+  navbar.classList.toggle('sticky', window.scrollY > 0);
   setTimeout(function () {
     document.getElementById('toggle-button').classList.remove('open');
   }, 250);
 }
 
 function toggleNav() {
+  var navbar = document.getElementById('nav');
   var elem = document.getElementById('media-nav');
   var elem2 = document.getElementById('nav');
   var Style = window.getComputedStyle(elem);
@@ -70,6 +78,7 @@ function toggleNav() {
     elem2.style.height = '65px';
     elem.style.height = '0px';
     document.getElementById('toggle-button').classList.remove('open2');
+    navbar.classList.toggle('sticky', window.scrollY > 0);
     setTimeout(function () {
       document.getElementById('toggle-button').classList.remove('open');
     }, 250);
@@ -78,6 +87,7 @@ function toggleNav() {
     elem2.style.height = '265px'
     elem.style.height = '200px'
     document.getElementById('toggle-button').classList.add('open');
+    navbar.classList.add('sticky');
     setTimeout(function () {
       document.getElementById('toggle-button').classList.add('open2');
     }, 250);
@@ -85,6 +95,7 @@ function toggleNav() {
 }
 
 window.addEventListener("resize", function () {
+  var navbar = this.document.getElementById('nav');
   var elem = document.getElementById('media-nav');
   var elem2 = document.getElementById('nav');
   var Style = window.getComputedStyle(elem);
@@ -95,6 +106,7 @@ window.addEventListener("resize", function () {
     elem2.style.height = '65px';
     elem.style.height = '0px';
     document.getElementById('toggle-button').classList.remove('open2');
+    navbar.classList.toggle('sticky', window.scrollY > 0);
     setTimeout(function () {
       document.getElementById('toggle-button').classList.remove('open');
     }, 250);
