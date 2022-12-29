@@ -12,7 +12,7 @@ function Hero() {
                 <header className='hero-text hero-job-text'>I am a{' '}      
                   <Typewriter
                     options={{
-                      strings: ['Computer Science Student', 'Web Developer', 'Problem-Solver'],
+                      strings: ['Computer Science Major', 'Web Developer', 'Web Designer', 'Problem-Solver'],
                       autoStart: true,
                       loop: true,
                     }}

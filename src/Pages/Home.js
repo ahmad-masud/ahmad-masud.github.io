@@ -8,6 +8,8 @@ import SortGif from '../Images/SortingVisualizer.gif'
 import Fade from 'react-reveal/Fade';
 import Title from '../Components/Title/Title.js'
 import Margin from '../Components/Margin/Margin.js'
+import Paint from '../Files/Paint.jar'
+import SortingAlgorithmVisualizer from '../Files/SortingAlgorithmVisualizer.jar'
 
 function Home() {
   return (
@@ -26,8 +28,9 @@ function Home() {
             opacity sliders, size sliders and more. You can also import or export an image or just create
             a new image from scratch.`
           }
-          link={'https://github.com/ahmad-masud/Paint'} 
-          stacks={['Java', 'Java Swing', 'Java Frames', 'Netbeans']}
+          githubLink={'https://github.com/ahmad-masud/Paint'} 
+          link={Paint}
+          stacks={['Java', 'Java Swing', 'Java Frames']}
         />
         <Project
           image={WebsiteGif} 
@@ -38,7 +41,8 @@ function Home() {
             opacity sliders, size sliders and more. You can also import or export an image or just create
             a new image from scratch.`
           }
-          link={'https://github.com/ahmad-masud/my-first-website'}
+          githubLink={'https://github.com/ahmad-masud/my-first-website'}
+          link={'https://ahmadmasud.com/my-first-website/'}
           stacks={['HTML', 'CSS', 'Javascript']}
         />
         <Project
@@ -50,8 +54,9 @@ function Home() {
             the delay in between swaps. The height of each bar corresponds to its value and its x position 
             corresponds to its index in the array.`
           }
-          link={'https://github.com/ahmad-masud/Sorting-Algorithm-Visualizer'} 
-          stacks={['Java', 'Java Swing', 'Java Frames', 'Netbeans']}
+          githubLink={'https://github.com/ahmad-masud/Sorting-Algorithm-Visualizer'} 
+          link={SortingAlgorithmVisualizer}
+          stacks={['Java', 'Java Swing', 'Java Frames']}
         />
         <Margin height='100px' />
         <Skills />
