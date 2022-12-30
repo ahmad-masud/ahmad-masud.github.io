@@ -1,7 +1,7 @@
 .experience-image {
     width: 30%;
     margin: auto 25px auto 0;
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
 }
 
@@ -14,6 +14,9 @@
     width: var(--width);
     display: flex;
     margin: 25px auto;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -23,6 +26,9 @@
     }
     .experience-container {
         flex-direction: column;
+    }
+    .experience-info-container {
+        margin: 5px;
     }
 }
 
@@ -43,11 +49,18 @@
 
 .experience-list {
     margin: 10px 0;
+    list-style-type: none;
 }
 
 .experience-list-item {
     font-size: var(--font-size);
     line-height: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.experience-list-item::before {
+    content: '• ';
+    color: var(--accent-color);
 }
 
 @media only screen and (max-width: 600px) {
