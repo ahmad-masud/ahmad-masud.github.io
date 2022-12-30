@@ -167,7 +167,13 @@
     display: flex;
     flex-direction: column;
     transition: all 500ms ease-in-out;
-    width: 50%;
+    width: 256px;
+}
+
+@media only screen and (max-width: 300px) {
+    .media-nav-links {
+        width: 80%;
+    }
 }
 
 .media-nav-link {
