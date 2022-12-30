@@ -1,13 +1,9 @@
 .header-text {
-    color: white;
+    color: var(--accent-color);
     font-size: 4em;
     text-align: center;
     margin-top: 100px;
     font-weight: bold;
-}
-
-.header-text span {
-    opacity: 0.25;
 }
 
 @media only screen and (max-width: 800px) {

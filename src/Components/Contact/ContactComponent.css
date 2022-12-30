@@ -32,31 +32,17 @@
 
 .contact-submit {
     padding: 10px;
-    background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
     font-size: 1.25em;
     border-radius: 5px;
     border-width: 0;
     cursor: pointer;
     filter: brightness(0.9);
     transition: all 200ms ease-in-out;
+    background: var(--accent-color);
 }
 
 .contact-submit:hover {
     filter: brightness(1);
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 @media only screen and (max-width: 960px) {

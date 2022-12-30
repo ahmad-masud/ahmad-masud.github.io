@@ -1,13 +1,13 @@
 .info-container {
     width: var(--width);
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .info-main-header {
     font-size: calc(var(--font-size)*2);
     font-weight: bold;
     margin: 10px 0;
-    color: rgb(0,150,255);
+    color: var(--accent-color);
 }
 
 .info-paragraph {

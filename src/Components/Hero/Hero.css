@@ -41,9 +41,7 @@
 }
 
 .hero-name-text span {
-    background: linear-gradient(90deg, #ee7752, #ba1d1d, #9ee5ff, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(45deg, #23d5ab, rgb(0,155,255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -63,26 +61,14 @@
     font-weight: bold;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 .hero-buttons {
     margin: 25px;
 }
 
 .hero-connect-button {
     font-size: var(--font-size);
-    background: white;
-    color: #111827;
+    background: var(--accent-color);
+    color: var(--main-color);
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 7px;
@@ -92,7 +78,7 @@
 
 .hero-github-button {
     font-size: var(--font-size);
-    background: rgb(37, 44, 59);
+    background: var(--secondary-color);
     color: white;
     text-decoration: none;
     padding: 10px 15px;

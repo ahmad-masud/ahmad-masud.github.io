@@ -1,17 +1,14 @@
 :root {
     --font-size: 1.25em;
     --width: 1440px;
+    --main-color: rgb(25,25,25);
+    --secondary-color: rgb(35,35,35);
+    --accent-color: rgb(16,185,129);
 }
 
 @media only screen and (max-width: 1440px) {
     :root {
         --width: 85%;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    :root {
-        --width: 90%;
     }
 }
 
@@ -33,24 +30,11 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #111827;
+    background: var(--main-color);
 }
 
 .app {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-.home {
-    background: url(./Images/star-bg.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-@media only screen and (max-width: 1440px) {
-    .home {
-        background-size: 1440px;
-        background-position: top center;
-    }
 }
