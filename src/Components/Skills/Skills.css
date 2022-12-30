@@ -31,11 +31,10 @@
 }
 
 .skills-item {
-    margin-right: 5px;
     background: white;
     color: var(--main-color);
     padding: 10px 15px;
-    margin: 7px;
+    margin: 5px;
     border-radius: 7px;
 }
 

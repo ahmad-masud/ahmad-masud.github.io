@@ -1,9 +1,12 @@
 .contact-form {
     display: flex;
     flex-direction: column;
-    width: 960px;
+    width: 512px;
     margin: 50px auto;
     color: white;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .contact-name-label, .contact-email-label, .contact-message-label {
@@ -45,10 +48,11 @@
     filter: brightness(1);
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 512px) {
     .contact-form {
-        width: 90%;
-    }    
+        width: 85%;
+    }   
+
     .contact-header {
         font-size: 3em;
     }

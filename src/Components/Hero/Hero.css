@@ -41,7 +41,7 @@
 }
 
 .hero-name-text span {
-    background: linear-gradient(45deg, #23d5ab, rgb(0,155,255));
+    background: linear-gradient(45deg, var(--accent-color), rgb(0,155,255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;

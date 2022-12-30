@@ -84,8 +84,8 @@
 }
 
 .stack {
-    background: var(--main-color);
-    color: white;
+    background: var(--accent-color);
+    color: var(--main-color);
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 7px;
