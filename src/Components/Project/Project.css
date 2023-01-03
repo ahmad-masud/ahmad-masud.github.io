@@ -3,7 +3,6 @@
     flex-direction: column;
     width: var(--width);
     margin: 50px auto;
-    background: var(--secondary-color);
     padding: 20px;
     border-radius: 10px;
 }
@@ -22,7 +21,7 @@
 .project-info-container {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: var(--font-color);
     margin-left: 25px;
 }
 
@@ -46,8 +45,8 @@
 }
 
 .link {
-    background: white;
-    color: var(--main-color);
+    background: var(--accent-color);
+    color: white;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 7px;
@@ -84,8 +83,8 @@
 }
 
 .stack {
-    background: var(--accent-color);
-    color: var(--main-color);
+    background: var(--secondary-color);
+    color: var(--accent-color);
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 7px;

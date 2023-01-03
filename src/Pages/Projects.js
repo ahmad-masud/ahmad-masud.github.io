@@ -14,6 +14,8 @@ function Projects() {
     <div className='projects'>
       <Fade>
         <Header text='Projects' />
+      </Fade>
+      <Fade left>
         <Project
           image={PaintGif} 
           title={'Paint'}
@@ -27,6 +29,8 @@ function Projects() {
           link={Paint}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
+      </Fade>
+      <Fade right>
         <Project
           image={WebsiteGif} 
           title={'My First Website'}
@@ -40,6 +44,8 @@ function Projects() {
           link={'https://ahmadmasud.com/my-first-website/'}
           stacks={['HTML', 'CSS', 'Javascript']}
         />
+      </Fade>
+      <Fade left>
         <Project
           image={SortGif} 
           title={'Sorting Algorithm Visualizer'} 
@@ -53,6 +59,8 @@ function Projects() {
           link={SortingAlgorithmVisualizer}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
+      </Fade>
+      <Fade right>
         <Project
           image={CalculatorGif} 
           title={'Calculator'}

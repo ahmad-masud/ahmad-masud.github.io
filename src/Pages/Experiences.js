@@ -9,6 +9,8 @@ function Experiences() {
     <div className='experiences'>
       <Fade>
         <Header text='Experiences' />
+      </Fade>
+      <Fade left>
         <Experience 
           image={KungFuImage} 
           date={'03/2021 - 04/2021'}
@@ -28,6 +30,8 @@ function Experiences() {
             `Troubleshot bugs to find the root cause and improve data collection methods`,
           ]}
         />
+      </Fade>
+      <Fade right>
         <Experience 
           image={WalmartImage} 
           date={'10/2021 - Current'}

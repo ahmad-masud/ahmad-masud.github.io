@@ -19,6 +19,8 @@ function Home() {
         <Info />
         <Margin height='100px' />
         <Title text='Highlighted Projects' />
+      </Fade>
+      <Fade left>
         <Project
           image={PaintGif} 
           title={'Paint'}
@@ -32,6 +34,8 @@ function Home() {
           link={Paint}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
+      </Fade>
+      <Fade right>
         <Project
           image={WebsiteGif} 
           title={'My First Website'}
@@ -45,6 +49,8 @@ function Home() {
           link={'https://ahmadmasud.com/my-first-website/'}
           stacks={['HTML', 'CSS', 'Javascript']}
         />
+      </Fade>
+      <Fade left>
         <Project
           image={SortGif} 
           title={'Sorting Algorithm Visualizer'} 
@@ -58,7 +64,9 @@ function Home() {
           link={SortingAlgorithmVisualizer}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
+      </Fade>
         <Margin height='100px' />
+      <Fade>
         <Skills />
       </Fade>
     </div>

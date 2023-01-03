@@ -7,14 +7,13 @@
 
 .experience-info-container {
     margin: 0 0 0 25px;
-    color: white;
+    color: var(--font-color);
 }
 
 .experience-container {
     width: var(--width);
     display: flex;
     margin: 25px auto;
-    background: var(--secondary-color);
     padding: 20px;
     border-radius: 10px;
 }

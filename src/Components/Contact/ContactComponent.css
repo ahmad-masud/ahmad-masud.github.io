@@ -3,8 +3,7 @@
     flex-direction: column;
     width: 512px;
     margin: 50px auto;
-    color: white;
-    background: var(--secondary-color);
+    color: var(--font-color);
     padding: 20px;
     border-radius: 10px;
 }

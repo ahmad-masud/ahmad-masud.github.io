@@ -1,9 +1,10 @@
 :root {
     --font-size: 1.25em;
     --width: 1440px;
-    --main-color: rgb(25,25,25);
-    --secondary-color: rgb(35,35,35);
+    --main-color: rgb(255,255,255);
+    --secondary-color: rgb(235,235,235);
     --accent-color: rgb(16,185,129);
+    --font-color: rgb(40, 45, 50);
 }
 
 @media only screen and (max-width: 1440px) {

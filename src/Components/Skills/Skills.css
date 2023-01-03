@@ -1,5 +1,5 @@
 .skills {
-    color: white;
+    color: var(--font-color);
     margin: 100px 0;
 }
 
@@ -31,8 +31,8 @@
 }
 
 .skills-item {
-    background: white;
-    color: var(--main-color);
+    background: var(--secondary-color);
+    color: var(--accent-color);
     padding: 10px 15px;
     margin: 5px;
     border-radius: 7px;

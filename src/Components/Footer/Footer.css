@@ -1,5 +1,5 @@
 .footer {
-    background: white;
+    background: rgb(30, 35, 40);
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -23,8 +23,12 @@
 }
 
 .footer-link {
-    color: black;
-    transition: all 100ms ease-in-out;
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+
+.footer-link:hover {
+    color: var(--accent-color);
 }
 
 .icon {
