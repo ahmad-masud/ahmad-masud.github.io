@@ -5,22 +5,25 @@ import logo from '../../Images/Icon.png'
 function Navbar() {
   return (
     <>
-      <div className='nav' id='nav'>
-        <div className='nav-container'>
-          <div className='nav-logo-container'>
-            <Link to='/' className='logo-nav-link'>
-              <img src={logo} alt='logo' className='logo' onClick={closeNav}></img>
-            </Link>
-            <Link to='/' className='text-logo-nav-link' id='name' onClick={closeNav}>Ahmad Masud</Link>
-          </div>
-          <div className='nav-links'>
-            <Link to='/About' className='nav-link about-nav-link'>About</Link>
-            <Link to='/Experiences' className='nav-link experience-nav-link'>Experiences</Link>
-            <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
-            <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
-          </div>
-          <div className='nav-toggle-button' id='toggle-button' onClick={toggleNav}>
-            <div className='toggle-icon'></div>
+      <div className='top-container'>
+        <span className='follow-text'>Follow me on Github! <a className='follow-link' href='https://github.com/ahmad-masud' target='_blank'>👉 github.com</a></span>
+        <div className='nav' id='nav'>
+          <div className='nav-container'>
+            <div className='nav-logo-container'>
+              <Link to='/' className='logo-nav-link'>
+                <img src={logo} alt='logo' className='logo' onClick={closeNav}></img>
+              </Link>
+              <Link to='/' className='text-logo-nav-link' id='name' onClick={closeNav}>Ahmad Masud</Link>
+            </div>
+            <div className='nav-links'>
+              <Link to='/About' className='nav-link about-nav-link'>About</Link>
+              <Link to='/Experiences' className='nav-link experience-nav-link'>Experiences</Link>
+              <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
+              <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
+            </div>
+            <div className='nav-toggle-button' id='toggle-button' onClick={toggleNav}>
+              <div className='toggle-icon'></div>
+            </div>
           </div>
         </div>
       </div>
@@ -48,7 +51,7 @@ window.addEventListener('scroll', function () {
 function closeNav() {
   var elem = document.getElementById("media-nav");
 
-  elem.style.marginTop = '55px';
+  elem.style.marginTop = '95px';
   elem.style.opacity = '0';
   elem.style.visibility = 'hidden';
   document.getElementById('toggle-button').classList.remove('open2');
@@ -62,8 +65,8 @@ function toggleNav() {
   var Style = window.getComputedStyle(elem);
   var Top = Style.getPropertyValue('margin-top');
 
-  if (Top == '65px') {
-    elem.style.marginTop = '55px';
+  if (Top == '105px') {
+    elem.style.marginTop = '95px';
     elem.style.opacity = '0';
     elem.style.visibility = 'hidden';
     document.getElementById('toggle-button').classList.remove('open2');
@@ -71,7 +74,7 @@ function toggleNav() {
       document.getElementById('toggle-button').classList.remove('open');
     }, 250);
   } else {
-    elem.style.marginTop = '65px';
+    elem.style.marginTop = '105px';
     elem.style.opacity = '1';
     elem.style.visibility = 'visible';
     document.getElementById('toggle-button').classList.add('open');
@@ -87,7 +90,7 @@ window.addEventListener("resize", function () {
   var Top = Style.getPropertyValue('margin-top');
 
   if (window.innerWidth >= 600) {
-    elem.style.marginTop = '55px';
+    elem.style.marginTop = '95px';
     elem.style.opacity = '0';
     elem.style.visibility = 'hidden';
     document.getElementById('toggle-button').classList.remove('open2');

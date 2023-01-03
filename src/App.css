@@ -3,7 +3,7 @@
     --width: 1440px;
     --main-color: rgb(255,255,255);
     --secondary-color: rgb(235,235,235);
-    --accent-color: rgb(16,185,129);
+    --accent-color: rgb(0,125,255);
     --font-color: rgb(40, 45, 50);
 }
 
@@ -27,11 +27,6 @@
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: var(--main-color);
 }
 
 .app {

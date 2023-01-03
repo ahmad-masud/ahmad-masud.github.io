@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 512px;
-    margin: 50px auto;
+    margin: 25px auto 50px auto;
     color: var(--font-color);
     padding: 20px;
     border-radius: 10px;
@@ -38,13 +38,13 @@
     border-radius: 5px;
     border-width: 0;
     cursor: pointer;
-    filter: brightness(0.9);
     transition: all 200ms ease-in-out;
     background: var(--accent-color);
+    color: white;
 }
 
 .contact-submit:hover {
-    filter: brightness(1);
+    filter: brightness(0.75);
 }
 
 @media only screen and (max-width: 512px) {
