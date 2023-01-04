@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <>
       <div className='top-container'>
-        <span className='follow-text'>Follow me on Github! <a className='follow-link' href='https://github.com/ahmad-masud' target='_blank'>👉 github.com</a></span>
+        <div className='follow-container'>
+          <span className='follow-text'>Follow me on Github! <a className='follow-link' href='https://github.com/ahmad-masud' target='_blank'>👉 github.com</a></span>
+        </div>
         <div className='nav' id='nav'>
           <div className='nav-container'>
             <div className='nav-logo-container'>
@@ -51,13 +53,13 @@ window.addEventListener('scroll', function () {
 function closeNav() {
   var elem = document.getElementById("media-nav");
 
-  elem.style.marginTop = '95px';
+  elem.style.marginTop = '100px';
   elem.style.opacity = '0';
   elem.style.visibility = 'hidden';
   document.getElementById('toggle-button').classList.remove('open2');
   setTimeout(function () {
     document.getElementById('toggle-button').classList.remove('open');
-  }, 250);
+  }, 200);
 }
 
 function toggleNav() {
@@ -65,22 +67,22 @@ function toggleNav() {
   var Style = window.getComputedStyle(elem);
   var Top = Style.getPropertyValue('margin-top');
 
-  if (Top == '105px') {
-    elem.style.marginTop = '95px';
+  if (Top == '109px') {
+    elem.style.marginTop = '100px';
     elem.style.opacity = '0';
     elem.style.visibility = 'hidden';
     document.getElementById('toggle-button').classList.remove('open2');
     setTimeout(function () {
       document.getElementById('toggle-button').classList.remove('open');
-    }, 250);
+    }, 200);
   } else {
-    elem.style.marginTop = '105px';
+    elem.style.marginTop = '109px';
     elem.style.opacity = '1';
     elem.style.visibility = 'visible';
     document.getElementById('toggle-button').classList.add('open');
     setTimeout(function () {
       document.getElementById('toggle-button').classList.add('open2');
-    }, 250);
+    }, 200);
   }
 }
 
@@ -90,7 +92,7 @@ window.addEventListener("resize", function () {
   var Top = Style.getPropertyValue('margin-top');
 
   if (window.innerWidth >= 600) {
-    elem.style.marginTop = '95px';
+    elem.style.marginTop = '100px';
     elem.style.opacity = '0';
     elem.style.visibility = 'hidden';
     document.getElementById('toggle-button').classList.remove('open2');
