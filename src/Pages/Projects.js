@@ -45,7 +45,7 @@ function Projects() {
           stacks={['HTML', 'CSS', 'Javascript']}
         />
       </Fade>
-      <Fade left>
+      <Fade top>
         <Project
           image={SortGif} 
           title={'Sorting Algorithm Visualizer'} 
@@ -60,7 +60,7 @@ function Projects() {
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
-      <Fade right>
+      <Fade bottom>
         <Project
           image={CalculatorGif} 
           title={'Calculator'}

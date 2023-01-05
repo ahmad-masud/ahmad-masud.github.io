@@ -50,7 +50,7 @@ function Home() {
           stacks={['HTML', 'CSS', 'Javascript']}
         />
       </Fade>
-      <Fade left>
+      <Fade top>
         <Project
           image={SortGif} 
           title={'Sorting Algorithm Visualizer'} 
