@@ -8,7 +8,6 @@ import Projects from './Pages/Projects.js';
 import Education from './Pages/Education.js';
 import Contact from './Pages/Contact.js';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import ScrollToTop from './Components/ScrollToTop/ScrollToTop.js'
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import './Hero.css';
 import Typewriter from 'typewriter-effect';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (

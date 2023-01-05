@@ -1,5 +1,5 @@
 import ContactComponent from '../Components/Contact/ContactComponent';
-import Header from '../Components/Header/Header.js'
+import Header from '../Components/Header/Header.js';
 import Fade from 'react-reveal/Fade';
 
 function Contact() {

@@ -2,14 +2,14 @@ import Hero from '../Components/Hero/Hero.js';
 import Info from '../Components/Info/Info.js';
 import Skills from '../Components/Skills/Skills.js';
 import Project from '../Components/Project/Project.js';
-import PaintGif from '../Images/Paint.gif'
-import WebsiteGif from '../Images/Website.gif'
-import SortGif from '../Images/SortingVisualizer.gif'
+import PaintGif from '../Images/Paint.gif';
+import WebsiteGif from '../Images/Website.gif';
+import SortGif from '../Images/SortingVisualizer.gif';
 import Fade from 'react-reveal/Fade';
-import Title from '../Components/Title/Title.js'
-import Margin from '../Components/Margin/Margin.js'
-import Paint from '../Files/Paint.jar'
-import SortingAlgorithmVisualizer from '../Files/SortingAlgorithmVisualizer.jar'
+import Title from '../Components/Title/Title.js';
+import Margin from '../Components/Margin/Margin.js';
+import Paint from '../Files/Paint.jar';
+import SortingAlgorithmVisualizer from '../Files/SortingAlgorithmVisualizer.jar';
 
 function Home() {
   return (

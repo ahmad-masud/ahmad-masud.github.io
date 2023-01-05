@@ -7,6 +7,7 @@ function Margin(props) {
     return (
         <div className='margin' style={style}></div>
     )
+
 }
 
-export default Margin
+export default Margin;

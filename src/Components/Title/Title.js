@@ -1,4 +1,4 @@
-import './Title.css'
+import './Title.css';
 
 function Title(props) {
     return (

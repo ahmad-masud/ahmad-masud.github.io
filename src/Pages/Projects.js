@@ -1,13 +1,13 @@
 import Project from '../Components/Project/Project.js';
-import PaintGif from '../Images/Paint.gif'
-import WebsiteGif from '../Images/Website.gif'
-import SortGif from '../Images/SortingVisualizer.gif'
-import CalculatorGif from '../Images/Calculator.gif'
-import Header from '../Components/Header/Header.js'
+import PaintGif from '../Images/Paint.gif';
+import WebsiteGif from '../Images/Website.gif';
+import SortGif from '../Images/SortingVisualizer.gif';
+import CalculatorGif from '../Images/Calculator.gif';
+import Header from '../Components/Header/Header.js';
 import Fade from 'react-reveal/Fade';
-import Paint from '../Files/Paint.jar'
-import SortingAlgorithmVisualizer from '../Files/SortingAlgorithmVisualizer.jar'
-import Calculator from '../Files/Calculator.jar'
+import Paint from '../Files/Paint.jar';
+import SortingAlgorithmVisualizer from '../Files/SortingAlgorithmVisualizer.jar';
+import Calculator from '../Files/Calculator.jar';
 
 function Projects() {
   return (

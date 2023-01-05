@@ -1,5 +1,5 @@
 import './AboutComponent.css';
-import profileImage from '../../Images/profile.jpg'
+import profileImage from '../../Images/profile.jpg';
 
 
 function AboutComponent() {

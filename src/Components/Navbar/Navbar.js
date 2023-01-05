@@ -1,8 +1,56 @@
 import './Navbar.css';
-import {Link} from 'react-router-dom'
-import logo from '../../Images/Icon.png'
+import { Link } from 'react-router-dom';
+import logo from '../../Images/Icon.png';
 
 function Navbar() {
+
+  window.addEventListener('scroll', function () {
+    var name = this.document.getElementById('name')
+    name.classList.toggle('visible', window.scrollY > 0);
+  });
+  
+  function closeNav() {
+    var elem = document.getElementById("media-nav");
+  
+    elem.style.marginTop = '100px';
+    elem.style.opacity = '0';
+    elem.style.visibility = 'hidden';
+    document.getElementById('toggle-button').classList.remove('open2');
+    setTimeout(function () {
+      document.getElementById('toggle-button').classList.remove('open');
+    }, 200);
+  }
+  
+  function openNav() {
+    var elem = document.getElementById("media-nav");
+  
+    elem.style.marginTop = '109px';
+    elem.style.opacity = '1';
+    elem.style.visibility = 'visible';
+    document.getElementById('toggle-button').classList.add('open');
+    setTimeout(function () {
+      document.getElementById('toggle-button').classList.add('open2');
+    }, 200);
+  }
+  
+  function toggleNav() {
+    var elem = document.getElementById('media-nav');
+    var Style = window.getComputedStyle(elem);
+    var Top = Style.getPropertyValue('margin-top');
+  
+    if (Top == '109px') {
+      closeNav()
+    } else {
+      openNav()
+    }
+  }
+  
+  window.addEventListener("resize", function () {
+    if (window.innerWidth >= 600) {
+      closeNav()
+    }
+  });
+
   return (
     <>
       <div className='top-container'>
@@ -44,61 +92,5 @@ function Navbar() {
     </>
   );
 }
-
-window.addEventListener('scroll', function () {
-  var name = this.document.getElementById('name')
-  name.classList.toggle('visible', window.scrollY > 0);
-});
-
-function closeNav() {
-  var elem = document.getElementById("media-nav");
-
-  elem.style.marginTop = '100px';
-  elem.style.opacity = '0';
-  elem.style.visibility = 'hidden';
-  document.getElementById('toggle-button').classList.remove('open2');
-  setTimeout(function () {
-    document.getElementById('toggle-button').classList.remove('open');
-  }, 200);
-}
-
-function toggleNav() {
-  var elem = document.getElementById('media-nav');
-  var Style = window.getComputedStyle(elem);
-  var Top = Style.getPropertyValue('margin-top');
-
-  if (Top == '109px') {
-    elem.style.marginTop = '100px';
-    elem.style.opacity = '0';
-    elem.style.visibility = 'hidden';
-    document.getElementById('toggle-button').classList.remove('open2');
-    setTimeout(function () {
-      document.getElementById('toggle-button').classList.remove('open');
-    }, 200);
-  } else {
-    elem.style.marginTop = '109px';
-    elem.style.opacity = '1';
-    elem.style.visibility = 'visible';
-    document.getElementById('toggle-button').classList.add('open');
-    setTimeout(function () {
-      document.getElementById('toggle-button').classList.add('open2');
-    }, 200);
-  }
-}
-
-window.addEventListener("resize", function () {
-  var elem = document.getElementById('media-nav');
-  var Style = window.getComputedStyle(elem);
-  var Top = Style.getPropertyValue('margin-top');
-
-  if (window.innerWidth >= 600) {
-    elem.style.marginTop = '100px';
-    elem.style.opacity = '0';
-    elem.style.visibility = 'hidden';
-    document.getElementById('toggle-button').classList.remove('open2');
-    document.getElementById('toggle-button').classList.remove('open');
-  }
-});
-
 
 export default Navbar;

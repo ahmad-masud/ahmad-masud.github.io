@@ -1,7 +1,7 @@
 import Experience from '../Components/Experience/Experience.js';
-import Header from '../Components/Header/Header.js'
-import KungFuImage from '../Images/Kungfu.png'
-import WalmartImage from '../Images/Walmart.png'
+import Header from '../Components/Header/Header.js';
+import KungFuImage from '../Images/Kungfu.png';
+import WalmartImage from '../Images/Walmart.png';
 import Fade from 'react-reveal/Fade';
 
 function Experiences() {
