@@ -6,7 +6,7 @@ function Info() {
       <div className='info-container'>
         <header class="info-main-header">Nice to Meet You!</header>
         <p class='info-paragraph'>
-          Hello! Ahmad here; I attend SFU and major in computer science. As a dedicated software developer, 
+          Hello! Ahmad here; I attend SFU and major in computer science. As a programmer, 
           I have worked on a wide range of projects using different technology stacks. Furthermore, 
           I have a lot of leadership experience from both my professional and extracurricular activities. 
           You can find me at the gym, hanging out with friends, or doing service for my community when 
