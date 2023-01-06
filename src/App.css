@@ -10,6 +10,7 @@
 @media only screen and (max-width: 1440px) {
     :root {
         --width: 85%;
+        --font-size: 1.15em;
     }
 }
 

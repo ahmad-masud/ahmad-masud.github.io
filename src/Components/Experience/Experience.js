@@ -11,8 +11,10 @@ function Experience(props) {
       <div className='experience-container'>
         <img className='experience-image' src={props.image}></img>
         <div className='experience-info-container'>
-          <a className='experience-date'>{props.date}</a>
-          <header className='experience-title'>{props.title}</header>
+          <div className='experience-header-container'>
+            <a className='experience-date'>{props.date}</a>
+            <header className='experience-title'>{props.title}</header>
+          </div>
           <p className='experience-paragraph'>{props.paragraph}</p>
           <ul className='experience-list'>
             {itemsList}

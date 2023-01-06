@@ -16,7 +16,7 @@
 }
 
 .skills-subtitle {
-    margin: 0 5px;
+    margin: 20px 0 10px 0;
     font-size: 1.5em;
 }
 
@@ -26,15 +26,14 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-bottom: 20px;
     line-height: 1.5em;
+    gap: 7px;
 }
 
 .skills-item {
     background: var(--secondary-color);
     color: var(--accent-color);
     padding: 10px 15px;
-    margin: 5px;
     border-radius: 7px;
 }
 
