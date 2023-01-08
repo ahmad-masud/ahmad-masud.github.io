@@ -17,6 +17,7 @@ function Projects() {
       </Fade>
       <Fade left>
         <Project
+          imageFirst={true}
           image={PaintGif} 
           title={'Paint'}
           overview={
@@ -32,6 +33,7 @@ function Projects() {
       </Fade>
       <Fade right>
         <Project
+          imageFirst={false}
           image={WebsiteGif} 
           title={'My First Website'}
           overview={
@@ -47,6 +49,7 @@ function Projects() {
       </Fade>
       <Fade top>
         <Project
+          imageFirst={true}
           image={SortGif} 
           title={'Sorting Algorithm Visualizer'} 
           overview={
@@ -62,6 +65,7 @@ function Projects() {
       </Fade>
       <Fade bottom>
         <Project
+          imageFirst={false}
           image={CalculatorGif} 
           title={'Calculator'}
           overview={
