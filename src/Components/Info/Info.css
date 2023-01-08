@@ -7,7 +7,7 @@
     font-size: calc(var(--font-size)*2);
     font-weight: bold;
     margin: 10px 0;
-    color: var(--font-color);
+    color: var(--accent-color);
 }
 
 .info-paragraph {
