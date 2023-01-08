@@ -6,11 +6,19 @@ function Project(props) {
     <li className='stack'>{stack}</li>
   );
 
+  var bool = false
+
+  if (props.imageFirst || window.innerWidth <= 800) {
+    bool = true
+  } else if (!props.imageFirst && window.innerWidth >= 800) {
+    bool = false
+  }
+
   return (
     <div className='projects'>
         <div className='project-container'>
             <div className='project'>
-                {props.imageFirst && <img className='project-gif' src={props.image}></img>}
+                {bool && <img className='project-gif' src={props.image}></img>}
                 <div className='project-info-container'>
                     <header className='project-title'>{props.title}</header>
                     <p className='project-overview'>{props.overview}</p>
@@ -25,7 +33,7 @@ function Project(props) {
                       </ul>
                     </div>
                 </div>
-                {!props.imageFirst && <img className='project-gif' src={props.image}></img>}
+                {!bool && <img className='project-gif' src={props.image}></img>}
             </div>
         </div>
     </div>
