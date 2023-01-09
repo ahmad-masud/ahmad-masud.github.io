@@ -48,7 +48,7 @@ function Home() {
             a new image from scratch.`
           }
           githubLink={'https://github.com/ahmad-masud/my-first-website'}
-          link={'https://ahmadmasud.com/my-first-website/'}
+          link={'https://ahmadmasud.xyz/my-first-website/'}
           stacks={['HTML', 'CSS', 'Javascript']}
         />
       </Fade>
