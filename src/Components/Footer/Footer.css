@@ -1,5 +1,5 @@
 .footer {
-    background: rgb(30, 35, 40);
+    background: var(--secondary-color);
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -19,11 +19,11 @@
     margin: 0;
     text-align: center;
     font-size: 1.5em;
-    color: grey;
+    color: var(--font-color);
 }
 
 .footer-link {
-    color: white;
+    color: var(--font-color);
     transition: all 200ms ease-in-out;
 }
 

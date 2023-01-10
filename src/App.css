@@ -3,8 +3,18 @@
     --width: 1440px;
     --main-color: rgb(255,255,255);
     --secondary-color: rgb(235,235,235);
-    --accent-color: rgb(0,125,255);
+    --accent-color: rgb(0,100,255);
     --font-color: rgb(40, 45, 50);
+    --secondary-font-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-color: rgb(33,37,41);
+        --secondary-color: rgb(43,48,53);
+        --font-color: white;
+        --secondary-font-color: rgb(33,37,41);
+    }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -28,6 +38,10 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background: var(--main-color);
 }
 
 .app {

@@ -1,42 +1,12 @@
-.top-container {
-    top: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-}
-
-.follow-container {
-    display: block;
-    background: rgb(25, 30, 35);
-    width: 100%;
-    height: 45px;
-    position: relative;
-}
-
-.follow-text {
-    color: white;
-    font-size: var(--font-size);
-    font-weight: bold;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.follow-link {
-    text-decoration: none;
-    color: var(--accent-color)
-}
-
 .nav {
-    background: rgb(30, 35, 40);
+    background: var(--accent-color);
     height: 65px;
     width: 100%;
     transition: 200ms all ease-in-out;
     transition: 500ms height ease-in-out;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    z-index: 1000;
 }
 
 .nav-container {
@@ -98,16 +68,17 @@
 .contact-nav-link {
     padding: 10px 15px;
     border-radius: 7px;
-    background: var(--accent-color);
+    background: white;
+    color: var(--accent-color);
 }
 
 .nav-link:hover {
-    color: var(--accent-color)
+    filter: brightness(0.9);
 }
 
 .contact-nav-link:hover {
     filter: brightness(0.75);
-    color: white;
+    color: var(--accent-color)
 }
 
 .nav-toggle-button {
@@ -184,7 +155,7 @@
 .media-nav {
     width: 100%;
     height: 100%;
-    background: rgb(40, 45, 50);
+    background: var(--secondary-color);
     z-index: 999;
     transition: all 200ms ease-in-out;
     margin-top: 55px;
@@ -209,7 +180,7 @@
 
 .media-nav-link {
     text-decoration: none;
-    color: white;
+    color: var(--font-color);
     font-size: 1em;
     transition: all 200ms ease-in-out;
     margin: 15px 0;
@@ -218,5 +189,6 @@
 .nav-hr {
     border: none;
     height: 0.05em;
-    background: rgba(255,255,255,0.15);
+    background: var(--font-color);
+    opacity: 0.5;
 }

@@ -1,7 +1,6 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import logo from '../../Images/Icon.png';
-import Shake from 'react-reveal/Shake'
 
 function Navbar() {
 
@@ -13,7 +12,7 @@ function Navbar() {
   function closeNav() {
     var elem = document.getElementById("media-nav");
   
-    elem.style.marginTop = '100px';
+    elem.style.marginTop = '55px';
     elem.style.opacity = '0';
     elem.style.visibility = 'hidden';
     document.getElementById('toggle-button').classList.remove('open2');
@@ -25,7 +24,7 @@ function Navbar() {
   function openNav() {
     var elem = document.getElementById("media-nav");
   
-    elem.style.marginTop = '109px';
+    elem.style.marginTop = '65px';
     elem.style.opacity = '1';
     elem.style.visibility = 'visible';
     document.getElementById('toggle-button').classList.add('open');
@@ -39,7 +38,7 @@ function Navbar() {
     var Style = window.getComputedStyle(elem);
     var Top = Style.getPropertyValue('margin-top');
   
-    if (Top == '109px') {
+    if (Top == '65px') {
       closeNav()
     } else {
       openNav()
@@ -54,27 +53,22 @@ function Navbar() {
 
   return (
     <>
-      <div className='top-container'>
-        <div className='follow-container'>
-          <span className='follow-text'>Follow me on Github! <a className='follow-link' href='https://github.com/ahmad-masud' target='_blank'>👉 github.com</a></span>
-        </div>
-        <div className='nav' id='nav'>
-          <div className='nav-container'>
-            <div className='nav-logo-container'>
-              <Link to='/' className='logo-nav-link'>
-                <img src={logo} alt='logo' className='logo' onClick={closeNav}></img>
-              </Link>
-              <Link to='/' className='text-logo-nav-link' id='name' onClick={closeNav}>Ahmad Masud</Link>
-            </div>
-            <div className='nav-links'>
-              <Link to='/About' className='nav-link about-nav-link'>About</Link>
-              <Link to='/Experiences' className='nav-link experience-nav-link'>Experiences</Link>
-              <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
-              <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
-            </div>
-            <div className='nav-toggle-button' id='toggle-button' onClick={toggleNav}>
-              <div className='toggle-icon'></div>
-            </div>
+      <div className='nav' id='nav'>
+        <div className='nav-container'>
+          <div className='nav-logo-container'>
+            <Link to='/' className='logo-nav-link'>
+              <img src={logo} alt='logo' className='logo' onClick={closeNav}></img>
+            </Link>
+            <Link to='/' className='text-logo-nav-link' id='name' onClick={closeNav}>Ahmad Masud</Link>
+          </div>
+          <div className='nav-links'>
+            <Link to='/About' className='nav-link about-nav-link'>About</Link>
+            <Link to='/Experiences' className='nav-link experience-nav-link'>Experiences</Link>
+            <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
+            <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
+          </div>
+          <div className='nav-toggle-button' id='toggle-button' onClick={toggleNav}>
+            <div className='toggle-icon'></div>
           </div>
         </div>
       </div>
