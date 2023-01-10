@@ -1,30 +1,10 @@
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 500px;
     padding: 10px 0;
     position: relative;
-    background: 
-    radial-gradient(
-        farthest-side at top left,
-        rgba(0, 100, 255, 0.25), 
-        transparent
-    ),
-    radial-gradient(
-        farthest-side at top right,
-        rgba(212, 255, 0, 0.25), 
-        transparent
-    ),
-    radial-gradient(
-        farthest-side at 0% 50%,
-        rgba(234, 0, 255, 0.1), 
-        transparent
-    ),
-    radial-gradient(
-        farthest-side at 100% 50%,
-        rgba(234, 0, 255, 0.1), 
-        transparent
-    )
-;
+    margin-top: 65px;
+    background: linear-gradient(180deg, rgba(0, 100, 255, 0.25), var(--main-color));
 }
 
 .hero-container {
@@ -98,7 +78,7 @@
 
 .hero-github-button {
     font-size: var(--font-size);
-    background: white;
+    background: var(--main-color);
     color: var(--accent-color);
     text-decoration: none;
     padding: 10px 15px;
