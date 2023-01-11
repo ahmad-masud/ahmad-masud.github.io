@@ -55,13 +55,20 @@
 }
 
 .link {
-    background: var(--accent-color);
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 7px;
     transition: 200ms all ease-in-out;
     font-size: var(--font-size);
+}
+
+.link:nth-child(1) {
+    background: var(--accent-color);
+}
+
+.link:nth-child(2) {
+    background: var(--secondary-accent-color);
 }
 
 .link:hover {

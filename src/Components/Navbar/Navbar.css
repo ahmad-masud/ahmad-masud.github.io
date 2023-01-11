@@ -1,5 +1,5 @@
 .nav {
-    background: var(--accent-color);
+    background: var(--main-color);
     height: 65px;
     width: 100%;
     transition: 200ms all ease-in-out;
@@ -29,26 +29,25 @@
 .logo {
     width: 30px;
     transition: all 100ms ease-in-out;
+    filter: invert(51%) sepia(34%) saturate(5479%) hue-rotate(178deg) brightness(107%) contrast(89%);
 }
 
 .text-logo-nav-link {
-    font-weight: 500;
     color: transparent;
     transition: all 100ms ease-in-out;
     text-decoration: none;
     margin: auto 0;
-    font-weight: bold;
     font-size: 1.1em;
 }
 
 .visible {
     margin-left: 10px;
-    color: white;
+    color: var(--font-color);
 }
 
 .nav-logo-container:hover .text-logo-nav-link {
     margin-left: 10px;
-    color: white;
+    color: var(--font-color);
 }
 
 .nav-links {
@@ -60,7 +59,7 @@
 .nav-link {
     margin: auto 10px;
     text-decoration: none;
-    color: white;
+    color: var(--font-color);
     font-size: 1em;
     transition: all 200ms ease-in-out;
 }
@@ -68,12 +67,12 @@
 .contact-nav-link {
     padding: 10px 15px;
     border-radius: 7px;
-    background: white;
-    color: var(--accent-color);
+    background: var(--accent-color);
+    color: var(--main-color);
 }
 
 .nav-link:hover {
-    filter: brightness(0.9);
+    color: var(--accent-color);
 }
 
 .contact-nav-link:hover {
@@ -112,7 +111,7 @@
 .toggle-icon {
     width: 30px;
     height: 3px;
-    background: white;
+    background: var(--font-color);
     transition: all 200ms ease-in-out;
     border-radius: 50px;
 }
@@ -123,7 +122,7 @@
     position: absolute;
     width: 30px;
     height: 3px;
-    background: white;
+    background: var(--font-color);
     transition: all 200ms ease-in-out;
     border-radius: 50px;
 }
@@ -188,7 +187,7 @@
 
 .nav-hr {
     border: none;
-    height: 0.05em;
+    height: 0.01em;
     background: var(--font-color);
-    opacity: 0.5;
+    opacity: 0.25;
 }

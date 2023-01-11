@@ -3,24 +3,16 @@
     --width: 1440px;
     --main-color: rgb(255,255,255);
     --secondary-color: rgb(235,235,235);
-    --accent-color: rgb(0,100,255);
-    --font-color: rgb(40, 45, 50);
-    --secondary-font-color: white;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --main-color: rgb(33,37,41);
-        --secondary-color: rgb(43,48,53);
-        --font-color: white;
-        --secondary-font-color: rgb(33,37,41);
-    }
+    --accent-color: rgb(21,166,240);
+    --secondary-accent-color: rgb(35, 201, 130);
+    --third-accent-color: rgb(140, 81, 214);
+    --font-color: rgb(18, 51, 84);
+    --secondary-font-color: rgb(131, 148, 167);
 }
 
 @media only screen and (max-width: 1440px) {
     :root {
         --width: 85%;
-        --font-size: 1.15em;
     }
 }
 

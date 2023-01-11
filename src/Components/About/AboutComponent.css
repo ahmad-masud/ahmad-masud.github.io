@@ -22,19 +22,37 @@
 
 .about-section {
     width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: inset 10px 15px 100px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-section:nth-child(1) {
+    background: var(--secondary-font-color);
+}
+
+.about-section:nth-child(2) {
+    background: var(--third-accent-color);
+}
+
+.about-section:nth-child(3) {
+    background: var(--secondary-accent-color);
 }
 
 .about-header {
     font-size: calc(var(--font-size)*1.25);
     font-weight: bold;
-    color: var(--font-color);
+    color: var(--main-color);
 }
 
 .about-paragraph {
     width: 100%;
     font-size: var(--font-size);
     line-height: 1.5em;
-    color: var(--font-color);
+    color: var(--main-color);
 }
 
 @media only screen and (max-width: 800px) {
@@ -46,8 +64,9 @@
 @media screen and (max-width: 1000px) {
     .about-container {
         flex-direction: column;
+        align-items: center;
     }
     .about-section {
-        width: 100%;
+        width: 80%;
     }
 }

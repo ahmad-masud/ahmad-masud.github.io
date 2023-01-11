@@ -31,10 +31,18 @@
 }
 
 .skills-item {
-    background: var(--secondary-color);
-    color: var(--accent-color);
     padding: 10px 15px;
     border-radius: 7px;
+}
+
+.skills-list-1 .skills-item {
+    background: var(--accent-color);
+    color: var(--main-color);
+}
+
+.skills-list-2 .skills-item {
+    background: var(--secondary-font-color);
+    color: var(--main-color);
 }
 
 @media only screen and (max-width: 600px) {

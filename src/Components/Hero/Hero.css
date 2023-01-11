@@ -4,7 +4,6 @@
     padding: 10px 0;
     position: relative;
     margin-top: 65px;
-    background: linear-gradient(180deg, rgba(0, 100, 255, 0.25), var(--main-color));
 }
 
 .hero-container {
@@ -35,6 +34,8 @@
 
 .hero-name-text {
     font-size: 6em;
+    font-weight: bold;
+    color: var(--font-color);
 }
 
 .hero-job-text {
@@ -43,10 +44,7 @@
 }
 
 .hero-name-text span {
-    background: linear-gradient(45deg, var(--accent-color), rgb(0,125,255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
+    color: var(--accent-color);
 }
 
 .hero-job-text span {
@@ -78,8 +76,8 @@
 
 .hero-github-button {
     font-size: var(--font-size);
-    background: var(--main-color);
-    color: var(--accent-color);
+    background: var(--secondary-accent-color);
+    color: var(--main-color);
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 7px;
