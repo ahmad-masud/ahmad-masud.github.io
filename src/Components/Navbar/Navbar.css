@@ -11,7 +11,7 @@
 
 .nav-container {
     height: 65px;
-    width: 1440px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -102,7 +102,7 @@
     }
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1200px) {
     .nav-container {
         width: 100%
     }
