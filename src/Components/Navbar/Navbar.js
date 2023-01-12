@@ -6,7 +6,9 @@ function Navbar() {
 
   window.addEventListener('scroll', function () {
     var name = this.document.getElementById('name')
+    var nav = this.document.getElementById('nav')
     name.classList.toggle('visible', window.scrollY > 0);
+    nav.classList.toggle('sticky', window.scrollY > 0);
   });
   
   function closeNav() {

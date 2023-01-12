@@ -4,9 +4,12 @@
     width: 100%;
     transition: 200ms all ease-in-out;
     transition: 500ms height ease-in-out;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
     position: fixed;
     z-index: 1000;
+}
+
+.sticky {
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
 }
 
 .nav-container {
