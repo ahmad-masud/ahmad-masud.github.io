@@ -23,7 +23,7 @@ function ContactComponent() {
   
     return (
         <div className='contact'>
-            <label className='contact-success-label' id='success-label'>Sent Successfully ✅</label>
+            <label className='contact-success-label' id='success-label'>Sent Successfully <i class="fa-solid fa-circle-check"></i></label>
             <form className='contact-form' ref={form} onSubmit={sendEmail}>
                 <label className='contact-name-label'>Name</label>
                 <input className='contact-name-input' type="text" name="from_name" required />

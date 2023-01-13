@@ -64,10 +64,10 @@
 }
 
 .contact-success-label {
-    color: white;
+    color: var(--font-color);
     font-weight: bold;
     font-size: var(--font-size);
-    background: rgb(25, 30, 35);
+    background: var(--secondary-color);
     padding: 10px;
     border-radius: 5px;
     margin-left: -300px;
