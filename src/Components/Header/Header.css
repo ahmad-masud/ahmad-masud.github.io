@@ -1,8 +1,16 @@
+.header-container {
+    margin-top: 75px;
+    background: rgb(40, 44, 52);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-text {
     color: var(--accent-color);
     font-size: 4em;
-    text-align: center;
-    margin-top: 100px;
     font-weight: bold;
 }
 

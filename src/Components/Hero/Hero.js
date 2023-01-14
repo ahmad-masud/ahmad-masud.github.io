@@ -2,7 +2,7 @@ import './Hero.css';
 import TextTransition, { presets } from "react-text-transition";
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Icon from '../../Images/BlackIcon.png';
+import Icon from '../../Images/logo.png';
 
 function Hero() {
 

@@ -30,7 +30,7 @@
 }
 
 .logo {
-    width: 30px;
+    width: 40px;
     transition: all 100ms ease-in-out;
     filter: invert(51%) sepia(34%) saturate(5479%) hue-rotate(178deg) brightness(107%) contrast(89%);
 }
@@ -40,7 +40,8 @@
     transition: all 100ms ease-in-out;
     text-decoration: none;
     margin: auto 0;
-    font-size: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .visible {

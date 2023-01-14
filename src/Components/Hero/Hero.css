@@ -9,9 +9,9 @@
 }
 
 .hero-image {
-    width: 500px;
+    width: 600px;
     position: absolute;
-    bottom: -150px;
+    bottom: -300px;
     filter: invert(16%) sepia(8%) saturate(1149%) hue-rotate(182deg) brightness(94%) contrast(84%);
     right: 50px;
     image-rendering: auto;
