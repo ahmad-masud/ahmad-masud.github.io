@@ -1,27 +1,35 @@
 import './Hero.css';
-import Typewriter from 'typewriter-effect';
+import TextTransition, { presets } from "react-text-transition";
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+const TEXTS = [
+  "Computer Science Major",
+  "Web Developer",
+  "Web Designer",
+  "Problem-Solver"
+];
+
 function Hero() {
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() =>
+      setIndex(index => index + 1),
+      2000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <div className='hero'>
         <div className='hero-container'>
             <div className='hero-texts'>
-                <header className='hero-text hero-greeting-text'>Hey There!</header>
-                <header className='hero-text hero-name-text'>I'm <span>Ahmad</span></header>
-                <header className='hero-text hero-job-text'>I am a{' '}      
-                  <Typewriter
-                    options={{
-                      strings: ['Computer Science Major', 'Web Developer', 'Web Designer', 'Problem-Solver'],
-                      autoStart: true,
-                      loop: true,
-                    }}
-                  />
-                </header>
-            </div>
-            <div className='hero-buttons'>
-              <Link to='/Contact' className='hero-connect-button'>Connect <i className="fa-solid fa-circle-nodes"></i></Link>
-              <a href='https://github.com/ahmad-masud' className='hero-github-button' target="_blank"><i className="fa-brands fa-github icon"></i> Github <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                <header className='hero-name-text'>I'm Ahmad.</header>
+                <TextTransition className='hero-job-text' springConfig={presets.default}>
+                  {TEXTS[index % TEXTS.length]}
+                </TextTransition>
             </div>
         </div>
     </div>

@@ -1,13 +1,10 @@
 :root {
     --font-size: 1.25em;
     --width: 1200px;
-    --main-color: rgb(255,255,255);
-    --secondary-color: rgb(235,235,235);
-    --accent-color: rgb(21,166,240);
-    --secondary-accent-color: rgb(35, 201, 130);
-    --third-accent-color: rgb(140, 81, 214);
-    --font-color: rgb(18, 51, 84);
-    --secondary-font-color: rgb(131, 148, 167);
+    --main-color: rgb(30,30,30);
+    --secondary-color: rgb(40,40,40);
+    --accent-color: rgb(0, 155, 255);
+    --font-color: white;
 }
 
 @media only screen and (max-width: 1300px) {

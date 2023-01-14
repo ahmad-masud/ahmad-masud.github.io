@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: var(--width);
-    margin: 0 auto 100px auto;
+    margin: 25px auto 100px auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -39,6 +39,7 @@
     font-size: var(--font-size);
     margin: 0;
     line-height: 1.5em;
+    opacity: 0.75;
 }
 
 .box-list-container {
@@ -61,14 +62,7 @@
     border-radius: 7px;
     transition: 200ms all ease-in-out;
     font-size: var(--font-size);
-}
-
-.link:nth-child(1) {
     background: var(--accent-color);
-}
-
-.link:nth-child(2) {
-    background: var(--secondary-accent-color);
 }
 
 .link:hover {

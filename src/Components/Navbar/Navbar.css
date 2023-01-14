@@ -1,6 +1,6 @@
 .nav {
     background: var(--main-color);
-    height: 65px;
+    height: 75px;
     width: 100%;
     transition: 200ms all ease-in-out;
     transition: 500ms height ease-in-out;
@@ -9,11 +9,11 @@
 }
 
 .sticky {
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+    border-bottom: solid 0.01px rgba(255, 255, 255, 0.25);
 }
 
 .nav-container {
-    height: 65px;
+    height: 75px;
     width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@
     transition: all 100ms ease-in-out;
     text-decoration: none;
     margin: auto 0;
-    font-size: 1.1em;
+    font-size: var(--font-size);
 }
 
 .visible {
@@ -63,7 +63,7 @@
     margin: auto 10px;
     text-decoration: none;
     color: var(--font-color);
-    font-size: 1em;
+    font-size: var(--font-size);
     transition: all 200ms ease-in-out;
 }
 
@@ -71,7 +71,7 @@
     padding: 10px 15px;
     border-radius: 7px;
     background: var(--accent-color);
-    color: var(--main-color);
+    color: var(--font-color);
 }
 
 .nav-link:hover {
@@ -80,7 +80,7 @@
 
 .contact-nav-link:hover {
     filter: brightness(0.75);
-    color: var(--accent-color)
+    color: var(--font-color)
 }
 
 .nav-toggle-button {
@@ -88,8 +88,8 @@
     display: none;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     cursor: pointer;
     transition: all 200ms ease-in-out;
     margin-right: 10px;
@@ -160,7 +160,7 @@
     background: var(--secondary-color);
     z-index: 999;
     transition: all 200ms ease-in-out;
-    margin-top: 55px;
+    margin-top: 75px;
     opacity: 0;
     visibility: hidden;
     position: fixed;

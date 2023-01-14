@@ -1,13 +1,18 @@
+.info {
+    background: var(--secondary-color);
+}
+
 .info-container {
     width: var(--width);
-    margin: 100px auto;
+    margin: 0 auto;
+    padding: 100px 0;
 }
 
 .info-main-header {
     font-size: calc(var(--font-size)*2);
     font-weight: bold;
     margin: 10px 0;
-    color: var(--accent-color);
+    color: var(--font-color);
 }
 
 .info-paragraph {
@@ -15,4 +20,9 @@
     line-height: 1.5em;
     margin: 0;
     color: var(--font-color);
+    opacity: 0.75;
+}
+
+.fa-handshake-simple{
+    color: var(--accent-color);
 }

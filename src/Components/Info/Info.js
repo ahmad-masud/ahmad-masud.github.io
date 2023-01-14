@@ -4,7 +4,7 @@ function Info() {
   return (
     <div className='info'>
       <div className='info-container'>
-        <header class="info-main-header">Nice to Meet You</header>
+        <header class="info-main-header"><i className="fa-solid fa-handshake-simple"></i> Nice to Meet You</header>
         <p class='info-paragraph'>
           Hello! Ahmad here; I attend SFU and major in computer science. As a programmer, 
           I have worked on a wide range of projects using different technology stacks. Furthermore, 

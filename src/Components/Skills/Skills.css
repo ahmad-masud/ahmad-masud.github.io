@@ -1,6 +1,7 @@
 .skills {
     color: var(--font-color);
-    margin: 0 0 100px 0;
+    padding: 100px 0;
+    background: var(--secondary-color);
 }
 
 .skills-container {
@@ -12,7 +13,7 @@
     margin: 0 0 25px 0;
     font-size: calc(var(--font-size)*2);
     font-weight: bold;
-    color: var(--accent-color);
+    color: var(--font-color);
 }
 
 .skills-subtitle {
@@ -33,24 +34,16 @@
 .skills-item {
     padding: 10px 15px;
     border-radius: 7px;
-}
-
-.skills-list-1 .skills-item {
     background: var(--accent-color);
-    color: var(--main-color);
-}
-
-.skills-list-2 .skills-item {
-    background: var(--secondary-font-color);
-    color: var(--main-color);
+    color: var(--font-color);
 }
 
 @media only screen and (max-width: 600px) {
-    .skills {
-        padding: 5px;
-    }
-    
     .skills-list {
         font-size: var(--font-size);
     }
+}
+
+.fa-lightbulb {
+    color: var(--accent-color);
 }

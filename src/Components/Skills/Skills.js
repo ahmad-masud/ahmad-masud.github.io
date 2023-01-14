@@ -31,15 +31,15 @@ function Skills() {
   return (
     <div className='skills'>
       <div className='skills-container'>
-        <header className='skills-title'>Some of my Skills</header>
+        <header className='skills-title'><i className="fa-solid fa-lightbulb"></i> Some of my Skills</header>
         <header className='skills-subtitle'>Coding</header>
-        <ul className='skills-list skills-list-1'>
+        <ul className='skills-list'>
           {codingSkills.map(function (skill) {
             return <li className='skills-item'>{skill}</li>
           })}
         </ul>
         <header className='skills-subtitle'>Miscellaneous</header>
-        <ul className='skills-list skills-list-2'>
+        <ul className='skills-list'>
           {miscSkills.map(function (skill) {
             return <li className='skills-item'>{skill}</li>
           })}

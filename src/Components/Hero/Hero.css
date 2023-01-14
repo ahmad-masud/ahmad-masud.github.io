@@ -3,7 +3,8 @@
     height: 500px;
     padding: 10px 0;
     position: relative;
-    margin-top: 65px;
+    margin-top: 75px;
+    background: var(--main-color);
 }
 
 .hero-container {
@@ -12,77 +13,30 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    display: flex;
     align-items: center;
     flex-direction: column;
+    display: flex;
+    gap: 10px;
+    padding: 25px;
 }
 
 .hero-texts {
     margin: 0 auto;
-    padding: 10px;
-}
-
-.hero-text {
-    color: var(--font-color);
-    transition: all 200ms ease-in-out;
-}
-
-.hero-greeting-text {
-    font-size: 3em;
-    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-name-text {
-    font-size: 6em;
+    font-size: 8em;
     font-weight: bold;
-    color: var(--font-color);
+    color: var(--accent-color);
+    transition: all 200ms ease-in-out;
 }
 
 .hero-job-text {
-    font-size: 2.5em;
+    font-size: 3em;
     color: var(--font-color);
-}
-
-.hero-name-text span {
-    color: var(--accent-color);
-}
-
-.hero-job-text span {
-    color: var(--font-color);
-}
-
-.Typewriter {
-    display: inline;
-}
-
-.Typewriter__wrapper{
-    font-weight: bold;
-}
-
-.hero-buttons {
-    margin: 25px;
-}
-
-.hero-connect-button {
-    font-size: var(--font-size);
-    background: var(--accent-color);
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 7px;
-    margin: 0 5px;
-    transition: 200ms all ease-in-out;
-}
-
-.hero-github-button {
-    font-size: var(--font-size);
-    background: var(--secondary-accent-color);
-    color: var(--main-color);
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 7px;
-    margin: 0 5px;
-    transition: 200ms all ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .hero .fa-arrow-up-right-from-square {
@@ -109,16 +63,12 @@
     .hero-container {
         width: 90%;
     }
-
-    .hero-greeting-text {
-        font-size: 2em;
-    }
     
     .hero-name-text {
-        font-size: 4em;
+        font-size: 6em;
     }
     
     .hero-job-text {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }

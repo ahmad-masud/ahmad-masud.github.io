@@ -28,31 +28,20 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.about-section:nth-child(1) {
-    background: var(--secondary-font-color);
-}
-
-.about-section:nth-child(2) {
-    background: var(--third-accent-color);
-}
-
-.about-section:nth-child(3) {
-    background: var(--secondary-accent-color);
+    background: var(--secondary-color);
 }
 
 .about-header {
     font-size: calc(var(--font-size)*1.25);
     font-weight: bold;
-    color: var(--main-color);
+    color: var(--font-color);
 }
 
 .about-paragraph {
     width: 100%;
     font-size: var(--font-size);
     line-height: 1.5em;
-    color: var(--main-color);
+    color: var(--font-color);
 }
 
 @media only screen and (max-width: 800px) {
