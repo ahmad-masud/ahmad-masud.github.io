@@ -67,6 +67,7 @@ function Navbar() {
             <Link to='/About' className='nav-link about-nav-link'>About</Link>
             <Link to='/Experiences' className='nav-link experience-nav-link'>Experiences</Link>
             <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
+            <a href='https://github.com/ahmad-masud' className='nav-link projects-nav-link' target='_blank'>Github <i class="fa-solid fa-up-right-from-square"></i></a>
             <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
           </div>
           <div className='nav-toggle-button' id='toggle-button' onClick={toggleNav}>
@@ -81,6 +82,8 @@ function Navbar() {
           <Link to='/Experiences' className='media-nav-link experience-media-nav-link' onClick={closeNav}>Experiences</Link>
           <hr className='nav-hr' />
           <Link to='/Projects' className='media-nav-link projects-media-nav-link' onClick={closeNav}>Projects</Link>
+          <hr className='nav-hr' />
+          <a href='https://github.com/ahmad-masud' className='media-nav-link projects-media-nav-link' onClick={closeNav} target='_blank'>Github <i class="fa-solid fa-up-right-from-square"></i></a>
           <hr className='nav-hr' />
           <Link to='/Contact' className='media-nav-link contact-media-nav-link' onClick={closeNav}>Contact</Link>
           <hr className='nav-hr' />

@@ -8,7 +8,3 @@
     font-size: calc(var(--font-size)*2);
     font-weight: bold;
 }
-
-.fa-diagram-project {
-    color: var(--accent-color);
-}

@@ -4,7 +4,19 @@
     padding: 10px 0;
     position: relative;
     margin-top: 75px;
-    background: var(--main-color);
+    background: rgb(40, 44, 52);
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 500px;
+    position: absolute;
+    bottom: -150px;
+    filter: invert(16%) sepia(8%) saturate(1149%) hue-rotate(182deg) brightness(94%) contrast(84%);
+    right: 50px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;  
 }
 
 .hero-container {
@@ -35,7 +47,7 @@
 
 .hero-job-text {
     font-size: 3em;
-    color: var(--font-color);
+    color: white;
     transition: all 200ms ease-in-out;
 }
 
@@ -65,7 +77,7 @@
     }
     
     .hero-name-text {
-        font-size: 6em;
+        font-size: 5em;
     }
     
     .hero-job-text {

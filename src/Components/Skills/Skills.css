@@ -35,15 +35,11 @@
     padding: 10px 15px;
     border-radius: 7px;
     background: var(--accent-color);
-    color: var(--font-color);
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
     .skills-list {
         font-size: var(--font-size);
     }
-}
-
-.fa-lightbulb {
-    color: var(--accent-color);
 }

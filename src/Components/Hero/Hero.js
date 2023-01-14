@@ -2,15 +2,16 @@ import './Hero.css';
 import TextTransition, { presets } from "react-text-transition";
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
-const TEXTS = [
-  "Computer Science Major",
-  "Web Developer",
-  "Web Designer",
-  "Problem-Solver"
-];
+import Icon from '../../Images/BlackIcon.png';
 
 function Hero() {
+
+  const TEXTS = [
+    "Computer Science Major",
+    "Web Developer",
+    "Web Designer",
+    "Problem-Solver"
+  ];
 
   const [index, setIndex] = useState(0);
 
@@ -24,12 +25,13 @@ function Hero() {
 
   return (
     <div className='hero'>
+        <img src={Icon} className='hero-image'></img>
         <div className='hero-container'>
             <div className='hero-texts'>
-                <header className='hero-name-text'>I'm Ahmad.</header>
-                <TextTransition className='hero-job-text' springConfig={presets.default}>
-                  {TEXTS[index % TEXTS.length]}
-                </TextTransition>
+                <header className='hero-name-text'>I'm Ahmad</header>
+                <span className='hero-job-text'>
+                  A <TextTransition inline children={TEXTS[index % TEXTS.length]} />
+                </span>
             </div>
         </div>
     </div>

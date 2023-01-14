@@ -22,7 +22,3 @@
     color: var(--font-color);
     opacity: 0.75;
 }
-
-.fa-handshake-simple{
-    color: var(--accent-color);
-}
