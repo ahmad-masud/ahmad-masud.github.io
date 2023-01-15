@@ -10,7 +10,7 @@ function Experiences() {
       <Fade>
         <Header text='Experiences' />
       </Fade>
-      <Fade left>
+      <Fade bottom>
         <Experience 
           image={KungFuImage} 
           date={'03/2021 - 04/2021'}
@@ -31,7 +31,7 @@ function Experiences() {
           ]}
         />
       </Fade>
-      <Fade right>
+      <Fade bottom>
         <Experience 
           image={WalmartImage} 
           date={'10/2021 - Current'}

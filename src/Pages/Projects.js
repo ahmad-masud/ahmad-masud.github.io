@@ -15,7 +15,7 @@ function Projects() {
       <Fade>
         <Header text='Projects' />
       </Fade>
-      <Fade left>
+      <Fade bottom>
         <Project
           imageFirst={true}
           image={PaintGif} 
@@ -31,7 +31,7 @@ function Projects() {
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
-      <Fade right>
+      <Fade bottom>
         <Project
           imageFirst={false}
           image={WebsiteGif} 
@@ -47,7 +47,7 @@ function Projects() {
           stacks={['HTML', 'CSS', 'Javascript']}
         />
       </Fade>
-      <Fade top>
+      <Fade bottom>
         <Project
           imageFirst={true}
           image={SortGif} 

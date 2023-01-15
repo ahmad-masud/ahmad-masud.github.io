@@ -33,6 +33,10 @@ function Hero() {
                   A <TextTransition inline children={TEXTS[index % TEXTS.length]} />
                 </span>
             </div>
+            <div className='hero-links'>
+              <Link to='/Contact' className='hero-link'>Connect</Link>
+              <a href='https://github.com/ahmad-masud' className='hero-link' target='_blank'>Github <i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
         </div>
     </div>
   );

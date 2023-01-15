@@ -28,8 +28,9 @@
     align-items: center;
     flex-direction: column;
     display: flex;
-    gap: 10px;
+    gap: 25px;
     padding: 25px;
+    width: 100%;
 }
 
 .hero-texts {
@@ -51,24 +52,45 @@
     transition: all 200ms ease-in-out;
 }
 
-.hero .fa-arrow-up-right-from-square {
+.hero-links {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-link {
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: var(--font-size);
+    transition: all 200ms ease-in-out;
+}
+
+.hero .fa-up-right-from-square {
     font-size: 0.75em;
 }
 
-.hero .fa-github {
-    font-size: 1em;
+
+.hero-link:nth-child(1) {
+    background: var(--accent-color);
+    color: white;
 }
 
-.hero .fa-file {
-    font-size: 1em;
+.hero-link:nth-child(2) {
+    background: white;
+    color: var(--font-color);
 }
 
-.hero-connect-button:hover {
-    filter: brightness(0.75)
+.hero-link:hover {
+    filter: brightness(0.75);
 }
 
-.hero-github-button:hover {
-    filter: brightness(0.75)
+@media only screen and (max-width: 1440px) {
+    .hero-name-text {
+        font-size: 7em;
+    }
+    
+    .hero-job-text {
+        font-size: 2.5em;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -77,10 +99,12 @@
     }
     
     .hero-name-text {
-        font-size: 5em;
+        font-size: 4em;
     }
     
     .hero-job-text {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
+
+

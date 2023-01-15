@@ -30,7 +30,7 @@
 }
 
 .logo {
-    width: 40px;
+    width: 30px;
     transition: all 100ms ease-in-out;
     filter: invert(51%) sepia(34%) saturate(5479%) hue-rotate(178deg) brightness(107%) contrast(89%);
 }
@@ -196,7 +196,7 @@
     opacity: 0.25;
 }
 
-.fa-up-right-from-square {
+.nav .fa-up-right-from-square {
     opacity: 0.5;
     font-size: 0.75em;
 }

@@ -20,7 +20,7 @@ function Home() {
         <Margin height='100px' />
         <Title text='Highlighted Projects' />
       </Fade>
-      <Fade left>
+      <Fade bottom>
         <Project
           imageFirst={true}
           image={PaintGif} 
@@ -36,7 +36,7 @@ function Home() {
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
-      <Fade right>
+      <Fade bottom>
         <Project
           imageFirst={false}
           image={WebsiteGif} 
@@ -52,7 +52,7 @@ function Home() {
           stacks={['HTML', 'CSS', 'Javascript']}
         />
       </Fade>
-      <Fade top>
+      <Fade bottom>
         <Project
           imageFirst={true}
           image={SortGif} 
