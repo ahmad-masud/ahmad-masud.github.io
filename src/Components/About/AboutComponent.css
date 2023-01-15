@@ -1,34 +1,29 @@
 .about-image {
     display: block;
-    width: 30%;
-    margin: 25px auto;
-    border-radius: 33% 67% 52% 48% / 39% 37% 63% 61%;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
-    background: var(--accent-color);
-    transition: 400ms all;
+    width: 40%;
+    margin: 0 auto;
 }
 
-.about-image:hover {
-    border-radius: 50%;
+.about-background-container {
+    width: 100%;
+    padding: 50px 0;
+    background: var(--secondary-color);
 }
 
 .about-container {
     display: flex;
     width: var(--width);
-    margin: 100px auto;
+    margin: 0 auto;
     gap: 50px;
     justify-content: center;
 }
 
 .about-section {
     width: 30%;
-    padding: 40px;
     border-radius: 10px;
-    box-shadow: inset 10px 15px 100px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: var(--secondary-color);
 }
 
 .about-header {
