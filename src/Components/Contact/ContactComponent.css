@@ -20,7 +20,7 @@
     margin-bottom: 15px;
     color: var(--font-color);
     outline: none;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .contact-message {
@@ -33,11 +33,11 @@
     resize: vertical;
     color: var(--font-color);
     outline: none;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .contact-submit {
-    padding: 10px;
+    padding: 10px 15px;
     font-size: 1.25em;
     border-radius: 5px;
     border-width: 0;
