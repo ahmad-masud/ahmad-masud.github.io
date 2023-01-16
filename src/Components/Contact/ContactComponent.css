@@ -2,36 +2,38 @@
     display: flex;
     flex-direction: column;
     width: 512px;
-    margin: 25px auto 50px auto;
+    margin: 50px auto;
     color: var(--font-color);
-    padding: 20px;
     border-radius: 10px;
 }
 
 .contact-name-label, .contact-email-label, .contact-message-label {
-    font-size: 1.25em;
+    font-size: var(--font-size);
     margin-bottom: 2px;
 }
 
 .contact-name-input, .contact-email-input {
     border-radius: 5px;
-    height: 30px;
-    font-size: 1.25em;
+    font-size: var(--font-size);
     background: var(--secondary-color);
     border-width: 0;
     margin-bottom: 15px;
     color: var(--font-color);
+    outline: none;
+    padding: 10px;
 }
 
 .contact-message {
     border-radius: 5px;
     height: 150px;
-    font-size: 1.25em;
+    font-size: var(--font-size);
     background: var(--secondary-color);
-    border-width: 0;
+    border: none;
     margin-bottom: 15px;
     resize: vertical;
     color: var(--font-color);
+    outline: none;
+    padding: 10px;
 }
 
 .contact-submit {
