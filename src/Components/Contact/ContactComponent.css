@@ -7,6 +7,11 @@
     border-radius: 10px;
 }
 
+.required::after {
+    content:" *";
+    color: red;
+}
+
 .contact-name-label, .contact-email-label, .contact-message-label {
     font-size: var(--font-size);
     margin-bottom: 2px;
