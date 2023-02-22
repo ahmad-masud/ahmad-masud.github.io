@@ -1,0 +1,43 @@
+:root {
+    --font-size: 1.25em;
+    --width: 1200px;
+    --main-color: white;
+    --secondary-color: rgb(235,235,235);
+    --accent-color: rgb(0, 155, 255);
+    --font-color: rgb(32, 35, 42);
+}
+
+@media only screen and (max-width: 1300px) {
+    :root {
+        --width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --font-size: 1em;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--main-color);
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}

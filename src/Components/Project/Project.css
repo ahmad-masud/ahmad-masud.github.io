@@ -1,0 +1,120 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    width: var(--width);
+    margin: 25px auto 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-header {
+    margin: 0;
+}
+
+.project {
+    display: flex;
+    gap: 100px;
+}
+
+.project-gif {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+    margin: auto 0;
+}
+
+.project-info-container {
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color);
+    gap: 25px;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.project-overview {
+    font-size: var(--font-size);
+    margin: 0;
+    line-height: 1.5em;
+    opacity: 0.75;
+}
+
+.box-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    transition: 200ms all ease-in-out;
+    font-size: var(--font-size);
+    background: var(--accent-color);
+}
+
+.link:hover {
+    filter: brightness(0.75)
+}
+
+@media only screen and (max-width: 800px) {
+    .project {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .project-gif {
+        width: 100%;
+    }
+}
+
+.fa-arrow-up-right-from-square {
+    font-size: 0.75em;
+}
+
+.stacks {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.stack {
+    background: var(--secondary-color);
+    color: var(--accent-color);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    transition: 200ms all ease-in-out;
+    font-size: var(--font-size);
+}
+
+.star-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(175,175,175);
+    font-size: var(--font-size);
+    transition: all 200ms ease-in-out;
+}
+
+.star-link:hover {
+    color: orange;
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-header  {
+        font-size: 2em;
+    }
+}

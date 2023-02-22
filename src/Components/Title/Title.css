@@ -1,0 +1,10 @@
+.title {
+    width: var(--width);
+    margin: 0 auto;
+}
+
+.title-text {
+    color: var(--font-color);
+    font-size: calc(var(--font-size)*2);
+    font-weight: bold;
+}

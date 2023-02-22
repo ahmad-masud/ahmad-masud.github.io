@@ -1,0 +1,207 @@
+.nav {
+    background: rgb(32, 35, 42);
+    height: 75px;
+    width: 100%;
+    transition: 200ms all ease-in-out;
+    transition: 500ms height ease-in-out;
+    position: fixed;
+    z-index: 1000;
+}
+
+.sticky {
+    
+}
+
+.nav-container {
+    height: 75px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-logo-container {
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo-nav-link {
+    margin: auto 0;
+}
+
+.logo {
+    width: 30px;
+    transition: all 100ms ease-in-out;
+    filter: invert(51%) sepia(34%) saturate(5479%) hue-rotate(178deg) brightness(107%) contrast(89%);
+}
+
+.text-logo-nav-link {
+    color: transparent;
+    transition: all 100ms ease-in-out;
+    text-decoration: none;
+    margin: auto 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.visible {
+    margin-left: 10px;
+    color: white;
+}
+
+.nav-logo-container:hover .text-logo-nav-link {
+    margin-left: 10px;
+    color: white;
+}
+
+.nav-links {
+    height: 100%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav-link {
+    margin: auto 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: all 200ms ease-in-out;
+}
+
+.contact-nav-link {
+    padding: 10px 15px;
+    border-radius: 7px;
+    background: var(--accent-color);
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+.contact-nav-link:hover {
+    filter: brightness(0.75);
+    color: white;
+}
+
+.nav-toggle-button {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-toggle-button {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-container {
+        width: 100%
+    }
+}
+
+.toggle-icon {
+    width: 30px;
+    height: 3px;
+    background: white;
+    transition: all 200ms ease-in-out;
+    border-radius: 50px;
+}
+
+.toggle-icon::before,
+.toggle-icon::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: white;
+    transition: all 200ms ease-in-out;
+    border-radius: 50px;
+}
+
+.toggle-icon::before {
+    transform: translateY(-7.5px);
+}
+
+.toggle-icon::after {
+    transform: translateY(7.5px);
+}
+
+.nav-toggle-button.open .toggle-icon {
+    background: transparent;
+}
+
+.nav-toggle-button.open .toggle-icon::before, .nav-toggle-button.open .toggle-icon::after {
+    transform: translateY(0px);
+}
+
+.nav-toggle-button.open2 .toggle-icon::before {
+    transform: rotate(45deg);
+}
+
+.nav-toggle-button.open2 .toggle-icon::after {
+    transform: rotate(-45deg);
+}
+
+.media-nav {
+    width: 100%;
+    height: 100%;
+    background: rgb(40, 44, 52);
+    z-index: 999;
+    transition: all 200ms ease-in-out;
+    margin-top: 75px;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+}
+
+.media-nav-links {
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    transition: all 500ms ease-in-out;
+    width: 256px;
+}
+
+@media only screen and (max-width: 300px) {
+    .media-nav-links {
+        width: 80%;
+    }
+}
+
+.media-nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    transition: all 200ms ease-in-out;
+    margin: 15px 0;
+}
+
+.nav-hr {
+    border: none;
+    height: 0.01em;
+    background: white;
+    opacity: 0.25;
+}
+
+.nav .fa-up-right-from-square {
+    opacity: 0.5;
+    font-size: 0.75em;
+}
+
+.media-nav .fa-up-right-from-square {
+    opacity: 0.5;
+    font-size: 0.75em;
+}
