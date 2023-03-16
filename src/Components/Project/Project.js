@@ -25,7 +25,7 @@ function Project(props) {
                     <div className='box-list-container'>
                       <div className='links'>
                         <a href={props.githubLink} className='link' target='_blank'><i className="fa-brands fa-github"></i> Github <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
-                        <a href={props.link} className='link' target='_blank'>Try/Visit <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                        {(props.link != null) && <a href={props.link} className='link' target='_blank'>Try/Visit <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>}
                         <a href={props.githubLink+'/stargazers'} className='star-link' target='_blank'><i className="fa-solid fa-star"></i></a>
                       </div>
                       <ul className='stacks'>

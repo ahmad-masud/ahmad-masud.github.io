@@ -5,9 +5,6 @@ import SortGif from '../Images/SortingVisualizer.gif';
 import CalculatorGif from '../Images/Calculator.gif';
 import Header from '../Components/Header/Header.js';
 import Fade from 'react-reveal/Fade';
-import Paint from '../Files/Paint.jar';
-import SortingAlgorithmVisualizer from '../Files/SortingAlgorithmVisualizer.jar';
-import Calculator from '../Files/Calculator.jar';
 
 function Projects() {
   return (
@@ -27,7 +24,6 @@ function Projects() {
             a new image from scratch.`
           }
           githubLink={'https://github.com/ahmad-masud/Paint'} 
-          link={Paint}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
@@ -59,7 +55,6 @@ function Projects() {
             corresponds to its index in the array.`
           }
           githubLink={'https://github.com/ahmad-masud/Sorting-Algorithm-Visualizer'} 
-          link={SortingAlgorithmVisualizer}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
@@ -74,7 +69,6 @@ function Projects() {
             subtracting, multiplication, division, and percentages.`
           }
           githubLink={'https://github.com/ahmad-masud/Calculator'} 
-          link={Calculator}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>

@@ -8,8 +8,6 @@ import SortGif from '../Images/SortingVisualizer.gif';
 import Fade from 'react-reveal/Fade';
 import Title from '../Components/Title/Title.js';
 import Margin from '../Components/Margin/Margin.js';
-import Paint from '../Files/Paint.jar';
-import SortingAlgorithmVisualizer from '../Files/SortingAlgorithmVisualizer.jar';
 
 function Home() {
   return (
@@ -32,7 +30,6 @@ function Home() {
             a new image from scratch.`
           }
           githubLink={'https://github.com/ahmad-masud/Paint'} 
-          link={Paint}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
@@ -56,15 +53,14 @@ function Home() {
         <Project
           imageFirst={true}
           image={SortGif} 
-          title={'Sorting Algorithm Visualizer'} 
+          title={'Sorting Visualizer'} 
           overview={
             `An application that implements java swing to draw out a visual of the process of loop sorting. 
             There are interactive buttons to visualize different sorting algorithms and a slider to change 
             the delay in between swaps. The height of each bar corresponds to its value and its x position 
             corresponds to its index in the array.`
           }
-          githubLink={'https://github.com/ahmad-masud/Sorting-Algorithm-Visualizer'} 
-          link={SortingAlgorithmVisualizer}
+          githubLink={'https://github.com/ahmad-masud/Sorting-Visualizer'} 
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
