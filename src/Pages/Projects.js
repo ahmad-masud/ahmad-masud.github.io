@@ -1,5 +1,6 @@
 import Project from '../Components/Project/Project.js';
 import PaintGif from '../Images/Paint.gif';
+import DrawMavenGif from '../Images/DrawMaven.gif'
 import WebsiteGif from '../Images/Website.gif';
 import SortGif from '../Images/SortingVisualizer.gif';
 import CalculatorGif from '../Images/Calculator.gif';
@@ -15,15 +16,15 @@ function Projects() {
       <Fade bottom>
         <Project
           imageFirst={true}
-          image={PaintGif} 
-          title={'Paint'}
+          image={DrawMavenGif} 
+          title={'DrawMaven'}
           overview={
-            `A simple java paint application, geared towards people who like digital 
-            drawing and taking quick notes. There are numerous tools for drawing with differents pens,
-            opacity sliders, size sliders and more. You can also import or export an image or just create
-            a new image from scratch.`
+            `DrawMaven is a simple drawing program designed for ease of use and versatility. With DrawMaven, you can create 
+            beautiful drawings with a variety of tools such as pencils, brushes, shapes, and text. You can also adjust the size, 
+            color, and opacity of your tools to create the perfect design. DrawMaven has an intuitive user interface that allows 
+            for easy navigation and use of its features.`
           }
-          githubLink={'https://github.com/ahmad-masud/Paint'} 
+          githubLink={'https://github.com/ahmad-masud/DrawMaven'} 
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
@@ -69,6 +70,21 @@ function Projects() {
             subtracting, multiplication, division, and percentages.`
           }
           githubLink={'https://github.com/ahmad-masud/Calculator'} 
+          stacks={['Java', 'Java Swing', 'Java Frames']}
+        />
+      </Fade>
+      <Fade bottom>
+        <Project
+          imageFirst={true}
+          image={PaintGif} 
+          title={'Paint'}
+          overview={
+            `A simple java paint application, geared towards people who like digital 
+            drawing and taking quick notes. There are numerous tools for drawing with differents pens,
+            opacity sliders, size sliders and more. You can also import or export an image or just create
+            a new image from scratch.`
+          }
+          githubLink={'https://github.com/ahmad-masud/Paint'} 
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
