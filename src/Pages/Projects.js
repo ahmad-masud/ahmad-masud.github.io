@@ -34,10 +34,9 @@ function Projects() {
           image={WebsiteGif} 
           title={'My First Website'}
           overview={
-            `A simple java paint application, geared towards people who like digital 
-            drawing and taking quick notes. There are numerous tools for drawing with differents pens,
-            opacity sliders, size sliders and more. You can also import or export an image or just create
-            a new image from scratch.`
+            `I created an intuitive and visually appealing website using HTML, CSS, and Javascript. This project started as a 
+            fun project during my high school years and it turned out to be great. The website showcases my personal 
+            information and accomplishments, making it the perfect platform for people to get to know me.`
           }
           githubLink={'https://github.com/ahmad-masud/my-first-website'}
           link={'https://ahmadmasud.xyz/my-first-website/'}
