@@ -31,6 +31,7 @@ function Home() {
             for easy navigation and use of its features.`
           }
           githubLink={'https://github.com/ahmad-masud/DrawMaven'} 
+          link={'https://github.com/ahmad-masud/DrawMaven/raw/main/DrawMaven/dist/DrawMaven.jar'}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
@@ -62,6 +63,7 @@ function Home() {
             corresponds to its index in the array.`
           }
           githubLink={'https://github.com/ahmad-masud/Sorting-Visualizer'} 
+          link={'https://github.com/ahmad-masud/Sorting-Visualizer/raw/main/SortingVisualizer/dist/SortingVisualizer.jar'}
           stacks={['Java', 'Java Swing', 'Java Frames']}
         />
       </Fade>
