@@ -34,13 +34,12 @@ function Experiences() {
       <Fade bottom>
         <Experience 
           image={WalmartImage} 
-          date={'10/2021 - Current'}
+          date={'10/2021 - 02/2023'}
           title={'Store Standards Associate ⋅ Walmart'}
           titleColor={'rgb(0,150,255'}
           paragraph={
-            `I applied at walmart in october of 2021 and since then I have been a Store Standards
-            Associate there. I love my job and love helping customers and moving stuff around the Store
-            and pushing carts.`
+            `I applied at walmart in october of 2021. I loved my job and love helping customers and moving stuff around the Store
+            and pushing carts. I decided to leave in february of 2023 to focus on my post secondary studies.`
           }
           listItems={[
             `Handled client inquiries with exceptional professionalism and enthusiasm`,
