@@ -3,6 +3,7 @@ import PaintGif from '../Images/Paint.gif';
 import DrawMavenGif from '../Images/DrawMaven.gif'
 import WebsiteGif from '../Images/Website.gif';
 import SortGif from '../Images/SortingVisualizer.gif';
+import CurrencyGif from '../Images/CurrencyConverter.gif';
 import CalculatorGif from '../Images/Calculator.gif';
 import Header from '../Components/Header/Header.js';
 import Fade from 'react-reveal/Fade';
@@ -63,6 +64,22 @@ function Projects() {
       <Fade bottom>
         <Project
           imageFirst={false}
+          image={CurrencyGif} 
+          title={'Currency Converter'} 
+          overview={
+            `An application using React that leverages Java and JSX to facilitate currency conversion across different countries. 
+            This project allowed me to enhance my React proficiency and gain hands-on experience in making API calls with external 
+            websites and servers. Not only did this project provide me with an opportunity to improve my skills, but it also serves 
+            a practical purpose and can benefit a broad range of users.`
+          }
+          githubLink={'https://github.com/ahmad-masud/currency-converter'} 
+          link={'https://ahmadmasud.xyz/currency-converter/'}
+          stacks={['Java', 'React', 'JSX', 'CSS']}
+        />
+      </Fade>
+      <Fade bottom>
+        <Project
+          imageFirst={true}
           image={CalculatorGif} 
           title={'Calculator'}
           overview={
@@ -76,7 +93,7 @@ function Projects() {
       </Fade>
       <Fade bottom>
         <Project
-          imageFirst={true}
+          imageFirst={false}
           image={PaintGif} 
           title={'Paint'}
           overview={
