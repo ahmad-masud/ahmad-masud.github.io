@@ -1,9 +1,10 @@
 .experience {
-    margin: 100px 50px;
+    margin: 100px 0;
 }
 
 .experience-container {
     max-width: var(--width);
+    width: 90%;
     display: flex;
     margin: 0 auto;
     gap: 100px;

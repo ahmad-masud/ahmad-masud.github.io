@@ -1,10 +1,11 @@
 .info {
     background: var(--secondary-color);
-    padding: 100px 50px;
+    padding: 100px 0;
 }
 
 .info-container {
     max-width: var(--width);
+    width: 90%;
     margin: 0 auto;
 }
 

@@ -11,9 +11,9 @@ function Navbar() {
     name.classList.toggle('visible', window.scrollY > 50);
     nav.classList.toggle('sticky', window.scrollY > 50);
     if (this.window.scrollY > 50) {
-      help.style.marginBottom = '60px';
+      help.style.height= '110px';
     } else {
-      help.style.marginBottom = '0px';
+      help.style.height = '50px';
     }
   });
   

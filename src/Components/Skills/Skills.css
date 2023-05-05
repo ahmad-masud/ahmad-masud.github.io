@@ -1,11 +1,12 @@
 .skills {
     color: var(--font-color);
-    padding: 100px 50px;
+    padding: 100px 0;
     background: var(--secondary-color);
 }
 
 .skills-container {
     max-width: var(--width);
+    width: 90%;
     margin: 0 auto;
 }
 
