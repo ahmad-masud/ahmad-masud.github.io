@@ -7,14 +7,8 @@ function Navbar() {
   window.addEventListener('scroll', function () {
     var name = this.document.getElementById('name')
     var nav = this.document.getElementById('nav')
-    var help = this.document.getElementById('help')
-    name.classList.toggle('visible', window.scrollY > 50);
-    nav.classList.toggle('sticky', window.scrollY > 50);
-    if (this.window.scrollY > 50) {
-      help.style.height= '110px';
-    } else {
-      help.style.height = '50px';
-    }
+    name.classList.toggle('visible', window.scrollY > 0);
+    nav.classList.toggle('sticky', window.scrollY > 0);
   });
   
   function closeNav() {
@@ -61,9 +55,6 @@ function Navbar() {
 
   return (
     <>
-      <div className='provide-help-container' id='help'>
-        <span className='provide-help-text'>Support Palestine 🇵🇸 <a className='provide-help-link' href='https://www.facebook.com/fundraisers/explore/search/?q=palestine&source=fundraiser_hub_explore_search' target='_blank'>Provide aid for Palestine</a></span>
-      </div>
       <div className='nav' id='nav'>
         <div className='nav-container'>
           <div className='nav-logo-container'>

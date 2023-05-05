@@ -1,33 +1,10 @@
-.provide-help-container {
-    background: var(--secondary-color);
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.provide-help-text {
-    color: var(--font-color);
-    font-weight: 500;
-}
-
-.provide-help-link {
-    color: var(--accent-color);
-}
-
-@media only screen and (max-width: 600px) {
-    .provide-help-text {
-       font-size: 0.75em;
-    }
-    
-}
-
 .nav {
     background: rgba(255, 255, 255, 0.9);
     height: 60px;
     width: 100%;
     transition: 200ms all ease-in-out;
     z-index: 1000;
+    position: fixed;
 }
 
 .sticky {
@@ -35,7 +12,6 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    position: fixed;
 }
 
 .nav-container {
