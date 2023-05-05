@@ -1,8 +1,8 @@
 .project-container {
     display: flex;
     flex-direction: column;
-    width: var(--width);
-    margin: 25px auto 100px auto;
+    max-width: var(--width);
+    margin: 100px auto 100px auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -21,6 +21,7 @@
     border-radius: 10px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
     margin: auto 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .project-info-container {
@@ -31,7 +32,7 @@
 }
 
 .project-title {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 2em;
 }
 
@@ -59,7 +60,7 @@
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 7px;
+    border-radius: 15px;
     transition: 200ms all ease-in-out;
     font-size: var(--font-size);
     background: var(--accent-color);
@@ -91,13 +92,14 @@
 }
 
 .stack {
-    background: var(--secondary-color);
-    color: var(--accent-color);
+    background: white;
+    color: var(--font-color);
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 7px;
+    border-radius: 15px;
     transition: 200ms all ease-in-out;
     font-size: var(--font-size);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .star-link {

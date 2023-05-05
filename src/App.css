@@ -2,15 +2,9 @@
     --font-size: 1.25em;
     --width: 1200px;
     --main-color: white;
-    --secondary-color: rgb(235,235,235);
-    --accent-color: rgb(0, 155, 255);
-    --font-color: rgb(32, 35, 42);
-}
-
-@media only screen and (max-width: 1300px) {
-    :root {
-        --width: 90%;
-    }
+    --secondary-color: rgb(245,245,245);
+    --accent-color: rgb(0, 125, 255);
+    --font-color: rgb(50, 50, 50);
 }
 
 @media only screen and (max-width: 600px) {

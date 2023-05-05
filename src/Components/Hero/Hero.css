@@ -3,20 +3,9 @@
     height: 500px;
     padding: 10px 0;
     position: relative;
-    margin-top: 75px;
-    background: rgb(40, 44, 52);
+    margin-top: 60px;
+    background: white;
     overflow: hidden;
-}
-
-.hero-image {
-    width: 600px;
-    position: absolute;
-    bottom: -300px;
-    filter: invert(16%) sepia(8%) saturate(1149%) hue-rotate(182deg) brightness(94%) contrast(84%);
-    right: 50px;
-    image-rendering: auto;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;  
 }
 
 .hero-container {
@@ -37,19 +26,21 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .hero-name-text {
     font-size: 8em;
     font-weight: bold;
-    color: var(--accent-color);
+    color: var(--font-color);
     transition: all 200ms ease-in-out;
 }
 
 .hero-job-text {
     font-size: 3em;
-    color: white;
+    color: var(--font-color);
     transition: all 200ms ease-in-out;
+    font-weight: 600;
 }
 
 .hero-links {
@@ -58,10 +49,11 @@
 }
 
 .hero-link {
-    padding: 10px 15px;
-    border-radius: 7px;
+    padding: 10px 20px;
+    border-radius: 15px;
     font-size: var(--font-size);
     transition: all 200ms ease-in-out;
+    font-weight: 500;
 }
 
 .hero .fa-up-right-from-square {
@@ -77,6 +69,7 @@
 .hero-link:nth-child(2) {
     background: white;
     color: var(--font-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .hero-link:hover {

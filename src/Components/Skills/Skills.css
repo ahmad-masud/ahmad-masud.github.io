@@ -1,24 +1,26 @@
 .skills {
     color: var(--font-color);
-    padding: 100px 0;
+    padding: 100px 50px;
     background: var(--secondary-color);
 }
 
 .skills-container {
-    width: var(--width);
+    max-width: var(--width);
     margin: 0 auto;
 }
 
 .skills-title {
     margin: 0 0 25px 0;
     font-size: calc(var(--font-size)*2);
-    font-weight: bold;
+    font-weight: 600;
     color: var(--font-color);
+    text-align: center;
 }
 
 .skills-subtitle {
     margin: 20px 0 10px 0;
     font-size: 1.5em;
+    font-weight: 500;
 }
 
 .skills-list {
@@ -33,7 +35,7 @@
 
 .skills-item {
     padding: 10px 15px;
-    border-radius: 7px;
+    border-radius: 15px;
     background: var(--accent-color);
     color: white;
 }

@@ -1,10 +1,19 @@
 .footer {
-    background: rgb(40, 44, 52);
-    height: 150px;
+    background: white;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: auto;
+    padding: 50px 0 50px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+.footer-quote {
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--accent-color);
 }
 
 .footer-links {
@@ -16,19 +25,23 @@
 }
 
 .footer-copyright-text {
-    margin: 0;
+    margin: 0 10px 0 10px;
     text-align: center;
-    font-size: 1.5em;
-    color: var(--main-color);
+    font-size: 1.25em;
+    color: var(--font-color);
+    opacity: 0.75;
 }
 
 .footer-link {
-    color: var(--main-color);
+    color: var(--font-color);
     transition: all 200ms ease-in-out;
+    background: transparent;
+    padding: 10px 10px;
+    border-radius: 2em;
 }
 
 .footer-link:hover {
-    color: var(--accent-color);
+    background: var(--secondary-color);
 }
 
 .icon {

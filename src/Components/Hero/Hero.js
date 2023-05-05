@@ -2,7 +2,6 @@ import './Hero.css';
 import TextTransition, { presets } from "react-text-transition";
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Icon from '../../Images/logo.png';
 
 function Hero() {
 
@@ -25,7 +24,6 @@ function Hero() {
 
   return (
     <div className='hero'>
-        <img src={Icon} className='hero-image'></img>
         <div className='hero-container'>
             <div className='hero-texts'>
                 <header className='hero-name-text'>I'm Ahmad</header>
@@ -35,7 +33,7 @@ function Hero() {
             </div>
             <div className='hero-links'>
               <Link to='/Contact' className='hero-link'>Connect</Link>
-              <a href='https://github.com/ahmad-masud' className='hero-link' target='_blank'>Github <i class="fa-solid fa-up-right-from-square"></i></a>
+              <Link to='/Projects' className='hero-link project-link'>Projects</Link>
             </div>
         </div>
     </div>

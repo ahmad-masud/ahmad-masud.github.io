@@ -3,6 +3,9 @@ import './Footer.css';
 function Footer() {
   return (
     <div className='footer'>
+      <p className='footer-quote'>
+        "It is better to fail in originality than to succeed in imitation."
+      </p>
       <div className='footer-links'>
           <a href='https://github.com/ahmad-masud' className='footer-link' target="_blank">
             <i className="fa-brands fa-github icon"></i>

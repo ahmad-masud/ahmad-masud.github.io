@@ -12,6 +12,11 @@ function Skills() {
     'React',
     'Gamemaker GML',
     'npm',
+    'C',
+    'C++',
+    'OPP',
+    'GatsbyJS',
+    'GraphQL',
   ];
 
   const miscSkills=[

@@ -1,0 +1,29 @@
+.projects-title {
+    font-size: calc(var(--font-size)*2);
+    font-weight: 600;
+    color: var(--font-color);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projects-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-link {
+    margin: 0 0 25px 0;
+    color: var(--font-color);
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: var(--font-size);
+    transition: all 200ms ease-in-out;
+    font-weight: 500;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.projects-link:Hover {
+    filter: brightness(0.75);
+}
