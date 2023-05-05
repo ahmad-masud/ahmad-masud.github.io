@@ -26,7 +26,8 @@
     color: var(--font-color);
     outline: none;
     padding: 10px 15px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+    background: var(--main-color);
 }
 
 .contact-message {
@@ -39,7 +40,8 @@
     color: var(--font-color);
     outline: none;
     padding: 10px 15px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+    background: var(--main-color);
 }
 
 .contact-submit {

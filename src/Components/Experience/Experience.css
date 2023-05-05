@@ -14,7 +14,7 @@
 .experience-image {
     width: 30%;
     margin: auto 0;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
 }
 
@@ -23,6 +23,9 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 20px;
 }
 
 @media only screen and (max-width: 800px) {
