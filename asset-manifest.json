@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8380ff9.css",
-    "main.js": "/static/js/main.a22bf1ad.js",
+    "main.css": "/static/css/main.ffa391af.css",
+    "main.js": "/static/js/main.755c9e83.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/SortingVisualizer.gif": "/static/media/SortingVisualizer.506e73f6b8aeee6b852c.gif",
     "static/media/Website.gif": "/static/media/Website.6f444d5fab8711e93dc2.gif",
@@ -10,13 +10,16 @@
     "static/media/DrawMaven.gif": "/static/media/DrawMaven.f95aa6df2f1a452770ad.gif",
     "static/media/logo.png": "/static/media/logo.82ad2a6cf9c79fc61d6f.png",
     "static/media/Walmart.png": "/static/media/Walmart.6f1ca0896de90a098dd7.png",
+    "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
+    "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
+    "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
     "index.html": "/index.html",
-    "main.f8380ff9.css.map": "/static/css/main.f8380ff9.css.map",
-    "main.a22bf1ad.js.map": "/static/js/main.a22bf1ad.js.map",
+    "main.ffa391af.css.map": "/static/css/main.ffa391af.css.map",
+    "main.755c9e83.js.map": "/static/js/main.755c9e83.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8380ff9.css",
-    "static/js/main.a22bf1ad.js"
+    "static/css/main.ffa391af.css",
+    "static/js/main.755c9e83.js"
   ]
 }
