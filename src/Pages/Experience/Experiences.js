@@ -1,10 +1,12 @@
 import Experience from '../../Components/Experience/Experience.js'
 import KungFuImage from '../../Images/Kungfu.png';
 import WalmartImage from '../../Images/Walmart.png';
+import './Experience.css'
 
 function Experiences() {
   return (
     <div className='experiences'>
+      <p className='experiences-title'>Experiences</p>
       <Experience 
         image={KungFuImage} 
         date={'03/2021 - 04/2021'}

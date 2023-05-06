@@ -23,6 +23,7 @@ function Contact() {
   
     return (
         <div className='contact'>
+            <p className='contact-title'>Contact</p>
             <label className='contact-success-label' id='success-label'>Sent Successfully <i className="fa-solid fa-circle-check"></i></label>
             <form className='contact-form' ref={form} onSubmit={sendEmail}>
                 <label className='contact-name-label required'>Name</label>

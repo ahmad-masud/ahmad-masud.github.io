@@ -13,7 +13,7 @@
 .skills-title {
     margin: 0 0 25px 0;
     font-size: calc(var(--font-size)*2);
-    font-weight: 600;
+    font-weight: bold;
     color: var(--font-color);
     text-align: center;
 }

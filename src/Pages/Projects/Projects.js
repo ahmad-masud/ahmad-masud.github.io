@@ -4,11 +4,13 @@ import WebsiteGif from '../../Images/Website.gif';
 import SortGif from '../../Images/SortingVisualizer.gif';
 import CurrencyGif from '../../Images/CurrencyConverter.gif';
 import CalculatorGif from '../../Images/Calculator.gif';
+import './Projects.css'
 
 
 function Projects() {
   return (
     <div className='projects'>
+      <p className='projects-title'>Projects</p>
       <Project
         image={DrawMavenGif} 
         title={'DrawMaven'}
