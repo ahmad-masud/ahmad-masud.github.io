@@ -1,25 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.64a6c327.css",
-    "main.js": "/static/js/main.af3e24ca.js",
+    "main.js": "/static/js/main.745aa341.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/SortingVisualizer.gif": "/static/media/SortingVisualizer.506e73f6b8aeee6b852c.gif",
-    "static/media/Website.gif": "/static/media/Website.6f444d5fab8711e93dc2.gif",
+    "static/media/Sorting-Visualizer.gif": "/static/media/Sorting-Visualizer.506e73f6b8aeee6b852c.gif",
+    "static/media/My-First-Website.gif": "/static/media/My-First-Website.6f444d5fab8711e93dc2.gif",
     "static/media/Calculator.gif": "/static/media/Calculator.9d0dab077b023764b607.gif",
-    "static/media/CurrencyConverter.gif": "/static/media/CurrencyConverter.b23f83d013f28dda2e86.gif",
-    "static/media/DrawMaven.gif": "/static/media/DrawMaven.f95aa6df2f1a452770ad.gif",
-    "static/media/logo.png": "/static/media/logo.82ad2a6cf9c79fc61d6f.png",
+    "static/media/Currency-Converter.gif": "/static/media/Currency-Converter.b23f83d013f28dda2e86.gif",
+    "static/media/Draw-Maven.gif": "/static/media/Draw-Maven.f95aa6df2f1a452770ad.gif",
     "static/media/Walmart.png": "/static/media/Walmart.6f1ca0896de90a098dd7.png",
     "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
     "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
     "index.html": "/index.html",
     "main.64a6c327.css.map": "/static/css/main.64a6c327.css.map",
-    "main.af3e24ca.js.map": "/static/js/main.af3e24ca.js.map",
+    "main.745aa341.js.map": "/static/js/main.745aa341.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64a6c327.css",
-    "static/js/main.af3e24ca.js"
+    "static/js/main.745aa341.js"
   ]
 }
