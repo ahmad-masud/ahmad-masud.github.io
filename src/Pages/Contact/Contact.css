@@ -85,13 +85,17 @@
 }
 
 .contact-success-label {
-    color: var(--font-color);
+    position: fixed;
+    color: white;
     font-weight: bold;
     font-size: var(--font-size);
-    background: var(--secondary-color);
+    background: var(--accent-color);
     padding: 10px;
-    border-radius: 5px;
-    margin-left: -300px;
+    border-radius: 15px;
+    right: 0;
+    top: 0;
+    margin-right: 10px;
+    margin-top: -70px;
     transition: all 200ms ease-in-out;
 }
 
