@@ -1,6 +1,5 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import logo from '../../Images/logo.png';
 
 function Navbar() {
 
@@ -38,7 +37,7 @@ function Navbar() {
   function toggleNav() {
     var Top = document.getElementById('media-nav').style.getPropertyValue('margin-top');
   
-    if (Top == '60px') {
+    if (Top === '60px') {
       closeNav()
     } else {
       openNav()
@@ -57,7 +56,7 @@ function Navbar() {
         <div className='nav-container'>
           <div className='nav-logo-container'>
             <Link to='/' className='logo-nav-link'>
-              <img src={logo} alt='logo' className='logo' onClick={closeNav}></img>
+              <img src="/logo.png" alt='logo' className='logo' onClick={closeNav}></img>
             </Link>
             <Link to='/' className='text-logo-nav-link' id='name' onClick={closeNav}>Ahmad Masud</Link>
           </div>
@@ -65,7 +64,7 @@ function Navbar() {
             <Link to='/Experiences' className='nav-link experience-nav-link'>Experiences</Link>
             <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
             <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
-            <a href='https://github.com/ahmad-masud' className='nav-link github-nav-link' target='_blank'><i className="fa-brands fa-github"></i></a>
+            <a href='https://github.com/ahmad-masud' className='nav-link github-nav-link' target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i></a>
           </div>
           <div className='nav-toggle-button' id='toggle-button' onClick={toggleNav}>
             <div className='toggle-icon'></div>
@@ -80,7 +79,7 @@ function Navbar() {
           <hr className='media-nav-link-line'></hr>
           <Link to='/Contact' className='media-nav-link contact-media-nav-link' onClick={closeNav}>Contact</Link>
           <hr className='media-nav-link-line'></hr>
-          <a href='https://github.com/ahmad-masud' className='media-nav-link projects-media-nav-link' onClick={closeNav} target='_blank'>Github <i className="fa-solid fa-up-right-from-square"></i></a>
+          <a href='https://github.com/ahmad-masud' className='media-nav-link projects-media-nav-link' onClick={closeNav} target='_blank' rel="noreferrer">Github <i className="fa-solid fa-up-right-from-square"></i></a>
           <hr className='media-nav-link-line'></hr>
         </div>
       </div>

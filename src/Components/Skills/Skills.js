@@ -39,15 +39,15 @@ function Skills() {
         <header className='skills-title'>Some of my Skills</header>
         <header className='skills-subtitle'>Coding</header>
         <ul className='skills-list'>
-          {codingSkills.map(function (skill) {
-            return <li className='skills-item'>{skill}</li>
-          })}
+          {codingSkills.map((skill, index) => (
+            <li className='skills-item' key={index}>{skill}</li>
+          ))}
         </ul>
         <header className='skills-subtitle'>Miscellaneous</header>
         <ul className='skills-list'>
-          {miscSkills.map(function (skill) {
-            return <li className='skills-item'>{skill}</li>
-          })}
+          {miscSkills.map((skill, index) => (
+            <li className='skills-item' key={index}>{skill}</li>
+          ))}
         </ul>
       </div>
     </div>

@@ -4,8 +4,8 @@ function Info() {
   return (
     <div className='info'>
       <div className='info-container'>
-        <header class="info-main-header">Nice to Meet You</header>
-        <p class='info-paragraph'>
+        <header className="info-main-header">Nice to Meet You</header>
+        <p className='info-paragraph'>
           <span>
             Hello! My name is <span className='highlight'>Ahmad Masud</span> and I am a motivated and dedicated individual currently pursuing my education at Simon 
             Fraser University. I thrive in a professional environment that encourages learning and fosters collaboration to solve 

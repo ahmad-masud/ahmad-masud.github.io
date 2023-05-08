@@ -1,5 +1,5 @@
 import './Hero.css';
-import TextTransition, { presets } from "react-text-transition";
+import TextTransition from "react-text-transition";
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
