@@ -169,12 +169,13 @@
 }
 
 .media-nav-links {
-    margin: 20px auto 0 auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     transition: all 500ms ease-in-out;
-    width: 256px;
+    width: 90%;
     font-weight: 500;
+    gap: 20px;
 }
 
 @media only screen and (max-width: 300px) {
@@ -187,12 +188,11 @@
     text-decoration: none;
     color: var(--font-color);
     font-size: 1em;
+    font-weight: 600;
     transition: all 200ms ease-in-out;
-    margin: 15px 0;
 }
 
-.nav-hr {
-    height: 0.01em;
+.media-nav-link-line {
     background: var(--font-color);
     opacity: 0.25;
 }

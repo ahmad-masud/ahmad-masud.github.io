@@ -36,9 +36,7 @@ function Navbar() {
   }
   
   function toggleNav() {
-    var elem = document.getElementById('media-nav');
-    var Style = window.getComputedStyle(elem);
-    var Top = Style.getPropertyValue('margin-top');
+    var Top = document.getElementById('media-nav').style.getPropertyValue('margin-top');
   
     if (Top == '60px') {
       closeNav()
@@ -77,13 +75,13 @@ function Navbar() {
       <div className='media-nav' id='media-nav'>
         <div className='media-nav-links'>
           <Link to='/Experiences' className='media-nav-link experience-media-nav-link' onClick={closeNav}>Experiences</Link>
-          <hr className='nav-hr' />
+          <hr className='media-nav-link-line'></hr>
           <Link to='/Projects' className='media-nav-link projects-media-nav-link' onClick={closeNav}>Projects</Link>
-          <hr className='nav-hr' />
+          <hr className='media-nav-link-line'></hr>
           <Link to='/Contact' className='media-nav-link contact-media-nav-link' onClick={closeNav}>Contact</Link>
-          <hr className='nav-hr' />
+          <hr className='media-nav-link-line'></hr>
           <a href='https://github.com/ahmad-masud' className='media-nav-link projects-media-nav-link' onClick={closeNav} target='_blank'>Github <i className="fa-solid fa-up-right-from-square"></i></a>
-          <hr className='nav-hr' />
+          <hr className='media-nav-link-line'></hr>
         </div>
       </div>
     </>
