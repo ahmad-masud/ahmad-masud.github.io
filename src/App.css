@@ -10,6 +10,15 @@
     --nav-color: rgba(255, 255, 255, 0.75);
 }
 
+:root.dark {
+    --main-color: rgb(25, 30, 35);
+    --secondary-color: rgb(30, 35, 40);
+    --font-color: white;
+    --border-color: rgba(255, 255, 255, 0.15);
+    --highlight-color: rgb(55, 60, 65);
+    --nav-color: rgba(25, 30, 35, 0.75);
+}
+
 @media only screen and (max-width: 600px) {
     :root {
         --font-size: 1em;

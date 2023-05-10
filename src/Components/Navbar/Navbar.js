@@ -9,44 +9,24 @@ function Navbar() {
   var root = document.querySelector(':root');
 
   if (Cookies.get('colorMode') === 'dark') {
-    root.style.setProperty('--main-color', 'rgb(25, 30, 35)');
-    root.style.setProperty('--secondary-color', 'rgb(30, 35, 40)');
-    root.style.setProperty('--font-color', 'white');
-    root.style.setProperty('--border-color', 'rgba(255, 255, 255, 0.15)');
-    root.style.setProperty('--highlight-color', 'rgb(55, 60, 65)');
-    root.style.setProperty('--nav-color', 'rgba(25, 30, 35, 0.75)');
+    root.classList.add('dark');
+  } else if(!Cookies.get('colorMode')) {
+    root.classList.remove('dark');
+    Cookies.set('colorMode', 'light')
+    setDarkModeOn(false)
   }
 
   function changeColorMode() {
     var root = document.querySelector(':root');
 
     if (Cookies.get('colorMode') === 'dark') {
-      root.style.setProperty('--main-color', 'white');
-      root.style.setProperty('--secondary-color', 'rgb(245,245,245)');
-      root.style.setProperty('--font-color', 'rgb(50, 50, 50)');
-      root.style.setProperty('--border-color', 'rgba(0, 0, 0, 0.15)');
-      root.style.setProperty('--highlight-color', 'rgb(225,225,225)');
-      root.style.setProperty('--nav-color', 'rgba(255, 255, 255, 0.75)');
+      root.classList.remove('dark');
       Cookies.set('colorMode', 'light')
       setDarkModeOn(false)
     } else if (Cookies.get('colorMode') === 'light') {
-      root.style.setProperty('--main-color', 'rgb(25, 30, 35)');
-      root.style.setProperty('--secondary-color', 'rgb(30, 35, 40)');
-      root.style.setProperty('--font-color', 'white');
-      root.style.setProperty('--border-color', 'rgba(255, 255, 255, 0.15)');
-      root.style.setProperty('--highlight-color', 'rgb(55, 60, 65)');
-      root.style.setProperty('--nav-color', 'rgba(25, 30, 35, 0.75)');
+      root.classList.add('dark');
       Cookies.set('colorMode', 'dark')
       setDarkModeOn(true)
-    } else {
-      root.style.setProperty('--main-color', 'white');
-      root.style.setProperty('--secondary-color', 'rgb(245,245,245)');
-      root.style.setProperty('--font-color', 'rgb(50, 50, 50)');
-      root.style.setProperty('--border-color', 'rgba(0, 0, 0, 0.15)');
-      root.style.setProperty('--highlight-color', 'rgb(225,225,225)');
-      root.style.setProperty('--nav-color', 'rgba(255, 255, 255, 0.75)');
-      Cookies.set('colorMode', 'light')
-      setDarkModeOn(false)
     }
   }
 

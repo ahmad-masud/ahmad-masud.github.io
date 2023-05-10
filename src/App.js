@@ -6,7 +6,7 @@ import Experiences from './Pages/Experience/Experiences.js';
 import Projects from './Pages/Projects/Projects.js';
 import Contact from './Pages/Contact/Contact.js';
 import NotFound from './Pages/NotFound/NotFound.js'
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (

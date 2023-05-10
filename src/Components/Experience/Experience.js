@@ -7,7 +7,7 @@ function Experience({data}) {
         <img className='experience-image' src={data.image} alt={data.title + "Image"}></img>
         <div className='experience-info-container'>
           <div className='experience-header-container'>
-            <a className='experience-date'>{data.date}</a>
+            <span className='experience-date'>{data.date}</span>
             <header className='experience-title'>{data.title}</header>
           </div>
           <p className='experience-paragraph'>{data.description}</p>
