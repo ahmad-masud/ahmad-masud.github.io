@@ -59,7 +59,7 @@
 .nav-links {
     height: 100%;
     display: flex;
-    margin-right: 10px;
+    margin-right: 20px;
     gap: 5px;
     align-items: center;
 }
@@ -73,9 +73,11 @@
     background: transparent;
     padding: 10px 10px;
     border-radius: 2em;
+    border: none;
+    cursor: pointer;
 }
 
-.nav-link .fa-github {
+.nav-link .fa-github, .nav-link .fa-solid {
     font-size: 1.5em;
 }
 
@@ -88,7 +90,7 @@
     display: none;
     justify-content: center;
     align-items: center;
-    width: 60px;
+    width: 40px;
     height: 60px;
     cursor: pointer;
     transition: all 200ms ease-in-out;
@@ -100,7 +102,7 @@
         display: flex;
     }
 
-    .nav-links {
+    .experience-nav-link, .projects-nav-link, .contact-nav-link, .github-nav-link {
         display: none;
     }
 }

@@ -1,7 +1,54 @@
 import './Navbar.css';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Cookies from 'js-cookie';
 
 function Navbar() {
+
+  const [darkModeOn, setDarkModeOn] = useState(Cookies.get('colorMode') === 'dark')
+  var root = document.querySelector(':root');
+
+  if (Cookies.get('colorMode') === 'dark') {
+    root.style.setProperty('--main-color', 'rgb(25, 30, 35)');
+    root.style.setProperty('--secondary-color', 'rgb(30, 35, 40)');
+    root.style.setProperty('--font-color', 'white');
+    root.style.setProperty('--border-color', 'rgba(255, 255, 255, 0.15)');
+    root.style.setProperty('--highlight-color', 'rgb(55, 60, 65)');
+    root.style.setProperty('--nav-color', 'rgba(25, 30, 35, 0.75)');
+  }
+
+  function changeColorMode() {
+    var root = document.querySelector(':root');
+
+    if (Cookies.get('colorMode') === 'dark') {
+      root.style.setProperty('--main-color', 'white');
+      root.style.setProperty('--secondary-color', 'rgb(245,245,245)');
+      root.style.setProperty('--font-color', 'rgb(50, 50, 50)');
+      root.style.setProperty('--border-color', 'rgba(0, 0, 0, 0.15)');
+      root.style.setProperty('--highlight-color', 'rgb(225,225,225)');
+      root.style.setProperty('--nav-color', 'rgba(255, 255, 255, 0.75)');
+      Cookies.set('colorMode', 'light')
+      setDarkModeOn(false)
+    } else if (Cookies.get('colorMode') === 'light') {
+      root.style.setProperty('--main-color', 'rgb(25, 30, 35)');
+      root.style.setProperty('--secondary-color', 'rgb(30, 35, 40)');
+      root.style.setProperty('--font-color', 'white');
+      root.style.setProperty('--border-color', 'rgba(255, 255, 255, 0.15)');
+      root.style.setProperty('--highlight-color', 'rgb(55, 60, 65)');
+      root.style.setProperty('--nav-color', 'rgba(25, 30, 35, 0.75)');
+      Cookies.set('colorMode', 'dark')
+      setDarkModeOn(true)
+    } else {
+      root.style.setProperty('--main-color', 'white');
+      root.style.setProperty('--secondary-color', 'rgb(245,245,245)');
+      root.style.setProperty('--font-color', 'rgb(50, 50, 50)');
+      root.style.setProperty('--border-color', 'rgba(0, 0, 0, 0.15)');
+      root.style.setProperty('--highlight-color', 'rgb(225,225,225)');
+      root.style.setProperty('--nav-color', 'rgba(255, 255, 255, 0.75)');
+      Cookies.set('colorMode', 'light')
+      setDarkModeOn(false)
+    }
+  }
 
   window.addEventListener('scroll', function () {
     var name = this.document.getElementById('name')
@@ -65,9 +112,13 @@ function Navbar() {
             <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
             <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
             <a href='https://github.com/ahmad-masud' className='nav-link github-nav-link' target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i></a>
-          </div>
-          <div className='nav-toggle-button' id='toggle-button' onClick={toggleNav}>
-            <div className='toggle-icon'></div>
+            <button onClick={changeColorMode}className='nav-link' id='color-switch-button'>
+              {!darkModeOn && <i className='fa-solid fa-sun'></i>}
+              {darkModeOn && <i className='fa-solid fa-moon'></i>}
+            </button>
+            <div className='nav-toggle-button' id='toggle-button' onClick={toggleNav}>
+              <div className='toggle-icon'></div>
+            </div>
           </div>
         </div>
       </div>
