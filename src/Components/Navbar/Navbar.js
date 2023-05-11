@@ -1,20 +1,23 @@
 import './Navbar.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie';
 
 function Navbar() {
 
   const [darkModeOn, setDarkModeOn] = useState(Cookies.get('colorMode') === 'dark')
-  var root = document.querySelector(':root');
 
-  if (Cookies.get('colorMode') === 'dark') {
-    root.classList.add('dark');
-  } else if(!Cookies.get('colorMode')) {
-    root.classList.remove('dark');
-    Cookies.set('colorMode', 'light')
-    setDarkModeOn(false)
-  }
+  useEffect(() => {
+    var root = document.querySelector(':root');
+
+    if (Cookies.get('colorMode') === 'dark') {
+      root.classList.add('dark');
+    } else if(!Cookies.get('colorMode')) {
+      root.classList.remove('dark');
+      Cookies.set('colorMode', 'light')
+      setDarkModeOn(false)
+    }  
+  },[]);
 
   function changeColorMode() {
     var root = document.querySelector(':root');
