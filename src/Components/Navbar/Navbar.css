@@ -59,7 +59,7 @@
 .nav-links {
     height: 100%;
     display: flex;
-    margin-right: 20px;
+    margin-right: 10px;
     gap: 5px;
     align-items: center;
 }
