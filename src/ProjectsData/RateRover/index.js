@@ -1,16 +1,17 @@
-import CurrencyConverterGif from './Currency-Converter.gif';
+import RateRoverGif from './RateRover.gif';
 
-const CurrencyConverter = {
-    title: "Currency Converter",
+const RateRover = {
+    title: "RateRover",
     description: 
         `An application using React that leverages Java and JSX to facilitate currency conversion across different countries. 
         This project allowed me to enhance my React proficiency and gain hands-on experience in making API calls with external 
         websites and servers. Not only did this project provide me with an opportunity to improve my skills, but it also serves 
         a practical purpose and can benefit a broad range of users.`,
-    github: "https://github.com/ahmad-masud/Currency-Converter",
+    github: "https://github.com/ahmad-masud/RateRover",
+    link: "https://ahmadmasud.xyz/RateRover",
     stacks: ["Javascript", "React", "JSX", "CSS"],
-    image: CurrencyConverterGif,
+    image: RateRoverGif,
     frontpage: true
 }
 
-export default CurrencyConverter;
+export default RateRover;

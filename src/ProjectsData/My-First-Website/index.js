@@ -7,6 +7,7 @@ const MyFirstWebsite = {
         fun project during my high school years and it turned out to be great. The website showcases my personal 
         information and accomplishments, making it the perfect platform for people to get to know me.`,
     github: "https://github.com/ahmad-masud/My-First-Website",
+    link: "https://ahmadmasud.xyz/My-First-Website",
     stacks: ["HTML", "CSS", "Javascript"],
     image: MyFirstWebsiteGif,
     frontpage: false
