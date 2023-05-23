@@ -1,40 +1,23 @@
 import './Hero.css';
-import TextTransition from "react-text-transition";
-import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Hero() {
-
-  const TEXTS = [
-    "Computer Science Major",
-    "Web Developer",
-    "Web Designer",
-    "Problem-Solver"
-  ];
-
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    const intervalId = setInterval(() =>
-      setIndex(index => index + 1),
-      2000 // every 3 seconds
-    );
-    return () => clearTimeout(intervalId);
-  }, []);
-
   return (
-    <div className='hero'>
-        <div className='hero-container'>
+    <div className='hero-container'>
+        <div className='hero'>
             <div className='hero-texts'>
-                <header className='hero-name-text'>I'm Ahmad</header>
-                <span className='hero-job-text'>
-                  A <TextTransition inline children={TEXTS[index % TEXTS.length]} />
-                </span>
+                <p className='hero-greeting-text'>Hey there -</p>
+                <div className='hero-texts-container'>
+                  <p className='hero-text'>I'm Ahmad. I'm a <span className='highlight'>Student</span>,</p>
+                  <p className='hero-text'><span className='highlight'>Developer</span>, and</p>
+                  <p className='hero-text'><span className='highlight'>soon-to-be Software Engineer</span>.</p>
+                </div>
+                <div className='hero-links'>
+                  <Link to='/Contact' className='hero-link'>Connect</Link>
+                  <Link to='/Projects' className='hero-link project-link'>Projects</Link>
+                </div>
             </div>
-            <div className='hero-links'>
-              <Link to='/Contact' className='hero-link'>Connect</Link>
-              <Link to='/Projects' className='hero-link project-link'>Projects</Link>
-            </div>
+            <img src='Profile.jpg' alt='Profile' className='profile-image'/>
         </div>
     </div>
   );

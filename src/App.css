@@ -1,49 +1,49 @@
 :root {
-    --font-size: 1.25em;
-    --width: 1200px;
-    --main-color: white;
-    --secondary-color: rgb(245,245,245);
-    --accent-color: rgb(0, 125, 255);
-    --font-color: rgb(50, 50, 50);
-    --border-color: rgba(0, 0, 0, 0.15);
-    --highlight-color: rgb(225,225,225);
-    --nav-color: rgba(255, 255, 255, 0.75);
+   --font-size: 1.25em;
+   --width: 1200px;
+   --main-color: white;
+   --secondary-color: rgb(245,245,245);
+   --accent-color: #3797d3;
+   --font-color: rgb(50, 50, 50);
+   --border-color: rgba(0, 0, 0, 0.15);
+   --highlight-color: rgb(225,225,225);
+   --nav-color: rgba(255, 255, 255, 0.75);
 }
 
 :root.dark {
-    --main-color: rgb(25, 30, 35);
-    --secondary-color: rgb(30, 35, 40);
-    --font-color: white;
-    --border-color: rgba(255, 255, 255, 0.15);
-    --highlight-color: rgb(55, 60, 65);
-    --nav-color: rgba(25, 30, 35, 0.75);
+   --main-color: rgb(25, 30, 35);
+   --secondary-color: rgb(30, 35, 40);
+   --font-color: white;
+   --border-color: rgba(255, 255, 255, 0.15);
+   --highlight-color: rgb(55, 60, 65);
+   --nav-color: rgba(25, 30, 35, 0.75);
 }
 
 @media only screen and (max-width: 600px) {
-    :root {
-        --font-size: 1em;
-    }
+   :root {
+       --font-size: 1em;
+   }
 }
 
 * {
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 body {
-    background: var(--main-color);
+   background: var(--main-color);
 }
 
 .app {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
 }
 
 a {
-    text-decoration: none;
+   text-decoration: none;
 }

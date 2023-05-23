@@ -34,16 +34,14 @@ function Navbar() {
   }
 
   window.addEventListener('scroll', function () {
-    var name = this.document.getElementById('name')
     var nav = this.document.getElementById('nav')
-    name.classList.toggle('visible', window.scrollY > 0);
     nav.classList.toggle('sticky', window.scrollY > 0);
   });
   
   function closeNav() {
     var elem = document.getElementById("media-nav");
   
-    elem.style.marginTop = '55px';
+    elem.style.marginTop = '65px';
     elem.style.opacity = '0';
     elem.style.visibility = 'hidden';
     document.getElementById('toggle-button').classList.remove('open2');
@@ -55,7 +53,7 @@ function Navbar() {
   function openNav() {
     var elem = document.getElementById("media-nav");
   
-    elem.style.marginTop = '60px';
+    elem.style.marginTop = '70px';
     elem.style.opacity = '1';
     elem.style.visibility = 'visible';
     document.getElementById('toggle-button').classList.add('open');
@@ -67,7 +65,7 @@ function Navbar() {
   function toggleNav() {
     var Top = document.getElementById('media-nav').style.getPropertyValue('margin-top');
   
-    if (Top === '60px') {
+    if (Top === '70px') {
       closeNav()
     } else {
       openNav()
@@ -88,7 +86,6 @@ function Navbar() {
             <Link to='/' className='logo-nav-link'>
               <img src="/logo.png" alt='logo' className='logo' onClick={closeNav}></img>
             </Link>
-            <Link to='/' className='text-logo-nav-link' id='name' onClick={closeNav}>Ahmad Masud</Link>
           </div>
           <div className='nav-links'>
             <Link to='/Experiences' className='nav-link experience-nav-link'>Experiences</Link>

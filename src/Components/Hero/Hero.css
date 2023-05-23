@@ -1,46 +1,44 @@
-.hero {
+.hero-container {
     width: 100%;
-    height: 500px;
-    padding: 10px 0;
-    position: relative;
     margin-top: 60px;
     background: var(--main-color);
     overflow: hidden;
 }
 
-.hero-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    align-items: center;
-    flex-direction: column;
+.hero {
+    margin: 70px auto;
+    flex-direction: row;
     display: flex;
     gap: 25px;
-    padding: 25px;
-    width: 100%;
+    max-width: var(--width);
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile-image {
+    width: 40%;
+    border-radius: 62% 38% 56% 44% / 36% 32% 68% 64%;
 }
 
 .hero-texts {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    gap: 20px;
+    font-weight: 500;
 }
 
-.hero-name-text {
-    font-size: 8em;
+.hero-greeting-text {
+    font-size: calc(var(--font-size)*2.6);
     font-weight: bold;
     color: var(--font-color);
     transition: all 200ms ease-in-out;
 }
 
-.hero-job-text {
-    font-size: 3em;
+.hero-text {
+    font-size: calc(var(--font-size)*1.8);
     color: var(--font-color);
     transition: all 200ms ease-in-out;
-    font-weight: bold;
 }
 
 .hero-links {
@@ -76,28 +74,15 @@
     filter: brightness(0.75);
 }
 
-@media only screen and (max-width: 1440px) {
-    .hero-name-text {
-        font-size: 7em;
+@media screen and (max-width: 800px) {
+    .hero {
+        flex-direction: column-reverse;
     }
-    
-    .hero-job-text {
-        font-size: 2.5em;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .hero-container {
-        width: 90%;
-    }
-    
-    .hero-name-text {
-        font-size: 4em;
-    }
-    
-    .hero-job-text {
-        font-size: 1.5em;
+    .profile-image {
+        width: 300px;
     }
 }
 
-
+.hero .highlight {
+    color: var(--accent-color);
+}
