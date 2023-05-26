@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.37d7eb24.css",
-    "main.js": "/static/js/main.bf09a67c.js",
+    "main.js": "/static/js/main.de600be7.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/Sorting-Visualizer.gif": "/static/media/Sorting-Visualizer.506e73f6b8aeee6b852c.gif",
     "static/media/My-First-Website.gif": "/static/media/My-First-Website.6f444d5fab8711e93dc2.gif",
@@ -12,13 +12,14 @@
     "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
     "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
+    "static/media/Kumon.jpg": "/static/media/Kumon.b1fe5598df0183c38d1e.jpg",
     "index.html": "/index.html",
     "main.37d7eb24.css.map": "/static/css/main.37d7eb24.css.map",
-    "main.bf09a67c.js.map": "/static/js/main.bf09a67c.js.map",
+    "main.de600be7.js.map": "/static/js/main.de600be7.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37d7eb24.css",
-    "static/js/main.bf09a67c.js"
+    "static/js/main.de600be7.js"
   ]
 }
