@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='footer'>
       <p className='footer-quote'>
-        "It is better to fail in originality than to succeed in imitation."
+        "Hard work beats talent when talent doesn't work hard."
       </p>
       <div className='footer-links'>
           <a href='https://github.com/ahmad-masud' className='footer-link' target="_blank" rel="noreferrer">
