@@ -17,7 +17,7 @@ function Hero() {
                   <Link to='/Projects' className='hero-link project-link'>Projects</Link>
                 </div>
             </div>
-            <img src='Profile.jpg' alt='Profile' className='profile-image'/>
+            <img src='Profile.png' alt='Profile' className='profile-image'/>
         </div>
     </div>
   );
