@@ -17,6 +17,9 @@ function Skills() {
     'OPP',
     'GatsbyJS',
     'GraphQL',
+    'Java',
+    'RISC-V',
+    'MATLAB',
   ];
 
   const miscSkills=[
@@ -24,20 +27,24 @@ function Skills() {
     'Photoshop',
     'Game Testing',
     'Organization',
-    'In-store support',
-    'High-energy attitude',
-    'Computer Skills',
+    'Customer Serivce',
     'Communication',
     'Spanish',
     'Urdu',
     'Weightlifting',
+    'Leadership',
+    'Tutoring',
+    'Teamwork',
   ]
+
+  codingSkills.sort();
+  miscSkills.sort();
 
   return (
     <div className='skills'>
       <div className='skills-container'>
         <header className='skills-title'>Some of my Skills</header>
-        <header className='skills-subtitle'>Coding</header>
+        <header className='skills-subtitle'>Technical</header>
         <ul className='skills-list'>
           {codingSkills.map((skill, index) => (
             <li className='skills-item' key={index}>{skill}</li>
