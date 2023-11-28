@@ -1,0 +1,63 @@
+.education-title {
+    font-size: calc(var(--font-size)*2);
+    font-weight: bold;
+    color: var(--font-color);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.transcript {
+    background: var(--secondary-color);
+    width: 90%;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color);
+}
+
+.transcript-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: 30px;
+}
+
+.transcript-title {
+    font-weight: bold;
+    font-size: 2em;
+    color: var(--accent-color);
+    text-decoration: wavy;
+}
+
+.transcript-date {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.transcript-courses-title {
+    font-weight: 500;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.transcript-section-title {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.course-list {
+    list-style-type: none;
+}
+
+.course {
+    font-size: var(--font-size);
+    opacity: 0.75;
+}
+
+.course:before {
+    content: '• ';
+    color: var(--accent-color);
+}

@@ -89,6 +89,7 @@ function Navbar() {
           </div>
           <div className='nav-links'>
             <Link to='/Experiences' className='nav-link experience-nav-link'>Experiences</Link>
+            <Link to='/Education' className='nav-link education-nav-link'>Education</Link>
             <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
             <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
             <a href='https://github.com/ahmad-masud' className='nav-link github-nav-link' target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i></a>
@@ -105,6 +106,8 @@ function Navbar() {
       <div className='media-nav' id='media-nav'>
         <div className='media-nav-links'>
           <Link to='/Experiences' className='media-nav-link experience-media-nav-link' onClick={closeNav}>Experiences</Link>
+          <hr className='media-nav-link-line'></hr>
+          <Link to='/Education' className='media-nav-link education-media-nav-link' onClick={closeNav}>Education</Link>
           <hr className='media-nav-link-line'></hr>
           <Link to='/Projects' className='media-nav-link projects-media-nav-link' onClick={closeNav}>Projects</Link>
           <hr className='media-nav-link-line'></hr>

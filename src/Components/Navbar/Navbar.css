@@ -88,7 +88,7 @@
         display: flex;
     }
 
-    .experience-nav-link, .projects-nav-link, .contact-nav-link, .github-nav-link {
+    .experience-nav-link, .projects-nav-link, .contact-nav-link, .github-nav-link, .education-nav-link {
         display: none;
     }
 }
