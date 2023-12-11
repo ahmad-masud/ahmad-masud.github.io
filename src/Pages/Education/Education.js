@@ -12,28 +12,28 @@ function Education() {
                 <div className='transcript-section'>
                 <p className='transcript-section-title'>Computer Science</p>
                 <ul className='course-list'>
-                    <li className='course'>CMPT 120: Programming I</li>
-                    <li className='course'>CMPT 125: Programming II</li>
-                    <li className='course'>CMPT 225: Data Structures and Algorithms</li>
-                    <li className='course'>CMPT 276: Software Engineering</li>
-                    <li className='course'>CMPT 295: Computer Systems</li>
-                    <li className='course'>CMPT 354: Database Systems</li>
+                    <li className='course'>Programming I (Python)</li>
+                    <li className='course'>Programming II (C/C++)</li>
+                    <li className='course'>Data Structures and Algorithms</li>
+                    <li className='course'>Software Engineering</li>
+                    <li className='course'>Computer Systems</li>
+                    <li className='course'>Database Systems</li>
                 </ul>
                 </div>
                 <div className='transcript-section'>
                 <p className='transcript-section-title'>Mathematics</p>
                 <ul className='course-list'>
-                    <li className='course'>MACM 101: Discrete Mathematics</li>
-                    <li className='course'>MATH 151: Differential Calculus</li>
-                    <li className='course'>MATH 152: Integral Calculus</li>
-                    <li className='course'>MATH 232: Linear Algebra</li>
-                    <li className='course'>STAT 270: Probability and Statistics</li>
+                    <li className='course'>Discrete Mathematics</li>
+                    <li className='course'>Differential Calculus</li>
+                    <li className='course'>Integral Calculus</li>
+                    <li className='course'>Linear Algebra</li>
+                    <li className='course'>Probability and Statistics</li>
                 </ul>
                 </div>
                 <div className='transcript-section'>
                 <p className='transcript-section-title'>Business</p>
                 <ul className='course-list'>
-                    <li className='course'>Bus 200: Business Fundamentals</li>
+                    <li className='course'>Business Fundamentals</li>
                 </ul>
                 </div>
             </div>

@@ -55,6 +55,7 @@
 .course {
     font-size: var(--font-size);
     opacity: 0.75;
+    line-height: 2em;
 }
 
 .course:before {
