@@ -1,9 +1,9 @@
-import KungFuFactoryImage from './Kung-Fu-Factory.png';
+import PocketPinataImage from './Pocket-Pinata_Interactive.png';
 
-const KungFuFactory = {
-    image: KungFuFactoryImage,
+const PocketPinataInteractive = {
+    image: PocketPinataImage,
     date: "03/2021 - 04/2021",
-    title: "Game Tester ⋅ Kung Fu Factory Games",
+    title: "Game Tester ⋅ Pocket Pinata Interactive",
     description:
         `In grade 12, I took a job as a game tester at Kung Fu Factory Games. I did not get
         paid for the job and it was purely for experience. I had to look for bugs in mobile
@@ -18,4 +18,4 @@ const KungFuFactory = {
     ],
 }
 
-export default KungFuFactory;
+export default PocketPinataInteractive;
