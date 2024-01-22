@@ -1,5 +1,6 @@
 import './Hero.css';
 import { Link } from 'react-router-dom';
+import { Typewriter } from 'react-simple-typewriter';
 
 function Hero() {
   return (
@@ -8,9 +9,14 @@ function Hero() {
             <div className='hero-texts'>
                 <p className='hero-greeting-text'>Hey there -</p>
                 <div className='hero-texts-container'>
-                  <p className='hero-text'>I'm Ahmad. I'm a <span className='highlight'>Student</span>,</p>
-                  <p className='hero-text'><span className='highlight'>Developer</span>, and</p>
-                  <p className='hero-text'><span className='highlight'>soon-to-be Software Engineer</span>.</p>
+                  <p className='hero-text'>I'm Ahmad,</p>
+                  <p className='hero-text'>Nice to <span className='highlight'>meet you,</span></p>
+                  <p className='hero-text'>I'm a <span className='highlight'>
+                    <Typewriter 
+                      words={['SFU Student.', 'Software Developer.', 'Creator.', 'Team Leader.']}
+                      loop={Infinity}
+                      cursor
+                    /></span></p> 
                 </div>
                 <div className='hero-links'>
                   <Link to='/Contact' className='hero-link'>Connect</Link>

@@ -8,7 +8,7 @@ const RateRover = {
         websites and servers. Not only did this project provide me with an opportunity to improve my skills, but it also serves 
         a practical purpose and can benefit a broad range of users.`,
     github: "https://github.com/ahmad-masud/RateRover",
-    link: "https://ahmadmasud.xyz/RateRover",
+    link: "https://ahmadmasud.com/RateRover",
     stacks: ["Javascript", "React", "JSX", "CSS"],
     image: RateRoverGif,
     frontpage: true
