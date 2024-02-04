@@ -10,7 +10,7 @@ const DrawMaven = {
     github: "https://github.com/ahmad-masud/Draw-Maven",
     stacks: ["Java", "Java Swing", "Java Frames"],
     image: DrawMavenGif,
-    frontpage: true
+    frontpage: false
 }
 
 export default DrawMaven;
