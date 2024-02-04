@@ -9,7 +9,10 @@ function Project({data}) {
               <div className='project'>
                 <img className='project-gif' src={data.image} alt={data.title + "Gif"}></img>
                 <div className='project-info-container'>
-                  <header className='project-title'>{data.title}</header>
+                  <div className='project-header-container'>
+                    <span className='project-date'>{data.date.getMonth() + 1}/{data.date.getFullYear()}</span>
+                    <header className='project-title'>{data.title} {data.pinned && <i className="fa-solid fa-thumbtack"></i>}</header>
+                  </div>
                   <p className='project-overview'>{data.description}</p>
                   <div className='box-list-container'>
                     <div className='links'>

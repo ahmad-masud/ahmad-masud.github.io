@@ -23,7 +23,7 @@ function Home() {
         <p className='projects-title'>Highlighted Projects</p>
       </Fade>
         {projectsData.map((projectData, index) => (
-          projectData.frontpage &&
+          projectData.pinned &&
             <Project
               key={index}
               data={projectData}

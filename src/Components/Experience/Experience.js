@@ -9,7 +9,10 @@ function Experience({data}) {
           <img className='experience-image' src={data.image} alt={data.title + "Image"}></img>
           <div className='experience-info-container'>
             <div className='experience-header-container'>
-              <span className='experience-date'>{data.date}</span>
+              <span className='experience-date'>
+                {data.startDate.getMonth() + 1}/{data.startDate.getFullYear()} - 
+                {data.current ? ' Current' : ` ${data.endDate.getMonth() + 1}/${data.endDate.getFullYear()}`}
+              </span>
               <header className='experience-title'>{data.title}</header>
             </div>
             <p className='experience-paragraph'>{data.description}</p>
