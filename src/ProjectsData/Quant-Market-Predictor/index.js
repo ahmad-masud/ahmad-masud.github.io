@@ -1,6 +1,6 @@
-import qetImage from './qet.png'
+import image from './qet.png'
 
-const qet = {
+const ProjectData = {
     title: "Quant Market Predictor",
     date: new Date(2024, 1),
     description: 
@@ -9,8 +9,8 @@ const qet = {
         into potential future market prices.`,
     github: "https://github.com/ahmad-masud/Quant-Market-Predictor?tab=readme-ov-file",
     stacks: ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn"],
-    image: qetImage,
+    image: image,
     pinned: true
-}
+};
 
-export default qet
+export default ProjectData

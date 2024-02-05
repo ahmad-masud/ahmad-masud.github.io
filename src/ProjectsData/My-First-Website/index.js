@@ -1,6 +1,6 @@
-import MyFirstWebsiteGif from './My-First-Website.gif';
+import image from './My-First-Website.gif';
 
-const MyFirstWebsite = {
+const ProjectData = {
     title: "My First Website",
     date: new Date(2022, 2),
     description: 
@@ -10,8 +10,8 @@ const MyFirstWebsite = {
     github: "https://github.com/ahmad-masud/My-First-Website",
     link: "https://ahmadmasud.com/My-First-Website",
     stacks: ["HTML", "CSS", "Javascript"],
-    image: MyFirstWebsiteGif,
+    image: image,
     pinned: false
-}
+};
 
-export default MyFirstWebsite;
+export default ProjectData;

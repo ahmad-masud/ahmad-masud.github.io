@@ -1,6 +1,6 @@
-import RateRoverGif from './RateRover.gif';
+import image from './RateRover.gif';
 
-const RateRover = {
+const ProjectData = {
     title: "RateRover",
     date: new Date(2023, 5),
     description: 
@@ -11,8 +11,8 @@ const RateRover = {
     github: "https://github.com/ahmad-masud/RateRover",
     link: "https://ahmadmasud.com/RateRover",
     stacks: ["Javascript", "React", "JSX", "CSS"],
-    image: RateRoverGif,
+    image: image,
     pinned: true
-}
+};
 
-export default RateRover;
+export default ProjectData;

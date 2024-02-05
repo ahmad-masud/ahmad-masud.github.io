@@ -1,11 +1,12 @@
-import PocketPinataImage from './Pocket-Pinata_Interactive.png';
+import image from './Pocket-Pinata_Interactive.png';
 
-const PocketPinataInteractive = {
-    image: PocketPinataImage,
+const ExperienceData = {
+    image: image,
     startDate: new Date(2021, 3),
     endDate: new Date(2021, 4),
     current: false,
-    title: "Game Tester ⋅ Pocket Pinata Interactive",
+    title: "Game Tester",
+    company: "Pocket Pinata Interactive",
     description:
         `In grade 12, I took a job as a game tester at Kung Fu Factory Games. I did not get
         paid for the job and it was purely for experience. I had to look for bugs in mobile
@@ -18,6 +19,6 @@ const PocketPinataInteractive = {
         game testing`,
         `Troubleshot bugs to find the root cause and improve data collection methods`,
     ],
-}
+};
 
-export default PocketPinataInteractive;
+export default ExperienceData;

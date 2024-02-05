@@ -1,6 +1,6 @@
-import CalculatorGif from './Calculator.gif'
+import image from './Calculator.gif'
 
-const Calculator = {
+const ProjectData = {
     title: "Calculator",
     date: new Date(2022, 12),
     description: 
@@ -9,8 +9,8 @@ const Calculator = {
         subtracting, multiplication, division, and percentages.`,
     github: "https://github.com/ahmad-masud/Calculator",
     stacks: ["Java", "Java Swing", "Java Frames"],
-    image: CalculatorGif,
+    image: image,
     pinned: false
-}
+};
 
-export default Calculator
+export default ProjectData

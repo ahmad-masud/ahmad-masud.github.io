@@ -1,6 +1,6 @@
-import SortingVisualizerGif from './Sorting-Visualizer.gif';
+import image from './Sorting-Visualizer.gif';
 
-const SortingVisualizer = {
+const ProjectData = {
     title: "Sorting Visualizer",
     date: new Date(2022, 12),
     description: 
@@ -10,8 +10,8 @@ const SortingVisualizer = {
         corresponds to its index in the array.`,
     github: "https://github.com/ahmad-masud/Sorting-Visualizer",
     stacks: ["Java", "Java Swing", "Java Frames"],
-    image: SortingVisualizerGif,
+    image: image,
     pinned: true
-}
+};
 
-export default SortingVisualizer;
+export default ProjectData;

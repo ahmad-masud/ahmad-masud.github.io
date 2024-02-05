@@ -1,6 +1,6 @@
-import DrawMavenGif from './Draw-Maven.gif';
+import image from './Draw-Maven.gif';
 
-const DrawMaven = {
+const ProjectData = {
     title: "Draw Maven",
     date: new Date(2023, 3),
     description: 
@@ -10,8 +10,8 @@ const DrawMaven = {
         for easy navigation and use of its features.`,
     github: "https://github.com/ahmad-masud/Draw-Maven",
     stacks: ["Java", "Java Swing", "Java Frames"],
-    image: DrawMavenGif,
+    image: image,
     pinned: false
-}
+};
 
-export default DrawMaven;
+export default ProjectData;

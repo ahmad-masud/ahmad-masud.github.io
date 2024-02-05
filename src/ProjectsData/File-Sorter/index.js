@@ -1,6 +1,6 @@
-import FileSorterImage from './File-Sorter.png'
+import image from './File-Sorter.png'
 
-const FileSorter = {
+const ProjectData = {
     title: "File Sorter",
     date: new Date(2023, 12),
     description: 
@@ -9,8 +9,8 @@ const FileSorter = {
         based on chosen criteria: file size, file type, or date modified.`,
     github: "https://github.com/ahmad-masud/File-Sorter",
     stacks: ["Python"],
-    image: FileSorterImage,
+    image: image,
     pinned: false
-}
+};
 
-export default FileSorter
+export default ProjectData
