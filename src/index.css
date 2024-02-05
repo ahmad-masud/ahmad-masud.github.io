@@ -2,6 +2,7 @@
   font-family: "optimistic_display";
   src: local("optimistic_display_regular"),
    url("./fonts/optimistic_display/optimistic_display_regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -9,6 +10,7 @@
   src: local("optimistic_display_medium"),
    url("./fonts/optimistic_display/optimistic_display_medium.ttf") format("truetype");
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
@@ -16,10 +18,10 @@
   src: local("optimistic_display_bold"),
    url("./fonts/optimistic_display/optimistic_display_bold.ttf") format("truetype");
   font-weight: bold;
+  font-display: swap;
 }
 
 body {
-  margin: 0;
   font-family: 'optimistic_display';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

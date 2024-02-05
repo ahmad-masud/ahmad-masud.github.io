@@ -5,7 +5,7 @@ function Project({data}) {
     <div className='projects'>
         <div className='project-container'>
             <div className='project'>
-              <img className='project-gif' src={data.image} alt={data.title + "Gif"}></img>
+              <img className='project-gif' src={data.image} alt={data.title + " Image"}></img>
               <div className='project-info-container'>
                 <div className='project-header-container'>
                   <span className='project-date'>{data.date.getMonth() + 1}/{data.date.getFullYear()}</span>
