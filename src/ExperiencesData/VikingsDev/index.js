@@ -1,4 +1,4 @@
-import image from './VikingsDev.png';
+import image from './VikingsDev.webp';
 
 const ExperienceData = {
     image: image,

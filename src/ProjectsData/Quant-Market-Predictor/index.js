@@ -1,4 +1,4 @@
-import image from './qet.png'
+import image from './qet.webp'
 
 const ProjectData = {
     title: "Quant Market Predictor",

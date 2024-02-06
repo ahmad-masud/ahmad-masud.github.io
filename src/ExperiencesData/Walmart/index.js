@@ -1,4 +1,4 @@
-import image from './Walmart.png';
+import image from './Walmart.webp';
 
 const ExperienceData = {
     image: image,
