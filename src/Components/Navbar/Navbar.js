@@ -84,7 +84,7 @@ function Navbar() {
         <div className='nav-container'>
           <div className='nav-logo-container'>
             <Link to='/' className='logo-nav-link'>
-              <img src="/logo.png" alt='logo' className='logo' onClick={closeNav}></img>
+              <img src="/logo.webp" alt='logo' className='logo' onClick={closeNav} width='50'></img>
             </Link>
           </div>
           <div className='nav-links'>

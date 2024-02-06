@@ -23,7 +23,7 @@ function Hero() {
                   <Link to='/Projects' className='hero-link project-link'>Projects</Link>
                 </div>
             </div>
-            <img src='Profile.png' alt='Profile' className='profile-image'/>
+            <img src='Profile.webp' alt='Profile' className='profile-image' width='90%'/>
         </div>
     </div>
   );

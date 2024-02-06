@@ -4,7 +4,7 @@ function Experience({data}) {
   return (
     <div className='experience'>
       <div className='experience-container'>
-        <img className='experience-image' src={data.image} alt={data.title + " Image"}></img>
+        <img className='experience-image' src={data.image} alt={data.title + " Image"} width='30%'></img>
         <div className='experience-info-container'>
           <div className='experience-header-container'>
             <span className='experience-date'>
