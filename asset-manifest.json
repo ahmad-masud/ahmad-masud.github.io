@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.cba4a9ff.css",
-    "main.js": "/static/js/main.9d1aa035.js",
+    "main.js": "/static/js/main.1085a47c.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Sorting-Visualizer.gif": "/static/media/Sorting-Visualizer.506e73f6b8aeee6b852c.gif",
+    "static/media/Sorting-Visualizer.gif": "/static/media/Sorting-Visualizer.65a89d67326fcf645ebe.gif",
     "static/media/Calculator.gif": "/static/media/Calculator.9d0dab077b023764b607.gif",
-    "static/media/qet.png": "/static/media/qet.7e623332bd66d80c8f48.png",
     "static/media/Draw-Maven.gif": "/static/media/Draw-Maven.f95aa6df2f1a452770ad.gif",
     "static/media/RateRover.gif": "/static/media/RateRover.680d4f205ac3cdea2740.gif",
-    "static/media/Pocket-Pinata_Interactive.png": "/static/media/Pocket-Pinata_Interactive.4ecc8a207097fd83375c.png",
-    "static/media/VikingsDev.png": "/static/media/VikingsDev.bc87a0469a1f9b9abb38.png",
-    "static/media/Walmart.png": "/static/media/Walmart.6f1ca0896de90a098dd7.png",
+    "static/media/Pocket-Pinata_Interactive.webp": "/static/media/Pocket-Pinata_Interactive.f0eeb00e2bc2c7760427.webp",
+    "static/media/qet.webp": "/static/media/qet.0dd2668c88e426c961f2.webp",
+    "static/media/VikingsDev.webp": "/static/media/VikingsDev.dcddbc3d1e88ed0f3793.webp",
     "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
+    "static/media/Walmart.webp": "/static/media/Walmart.83726adc9415944f7fd1.webp",
     "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
     "static/media/File-Sorter.png": "/static/media/File-Sorter.d4ea89c6d4a746e8c4f3.png",
-    "static/media/Kumon.jpg": "/static/media/Kumon.b1fe5598df0183c38d1e.jpg",
+    "static/media/Kumon.webp": "/static/media/Kumon.b90833d6551a4dc60cff.webp",
     "index.html": "/index.html",
     "main.cba4a9ff.css.map": "/static/css/main.cba4a9ff.css.map",
-    "main.9d1aa035.js.map": "/static/js/main.9d1aa035.js.map",
+    "main.1085a47c.js.map": "/static/js/main.1085a47c.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cba4a9ff.css",
-    "static/js/main.9d1aa035.js"
+    "static/js/main.1085a47c.js"
   ]
 }
