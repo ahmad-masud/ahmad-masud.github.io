@@ -1,4 +1,4 @@
-import image from './File-Sorter.png'
+import image from './File-Sorter.webp'
 
 const ProjectData = {
     title: "File Sorter",
