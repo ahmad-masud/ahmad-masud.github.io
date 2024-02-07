@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cba4a9ff.css",
-    "main.js": "/static/js/main.1085a47c.js",
+    "main.js": "/static/js/main.7dee5786.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/Sorting-Visualizer.gif": "/static/media/Sorting-Visualizer.65a89d67326fcf645ebe.gif",
     "static/media/Calculator.gif": "/static/media/Calculator.9d0dab077b023764b607.gif",
@@ -14,15 +14,15 @@
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
     "static/media/Walmart.webp": "/static/media/Walmart.83726adc9415944f7fd1.webp",
     "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
-    "static/media/File-Sorter.png": "/static/media/File-Sorter.d4ea89c6d4a746e8c4f3.png",
     "static/media/Kumon.webp": "/static/media/Kumon.b90833d6551a4dc60cff.webp",
+    "static/media/File-Sorter.webp": "/static/media/File-Sorter.db59c4cf44fcee98347b.webp",
     "index.html": "/index.html",
     "main.cba4a9ff.css.map": "/static/css/main.cba4a9ff.css.map",
-    "main.1085a47c.js.map": "/static/js/main.1085a47c.js.map",
+    "main.7dee5786.js.map": "/static/js/main.7dee5786.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cba4a9ff.css",
-    "static/js/main.1085a47c.js"
+    "static/js/main.7dee5786.js"
   ]
 }
