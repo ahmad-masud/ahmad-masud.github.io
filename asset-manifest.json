@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.cba4a9ff.css",
-    "main.js": "/static/js/main.7dee5786.js",
+    "main.css": "/static/css/main.0b535f0e.css",
+    "main.js": "/static/js/main.7149d72a.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/Sorting-Visualizer.gif": "/static/media/Sorting-Visualizer.65a89d67326fcf645ebe.gif",
-    "static/media/Calculator.gif": "/static/media/Calculator.9d0dab077b023764b607.gif",
-    "static/media/Draw-Maven.gif": "/static/media/Draw-Maven.f95aa6df2f1a452770ad.gif",
-    "static/media/RateRover.gif": "/static/media/RateRover.680d4f205ac3cdea2740.gif",
-    "static/media/Pocket-Pinata_Interactive.webp": "/static/media/Pocket-Pinata_Interactive.f0eeb00e2bc2c7760427.webp",
-    "static/media/qet.webp": "/static/media/qet.0dd2668c88e426c961f2.webp",
-    "static/media/VikingsDev.webp": "/static/media/VikingsDev.dcddbc3d1e88ed0f3793.webp",
+    "static/media/drawmaven.webm": "/static/media/drawmaven.213b1977b2cf6f58f950.webm",
+    "static/media/raterover.webm": "/static/media/raterover.a620aed5b0200d602042.webm",
+    "static/media/filesorter.webm": "/static/media/filesorter.ecc011cdbccaea6bf02e.webm",
+    "static/media/sortingvisualizer.webm": "/static/media/sortingvisualizer.643d0eb2f09baba2b360.webm",
+    "static/media/vikingsdev.webp": "/static/media/vikingsdev.dcddbc3d1e88ed0f3793.webp",
     "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
-    "static/media/Walmart.webp": "/static/media/Walmart.83726adc9415944f7fd1.webp",
+    "static/media/qet.webp": "/static/media/qet.dff7c22634d082dde49a.webp",
+    "static/media/walmart.webp": "/static/media/walmart.83726adc9415944f7fd1.webp",
     "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
-    "static/media/Kumon.webp": "/static/media/Kumon.b90833d6551a4dc60cff.webp",
-    "static/media/File-Sorter.webp": "/static/media/File-Sorter.db59c4cf44fcee98347b.webp",
+    "static/media/pocketpinata.webp": "/static/media/pocketpinata.446d8fb9992bcf54dc9f.webp",
+    "static/media/kumon.webp": "/static/media/kumon.b90833d6551a4dc60cff.webp",
     "index.html": "/index.html",
-    "main.cba4a9ff.css.map": "/static/css/main.cba4a9ff.css.map",
-    "main.7dee5786.js.map": "/static/js/main.7dee5786.js.map",
+    "main.0b535f0e.css.map": "/static/css/main.0b535f0e.css.map",
+    "main.7149d72a.js.map": "/static/js/main.7149d72a.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cba4a9ff.css",
-    "static/js/main.7dee5786.js"
+    "static/css/main.0b535f0e.css",
+    "static/js/main.7149d72a.js"
   ]
 }
