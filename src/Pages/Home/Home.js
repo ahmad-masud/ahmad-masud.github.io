@@ -12,20 +12,20 @@ function Home() {
 
   return (
     <div className='home'>
-        <Hero />
-        <Info />
-        <p className='projects-title'>Highlighted Projects</p>
-        {projectsData.map((projectData, index) => (
-          projectData.pinned &&
-            <Project
-              key={index}
-              data={projectData}
-            />
-        ))}
-        <div className='projects-link-container'>
-          <Link to='/projects/' className='projects-link'>View all projects {'>'}</Link>
-        </div>
-        <Skills />
+      <Hero />
+      <Info />
+      <p className='projects-title'>Highlighted Projects</p>
+      {projectsData.map((projectData, index) => (
+        projectData.pinned &&
+          <Project
+            key={index}
+            data={projectData}
+          />
+      ))}
+      <div className='projects-link-container'>
+        <Link to='/projects/' className='projects-link'>View all projects {'>'}</Link>
+      </div>
+      <Skills />
     </div>
   );
 }
