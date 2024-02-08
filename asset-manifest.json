@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.770fa085.css",
-    "main.js": "/static/js/main.6be3b9d6.js",
+    "main.css": "/static/css/main.d5a4eaff.css",
+    "main.js": "/static/js/main.d1620887.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/qmp.mp4": "/static/media/qmp.b608a27360ccc323d957.mp4",
+    "static/media/qmp.webm": "/static/media/qmp.77ff007a52c931179a26.webm",
     "static/media/drawmaven.webm": "/static/media/drawmaven.213b1977b2cf6f58f950.webm",
     "static/media/raterover.webm": "/static/media/raterover.a620aed5b0200d602042.webm",
     "static/media/drawmaven.mp4": "/static/media/drawmaven.0cbdf0569d54222fb650.mp4",
@@ -14,18 +16,17 @@
     "static/media/vikingsdev.webp": "/static/media/vikingsdev.dcddbc3d1e88ed0f3793.webp",
     "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
-    "static/media/qet.webp": "/static/media/qet.dff7c22634d082dde49a.webp",
     "static/media/walmart.webp": "/static/media/walmart.83726adc9415944f7fd1.webp",
     "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
     "static/media/pocketpinata.webp": "/static/media/pocketpinata.446d8fb9992bcf54dc9f.webp",
     "static/media/kumon.webp": "/static/media/kumon.b90833d6551a4dc60cff.webp",
     "index.html": "/index.html",
-    "main.770fa085.css.map": "/static/css/main.770fa085.css.map",
-    "main.6be3b9d6.js.map": "/static/js/main.6be3b9d6.js.map",
+    "main.d5a4eaff.css.map": "/static/css/main.d5a4eaff.css.map",
+    "main.d1620887.js.map": "/static/js/main.d1620887.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.770fa085.css",
-    "static/js/main.6be3b9d6.js"
+    "static/css/main.d5a4eaff.css",
+    "static/js/main.d1620887.js"
   ]
 }
