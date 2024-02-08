@@ -1,4 +1,4 @@
-import image from './Draw-Maven.gif';
+import media from './drawmaven.webm';
 
 const ProjectData = {
     title: "Draw Maven",
@@ -10,7 +10,8 @@ const ProjectData = {
         for easy navigation and use of its features.`,
     github: "https://github.com/ahmad-masud/Draw-Maven",
     stacks: ["Java", "Java Swing", "Java Frames"],
-    image: image,
+    video: true,
+    media: media,
     pinned: false
 };
 

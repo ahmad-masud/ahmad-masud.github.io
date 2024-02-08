@@ -1,4 +1,4 @@
-import image from './qet.webp'
+import media from './qet.webp'
 
 const ProjectData = {
     title: "Quant Market Predictor",
@@ -9,7 +9,8 @@ const ProjectData = {
         into potential future market prices.`,
     github: "https://github.com/ahmad-masud/Quant-Market-Predictor?tab=readme-ov-file",
     stacks: ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn"],
-    image: image,
+    video: false,
+    media: media,
     pinned: true
 };
 

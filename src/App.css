@@ -43,3 +43,13 @@ body {
 a {
    text-decoration: none;
 }
+
+.reveal {
+   opacity: 0;
+   transition: opacity 1s ease-out;
+}
+ 
+.reveal.visible {
+   opacity: 1;
+}
+ 

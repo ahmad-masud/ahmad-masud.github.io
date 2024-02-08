@@ -1,4 +1,4 @@
-import image from './Sorting-Visualizer.gif';
+import media from './sortingvisualizer.webm';
 
 const ProjectData = {
     title: "Sorting Visualizer",
@@ -10,7 +10,8 @@ const ProjectData = {
         corresponds to its index in the array.`,
     github: "https://github.com/ahmad-masud/Sorting-Visualizer",
     stacks: ["Java", "Java Swing", "Java Frames"],
-    image: image,
+    video: true,
+    media: media,
     pinned: true
 };
 

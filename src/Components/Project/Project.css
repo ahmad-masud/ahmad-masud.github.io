@@ -16,7 +16,7 @@
     gap: 100px;
 }
 
-.project-gif {
+.project-media {
     width: 40%;
     border-radius: 20px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
@@ -78,7 +78,7 @@
         flex-direction: column;
         gap: 50px;
     }
-    .project-gif {
+    .project-media {
         width: 100%;
     }
 }

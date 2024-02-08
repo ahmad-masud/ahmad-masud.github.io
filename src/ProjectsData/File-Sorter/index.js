@@ -1,4 +1,4 @@
-import image from './File-Sorter.webp'
+import media from './filesorter.webm'
 
 const ProjectData = {
     title: "File Sorter",
@@ -9,7 +9,8 @@ const ProjectData = {
         based on chosen criteria: file size, file type, or date modified.`,
     github: "https://github.com/ahmad-masud/File-Sorter",
     stacks: ["Python"],
-    image: image,
+    video: true,
+    media: media,
     pinned: false
 };
 

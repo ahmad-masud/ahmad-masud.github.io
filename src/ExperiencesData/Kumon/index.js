@@ -1,4 +1,4 @@
-import image from './Kumon.webp'
+import image from './kumon.webp'
 
 const ExperienceData = {
     image: image,

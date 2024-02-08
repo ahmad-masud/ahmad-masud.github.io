@@ -1,4 +1,4 @@
-import image from './Pocket-Pinata_Interactive.webp';
+import image from './pocketpinata.webp';
 
 const ExperienceData = {
     image: image,

@@ -5,7 +5,14 @@ function Project({data}) {
     <div className='projects'>
         <div className='project-container'>
             <div className='project'>
-              <img className='project-gif' src={data.image} alt={data.title + " Image"} width='40%'></img>
+              {data.video ? (
+                <video className='project-media' playsInline muted autoPlay loop>
+                  <source src={data.media} type='video/webm'></source>
+                  Your browser does not support the webm.
+                </video>
+              ) : (
+                <img className='project-media' src={data.media} alt={data.title + " Media"} width='40%'></img>
+              )}
               <div className='project-info-container'>
                 <div className='project-header-container'>
                   <span className='project-date'>{data.date.getMonth() + 1}/{data.date.getFullYear()}</span>

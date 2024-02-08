@@ -1,4 +1,4 @@
-import image from './RateRover.gif';
+import media from './raterover.webm';
 
 const ProjectData = {
     title: "RateRover",
@@ -11,7 +11,8 @@ const ProjectData = {
     github: "https://github.com/ahmad-masud/RateRover",
     link: "https://ahmadmasud.com/RateRover",
     stacks: ["Javascript", "React", "JSX", "CSS"],
-    image: image,
+    video: true,
+    media: media,
     pinned: true
 };
 
