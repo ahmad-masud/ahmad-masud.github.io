@@ -92,8 +92,8 @@ function Navbar() {
             <Link to='/Education' className='nav-link education-nav-link'>Education</Link>
             <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
             <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
-            <a href='https://github.com/ahmad-masud' className='nav-link github-nav-link' target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i></a>
-            <button onClick={changeColorMode}className='nav-link' id='color-switch-button'>
+            <a aria-label='github' href='https://github.com/ahmad-masud' className='nav-link github-nav-link' target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i></a>
+            <button aria-label='change theme' onClick={changeColorMode}className='nav-link' id='color-switch-button'>
               {!darkModeOn && <i className='fa-solid fa-sun'></i>}
               {darkModeOn && <i className='fa-solid fa-moon'></i>}
             </button>
@@ -113,7 +113,7 @@ function Navbar() {
           <hr className='media-nav-link-line'></hr>
           <Link to='/Contact' className='media-nav-link contact-media-nav-link' onClick={closeNav}>Contact</Link>
           <hr className='media-nav-link-line'></hr>
-          <a href='https://github.com/ahmad-masud' className='media-nav-link projects-media-nav-link' onClick={closeNav} target='_blank' rel="noreferrer">Github <i className="fa-solid fa-up-right-from-square"></i></a>
+          <a aria-label='github' href='https://github.com/ahmad-masud' className='media-nav-link projects-media-nav-link' onClick={closeNav} target='_blank' rel="noreferrer">Github <i className="fa-solid fa-up-right-from-square"></i></a>
           <hr className='media-nav-link-line'></hr>
         </div>
       </div>

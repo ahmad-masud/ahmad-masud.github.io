@@ -13,11 +13,11 @@
 
 .project {
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
 
 .project-media {
-    width: 40%;
+    width: 50%;
     border-radius: 20px;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
     margin: auto 0;

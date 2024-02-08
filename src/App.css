@@ -47,9 +47,9 @@ a {
 .reveal {
    opacity: 0;
    transition: opacity 1s ease-out;
-}
+ }
  
-.reveal.visible {
+ .reveal.visible {
    opacity: 1;
-}
+ }
  

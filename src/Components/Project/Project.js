@@ -21,9 +21,9 @@ function Project({data}) {
                 <p className='project-overview'>{data.description}</p>
                 <div className='box-list-container'>
                   <div className='links'>
-                    <a href={data.github} className='link' target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i> Github <i className="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                    <a aria-label='github' href={data.github} className='link' target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i> Github <i className="fa-solid fa-arrow-up-right-from-square icon"></i></a>
                     {(data.link != null) && <a href={data.link} className='link' target='_blank' rel="noreferrer">Visit <i className="fa-solid fa-arrow-up-right-from-square icon"></i></a>}
-                    <a href={data.github+'/stargazers'} className='star-link' target='_blank' rel="noreferrer"><i className="fa-solid fa-star"></i></a>
+                    <a aria-label='star github repo' href={data.github+'/stargazers'} className='star-link' target='_blank' rel="noreferrer"><i className="fa-solid fa-star"></i></a>
                   </div>
                   <ul className='stacks'>
                     {data.stacks.map((stack, index) => (
