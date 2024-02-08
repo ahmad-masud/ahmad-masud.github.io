@@ -1,5 +1,5 @@
-import media from './qmp.webm'
-import mediaFallback from './qmp.mp4'
+import media from './qmp.webm';
+import mediaFallback from './qmp.mp4';
 
 const ProjectData = {
     title: "Quant Market Predictor",

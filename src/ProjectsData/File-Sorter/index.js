@@ -1,5 +1,5 @@
-import media from './filesorter.webm'
-import mediaFallback from './filesorter.mp4'
+import media from './filesorter.webm';
+import mediaFallback from './filesorter.mp4';
 
 const ProjectData = {
     title: "File Sorter",
