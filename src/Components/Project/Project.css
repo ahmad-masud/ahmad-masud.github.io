@@ -4,7 +4,6 @@
     max-width: var(--width);
     width: 90%;
     margin: 100px auto 100px auto;
-    border-radius: 10px;
 }
 
 .project-header {
@@ -18,8 +17,8 @@
 
 .project-media {
     width: 50%;
-    border-radius: 20px;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.10);
     margin: auto 0;
     border: 1px solid var(--border-color);
 }
@@ -31,7 +30,7 @@
     gap: 25px;
     background: var(--secondary-color);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .project-title {
@@ -63,7 +62,7 @@
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     transition: 200ms all ease-in-out;
     font-size: var(--font-size);
     background: var(--accent-color);
@@ -99,7 +98,7 @@
     color: var(--font-color);
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     transition: 200ms all ease-in-out;
     font-size: var(--font-size);
     border: 1px solid var(--border-color);

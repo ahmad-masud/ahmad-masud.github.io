@@ -1,4 +1,5 @@
-import media from './qet.webp'
+import media from './qmp.webm'
+import mediaFallback from './qmp.mp4'
 
 const ProjectData = {
     title: "Quant Market Predictor",
@@ -9,8 +10,9 @@ const ProjectData = {
         into potential future market prices.`,
     github: "https://github.com/ahmad-masud/Quant-Market-Predictor?tab=readme-ov-file",
     stacks: ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn"],
-    video: false,
+    video: true,
     media: media,
+    mediaFallback: mediaFallback,
     pinned: true
 };
 

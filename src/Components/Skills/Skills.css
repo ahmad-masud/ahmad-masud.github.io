@@ -36,7 +36,7 @@
 
 .skills-item {
     padding: 10px 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     background: var(--accent-color);
     color: white;
 }

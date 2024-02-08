@@ -14,8 +14,8 @@
 .experience-image {
     width: 30%;
     margin: auto 0;
-    border-radius: 20px;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
 }
 
 .experience-info-container {
@@ -25,7 +25,7 @@
     gap: 25px;
     background: var(--secondary-color);
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 800px) {
