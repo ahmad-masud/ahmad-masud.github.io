@@ -13,7 +13,7 @@ function Hero() {
                   <p className='hero-text'>Nice to <span className='highlight'>meet you,</span></p>
                   <p className='hero-text'>I'm a <span className='highlight'>
                     <Typewriter 
-                      words={['SFU Student.', 'Software Developer.', 'Creator.', 'Team Leader.']}
+                      words={['CS Student.', 'Developer.', 'Engineer.', 'Creator.', 'Leader.']}
                       loop={Infinity}
                       cursor
                     /></span></p> 
