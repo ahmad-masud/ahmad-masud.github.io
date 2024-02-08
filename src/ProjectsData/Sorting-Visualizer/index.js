@@ -1,4 +1,5 @@
 import media from './sortingvisualizer.webm';
+import mediaFallback from './sortingvisualizer.mp4';
 
 const ProjectData = {
     title: "Sorting Visualizer",
@@ -12,6 +13,7 @@ const ProjectData = {
     stacks: ["Java", "Java Swing", "Java Frames"],
     video: true,
     media: media,
+    mediaFallback: mediaFallback,
     pinned: true
 };
 

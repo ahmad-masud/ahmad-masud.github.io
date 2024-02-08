@@ -1,4 +1,5 @@
 import media from './raterover.webm';
+import mediaFallback from './raterover.mp4';
 
 const ProjectData = {
     title: "RateRover",
@@ -13,6 +14,7 @@ const ProjectData = {
     stacks: ["Javascript", "React", "JSX", "CSS"],
     video: true,
     media: media,
+    mediaFallback: mediaFallback,
     pinned: true
 };
 

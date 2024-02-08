@@ -1,4 +1,5 @@
 import media from './drawmaven.webm';
+import mediaFallback from './drawmaven.mp4';
 
 const ProjectData = {
     title: "Draw Maven",
@@ -12,6 +13,7 @@ const ProjectData = {
     stacks: ["Java", "Java Swing", "Java Frames"],
     video: true,
     media: media,
+    mediaFallback: mediaFallback,
     pinned: false
 };
 

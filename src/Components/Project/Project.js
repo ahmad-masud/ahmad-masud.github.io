@@ -8,7 +8,8 @@ function Project({data}) {
               {data.video ? (
                 <video className='project-media' playsInline muted autoPlay loop>
                   <source src={data.media} type='video/webm'></source>
-                  Your browser does not support the webm.
+                  <source src={data.mediaFallback} type='video/mp4'></source>
+                  Your browser does not support the video tag.
                 </video>
               ) : (
                 <img className='project-media' src={data.media} alt={data.title + " Media"} width='40%'></img>

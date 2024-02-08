@@ -1,4 +1,5 @@
 import media from './filesorter.webm'
+import mediaFallback from './filesorter.mp4'
 
 const ProjectData = {
     title: "File Sorter",
@@ -11,6 +12,7 @@ const ProjectData = {
     stacks: ["Python"],
     video: true,
     media: media,
+    mediaFallback: mediaFallback,
     pinned: false
 };
 
