@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='footer'>
       <p className='footer-quote'>
-        "Hard work beats talent when talent doesn't work hard."
+        "Always remember that your present situation is not your final destination. The best is yet to come." -Zig Ziglar
       </p>
       <div className='footer-links'>
           <a aria-label='github' href='https://github.com/ahmad-masud' className='footer-link' target="_blank" rel="noreferrer">
