@@ -10,7 +10,7 @@ const ProjectData = {
         the delay in between swaps. The height of each bar corresponds to its value and its x position 
         corresponds to its index in the array.`,
     github: "https://github.com/ahmad-masud/Sorting-Visualizer",
-    stacks: ["Java", "Java Swing", "Java Frames"],
+    stacks: ["Java", "Swing", "Maven"],
     video: true,
     media: media,
     mediaFallback: mediaFallback,
