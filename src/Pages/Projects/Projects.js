@@ -1,7 +1,6 @@
 import loadProjectsData from '../../ProjectsData/loadProjectsData.js'
 import Project from '../../Components/Project/Project.js';
-import './Projects.css'
-
+import './Projects.css';
 
 function Projects() {
 
