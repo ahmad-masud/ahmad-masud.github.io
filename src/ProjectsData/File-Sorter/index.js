@@ -1,5 +1,6 @@
 import media from './filesorter.webm';
 import mediaFallback from './filesorter.mp4';
+import poster from './filesorter.webp';
 
 const ProjectData = {
     title: "File Sorter",
@@ -13,6 +14,7 @@ const ProjectData = {
     video: true,
     media: media,
     mediaFallback: mediaFallback,
+    poster: poster,
     pinned: false
 };
 

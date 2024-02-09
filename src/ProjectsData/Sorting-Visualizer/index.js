@@ -1,5 +1,6 @@
 import media from './sortingvisualizer.webm';
 import mediaFallback from './sortingvisualizer.mp4';
+import poster from './sortingvisualizer.webp';
 
 const ProjectData = {
     title: "Sorting Visualizer",
@@ -14,6 +15,7 @@ const ProjectData = {
     video: true,
     media: media,
     mediaFallback: mediaFallback,
+    poster: poster,
     pinned: true
 };
 

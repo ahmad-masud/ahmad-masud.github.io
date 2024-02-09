@@ -1,5 +1,6 @@
 import media from './raterover.webm';
 import mediaFallback from './raterover.mp4';
+import poster from './raterover.webp';
 
 const ProjectData = {
     title: "RateRover",
@@ -15,6 +16,7 @@ const ProjectData = {
     video: true,
     media: media,
     mediaFallback: mediaFallback,
+    poster: poster,
     pinned: true
 };
 

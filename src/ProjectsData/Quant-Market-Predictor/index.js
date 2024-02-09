@@ -1,5 +1,6 @@
 import media from './qmp.webm';
 import mediaFallback from './qmp.mp4';
+import poster from './qmp.webp';
 
 const ProjectData = {
     title: "Quant Market Predictor",
@@ -13,6 +14,7 @@ const ProjectData = {
     video: true,
     media: media,
     mediaFallback: mediaFallback,
+    poster: poster,
     pinned: true
 };
 

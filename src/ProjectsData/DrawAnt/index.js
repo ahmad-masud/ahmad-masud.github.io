@@ -1,5 +1,6 @@
 import media from './drawant.webm';
 import mediaFallback from './drawant.mp4';
+import poster from './drawant.webp';
 
 const ProjectData = {
     title: "DrawAnt",
@@ -14,6 +15,7 @@ const ProjectData = {
     video: true,
     media: media,
     mediaFallback: mediaFallback,
+    poster: poster,
     pinned: false
 };
 

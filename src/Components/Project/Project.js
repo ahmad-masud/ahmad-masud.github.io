@@ -6,7 +6,7 @@ function Project({data}) {
         <div className='project-container'>
             <div className='project'>
               {data.video ? (
-                <video className='project-media' playsInline muted autoPlay loop>
+                <video poster={data.poster} className='project-media' playsInline muted autoPlay loop>
                   <source src={data.media} type='video/webm'></source>
                   <source src={data.mediaFallback} type='video/mp4'></source>
                   Your browser does not support the video tag.
