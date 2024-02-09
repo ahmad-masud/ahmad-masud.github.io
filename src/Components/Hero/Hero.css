@@ -85,3 +85,7 @@
 .hero .highlight {
     color: var(--accent-color);
 }
+
+.wave {
+    width: 60px;
+}
