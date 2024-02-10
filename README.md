@@ -1,5 +1,5 @@
 # Ahmad's Portfolio Website
-![Performance Statistics](/images/performancestats.png)
+![Performance](/resources/performance.png)
 
 ## Overview
 
