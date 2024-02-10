@@ -31,7 +31,6 @@
     font-size: calc(var(--font-size)*3);
     font-weight: bold;
     color: var(--font-color);
-    transition: all 200ms ease-in-out;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,7 +40,6 @@
 .hero-text {
     font-size: calc(var(--font-size)*1.8);
     color: var(--font-color);
-    transition: all 200ms ease-in-out;
 }
 
 .hero-links {
@@ -53,7 +51,6 @@
     padding: 10px 20px;
     border-radius: 10px;
     font-size: var(--font-size);
-    transition: all 200ms ease-in-out;
     font-weight: 500;
 }
 

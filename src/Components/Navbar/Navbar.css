@@ -2,7 +2,6 @@
     background: var(--nav-color);
     height: 70px;
     width: 100%;
-    transition: 200ms all ease-in-out;
     z-index: 1000;
     position: fixed;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
@@ -34,7 +33,6 @@
 
 .logo {
     width: 50px;
-    transition: all 100ms ease-in-out;
     filter: invert(47%) sepia(22%) saturate(2149%) hue-rotate(165deg) brightness(105%) contrast(71%);;
 }
 
@@ -54,7 +52,6 @@
     text-decoration: none;
     color: var(--font-color);
     font-size: 1em;
-    transition: all 200ms ease-in-out;
     font-weight: 500;
     background: transparent;
     padding: 10px 10px;
@@ -147,7 +144,6 @@
     height: 100%;
     background: var(--nav-color);
     z-index: 999;
-    transition: all 200ms ease-in-out;
     margin-top: 55px;
     opacity: 0;
     visibility: hidden;
@@ -160,7 +156,6 @@
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    transition: all 500ms ease-in-out;
     width: 90%;
     font-weight: 500;
     gap: 20px;
@@ -177,7 +172,6 @@
     color: var(--font-color);
     font-size: 1em;
     font-weight: 600;
-    transition: all 200ms ease-in-out;
 }
 
 .media-nav-link-line {

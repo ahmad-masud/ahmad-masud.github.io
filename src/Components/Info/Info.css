@@ -1,6 +1,8 @@
 .info {
     background: var(--secondary-color);
     padding: 100px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .info-container {

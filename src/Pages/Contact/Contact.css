@@ -58,7 +58,6 @@
     border-radius: 10px;
     border-width: 0;
     cursor: pointer;
-    transition: all 200ms ease-in-out;
     background: var(--accent-color);
     color: white;
     font-weight: 500;
@@ -87,7 +86,7 @@
 .contact-success-label {
     position: fixed;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     font-size: var(--font-size);
     background: var(--accent-color);
     padding: 10px;
@@ -96,6 +95,5 @@
     top: 0;
     margin-right: 10px;
     margin-top: -70px;
-    transition: all 200ms ease-in-out;
 }
 

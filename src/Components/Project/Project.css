@@ -31,6 +31,7 @@
     background: var(--secondary-color);
     padding: 20px;
     border-radius: 10px;
+    border: 1px solid var(--border-color);
 }
 
 .project-title {
@@ -63,7 +64,6 @@
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 10px;
-    transition: 200ms all ease-in-out;
     font-size: var(--font-size);
     background: var(--accent-color);
 }
@@ -99,7 +99,6 @@
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 10px;
-    transition: 200ms all ease-in-out;
     font-size: var(--font-size);
     border: 1px solid var(--border-color);
 }
@@ -110,7 +109,6 @@
     flex-direction: column;
     color: rgb(175,175,175);
     font-size: var(--font-size);
-    transition: all 200ms ease-in-out;
 }
 
 .star-link:hover {

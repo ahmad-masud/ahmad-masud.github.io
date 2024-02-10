@@ -15,14 +15,14 @@ function Contact() {
         .then((result) => {
             console.log(result.text);
             setMessage('Sent Successfully ✅');
-            document.getElementById('success-label').style.marginTop = '70px';
+            document.getElementById('success-label').style.marginTop = '80px';
             setTimeout(function () {
                 document.getElementById('success-label').style.marginTop = '-70px';
               }, 5000);
         }, (error) => {
             console.log(error.text);
-            setMessage('Error ❌');
-            document.getElementById('success-label').style.marginTop = '70px';
+            setMessage('Error Occurred ❌');
+            document.getElementById('success-label').style.marginTop = '80px';
             setTimeout(function () {
                 document.getElementById('success-label').style.marginTop = '-70px';
               }, 5000);
