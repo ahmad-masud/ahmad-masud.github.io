@@ -17,7 +17,7 @@ function Project({data}) {
               <div className='project-info-container'>
                 <div className='project-header-container'>
                   <span className='project-date'>{data.date.getMonth() + 1}/{data.date.getFullYear()}</span>
-                  <header className='project-title'>{data.title} {data.pinned && <i className="fa-solid fa-thumbtack"></i>}</header>
+                  <header className='project-title'>{data.title}</header>
                 </div>
                 <p className='project-overview'>{data.description}</p>
                 <div className='box-list-container'>

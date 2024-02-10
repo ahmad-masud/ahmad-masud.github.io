@@ -6,9 +6,6 @@ function loadProjectsData() {
       .map((key) => context(key).default);
 
     projectDataModules.sort((a, b) => {  
-      if (a.pinned && !b.pinned) return -1;
-      if (!a.pinned && b.pinned) return 1; 
-
       const dateA = new Date(a.date);
       const dateB = new Date(b.date);
 
