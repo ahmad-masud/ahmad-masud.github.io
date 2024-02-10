@@ -46,7 +46,7 @@
 
 .experience-title {
     font-weight: 500;
-    font-size: 2em;
+    font-size: calc(var(--font-size)*1.5);
 }
 
 .experience-paragraph {

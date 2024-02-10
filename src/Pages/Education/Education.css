@@ -9,7 +9,7 @@
 .transcript {
     background: var(--secondary-color);
     width: 90%;
-    margin: 50px auto 50px auto;
+    margin: 100px auto 100px auto;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -23,30 +23,30 @@
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    margin: 30px;
+    margin: 20px;
 }
 
 .transcript-title {
     font-weight: bold;
-    font-size: 2em;
+    font-size: calc(var(--font-size)*1.75);
     color: var(--accent-color);
     text-decoration: itali;
 }
 
 .transcript-date {
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: calc(var(--font-size)*1.5);
 }
 
 .transcript-courses-title {
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: calc(var(--font-size)*1.25);
     text-decoration: underline;
 }
 
 .transcript-section-title {
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: calc(var(--font-size)*1.25);
 }
 
 .course-list {
