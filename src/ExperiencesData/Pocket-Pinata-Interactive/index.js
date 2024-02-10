@@ -8,7 +8,7 @@ const ExperienceData = {
     title: "Game Tester",
     company: "Pocket Pinata Interactive",
     description:
-        `In grade 12, I took a job as a game tester at Kung Fu Factory Games. I did not get
+        `In grade 12, I took a job as a game tester. I did not get
         paid for the job and it was purely for experience. I had to look for bugs in mobile
         games and record myself playing the game to create of visual of the bug and write reports
         on each trial.`,

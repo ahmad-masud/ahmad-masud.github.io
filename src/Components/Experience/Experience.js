@@ -8,8 +8,8 @@ function Experience({data}) {
         <div className='experience-info-container'>
           <div className='experience-header-container'>
             <span className='experience-date'>
-              {data.startDate.getMonth() + 1}/{data.startDate.getFullYear()} - 
-              {data.present ? ' Present' : ` ${data.endDate.getMonth() + 1}/${data.endDate.getFullYear()}`}
+              {data.startDate.getMonth()}/{data.startDate.getFullYear()} - 
+              {data.present ? ' Present' : ` ${data.endDate.getMonth()}/${data.endDate.getFullYear()}`}
             </span>
             <header className='experience-title'>{data.title} • {data.company}</header>
           </div>
