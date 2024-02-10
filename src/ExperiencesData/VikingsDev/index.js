@@ -4,7 +4,7 @@ const ExperienceData = {
     image: image,
     startDate: new Date(2021, 9),
     endDate: new Date(2022, 6),
-    current: false,
+    present: false,
     title: "Teaching Assistant",
     company: "VikingsDev",
     description:

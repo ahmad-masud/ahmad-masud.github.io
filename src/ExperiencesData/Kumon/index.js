@@ -4,7 +4,7 @@ const ExperienceData = {
     image: image,
     startDate: new Date(2023, 5),
     endDate: new Date(2023, 12),
-    current: false,
+    present: false,
     title: "Math/Reading Tutor",
     company: "Kumon",
     description:

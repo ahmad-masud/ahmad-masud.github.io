@@ -6,8 +6,8 @@ function loadExperiencesData() {
       .map((key) => context(key).default);
 
     experienceDataModules.sort((a, b) => {
-      if (a.current && !b.current) return -1;
-      if (!a.current && b.current) return 1;
+      if (a.present && !b.present) return -1;
+      if (!a.present && b.present) return 1;
       
       const startDateA = new Date(a.startDate);
       const startDateB = new Date(b.startDate);

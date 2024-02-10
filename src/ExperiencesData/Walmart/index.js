@@ -4,7 +4,7 @@ const ExperienceData = {
     image: image,
     startDate: new Date(2021, 10),
     endDate: new Date(2023, 2),
-    current: false,
+    present: false,
     title: "Store Standards Associate",
     company: "Walmart",
     description:
