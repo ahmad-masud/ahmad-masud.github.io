@@ -8,8 +8,13 @@ import Projects from './Pages/Projects/Projects.js';
 import Contact from './Pages/Contact/Contact.js';
 import NotFound from './Pages/NotFound/NotFound.js'
 import { Routes, Route } from 'react-router-dom';
+import ProjectPage from './Components/ProjectPage/ProjectPage.js';
+import loadProjectsData from './ProjectsData/loadProjectsData.js'
 
 function App() {
+
+  const projectsData = loadProjectsData()
+
   return (
     <div className='app'>
       <Navbar />
@@ -21,6 +26,9 @@ function App() {
           <Route exact path='/Projects' element={<Projects />} />
           <Route exact path='/Contact' element={<Contact />} />
           <Route exact path='*' element={<NotFound />} />
+          {projectsData.map((projectData, index) => (
+            <Route key={index} exact path={'/'+projectData.title.replace(/\s+/g, '-')} element={<ProjectPage key={index} data={projectData}/>}/>
+          ))}
         </Routes>
       </div>
       <Footer />
