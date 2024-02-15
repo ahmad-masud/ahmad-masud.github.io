@@ -17,7 +17,7 @@ const ProjectData = {
     media: media,
     mediaFallback: mediaFallback,
     poster: poster,
-    pinned: true
+    pinned: false
 };
 
 export default ProjectData;
