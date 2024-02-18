@@ -1,10 +1,13 @@
 .nav {
     background: var(--nav-color);
-    height: 70px;
+    height: 60px;
     width: 100%;
     z-index: 1000;
     position: fixed;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
 .sticky {
@@ -16,34 +19,31 @@
 
 .nav-container {
     height: 100%;
-    max-width: var(--width);
+    width: var(--width);
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 10px;
 }
 
 .nav-logo-container {
     display: flex;
-    margin-left: 20px;
+    padding: 10px;
 }
 
 .logo-nav-link {
-    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .logo {
-    width: 50px;
+    width: 40px;
     filter: invert(47%) sepia(22%) saturate(2149%) hue-rotate(165deg) brightness(105%) contrast(71%);;
-}
-
-.nav-logo-container:hover .text-logo-nav-link {
-    margin-left: 10px;
 }
 
 .nav-links {
     height: 100%;
     display: flex;
-    margin-right: 10px;
     gap: 5px;
     align-items: center;
 }
@@ -54,10 +54,13 @@
     font-size: 1em;
     font-weight: 500;
     background: transparent;
-    padding: 10px 10px;
+    padding: 10px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-link .fa-github, .nav-link .fa-solid {
@@ -69,18 +72,18 @@
 }
 
 .nav-toggle-button {
-    position: relative;
+    font-size: 1.75em;
+    background: none;
+    border: none;
+    color: var(--font-color);
     display: none;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 60px;
-    cursor: pointer;
-    transition: all 200ms ease-in-out;
-    margin-right: 10px;
+    padding: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 700px) {
     .nav-toggle-button {
         display: flex;
     }
@@ -99,49 +102,6 @@
     .nav-container {
         width: 100%
     }
-}
-
-.toggle-icon {
-    width: 30px;
-    height: 3px;
-    background: var(--font-color);
-    transition: all 200ms ease-in-out;
-    border-radius: 50px;
-}
-
-.toggle-icon::before,
-.toggle-icon::after {
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 3px;
-    background: var(--font-color);
-    transition: all 200ms ease-in-out;
-    border-radius: 50px;
-}
-
-.toggle-icon::before {
-    transform: translateY(-7.5px);
-}
-
-.toggle-icon::after {
-    transform: translateY(7.5px);
-}
-
-.nav-toggle-button.open .toggle-icon {
-    background: transparent;
-}
-
-.nav-toggle-button.open .toggle-icon::before, .nav-toggle-button.open .toggle-icon::after {
-    transform: translateY(0px);
-}
-
-.nav-toggle-button.open2 .toggle-icon::before {
-    transform: rotate(45deg);
-}
-
-.nav-toggle-button.open2 .toggle-icon::after {
-    transform: rotate(-45deg);
 }
 
 .media-nav {

@@ -1,86 +1,76 @@
 import './Navbar.css';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie';
 
 function Navbar() {
-
-  const [darkModeOn, setDarkModeOn] = useState(Cookies.get('colorMode') === 'dark')
+  const [darkModeOn, setDarkModeOn] = useState(Cookies.get('colorMode') === 'dark');
+  const [isNavOpen, setIsNavOpen] = useState(false);
+  const navRef = useRef(null);
+  const mediaNavRef = useRef(null);
+  const toggleButtonRef = useRef(null);
 
   useEffect(() => {
-    var root = document.querySelector(':root');
+    const root = document.querySelector(':root');
+    const updateColorMode = () => {
+      if (Cookies.get('colorMode') === 'dark') {
+        root.classList.add('dark');
+      } else {
+        root.classList.remove('dark');
+        Cookies.set('colorMode', 'light');
+        setDarkModeOn(false);
+      }
+    };
+    updateColorMode();
 
-    if (Cookies.get('colorMode') === 'dark') {
-      root.classList.add('dark');
-    } else if(!Cookies.get('colorMode')) {
-      root.classList.remove('dark');
-      Cookies.set('colorMode', 'light')
-      setDarkModeOn(false)
-    }  
-  },[]);
+    const handleScroll = () => {
+      navRef.current.classList.toggle('sticky', window.scrollY > 0);
+    };
+    window.addEventListener('scroll', handleScroll);
 
-  function changeColorMode() {
-    var root = document.querySelector(':root');
+    const handleResize = () => {
+      if (window.innerWidth >= 700) {
+        closeNav();
+      }
+    };
+    window.addEventListener("resize", handleResize);
 
-    if (Cookies.get('colorMode') === 'dark') {
-      root.classList.remove('dark');
-      Cookies.set('colorMode', 'light')
-      setDarkModeOn(false)
-    } else if (Cookies.get('colorMode') === 'light') {
-      root.classList.add('dark');
-      Cookies.set('colorMode', 'dark')
-      setDarkModeOn(true)
-    }
-  }
+    // Cleanup to avoid memory leaks
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
-  window.addEventListener('scroll', function () {
-    var nav = this.document.getElementById('nav')
-    nav.classList.toggle('sticky', window.scrollY > 0);
-  });
-  
-  function closeNav() {
-    var elem = document.getElementById("media-nav");
-  
-    elem.style.marginTop = '65px';
-    elem.style.opacity = '0';
-    elem.style.visibility = 'hidden';
-    document.getElementById('toggle-button').classList.remove('open2');
-    setTimeout(function () {
-      document.getElementById('toggle-button').classList.remove('open');
-    }, 200);
-  }
-  
-  function openNav() {
-    var elem = document.getElementById("media-nav");
-  
-    elem.style.marginTop = '70px';
-    elem.style.opacity = '1';
-    elem.style.visibility = 'visible';
-    document.getElementById('toggle-button').classList.add('open');
-    setTimeout(function () {
-      document.getElementById('toggle-button').classList.add('open2');
-    }, 200);
-  }
-  
-  function toggleNav() {
-    var Top = document.getElementById('media-nav').style.getPropertyValue('margin-top');
-  
-    if (Top === '70px') {
-      closeNav()
-    } else {
-      openNav()
-    }
-  }
-  
-  window.addEventListener("resize", function () {
-    if (window.innerWidth >= 600) {
-      closeNav()
-    }
-  });
+  const changeColorMode = () => {
+    const root = document.querySelector(':root');
+    const newColorMode = darkModeOn ? 'light' : 'dark';
+    root.classList.toggle('dark', newColorMode === 'dark');
+    Cookies.set('colorMode', newColorMode);
+    setDarkModeOn(!darkModeOn);
+  };
+
+  const closeNav = () => {
+    mediaNavRef.current.style.marginTop = '55px';
+    mediaNavRef.current.style.opacity = '0';
+    mediaNavRef.current.style.visibility = 'hidden';
+    setIsNavOpen(false);
+  };
+
+  const openNav = () => {
+    mediaNavRef.current.style.marginTop = '60px';
+    mediaNavRef.current.style.opacity = '1';
+    mediaNavRef.current.style.visibility = 'visible';
+    setIsNavOpen(true);
+  };
+
+  const toggleNav = () => {
+    isNavOpen ? closeNav() : openNav();
+  };
 
   return (
     <>
-      <div className='nav' id='nav'>
+      <div className='nav' ref={navRef}>
         <div className='nav-container'>
           <div className='nav-logo-container'>
             <Link to='/' className='logo-nav-link'>
@@ -95,16 +85,15 @@ function Navbar() {
             <a aria-label='resume' target='_blank' rel="noreferrer" href='Resume.pdf' className='nav-link resume-nav-link'>Resume</a>
             <a aria-label='github' href='https://github.com/ahmad-masud' className='nav-link github-nav-link' target='_blank' rel="noreferrer"><i className="fa-brands fa-github"></i></a>
             <button aria-label='change theme' onClick={changeColorMode} className='nav-link' id='color-switch-button'>
-              {!darkModeOn && <i className='fa-solid fa-sun'></i>}
-              {darkModeOn && <i className='fa-solid fa-moon'></i>}
+              {darkModeOn ? <i className='fa-solid fa-moon'></i> : <i className='fa-solid fa-sun'></i>}
             </button>
-            <div className='nav-toggle-button' id='toggle-button' onClick={toggleNav}>
-              <div className='toggle-icon'></div>
-            </div>
+            <button className='nav-toggle-button' ref={toggleButtonRef} onClick={toggleNav}>
+              {isNavOpen ? <i className="fa-solid fa-xmark"></i> : <i className="fa-solid fa-bars"></i>}
+            </button>
           </div>
         </div>
       </div>
-      <div className='media-nav' id='media-nav'>
+      <div className='media-nav' ref={mediaNavRef}>
         <div className='media-nav-links'>
           <Link to='/Experiences' className='media-nav-link experience-media-nav-link' onClick={closeNav}>Experiences</Link>
           <hr className='media-nav-link-line'></hr>

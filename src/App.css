@@ -7,7 +7,7 @@
    --font-color: rgb(50, 50, 50);
    --border-color: rgba(0, 0, 0, 0.15);
    --highlight-color: rgb(225,225,225);
-   --nav-color: rgba(255, 255, 255, 0.75);
+   --nav-color: rgba(255, 255, 255, 0.95);
 }
 
 :root.dark {
@@ -16,7 +16,7 @@
    --font-color: white;
    --border-color: rgba(255, 255, 255, 0.15);
    --highlight-color: rgb(55, 60, 65);
-   --nav-color: rgba(25, 30, 35, 0.75);
+   --nav-color: rgba(25, 30, 35, 0.9);
 }
 
 @media only screen and (max-width: 600px) {
