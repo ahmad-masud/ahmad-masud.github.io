@@ -13,14 +13,15 @@
 
 .footer-quote {
     text-align: center;
-    font-size: 1.25em;
+    font-size: var(--font-size);
     color: var(--accent-color);
 }
 
 .footer-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
     width: 250px;
     margin: 0 auto;
 }
@@ -28,7 +29,7 @@
 .footer-copyright-text {
     margin: 0 10px 0 10px;
     text-align: center;
-    font-size: 1.25em;
+    font-size: var(--font-size);
     color: var(--font-color);
     opacity: 0.75;
 }
@@ -38,7 +39,7 @@
     background: transparent;
     padding: 10px 10px;
     border-radius: 10px;
-    font-size: 1.5em;
+    font-size: var(--font-size);
 }
 
 .footer-link:hover {
