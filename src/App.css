@@ -44,3 +44,7 @@ body {
 a {
    text-decoration: none;
 }
+
+.bi-box-arrow-up-right {
+   font-size: 0.75em;
+}

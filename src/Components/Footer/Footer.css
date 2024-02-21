@@ -38,12 +38,9 @@
     background: transparent;
     padding: 10px 10px;
     border-radius: 10px;
+    font-size: 1.5em;
 }
 
 .footer-link:hover {
     background: var(--secondary-color);
-}
-
-.icon {
-    font-size: 1.5em;
 }

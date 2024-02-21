@@ -66,6 +66,10 @@
     border-radius: 10px;
     font-size: var(--font-size);
     background: var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .link:hover {
@@ -80,10 +84,6 @@
     .project-media {
         width: 100%;
     }
-}
-
-.fa-arrow-up-right-from-square {
-    font-size: 0.75em;
 }
 
 .stacks {

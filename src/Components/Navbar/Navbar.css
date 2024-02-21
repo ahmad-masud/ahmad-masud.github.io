@@ -63,10 +63,6 @@
     align-items: center;
 }
 
-.nav-link .fa-github, .nav-link .fa-solid {
-    font-size: 1.5em;
-}
-
 .nav-link:hover {
     background: var(--secondary-color);
 }
@@ -144,12 +140,6 @@
     opacity: 0.25;
 }
 
-.nav .fa-up-right-from-square {
-    opacity: 0.5;
-    font-size: 0.75em;
-}
-
-.media-nav .fa-up-right-from-square {
-    opacity: 0.5;
-    font-size: 0.75em;
+.nav .bi {
+    font-size: 1.25em;
 }
