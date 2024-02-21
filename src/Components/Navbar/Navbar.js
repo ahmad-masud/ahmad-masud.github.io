@@ -103,7 +103,7 @@ function Navbar() {
           <hr className='media-nav-link-line'></hr>
           <Link to='/Contact' className='media-nav-link contact-media-nav-link' onClick={closeNav}>Contact</Link>
           <hr className='media-nav-link-line'></hr>
-          <a aria-label='resume' target='_blank' rel="noreferrer" href='Resume.pdf' className='media-nav-link resume-media-nav-link' onClick={closeNav}>Resume <i className="bi bi-box-arrow-up-right"></i></a>
+          <a aria-label='resume' target='_blank' rel="noreferrer" href='Resume.pdf' className='media-nav-link resume-media-nav-link' onClick={closeNav}>Resume <i className="bi bi-filetype-pdf"></i></a>
           <hr className='media-nav-link-line'></hr>
           <a aria-label='github' href='https://github.com/ahmad-masud' className='media-nav-link github-media-nav-link' onClick={closeNav} target='_blank' rel="noreferrer">Github <i className="bi bi-box-arrow-up-right"></i></a>
           <hr className='media-nav-link-line'></hr>
