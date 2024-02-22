@@ -73,7 +73,7 @@ function Navbar() {
       <div className='nav' ref={navRef}>
         <div className='nav-container'>
           <div className='nav-logo-container'>
-            <button className='nav-toggle-button' ref={toggleButtonRef} onClick={toggleNav}>
+            <button aria-label='navigation toggle' className='nav-toggle-button' ref={toggleButtonRef} onClick={toggleNav}>
               {isNavOpen ? <i className="bi bi-x"></i> : <i className="bi bi-list"></i>}
             </button>
             <Link to='/' className='logo-nav-link'>
