@@ -27,7 +27,9 @@
 
 .nav-logo-container {
     display: flex;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .logo-nav-link {
@@ -44,7 +46,6 @@
 .nav-links {
     height: 100%;
     display: flex;
-    gap: 5px;
     align-items: center;
 }
 
@@ -68,16 +69,14 @@
 }
 
 .nav-toggle-button {
-    font-size: 1.75em;
-    background: none;
+    background: transparent;
     border: none;
     color: var(--font-color);
     display: none;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    cursor: pointer;
 }
-
 
 @media only screen and (max-width: 700px) {
     .nav-toggle-button {
@@ -87,7 +86,6 @@
     .experience-nav-link, 
     .projects-nav-link, 
     .contact-nav-link, 
-    .github-nav-link, 
     .education-nav-link,
     .resume-nav-link {
         display: none;
@@ -145,4 +143,8 @@
 
 .nav .bi {
     font-size: 1.25em;
+}
+
+.nav .bi-list, .nav .bi-x  {
+    font-size: 2em;
 }

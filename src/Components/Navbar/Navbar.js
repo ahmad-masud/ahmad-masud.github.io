@@ -73,6 +73,9 @@ function Navbar() {
       <div className='nav' ref={navRef}>
         <div className='nav-container'>
           <div className='nav-logo-container'>
+            <button className='nav-toggle-button' ref={toggleButtonRef} onClick={toggleNav}>
+              {isNavOpen ? <i className="bi bi-x"></i> : <i className="bi bi-list"></i>}
+            </button>
             <Link to='/' className='logo-nav-link'>
               <img src="/logo.webp" alt='logo' className='logo' onClick={closeNav} width='50'></img>
             </Link>
@@ -83,13 +86,10 @@ function Navbar() {
             <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
             <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
             <a aria-label='resume' target='_blank' rel="noreferrer" href='Resume.pdf' className='nav-link resume-nav-link'>Resume</a>
-            <a aria-label='github' href='https://github.com/ahmad-masud' className='nav-link github-nav-link' target='_blank' rel="noreferrer"><i className="bi bi-github"></i></a>
             <button aria-label='change theme' onClick={changeColorMode} className='nav-link' id='color-switch-button'>
-              {darkModeOn ? <i className="bi bi-moon-fill"></i> : <i className="bi bi-brightness-high-fill"></i>}
+              {darkModeOn ? <i className="bi bi-lightbulb-off-fill"></i> : <i className="bi bi-lightbulb-fill"></i>}
             </button>
-            <button className='nav-toggle-button' ref={toggleButtonRef} onClick={toggleNav}>
-              {isNavOpen ? <i className="bi bi-x"></i> : <i className="bi bi-list"></i>}
-            </button>
+            <a aria-label='github' href='https://github.com/ahmad-masud' className='nav-link github-nav-link' target='_blank' rel="noreferrer"><i className="bi bi-github"></i></a>
           </div>
         </div>
       </div>
@@ -103,9 +103,7 @@ function Navbar() {
           <hr className='media-nav-link-line'></hr>
           <Link to='/Contact' className='media-nav-link contact-media-nav-link' onClick={closeNav}>Contact</Link>
           <hr className='media-nav-link-line'></hr>
-          <a aria-label='resume' target='_blank' rel="noreferrer" href='Resume.pdf' className='media-nav-link resume-media-nav-link' onClick={closeNav}>Resume <i className="bi bi-filetype-pdf"></i></a>
-          <hr className='media-nav-link-line'></hr>
-          <a aria-label='github' href='https://github.com/ahmad-masud' className='media-nav-link github-media-nav-link' onClick={closeNav} target='_blank' rel="noreferrer">Github <i className="bi bi-box-arrow-up-right"></i></a>
+          <a aria-label='resume' target='_blank' rel="noreferrer" href='Resume.pdf' className='media-nav-link resume-media-nav-link' onClick={closeNav}>Resume</a>
           <hr className='media-nav-link-line'></hr>
         </div>
       </div>
