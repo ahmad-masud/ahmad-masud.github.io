@@ -10,12 +10,12 @@ const ProjectData = {
         manipulating database schemas. It allows users to add tables, define attributes, 
         and set constraints like NOT NULL, UNIQUE, PRIMARY KEY, and AUTO_INCREMENT. 
         Features include SQL query generation and download, draggable tables for layout 
-        flexibility, and responsive design. Schemas can be persisted in local storage for 
-        future sessions.
+        flexibility, and responsive design. Schemas can be persisted in local storage 
+        and cloud storage for future sessions. 
         `,
     github: "https://github.com/ahmad-masud/Database-Schema-Constructor",
     link: "https://dbsc.online/",
-    stacks: ["React", "Javascript", "SQL", "txt"],
+    stacks: ["Javascript", "React", "Firebase", "Node.js", "jsPlumb"],
     video: true,
     media: media,
     mediaFallback: mediaFallback,
