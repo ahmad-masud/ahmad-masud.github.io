@@ -27,7 +27,7 @@ function App() {
           <Route exact path='/Contact' element={<Contact />} />
           <Route exact path='*' element={<NotFound />} />
           {projectsData.map((projectData, index) => (
-            <Route key={index} exact path={'/'+projectData.title.replace(/\s+/g, '-')} element={<ProjectPage key={index} data={projectData}/>}/>
+            <Route key={index} exact path={'/projects/'+projectData.title.replace(/\s+/g, '-')} element={<ProjectPage key={index} data={projectData}/>}/>
           ))}
         </Routes>
       </div>
