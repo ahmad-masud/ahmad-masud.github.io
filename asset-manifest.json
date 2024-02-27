@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.35c34e04.css",
-    "main.js": "/static/js/main.0bc24465.js",
+    "main.js": "/static/js/main.6acdc1ee.js",
     "static/media/dbsc.mp4": "/static/media/dbsc.295751a1410939a49ef6.mp4",
     "static/media/dbsc.webm": "/static/media/dbsc.d133cfc2db2db3061287.webm",
     "static/media/qmp.webm": "/static/media/qmp.1b2a9a0de4559625cc3c.webm",
@@ -18,7 +18,6 @@
     "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
     "static/media/walmart.webp": "/static/media/walmart.83726adc9415944f7fd1.webp",
-    "static/media/sfuosdev.webp": "/static/media/sfuosdev.c09fe6f1c74a137bedbc.webp",
     "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
     "static/media/filesorter.webp": "/static/media/filesorter.d0af97868cfa98c6c95d.webp",
     "static/media/drawant.webp": "/static/media/drawant.abfd6f6621c6278612ae.webp",
@@ -26,14 +25,15 @@
     "static/media/sortingvisualizer.webp": "/static/media/sortingvisualizer.bb9279194420cc075054.webp",
     "static/media/qmp.webp": "/static/media/qmp.3d011bd17b95ce15e9f7.webp",
     "static/media/pocketpinata.webp": "/static/media/pocketpinata.446d8fb9992bcf54dc9f.webp",
+    "static/media/sfuosdev.webp": "/static/media/sfuosdev.9af51d4d49d50fcfc7ea.webp",
     "static/media/kumon.webp": "/static/media/kumon.b90833d6551a4dc60cff.webp",
     "static/media/dbsc.webp": "/static/media/dbsc.d2dec87beac79808fb84.webp",
     "index.html": "/index.html",
     "main.35c34e04.css.map": "/static/css/main.35c34e04.css.map",
-    "main.0bc24465.js.map": "/static/js/main.0bc24465.js.map"
+    "main.6acdc1ee.js.map": "/static/js/main.6acdc1ee.js.map"
   },
   "entrypoints": [
     "static/css/main.35c34e04.css",
-    "static/js/main.0bc24465.js"
+    "static/js/main.6acdc1ee.js"
   ]
 }
