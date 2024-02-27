@@ -11,12 +11,15 @@ function Hero() {
                 <div className='hero-texts-container'>
                   <p className='hero-text'>I'm Ahmad,</p>
                   <p className='hero-text'>Nice to <span className='highlight'>meet you,</span></p>
-                  <p className='hero-text'>I'm a <span className='highlight'>
-                    <Typewriter 
-                      words={['CS Student.', 'Developer.', 'Creator.', 'Leader.']}
-                      loop={Infinity}
-                      cursor
-                    /></span></p> 
+                  <p className='hero-text'>
+                    I'm a <span className='highlight'>
+                      <Typewriter 
+                        words={['CS Student.', 'Developer.', 'Creator.', 'Leader.']}
+                        loop={Infinity}
+                        cursor
+                      />
+                    </span>
+                  </p> 
                 </div>
                 <div className='hero-links'>
                   <Link to='/Contact' className='hero-link'>Connect</Link>
