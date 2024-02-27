@@ -85,7 +85,7 @@ function Navbar() {
             <Link to='/Education' className='nav-link education-nav-link'>Education</Link>
             <Link to='/Projects' className='nav-link projects-nav-link'>Projects</Link>
             <Link to='/Contact' className='nav-link contact-nav-link'>Contact</Link>
-            <a aria-label='resume' target='_blank' rel="noreferrer" href='Resume.pdf' className='nav-link resume-nav-link'>Resume</a>
+            <a aria-label='resume' target='_blank' rel="noreferrer" href='/Resume.pdf' className='nav-link resume-nav-link'>Resume</a>
             <button aria-label='change theme' onClick={changeColorMode} className='nav-link' id='color-switch-button'>
               {darkModeOn ? <i className="bi bi-lightbulb-off-fill"></i> : <i className="bi bi-lightbulb-fill"></i>}
             </button>

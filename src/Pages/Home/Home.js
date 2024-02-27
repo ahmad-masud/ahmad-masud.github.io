@@ -23,7 +23,7 @@ function Home() {
           />
       ))}
       <div className='projects-link-container'>
-        <Link to='/projects/' className='projects-link'>View all projects {'>'}</Link>
+        <Link to='/projects' className='projects-link'>View all projects {'>'}</Link>
       </div>
       <Skills />
     </div>
