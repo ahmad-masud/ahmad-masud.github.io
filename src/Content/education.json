@@ -1,0 +1,35 @@
+{
+  "school": "SFU Computer Science (Co-op)",
+  "graduationDate": "Expected Graduation: Fall 2027",
+  "courses": [
+    {
+      "category": "Computer Science",
+      "courses": [
+        "Programming I (Python)",
+        "Programming II (C/C++)",
+        "Data Structures and Algorithms",
+        "Software Engineering",
+        "Computer Systems",
+        "Database Systems"
+      ]
+    },
+    {
+      "category": "Mathematics",
+      "courses": [
+        "Discrete Mathematics",
+        "Differential Calculus",
+        "Integral Calculus",
+        "Linear Algebra",
+        "Probability and Statistics"
+      ]
+    },
+    {
+      "category": "Business",
+      "courses": [
+        "Business Fundamentals"
+      ]
+    }
+  ]
+}
+
+  

@@ -1,18 +1,17 @@
-import loadProjectsData from '../../ProjectsData/loadProjectsData.js'
+import loadProjects from '../../Content/Projects/loadProjects.js'
 import Project from '../../Components/Project/Project.js';
 import './Projects.css';
 
 function Projects() {
-
-  const projectsData = loadProjectsData()
+  const projects = loadProjects()
 
   return (
     <div className='projects'>
       <p className='projects-title'>Projects</p>
-      {projectsData.map((projectData, index) => (
+      {projects.map((project, index) => (
         <Project
           key={index}
-          data={projectData}
+          data={project}
         />
       ))}
     </div>

@@ -1,0 +1,55 @@
+[
+    {
+        "category": "Languages",
+        "skills": [
+            "Java",
+            "Python",
+            "C/C++",
+            "SQL",
+            "GraphQL",
+            "SQLite",
+            "MySQL", 
+            "Postgres",
+            "JavaScript",
+            "HTML/CSS",
+            "MATLAB",
+            "Markdown"
+        ]
+    },
+    {
+        "category": "Frameworks",
+        "skills": [
+            "React.js",
+            "Node.js",
+            "JUnit",
+            "Firebase",
+            "Gatsby.js",
+            "Spring Boot (RESTful API)",
+            "Django"
+        ]
+    },
+    {
+        "category": "Libraries",
+        "skills": [
+            "numpy",
+            "pandas",
+            "matplotlib",
+            "scikit-learn",
+            "Axios",
+            "jsPlumb"
+        ]
+    },
+    {
+        "category": "DevOps",
+        "skills": [
+            "Git",
+            "GitHub",
+            "Docker",
+            "CI/CD",
+            "Github Actions",
+            "Google Analytics"
+        ]
+    }
+]
+
+  

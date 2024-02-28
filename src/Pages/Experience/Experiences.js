@@ -1,18 +1,17 @@
-import loadExperiencesData from '../../ExperiencesData/loadExperiencesData.js'
+import loadExperiences from '../../Content/Experiences/loadExperiences.js'
 import Experience from '../../Components/Experience/Experience.js'
 import './Experience.css'
 
 function Experiences() {
-
-  const expereinecesData = loadExperiencesData()
+  const experiences = loadExperiences()
 
   return (
     <div className='experiences'>
       <p className='experiences-title'>Experiences</p>
-      {expereinecesData.map((expereinecesData, index) => (
+      {experiences.map((experience, index) => (
         <Experience
           key={index}
-          data={expereinecesData}
+          data={experience}
         />
       ))}
     </div>
