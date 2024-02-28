@@ -1,10 +1,8 @@
-import loadExperiences from '../../Content/Experiences/loadExperiences.js'
+import experiences from '../../Content/experiences.json';
 import Experience from '../../Components/Experience/Experience.js'
-import './Experience.css'
+import './Experiences.css'
 
 function Experiences() {
-  const experiences = loadExperiences()
-
   return (
     <div className='experiences'>
       <p className='experiences-title'>Experiences</p>

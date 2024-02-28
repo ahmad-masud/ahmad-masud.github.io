@@ -1,10 +1,9 @@
-import loadProjects from '../../Content/Projects/loadProjects.js'
+import React from 'react';
 import Project from '../../Components/Project/Project.js';
+import projects from '../../Content/projects.json';
 import './Projects.css';
 
 function Projects() {
-  const projects = loadProjects()
-
   return (
     <div className='projects'>
       <p className='projects-title'>Projects</p>

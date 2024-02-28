@@ -2,13 +2,11 @@ import Hero from '../../Components/Hero/Hero.js';
 import Info from '../../Components/Info/Info.js';
 import Skills from '../../Components/Skills/Skills.js';
 import Project from '../../Components/Project/Project.js';
-import loadProjects from '../../Content/Projects/loadProjects.js'
+import projects from '../../Content/projects.json';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
-  const projects = loadProjects()
-
   return (
     <div className='home'>
       <Hero />

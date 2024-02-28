@@ -55,7 +55,7 @@
 }
  
 body {
-   font-family: 'optimistic_display';
+   font-family: 'optimistic_display', 'sans-serif';
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    background: var(--main-color);

@@ -1,0 +1,71 @@
+[
+    {
+        "image": "sfuosdev.webp",
+        "startDate": "February 2024",
+        "endDate": null,
+        "present": true,
+        "title": "Software Developer",
+        "company": "SFU Open Source Development Club",
+        "description": "SFU Open Source Development club is built for students willing to support the Open Source Community, and interested in real-world software engineering, as well as learning modern tools for software development outside the classroom.",
+        "listItems": [
+            "A non-profit club at SFU aimed at developing open-source web solutions",
+            "Currently working on a NBA Statistics web app"
+        ]
+    },
+    {
+        "image": "kumon.webp",
+        "startDate": "June 2023",
+        "endDate": "January 2024",
+        "present": false,
+        "title": "Teaching Assistant",
+        "company": "Kumon",
+        "description": "I started working at kumon in May of 2023. I grade students math and reading work such as calculus, algebra, poetry writing, and reading. I also teach younger children how to read words and build their foundation of the English language",
+        "listItems": [
+            "Facilitated self-learning to students, adapting to individual needs and pace, fostering self-reliance and confidence",
+            "Assisted students in mastering and advancing through incremental levels of math and reading curriculum",
+            "Graded students' assignments promptly and accurately, providing constructive feedback to support improvement"
+        ]
+    },
+    {
+        "image": "walmart.webp",
+        "startDate": "November 2021",
+        "endDate": "March 2023",
+        "present": false,
+        "title": "Store Standards Associate",
+        "company": "Walmart",
+        "description": "I applied at Walmart in October of 2021. I loved my job and love helping customers and moving stuff around the Store and pushing carts. I decided to leave in February of 2023 to focus on my post-secondary studies.",
+        "listItems": [
+            "Handled client inquiries with exceptional professionalism and enthusiasm",
+            "Informed customers about product lines and services offered by the company",
+            "Provided customer service and issue resolution to increase QA satisfaction levels"
+        ]
+    },
+    {
+        "image": "vikingsdev.webp",
+        "startDate": "October 2021",
+        "endDate": "July 2022",
+        "present": false,
+        "title": "Teaching Assistant",
+        "company": "VikingsDev",
+        "description": "VikingsDev is a community for aspiring programmers. A place where students can learn how to use their creative skills to make various projects and learn new programming languages",
+        "listItems": [
+            "Guided students on creating their own personal projects",
+            "Helped students learn various programming languages such as Python",
+            "Gave brief lectures on how to complete tasks using Python"
+        ]
+    },
+    {
+        "image": "pocketpinata.webp",
+        "startDate": "April 2021",
+        "endDate": "May 2021",
+        "present": false,
+        "title": "QA Tester",
+        "company": "Pocket Pinata Interactive",
+        "description": "In grade 12, I took a job as a game tester. I did not get paid for the job and it was purely for experience. I had to look for bugs in mobile games and record myself playing the game to create of visual of the bug and write reports on each trial.",
+        "listItems": [
+            "Participated in product design reviews to provide input on functional requirements, product designs, schedules, or potential problems",
+            "Generated written reports to detail discrepancies found during game testing",
+            "Troubleshot bugs to find the root cause and improve data collection methods"
+        ]
+    }
+  ]
