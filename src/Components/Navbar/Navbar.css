@@ -18,8 +18,8 @@
 }
 
 .nav-container {
+    width: 100%;
     height: 100%;
-    width: var(--width);
     display: flex;
     justify-content: space-between;
     margin: 0 10px;

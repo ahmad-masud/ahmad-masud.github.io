@@ -10,7 +10,7 @@ function Hero() {
                 <p className='hero-greeting-text'>Hey there <img src='wave.webp' alt='wave' className='wave'></img></p>
                 <div className='hero-texts-container'>
                   <p className='hero-text'>I'm Ahmad,</p>
-                  <p className='hero-text'>Nice to <span className='highlight'>meet you,</span></p>
+                  <p className='hero-text'>Nice to meet you,</p>
                   <p className='hero-text'>
                     I'm a <span className='highlight'>
                       <Typewriter 

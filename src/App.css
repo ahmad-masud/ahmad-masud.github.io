@@ -11,12 +11,12 @@
 }
 
 :root.dark {
-   --main-color: rgb(25, 30, 35);
-   --secondary-color: rgb(30, 35, 40);
+   --main-color: #23272F;
+   --secondary-color: #1B1D23;
    --font-color: white;
    --border-color: rgba(255, 255, 255, 0.15);
-   --highlight-color: rgb(55, 60, 65);
-   --nav-color: rgba(25, 30, 35, 0.9);
+   --highlight-color: rgb(50, 54, 62);
+   --nav-color: rgba(35, 39, 47, 0.9);
 }
 
 @media only screen and (max-width: 600px) {
