@@ -1,7 +1,17 @@
 [
     {
-        "title": "Database Schema Constructor",
+        "title": "TempTalk",
         "date": "March 2024",
+        "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure. It is built with React and Firebase for the frontend and backend, respectively. The application is designed to be responsive and mobile-friendly. The application is accessible to anyone with an internet connection. The source code is available on GitHub for anyone who wants to contribute or learn from it.",
+        "github": "https://github.com/ahmad-masud/TempTalk",
+        "link": "https://ahmadmasud.com/TempTalk",
+        "stacks": ["Javascript", "React", "Firebase", "Node.js"],
+        "image": "temptalk.gif",
+        "pinned": true
+    },
+    {
+        "title": "Database Schema Constructor",
+        "date": "February 2024",
         "description": "Database Schema Constructor is a web application for visually creating and manipulating database schemas. It allows users to add tables, define attributes, and set constraints like NOT NULL, UNIQUE, PRIMARY KEY, and AUTO_INCREMENT. Features include SQL query generation and download, draggable tables for layout flexibility, and responsive design. Schemas can be persisted in local storage and cloud storage for future sessions.",
         "github": "https://github.com/ahmad-masud/Database-Schema-Constructor",
         "link": "https://dbsc.online/",
@@ -11,7 +21,7 @@
     },
     {
         "title": "Quant Market Predictor",
-        "date": "February 2024",
+        "date": "January 2024",
         "description": "Quant Market Predictor is a Python-based tool designed to forecast future stock prices using historical market data from NASDAQ. Utilizing Linear Regression to make a Statistics Model, this project aims to provide users with insights into potential future market prices.",
         "github": "https://github.com/ahmad-masud/Quant-Market-Predictor?tab=readme-ov-file",
         "stacks": ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn"],
@@ -20,7 +30,7 @@
     },
     {
         "title": "File Sorter",
-        "date": "January 2024",
+        "date": "December 2023",
         "description": "The File Sorter Application is a Python-based tool designed to help organize files in a directory. It automatically sorts files into subdirectories based on chosen criteria: file size, file type, or date modified.",
         "github": "https://github.com/ahmad-masud/File-Sorter",
         "stacks": ["Python"],
