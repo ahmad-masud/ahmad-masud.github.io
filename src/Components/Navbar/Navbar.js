@@ -2,6 +2,7 @@ import './Navbar.css';
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie';
+import logo from '../../Content/images/logo.webp';
 
 function Navbar() {
   const [darkModeOn, setDarkModeOn] = useState(Cookies.get('colorMode') === 'dark');
@@ -77,7 +78,7 @@ function Navbar() {
               {isNavOpen ? <i className="bi bi-x"></i> : <i className="bi bi-list"></i>}
             </button>
             <Link to='/' className='logo-nav-link'>
-              <img src="/logo.webp" alt='logo' className='logo' onClick={closeNav} width='50'></img>
+              <img src={logo} alt='logo' className='logo' onClick={closeNav} width='50'></img>
             </Link>
           </div>
           <div className='nav-links'>

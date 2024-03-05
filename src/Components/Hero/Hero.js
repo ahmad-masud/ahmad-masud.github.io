@@ -1,13 +1,15 @@
 import './Hero.css';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
+import wave from '../../Content/images/wave.webp';
+import profile from '../../Content/images/profile.webp';
 
 function Hero() {
   return (
     <div className='hero-container'>
         <div className='hero'>
             <div className='hero-texts'>
-                <p className='hero-greeting-text'>Hey there <img src='wave.webp' alt='wave' className='wave'></img></p>
+                <p className='hero-greeting-text'>Hey there <img src={wave} alt='wave' className='wave'></img></p>
                 <div className='hero-texts-container'>
                   <p className='hero-text'>I'm Ahmad,</p>
                   <p className='hero-text'>Nice to meet you,</p>
@@ -26,7 +28,7 @@ function Hero() {
                   <Link to='/Projects' className='hero-link project-link'>Projects</Link>
                 </div>
             </div>
-            <img src='Profile.webp' alt='Profile' className='profile-image' width='90%'/>
+            <img src={profile} alt='Profile' className='profile-image' width='90%'/>
         </div>
     </div>
   );
