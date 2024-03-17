@@ -2,7 +2,7 @@ import './Hero.css';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 import wave from '../../Content/images/wave.webp';
-import profile from '../../Content/images/profile.webp';
+import profile from '../../Content/images/profile.png';
 
 function Hero() {
   return (

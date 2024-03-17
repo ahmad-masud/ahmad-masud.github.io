@@ -2,7 +2,7 @@
     {
         "title": "TempTalk",
         "date": "March 2024",
-        "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure. It is built with React and Firebase for the frontend and backend, respectively. The application is designed to be responsive and mobile-friendly. The application is accessible to anyone with an internet connection. The source code is available on GitHub for anyone who wants to contribute or learn from it.",
+        "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure.",
         "github": "https://github.com/ahmad-masud/TempTalk",
         "link": "https://ahmadmasud.com/TempTalk",
         "stacks": ["Javascript", "React", "Firebase", "Node.js"],
@@ -12,7 +12,7 @@
     {
         "title": "Database Schema Constructor",
         "date": "February 2024",
-        "description": "Database Schema Constructor is a web application for visually creating and manipulating database schemas. It allows users to add tables, define attributes, and set constraints like NOT NULL, UNIQUE, PRIMARY KEY, and AUTO_INCREMENT. Features include SQL query generation and download, draggable tables for layout flexibility, and responsive design. Schemas can be persisted in local storage and cloud storage for future sessions.",
+        "description": "Database Schema Constructor is a web application for visually creating and manipulating database schemas and then exporting them as SQL Query files. Features include cloud saving, draggable tables for layout flexibility, and responsive design.",
         "github": "https://github.com/ahmad-masud/Database-Schema-Constructor",
         "link": "https://dbsc.online/",
         "stacks": ["Javascript", "React", "Firebase", "Node.js", "jsPlumb"],
@@ -40,17 +40,17 @@
     {
         "title": "RateRover",
         "date": "June 2023",
-        "description": "An application using React that leverages Java and JSX to facilitate currency conversion across different countries. This project allowed me to enhance my React proficiency and gain hands-on experience in making API calls with external websites and servers. Not only did this project provide me with an opportunity to improve my skills, but it also serves a practical purpose and can benefit a broad range of users.",
+        "description": "RateRover is a web application that allows users to convert between any currency in the world. This project uses Axios to make an api call to Open Exchange Rates to get the latest exchange rates.",
         "github": "https://github.com/ahmad-masud/RateRover",
         "link": "https://ahmadmasud.com/RateRover",
-        "stacks": ["Javascript", "React", "JSX", "CSS"],
+        "stacks": ["Javascript", "React", "JSX", "CSS", "Open Exchange Rates"],
         "image": "raterover.gif",
         "pinned": false
     },
     {
         "title": "DrawAnt",
         "date": "April 2023",
-        "description": "DrawAnt is a simple drawing program designed for ease of use and versatility. With DrawAnt, you can create beautiful drawings with a variety of tools such as pencils, brushes, shapes, and text. You can also adjust the size, color, and opacity of your tools to create the perfect design. DrawAnt has an intuitive user interface that allows for easy navigation and use of its features.",
+        "description": "DrawAnt is a simple drawing program designed for ease of use and versatility. With DrawAnt, you can create beautiful drawings with a variety of tools such as pencils, brushes, shapes, and text. You can also adjust the size, color, and opacity of your tools to create the perfect design.",
         "github": "https://github.com/ahmad-masud/DrawAnt",
         "stacks": ["Java", "Swing", "Ant"],
         "image": "drawant.gif",
@@ -59,7 +59,7 @@
     {
         "title": "Sorting Visualizer",
         "date": "December 2022",
-        "description": "An application that implements java swing to draw out a visual of the process of loop sorting. There are interactive buttons to visualize different sorting algorithms and a slider to change the delay in between swaps. The height of each bar corresponds to its value and its x position corresponds to its index in the array.",
+        "description": "An desktop application to visualize the process of popular sorting algorithms. Implemented alogrithms include Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort.",
         "github": "https://github.com/ahmad-masud/Sorting-Visualizer",
         "stacks": ["Java", "Swing", "Maven"],
         "image": "sortingvisualizer.gif",

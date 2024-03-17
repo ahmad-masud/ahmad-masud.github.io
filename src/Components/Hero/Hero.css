@@ -7,7 +7,6 @@
 
 .hero {
     margin: 70px auto;
-    flex-direction: row;
     display: flex;
     gap: 25px;
     max-width: var(--width);
@@ -17,7 +16,11 @@
 }
 
 .profile-image {
-    width: 40%;
+    width: 30%;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    padding: 25px;
+    border: 1px solid var(--border-color);
 }
 
 .hero-texts {
