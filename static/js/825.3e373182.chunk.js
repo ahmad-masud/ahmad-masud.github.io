@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[825],{825:function(a,p,f){a.exports=f.p+"static/media/temptalk.8fdbcb1fc5fbaa0af5f5.gif"}}]);
