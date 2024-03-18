@@ -6,10 +6,11 @@
         "present": true,
         "title": "Software Developer",
         "company": "SFU Open Source Development Club",
-        "description": "SFU Open Source Development club is built for students willing to support the Open Source Community, and interested in real-world software engineering, as well as learning modern tools for software development outside the classroom.",
         "listItems": [
             "A non-profit club at SFU aimed at developing open-source web solutions",
-            "Currently working on a NBA Statistics web app"
+            "Developed a NBA Statistics Tracker web app using React as the front end and BALLDONTLIE for data",
+            "Worked as a team, adopting Agile methodologies to ensure timely delivery of 3 major updates",
+            "Utilized GitHub for version control, and collaboration through 60+ code reviews and merges"
         ]
     },
     {
@@ -19,11 +20,11 @@
         "present": false,
         "title": "Teaching Assistant",
         "company": "Kumon",
-        "description": "I started working at kumon in May of 2023. I grade students math and reading work such as calculus, algebra, poetry writing, and reading. I also teach younger children how to read words and build their foundation of the English language",
         "listItems": [
-            "Facilitated self-learning to students, adapting to individual needs and pace, fostering self-reliance and confidence",
+            "Kumon learning centers for children specializes in nationwide after school math and reading",
+            "Tutored students in Calculus, Algebra, Trigonometry, Reading, Writing, and Poetry through personalized instruction",
             "Assisted students in mastering and advancing through incremental levels of math and reading curriculum",
-            "Graded students' assignments promptly and accurately, providing constructive feedback to support improvement"
+            "Graded 500+ student assignments and provided feedback for improvements, optimizing student productivity"
         ]
     },
     {
@@ -33,11 +34,12 @@
         "present": false,
         "title": "Store Standards Associate",
         "company": "Walmart",
-        "description": "I applied at Walmart in October of 2021. I loved my job and love helping customers and moving stuff around the Store and pushing carts. I decided to leave in February of 2023 to focus on my post-secondary studies.",
         "listItems": [
-            "Handled client inquiries with exceptional professionalism and enthusiasm",
-            "Informed customers about product lines and services offered by the company",
-            "Provided customer service and issue resolution to increase QA satisfaction levels"
+            "Walmart is an American multinational retail corporation that operates a chain of hypermarkets",
+            "Excelled in customer service by warmly greeting and assisting shoppers, enhancing their overall experience",
+            "Facilitated smooth store operations by efficiently transporting heavy items and restocking shelves",
+            "Operated a CARTMANAGER XD for effective cart management, ensuring availability of 300+ carts per shift",
+            "Demonstrated proficiency in using a pallet jack for safe and strategic movement of heavy merchandise"
         ]
     },
     {
@@ -47,11 +49,13 @@
         "present": false,
         "title": "Teaching Assistant",
         "company": "VikingsDev",
-        "description": "VikingsDev is a community for aspiring programmers. A place where students can learn how to use their creative skills to make various projects and learn new programming languages",
         "listItems": [
-            "Guided students on creating their own personal projects",
-            "Helped students learn various programming languages such as Python",
-            "Gave brief lectures on how to complete tasks using Python"
+            "VikingsDev is a club giving students a chance to learn the fundamentals of computer programming",
+            "Mentored 20+ high school students in Python and guided them to create their first personal projects",
+            "Led 10 interactive workshops, simplifying coding concepts in Python, resulting in increased student engagement",
+            "Provided individual support and mentorship, significantly improving students’ confidence and proficiency in Python",
+            "Developed engaging curriculum materials, fostering a hands-on learning environment for high school students"
+            
         ]
     },
     {
@@ -61,11 +65,11 @@
         "present": false,
         "title": "QA Tester",
         "company": "Pocket Pinata Interactive",
-        "description": "In grade 12, I took a job as a game tester. I did not get paid for the job and it was purely for experience. I had to look for bugs in mobile games and record myself playing the game to create of visual of the bug and write reports on each trial.",
         "listItems": [
-            "Participated in product design reviews to provide input on functional requirements, product designs, schedules, or potential problems",
-            "Generated written reports to detail discrepancies found during game testing",
-            "Troubleshot bugs to find the root cause and improve data collection methods"
+            "A game developement company that creates games for mobile and PC platforms",
+            "Performed functionality tests on Draw a Stickman, a game played 100M+ times and winner of 5 Webby Awards",
+            "Accelerated product iterations by reducing 30% of bugs, directly influencing the launch timeline of 3 major games",
+            "Created written and recorded testing reports, suggesting improvements for possible issues in software/game-play"
         ]
     }
   ]
