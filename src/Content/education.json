@@ -10,7 +10,8 @@
         "Data Structures and Algorithms",
         "Software Engineering",
         "Computer Systems",
-        "Database Systems"
+        "Database Systems",
+        "Object Oriented Design"
       ]
     },
     {
@@ -21,12 +22,6 @@
         "Integral Calculus",
         "Linear Algebra",
         "Probability and Statistics"
-      ]
-    },
-    {
-      "category": "Business",
-      "courses": [
-        "Business Fundamentals"
       ]
     }
   ]
