@@ -1,13 +1,10 @@
 import './Contact.css';
-import React, { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
-
     const form = useRef();
-
     const [message, setMessage] = useState('Sent Successfully ✅');
-
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -28,6 +25,10 @@ function Contact() {
               }, 5000);
         });
     };
+
+    useEffect(() => {
+        document.title = 'Contact | Ahmad Masud';
+    }, []);
   
     return (
         <div className='contact'>

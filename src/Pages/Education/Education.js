@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import './Education.css';
 import education from '../../Content/education.json';
 
 function Education() {
+  useEffect(() => {
+    document.title = 'Education | Ahmad Masud';
+  }, []);
+
   return (
     <div className='education'>
       <p className='education-title'>Education</p>

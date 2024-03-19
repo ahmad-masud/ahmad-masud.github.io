@@ -2,7 +2,6 @@ import './Hero.css';
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 import wave from '../../Content/images/wave.webp';
-import profile from '../../Content/images/profile.webp';
 
 function Hero() {
   return (
@@ -28,7 +27,6 @@ function Hero() {
                   <Link to='/Projects' className='hero-link project-link'>Projects</Link>
                 </div>
             </div>
-            <img src={profile} alt='Profile' className='profile-image' width='90%'/>
         </div>
     </div>
   );
