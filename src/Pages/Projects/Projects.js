@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import React from 'react';
 import Project from '../../Components/Project/Project.js';
 import projects from '../../Content/projects.json';
 import './Projects.css';
