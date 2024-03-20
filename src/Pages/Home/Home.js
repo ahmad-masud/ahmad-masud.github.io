@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Hero from '../../Components/Hero/Hero.js';
 import Info from '../../Components/Info/Info.js';
 import Skills from '../../Components/Skills/Skills.js';
@@ -7,6 +8,10 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
+  useEffect(() => {
+    document.title = 'Ahmad Masud';
+  }, []);
+
   return (
     <div className='home'>
       <Hero />

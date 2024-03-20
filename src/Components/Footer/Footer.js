@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className='footer'>
       <p className='footer-quote'>
-        "Always remember that your present situation is not your final destination. The best is yet to come." -Zig Ziglar
+        "Computers are good at following instructions, but not at reading your mind." -Donald Knuth
       </p>
       <div className='footer-links'>
           <a aria-label='github' href='https://github.com/ahmad-masud' className='footer-link' target="_blank" rel="noreferrer">
@@ -18,7 +18,7 @@ function Footer() {
           </a>
       </div>
       <span className='footer-copyright-text'>
-        Designed and Programmed by Ahmad Masud ©
+        Designed and Programmed by Ahmad Masud {new Date().getFullYear()} ©
       </span>
     </div>
   );

@@ -5,7 +5,7 @@ import Cookies from 'js-cookie';
 import logo from '../../Content/images/logo.webp';
 
 function Navbar() {
-  const [darkModeOn, setDarkModeOn] = useState(Cookies.get('colorMode') === 'dark');
+  const [darkModeOn, setDarkModeOn] = useState(false);
   const [isNavOpen, setIsNavOpen] = useState(false);
   const navRef = useRef(null);
   const mediaNavRef = useRef(null);
@@ -16,10 +16,18 @@ function Navbar() {
     const updateColorMode = () => {
       if (Cookies.get('colorMode') === 'dark') {
         root.classList.add('dark');
-      } else {
+        setDarkModeOn(true);
+      } else if (Cookies.get('colorMode') === 'light') {
         root.classList.remove('dark');
-        Cookies.set('colorMode', 'light');
         setDarkModeOn(false);
+      } else {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          root.classList.add('dark');
+          setDarkModeOn(true);
+        } else {
+          root.classList.remove('dark');
+          setDarkModeOn(false);
+        }
       }
     };
     updateColorMode();
