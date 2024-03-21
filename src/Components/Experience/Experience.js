@@ -21,13 +21,21 @@ function Experience({ data }) {
   return (
     <div className='experience'>
       <div className='experience-container'>
-        <img className='experience-image' src={imageSrc} alt={data.title + " Image"} width='30%' />
         <div className='experience-info-container'>
           <div className='experience-header-container'>
-            <span className='experience-date'>
-              {data.startDate} - {data.present ? 'Present' : data.endDate}
-            </span>
-            <header className='experience-title'>{data.title} • {data.company}</header>
+            <img className='experience-image' src={imageSrc} alt={data.title + " Image"} width='100px' />
+            <div className='experience-sub-header-container'>
+              <div className='experience-header'>
+                <span className='experience-title'>{data.company}</span>
+                <span className='experience-date'>
+                  {data.startDate} - {data.present ? 'Present' : data.endDate}
+                </span>
+              </div>
+              <div className='experience-header'>
+                <span className='experience-position'>{data.position}</span>
+                <span className='experience-location'>{data.location}</span>
+              </div>
+            </div>
           </div>
           <ul className='experience-list'>
             {data.listItems.map((listItem, index) => (

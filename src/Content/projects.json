@@ -1,7 +1,7 @@
 [
     {
         "title": "TempTalk",
-        "date": "March 2024",
+        "date": "Mar 2024",
         "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure.",
         "github": "https://github.com/ahmad-masud/TempTalk",
         "link": "https://ahmadmasud.com/TempTalk",
@@ -11,7 +11,7 @@
     },
     {
         "title": "Database Schema Constructor",
-        "date": "February 2024",
+        "date": "Feb 2024",
         "description": "Database Schema Constructor is a web application for visually creating and manipulating database schemas and then exporting them as SQL Query files. Features include cloud saving, draggable tables for layout flexibility, and responsive design.",
         "github": "https://github.com/ahmad-masud/Database-Schema-Constructor",
         "link": "https://dbsc.online/",
@@ -21,7 +21,7 @@
     },
     {
         "title": "Quant Market Predictor",
-        "date": "January 2024",
+        "date": "Jan 2024",
         "description": "Quant Market Predictor is a Python-based tool designed to forecast future stock prices using historical market data from NASDAQ. Utilizing Linear Regression to make a Statistics Model, this project aims to provide users with insights into potential future market prices.",
         "github": "https://github.com/ahmad-masud/Quant-Market-Predictor?tab=readme-ov-file",
         "stacks": ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn"],
@@ -30,7 +30,7 @@
     },
     {
         "title": "File Sorter",
-        "date": "December 2023",
+        "date": "Dec 2023",
         "description": "The File Sorter Application is a Python-based tool designed to help organize files in a directory. It automatically sorts files into subdirectories based on chosen criteria: file size, file type, or date modified.",
         "github": "https://github.com/ahmad-masud/File-Sorter",
         "stacks": ["Python"],
@@ -39,7 +39,7 @@
     },
     {
         "title": "RateRover",
-        "date": "June 2023",
+        "date": "Jun 2023",
         "description": "RateRover is a web application that allows users to convert between any currency in the world. This project uses Axios to make an api call to Open Exchange Rates to get the latest exchange rates.",
         "github": "https://github.com/ahmad-masud/RateRover",
         "link": "https://ahmadmasud.com/RateRover",
@@ -49,7 +49,7 @@
     },
     {
         "title": "DrawAnt",
-        "date": "April 2023",
+        "date": "Apr 2023",
         "description": "DrawAnt is a simple drawing program designed for ease of use and versatility. With DrawAnt, you can create beautiful drawings with a variety of tools such as pencils, brushes, shapes, and text. You can also adjust the size, color, and opacity of your tools to create the perfect design.",
         "github": "https://github.com/ahmad-masud/DrawAnt",
         "stacks": ["Java", "Swing", "Ant"],
@@ -58,7 +58,7 @@
     },
     {
         "title": "Sorting Visualizer",
-        "date": "December 2022",
+        "date": "Dec 2022",
         "description": "An desktop application to visualize the process of popular sorting algorithms. Implemented alogrithms include Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort.",
         "github": "https://github.com/ahmad-masud/Sorting-Visualizer",
         "stacks": ["Java", "Swing", "Maven"],

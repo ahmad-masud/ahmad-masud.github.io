@@ -1,11 +1,12 @@
 [
     {
         "image": "sfuosdev.webp",
-        "startDate": "February 2024",
+        "startDate": "Feb 2024",
         "endDate": null,
         "present": true,
-        "title": "Software Developer",
-        "company": "SFU Open Source Development Club",
+        "position": "Software Developer",
+        "company": "SFU OS Dev",
+        "location": "Burnaby, BC",
         "listItems": [
             "A non-profit club at SFU aimed at developing open-source web solutions",
             "Developed a NBA Statistics Tracker web app using React as the front end and BALLDONTLIE for data",
@@ -15,11 +16,12 @@
     },
     {
         "image": "kumon.webp",
-        "startDate": "June 2023",
-        "endDate": "January 2024",
+        "startDate": "Jun 2023",
+        "endDate": "Jan 2024",
         "present": false,
-        "title": "Teaching Assistant",
+        "position": "Teaching Assistant",
         "company": "Kumon",
+        "location": "Burnaby, BC",
         "listItems": [
             "Kumon learning centers for children specializes in nationwide after school math and reading",
             "Tutored students in Calculus, Algebra, Trigonometry, Reading, Writing, and Poetry through personalized instruction",
@@ -29,11 +31,12 @@
     },
     {
         "image": "walmart.webp",
-        "startDate": "November 2021",
-        "endDate": "March 2023",
+        "startDate": "Nov 2021",
+        "endDate": "Mar 2023",
         "present": false,
-        "title": "Store Standards Associate",
+        "position": "Store Standards Associate",
         "company": "Walmart",
+        "location": "Vancouver, BC",
         "listItems": [
             "Walmart is an American multinational retail corporation that operates a chain of hypermarkets",
             "Excelled in customer service by warmly greeting and assisting shoppers, enhancing their overall experience",
@@ -44,11 +47,12 @@
     },
     {
         "image": "vikingsdev.webp",
-        "startDate": "October 2021",
-        "endDate": "July 2022",
+        "startDate": "Oct 2021",
+        "endDate": "Jul 2022",
         "present": false,
-        "title": "Teaching Assistant",
+        "position": "Teaching Assistant",
         "company": "VikingsDev",
+        "location": "Burnaby, BC",
         "listItems": [
             "VikingsDev is a club giving students a chance to learn the fundamentals of computer programming",
             "Mentored 20+ high school students in Python and guided them to create their first personal projects",
@@ -60,11 +64,12 @@
     },
     {
         "image": "pocketpinata.webp",
-        "startDate": "April 2021",
+        "startDate": "Apr 2021",
         "endDate": "May 2021",
         "present": false,
-        "title": "QA Tester",
+        "position": "QA Tester",
         "company": "Pocket Pinata Interactive",
+        "location": "Remote",
         "listItems": [
             "A game developement company that creates games for mobile and PC platforms",
             "Performed functionality tests on Draw a Stickman, a game played 100M+ times and winner of 5 Webby Awards",

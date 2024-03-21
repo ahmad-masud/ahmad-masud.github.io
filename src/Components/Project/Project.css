@@ -31,6 +31,11 @@
     border: 1px solid var(--border-color);
 }
 
+.project-header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .project-title {
     font-weight: 500;
     font-size: calc(var(--font-size)*1.5);
@@ -98,18 +103,6 @@
     border: 1px solid var(--border-color);
 }
 
-.star-link {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: rgb(175,175,175);
-    font-size: var(--font-size);
-}
-
-.star-link:hover {
-    color: orange;
-}
-
 @media only screen and (max-width: 600px) {
     .projects-header  {
         font-size: 2em;
@@ -118,4 +111,6 @@
 
 .project-date {
     opacity: 0.75;
+    flex: 0 0 auto;
+    font-size: var(--font-size);
 }
