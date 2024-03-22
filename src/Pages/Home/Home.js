@@ -17,13 +17,15 @@ function Home() {
       <Hero />
       <Info />
       <p className='projects-title'>Highlighted Projects</p>
-      {projects.map((project, index) => (
-        project.pinned &&
-          <Project
-            key={index}
-            data={project}
-          />
-      ))}
+      <div className='projects'>
+        {projects.map((project, index) => (
+          project.pinned &&
+            <Project
+              key={index}
+              data={project}
+            />
+        ))}
+      </div>
       <div className='projects-link-container'>
         <Link to='/projects' className='projects-link'>View all projects {'>'}</Link>
       </div>

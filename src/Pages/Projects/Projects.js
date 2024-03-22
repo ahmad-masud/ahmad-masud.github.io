@@ -9,14 +9,16 @@ function Projects() {
   }, []);
 
   return (
-    <div className='projects'>
+    <div>
       <p className='projects-title'>Projects</p>
-      {projects.map((project, index) => (
-        <Project
-          key={index}
-          data={project}
-        />
-      ))}
+      <div className='projects'>
+        {projects.map((project, index) => (
+          <Project
+            key={index}
+            data={project}
+          />
+        ))}
+      </div>
     </div>
   );
 }

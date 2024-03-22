@@ -19,7 +19,7 @@ function Project({ data }) {
   }, [data.image]);
 
   return (
-    <div className='projects'>
+    <div>
       <div className='project-container'>
         <div className='project'>
           <img className='project-image' src={imageSrc} alt={data.title + " Image"} width='40%' />

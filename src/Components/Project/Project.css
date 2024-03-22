@@ -3,7 +3,7 @@
     flex-direction: column;
     max-width: var(--width);
     width: 90%;
-    margin: 100px auto 100px auto;
+    margin: 0 auto;
 }
 
 .project {

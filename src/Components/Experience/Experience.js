@@ -27,12 +27,12 @@ function Experience({ data }) {
             <div className='experience-sub-header-container'>
               <div className='experience-header'>
                 <span className='experience-title'>{data.company}</span>
+                <span className='experience-position'>{data.position}</span>
+              </div>
+              <div className='experience-header'>
                 <span className='experience-date'>
                   {data.startDate} - {data.present ? 'Present' : data.endDate}
                 </span>
-              </div>
-              <div className='experience-header'>
-                <span className='experience-position'>{data.position}</span>
                 <span className='experience-location'>{data.location}</span>
               </div>
             </div>

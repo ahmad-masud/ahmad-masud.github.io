@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     width: 512px;
-    margin: 110px auto 50px auto;
+    margin: 20px auto 50px auto;
     color: var(--font-color);
     border-radius: 10px;
 }

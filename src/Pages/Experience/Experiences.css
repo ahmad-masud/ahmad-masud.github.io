@@ -4,4 +4,12 @@
     color: var(--font-color);
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 100px;
 }

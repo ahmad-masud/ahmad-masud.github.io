@@ -9,14 +9,16 @@ function Experiences() {
   }, []);
   
   return (
-    <div className='experiences'>
+    <div>
       <p className='experiences-title'>Experiences</p>
-      {experiences.map((experience, index) => (
-        <Experience
-          key={index}
-          data={experience}
-        />
-      ))}
+      <div className='experiences'>
+        {experiences.map((experience, index) => (
+          <Experience
+            key={index}
+            data={experience}
+          />
+        ))}
+      </div>
     </div>
   );
 }
