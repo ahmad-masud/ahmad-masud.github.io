@@ -12,7 +12,7 @@
     width: 512px;
     margin: 20px auto 50px auto;
     color: var(--font-color);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 .required::after {
@@ -27,7 +27,7 @@
 }
 
 .contact-name-input, .contact-email-input {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     font-size: var(--font-size);
     border-width: 0;
     margin-bottom: 15px;
@@ -39,7 +39,7 @@
 }
 
 .contact-message {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     height: 150px;
     font-size: var(--font-size);
     border: none;
@@ -55,7 +55,7 @@
 .contact-submit {
     padding: 10px 15px;
     font-size: 1.25em;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     border-width: 0;
     cursor: pointer;
     background: var(--accent-color);
@@ -90,7 +90,7 @@
     font-size: var(--font-size);
     background: var(--accent-color);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     right: 0;
     top: 0;
     margin-right: 10px;

@@ -1,6 +1,8 @@
 {
-  "school": "SFU Computer Science (Co-op)",
-  "graduationDate": "Expected Graduation: Fall 2027",
+  "school": "Simon Fraser University",
+  "study": "Bachelor of Science in Computer Science (Co-op)",
+  "graduationDate": "Dec 2027",
+  "location": "Burnaby, BC",
   "courses": [
     {
       "category": "Computer Science",

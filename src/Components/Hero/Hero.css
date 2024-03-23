@@ -48,8 +48,8 @@
 }
 
 .hero-link {
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 10px 15px;
+    border-radius: var(--border-radius);
     font-size: var(--font-size);
     font-weight: 500;
 }

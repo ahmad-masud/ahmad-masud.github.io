@@ -38,7 +38,7 @@
     color: var(--font-color);
     background: transparent;
     padding: 10px 10px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     font-size: var(--font-size);
 }
 

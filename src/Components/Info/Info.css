@@ -33,5 +33,5 @@
 .info .highlight {
     background: var(--highlight-color);
     padding: 5px 5px;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
 }

@@ -12,8 +12,16 @@ function Education() {
       <p className='education-title'>Education</p>
       <div className='transcript'>
         <div className='transcript-container'>
-          <p className='transcript-title'>{education.school}</p>
-          <p className='transcript-date'>{education.graduationDate}</p>
+          <div className='transcript-headers'>
+            <div className='transcript-header'>
+              <p className='transcript-school'>{education.school}</p>
+              <p className='transcript-study'>{education.study}</p>
+            </div>
+            <div className='transcript-header'>
+              <p className='transcript-date'>Expected Graduation: {education.graduationDate}</p>
+              <p className='transcript-location'>{education.location}</p>
+            </div>
+          </div>
           {education.courses.map((section) => (
             <div key={section.category} className='transcript-section'>
               <p className='transcript-section-title'>{section.category}</p>

@@ -57,7 +57,7 @@
     font-weight: 500;
     background: transparent;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     border: none;
     cursor: pointer;
     display: flex;
