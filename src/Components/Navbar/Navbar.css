@@ -113,12 +113,12 @@
 }
 
 .media-nav-links {
-    margin: 20px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     width: 90%;
     font-weight: 500;
-    gap: 20px;
+    gap: 30px;
 }
 
 @media only screen and (max-width: 300px) {
@@ -130,7 +130,7 @@
 .media-nav-link {
     text-decoration: none;
     color: var(--font-color);
-    font-size: 1em;
+    font-size: 1.25rem;
     font-weight: 600;
     display: flex;
     align-items: center;

@@ -105,15 +105,10 @@ function Navbar() {
       <div className='media-nav' ref={mediaNavRef}>
         <div className='media-nav-links'>
           <Link to='/Experiences' className='media-nav-link experience-media-nav-link' onClick={closeNav}>Experiences</Link>
-          <hr className='media-nav-link-line'></hr>
           <Link to='/Education' className='media-nav-link education-media-nav-link' onClick={closeNav}>Education</Link>
-          <hr className='media-nav-link-line'></hr>
           <Link to='/Projects' className='media-nav-link projects-media-nav-link' onClick={closeNav}>Projects</Link>
-          <hr className='media-nav-link-line'></hr>
           <Link to='/Contact' className='media-nav-link contact-media-nav-link' onClick={closeNav}>Contact</Link>
-          <hr className='media-nav-link-line'></hr>
           <a aria-label='resume' target='_blank' rel="noreferrer" href='Resume.pdf' className='media-nav-link resume-media-nav-link' onClick={closeNav}>Resume</a>
-          <hr className='media-nav-link-line'></hr>
         </div>
       </div>
     </>

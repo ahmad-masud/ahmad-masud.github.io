@@ -57,6 +57,15 @@
         "pinned": false
     },
     {
+        "title": "ahmadmasud.com",
+        "date": "Feb 2023",
+        "description": "My personal portfolio website built using React. The website showcases my projects, skills, and contact information. The website content is dynamically generated using JSON files, making it easy to update.",
+        "github": "https://github.com/ahmad-masud/ahmad-masud.github.io",
+        "stacks": ["React", "Javascript", "JSON", "CSS"],
+        "image": "ahmadmasud.webp",
+        "pinned": false
+    },
+    {
         "title": "Sorting Visualizer",
         "date": "Dec 2022",
         "description": "An desktop application to visualize the process of popular sorting algorithms. Implemented alogrithms include Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort.",
