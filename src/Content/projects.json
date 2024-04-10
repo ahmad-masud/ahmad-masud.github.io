@@ -1,5 +1,14 @@
 [
     {
+        "title": "SFU Hikers Hub",
+        "date": "Apr 2024",
+        "description": "The SFU Hikers Hub is a centralized digital platform designed for the SFU Hiking Club. Its purpose is to enhance community engagement, facilitate the organization of events, and provide a dedicated space for members to share and find information about hiking trails, weather updates, and related activities.",
+        "github": "https://github.com/TonyDEChen/SFU-Hikers-Hub",
+        "stacks": ["Spring Boot", "Java", "Javascript", "PostgreSQL"],
+        "image": "sfuhikershub.gif",
+        "pinned": true
+    },
+    {
         "title": "TempTalk",
         "date": "Mar 2024",
         "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure.",
@@ -7,7 +16,7 @@
         "link": "https://ahmadmasud.com/TempTalk",
         "stacks": ["Javascript", "React", "Firebase", "Node.js"],
         "image": "temptalk.gif",
-        "pinned": true
+        "pinned": false
     },
     {
         "title": "Database Schema Constructor",
