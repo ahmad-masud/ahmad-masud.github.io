@@ -14,7 +14,7 @@
         "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure.",
         "github": "https://github.com/ahmad-masud/TempTalk",
         "link": "https://ahmadmasud.com/TempTalk",
-        "stacks": ["Javascript", "React", "Firebase", "Node.js"],
+        "stacks": ["React", "Firebase", "Node.js", "Javascript"],
         "image": "temptalk.gif",
         "pinned": false
     },
@@ -24,7 +24,7 @@
         "description": "Database Schema Constructor is a web application for visually creating and manipulating database schemas and then exporting them as SQL Query files. Features include cloud saving, draggable tables for layout flexibility, and responsive design.",
         "github": "https://github.com/ahmad-masud/Database-Schema-Constructor",
         "link": "https://dbsc.online/",
-        "stacks": ["Javascript", "React", "Firebase", "Node.js", "jsPlumb"],
+        "stacks": ["React", "Firebase", "Node.js", "jsPlumb", "Javascript"],
         "image": "dbsc.gif",
         "pinned": true
     },
@@ -52,7 +52,7 @@
         "description": "RateRover is a web application that allows users to convert between any currency in the world. This project uses Axios to make an api call to Open Exchange Rates to get the latest exchange rates.",
         "github": "https://github.com/ahmad-masud/RateRover",
         "link": "https://ahmadmasud.com/RateRover",
-        "stacks": ["Javascript", "React", "JSX", "CSS", "Open Exchange Rates"],
+        "stacks": ["React", "Javascript", "Open Exchange Rates"],
         "image": "raterover.gif",
         "pinned": false
     },
@@ -70,7 +70,7 @@
         "date": "Feb 2023",
         "description": "My personal portfolio website built using React. The website showcases my projects, skills, and contact information. The website content is dynamically generated using JSON files, making it easy to update.",
         "github": "https://github.com/ahmad-masud/ahmad-masud.github.io",
-        "stacks": ["React", "Javascript", "JSON", "CSS"],
+        "stacks": ["React", "Javascript"],
         "image": "ahmadmasud.webp",
         "pinned": false
     },
