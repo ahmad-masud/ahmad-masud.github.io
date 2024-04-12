@@ -9,6 +9,15 @@
         "pinned": true
     },
     {
+        "title": "Research Grant Council Database",
+        "date": "Mar 2024",
+        "description": "A Database made for tracking grant competitions for research proposals. The system allows users to create, update, and delete grant competitions, proposals, and reviewers.",
+        "github": "https://github.com/ahmad-masud/Research-Grant-Council-Database",
+        "stacks": ["Python", "Jupyter Notebook", "SQLite"],
+        "image": "erd.png",
+        "pinned": false
+    },
+    {
         "title": "TempTalk",
         "date": "Mar 2024",
         "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure.",
