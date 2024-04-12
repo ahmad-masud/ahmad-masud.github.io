@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.46b40ac2.css",
-    "main.js": "/static/js/main.95da2b93.js",
+    "main.js": "/static/js/main.e03c6690.js",
     "static/js/758.fd0763ea.chunk.js": "/static/js/758.fd0763ea.chunk.js",
     "static/js/229.51e74f2f.chunk.js": "/static/js/229.51e74f2f.chunk.js",
     "static/js/157.d3c6b0b4.chunk.js": "/static/js/157.d3c6b0b4.chunk.js",
+    "static/js/75.efac38df.chunk.js": "/static/js/75.efac38df.chunk.js",
     "static/js/649.ba981b14.chunk.js": "/static/js/649.ba981b14.chunk.js",
     "static/js/34.8acad191.chunk.js": "/static/js/34.8acad191.chunk.js",
     "static/js/983.56bf6aa9.chunk.js": "/static/js/983.56bf6aa9.chunk.js",
@@ -29,6 +30,7 @@
     "static/media/vikingsdev.webp": "/static/media/vikingsdev.dcddbc3d1e88ed0f3793.webp",
     "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
+    "static/media/erd.png": "/static/media/erd.0c4781a24e846aa529c4.png",
     "static/media/walmart.webp": "/static/media/walmart.83726adc9415944f7fd1.webp",
     "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
     "static/media/logo.webp": "/static/media/logo.a850876ba3ad6f0aba18.webp",
@@ -39,10 +41,10 @@
     "static/media/kumon.webp": "/static/media/kumon.b90833d6551a4dc60cff.webp",
     "index.html": "/index.html",
     "main.46b40ac2.css.map": "/static/css/main.46b40ac2.css.map",
-    "main.95da2b93.js.map": "/static/js/main.95da2b93.js.map"
+    "main.e03c6690.js.map": "/static/js/main.e03c6690.js.map"
   },
   "entrypoints": [
     "static/css/main.46b40ac2.css",
-    "static/js/main.95da2b93.js"
+    "static/js/main.e03c6690.js"
   ]
 }
