@@ -47,15 +47,6 @@
         "pinned": true
     },
     {
-        "title": "File Sorter",
-        "date": "Dec 2023",
-        "description": "The File Sorter Application is a Python-based tool designed to help organize files in a directory. It automatically sorts files into subdirectories based on chosen criteria: file size, file type, or date modified.",
-        "github": "https://github.com/ahmad-masud/File-Sorter",
-        "stacks": ["Python"],
-        "image": "filesorter.gif",
-        "pinned": false
-    },
-    {
         "title": "RateRover",
         "date": "Jun 2023",
         "description": "RateRover is a web application that allows users to convert between any currency in the world. This project uses Axios to make an api call to Open Exchange Rates to get the latest exchange rates.",
