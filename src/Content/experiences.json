@@ -25,7 +25,7 @@
         "listItems": [
             "A outdoor community club at SFU that organizes hiking trips and events",
             "Developed a web app for the club to manage events, members, and trip details using Spring Boot",
-            "Implemented a REST Controllers to handle CRUD operations for events, members, and trip details",
+            "Implemented REST Controllers to handle CRUD operations for events, members, and trip details",
             "Utilized PostgreSQL for database management, ensuring data integrity and security"
         ]
     },
