@@ -22,6 +22,7 @@
         "skills": [
             "React.js",
             "Node.js",
+            "Express.js",
             "JUnit",
             "Firebase",
             "Gatsby.js",
@@ -31,12 +32,12 @@
     {
         "category": "Libraries",
         "skills": [
+            "MongoDB",
             "numpy",
             "pandas",
             "matplotlib",
             "scikit-learn",
-            "Axios",
-            "jsPlumb"
+            "Axios"
         ]
     },
     {
