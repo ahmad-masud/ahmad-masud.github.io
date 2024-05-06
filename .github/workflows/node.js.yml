@@ -29,3 +29,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - name: Print debug log
+      run: cat /home/runner/.npm/_logs/2024-05-06T22_49_46_036Z-debug.log
