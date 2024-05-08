@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[962],{962:function(p,e,c){p.exports=c.p+"static/media/qmp.ae862bc8e545509c9c67.gif"}}]);

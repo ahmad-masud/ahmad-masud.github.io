@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[362],{362:function(p,a,e){p.exports=e.p+"static/media/walmart.83726adc9415944f7fd1.webp"}}]);

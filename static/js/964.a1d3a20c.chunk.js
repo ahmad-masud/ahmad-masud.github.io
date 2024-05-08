@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[964],{964:function(e,p,a){e.exports=a.p+"static/media/remindable.4cd57250ceb319af107b.gif"}}]);
