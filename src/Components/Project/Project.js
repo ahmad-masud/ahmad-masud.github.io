@@ -32,6 +32,7 @@ function Project({ data }) {
             <div className='box-list-container'>
               <div className='links'>
                 <a aria-label='github' href={data.github} className='link' target='_blank' rel="noreferrer"><i className="bi bi-github"></i> Github <i className="bi bi-box-arrow-up-right"></i></a>
+                <a aria-label='github' href={`${data.github}/blob/main/README.md`} className='link' target='_blank' rel="noreferrer"><i className="bi bi-info-circle-fill"></i> README <i className="bi bi-box-arrow-up-right"></i></a>
                 {(data.link != null) && <a href={data.link} className='link' target='_blank' rel="noreferrer">Visit <i className="bi bi-box-arrow-up-right"></i></a>}
               </div>
               <ul className='stacks'>
