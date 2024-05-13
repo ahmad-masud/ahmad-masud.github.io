@@ -7,14 +7,10 @@
             "C/C++",
             "SQL",
             "GraphQL",
-            "SQLite",
-            "MySQL", 
             "Postgres",
             "JavaScript",
             "HTML/CSS",
-            "MATLAB",
-            "Markdown",
-            "Lua"
+            "Markdown"
         ]
     },
     {
@@ -26,13 +22,14 @@
             "JUnit",
             "Firebase",
             "Gatsby.js",
-            "Spring Boot"
+            "Spring Boot",
+            "Mongoose",
+            "pytest"
         ]
     },
     {
         "category": "Libraries",
         "skills": [
-            "MongoDB",
             "numpy",
             "pandas",
             "matplotlib",
