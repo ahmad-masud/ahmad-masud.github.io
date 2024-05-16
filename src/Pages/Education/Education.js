@@ -22,16 +22,18 @@ function Education() {
               <p className='transcript-location'>{education.location}</p>
             </div>
           </div>
-          {education.courses.map((section) => (
-            <div key={section.category} className='transcript-section'>
-              <p className='transcript-section-title'>{section.category}</p>
-              <ul className='course-list'>
-                {section.courses.map((course, index) => (
-                  <li key={index} className='course'>{course}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          <div className='transcript-sections'>
+            {education.courses.map((section) => (
+              <div key={section.category} className='transcript-section'>
+                <p className='transcript-section-title'>{section.category}</p>
+                <ul className='course-list'>
+                  {section.courses.map((course, index) => (
+                    <li key={index} className='course'>{course}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

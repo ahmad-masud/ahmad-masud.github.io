@@ -27,6 +27,12 @@
     margin: 20px;
 }
 
+.transcript-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .transcript-headers {
     display: flex;
     justify-content: space-between;

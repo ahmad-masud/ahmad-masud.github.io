@@ -9,22 +9,33 @@
       "courses": [
         "Programming I (Python)",
         "Programming II (C/C++)",
-        "Data Structures and Algorithms",
-        "Software Engineering",
-        "Object Oriented Design",
-        "Computer Systems",
-        "Database Systems",
-        "Operating Systems"
+        "Data Structures and Algorithms (C++)",
+        "Object Oriented Design (Java)",
+        "Software Engineering (Java, JavaScript)",
+        "Computer Systems (C)",
+        "Operating Systems (C)",
+        "Database Systems (Python, SQLite)"
       ]
     },
     {
       "category": "Mathematics",
       "courses": [
-        "Discrete Mathematics",
         "Differential Calculus",
         "Integral Calculus",
-        "Linear Algebra",
-        "Probability and Statistics"
+        "Linear Algebra (MATLAB)"
+      ]
+    },
+    {
+      "category": "Mathematics in Computer Science",
+      "courses": [
+        "Discrete Mathematics",
+        "Numerical Analysis (MATLAB)"
+      ]
+    },
+    {
+      "category": "Statistics",
+      "courses": [
+        "Probability and Statistics (R)"
       ]
     }
   ]
