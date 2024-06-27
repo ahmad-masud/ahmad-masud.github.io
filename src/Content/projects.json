@@ -1,4 +1,13 @@
 [
+    {
+        "title": "Linux Shell",
+        "date": "May 2024",
+        "description": "A simple Linux shell written in C that accepts user commands and executes each command in a separate process, providing basic shell functionalities including process handling, internal commands, and a history feature.",
+        "github": "https://github.com/ahmad-masud/Linux-Shell",
+        "stacks": ["C", "Linux", "Shell"],
+        "image": "linuxshell.webp",
+        "pinned": false
+    },
     {   
         "title": "Remindable",
         "date": "May 2024",
