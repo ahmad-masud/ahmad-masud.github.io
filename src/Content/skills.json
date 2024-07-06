@@ -2,14 +2,13 @@
     {
         "category": "Languages",
         "skills": [
-            "Java",
+            "Java/C#",
             "Python",
             "C/C++",
             "SQL",
             "GraphQL",
             "JavaScript",
-            "HTML/CSS",
-            "Markdown"
+            "HTML/CSS"
         ]
     },
     {
@@ -22,29 +21,16 @@
             "Firebase",
             "Gatsby.js",
             "Spring Boot",
-            "Mongoose",
-            "pytest"
-        ]
-    },
-    {
-        "category": "Libraries",
-        "skills": [
-            "numpy",
-            "pandas",
-            "matplotlib",
-            "scikit-learn",
-            "Axios"
+            "Mongoose"
         ]
     },
     {
         "category": "DevOps",
         "skills": [
-            "Git",
-            "GitHub",
+            "Git/Github",
             "Docker",
             "CI/CD",
             "Agile",
-            "Github Actions",
             "Google Analytics"
         ]
     }
