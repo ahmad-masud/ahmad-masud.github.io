@@ -1,5 +1,15 @@
 [
     {
+        "title": "CompCode",
+        "date": "Jul 2024",
+        "description": "CompCode is a web application designed to help you prepare for coding interviews by solving commonly asked LeetCode problems from various popular companies. The app provides a user-friendly interface to browse, solve, and track your progress on these problems.",
+        "github": "https://github.com/ahmad-masud/CompCode",
+        "link": "https://ahmadmasud.com/CompCode",
+        "stacks": ["React", "Firebase", "Node.js", "Javascript"],
+        "image": "compcode.gif",
+        "pinned": true
+    },
+    {
         "title": "Linux Shell",
         "date": "Jun 2024",
         "description": "A simple Linux shell written in C that accepts user commands and executes each command in a separate process, providing basic shell functionalities including process handling, internal commands, and a history feature.",
