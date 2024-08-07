@@ -32,6 +32,7 @@
         "date": "May 2024",
         "description": "Remindable is a simple yet powerful reminder app built using the MERN stack. With Remindable, users can create reminders with a title, date, and time, and get notified via email at the specified date and time.",
         "github": "https://github.com/ahmad-masud/Remindable",
+        "link": "https://remindable.vercel.app/",
         "stacks": ["React", "Express", "Node.js", "MongoDB"],
         "image": "remindable.gif",
         "pinned": "true"
