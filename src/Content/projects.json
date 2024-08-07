@@ -10,6 +10,15 @@
         "pinned": true
     },
     {
+        "title": "Linux Memory Allocator",
+        "date": "Jul 2024",
+        "description": "Linux Memory Allocator is a multithreaded C++ memory allocator designed to provide advanced allocation strategies and optimized memory management. This project offers flexibility and efficiency for managing memory in C++ applications.",
+        "github": "https://github.com/ahmad-masud/Linux-Memory-Allocator",
+        "stacks": ["Linux", "C++", "Posix", "Pthread"],
+        "image": "memory.webp",
+        "pinned": true
+    },
+    {
         "title": "Linux Shell",
         "date": "Jun 2024",
         "description": "A simple Linux shell written in C that accepts user commands and executes each command in a separate process, providing basic shell functionalities including process handling, internal commands, and a history feature.",
