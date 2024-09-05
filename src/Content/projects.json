@@ -85,16 +85,6 @@
         "pinned": true
     },
     {
-        "title": "RateRover",
-        "date": "Jun 2023",
-        "description": "RateRover is a web application that allows users to convert between any currency in the world. This project uses Axios to make an api call to Open Exchange Rates to get the latest exchange rates.",
-        "github": "https://github.com/ahmad-masud/RateRover",
-        "link": "https://ahmadmasud.com/RateRover",
-        "stacks": ["React", "Javascript", "Open Exchange Rates"],
-        "image": "raterover.gif",
-        "pinned": false
-    },
-    {
         "title": "DrawAnt",
         "date": "Apr 2023",
         "description": "DrawAnt is a simple drawing program designed for ease of use and versatility. With DrawAnt, you can create beautiful drawings with a variety of tools such as pencils, brushes, shapes, and text. You can also adjust the size, color, and opacity of your tools to create the perfect design.",
