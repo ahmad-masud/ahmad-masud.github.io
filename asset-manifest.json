@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e4b5aef5.css",
-    "main.js": "/static/js/main.768bc345.js",
+    "main.js": "/static/js/main.7c201992.js",
     "static/js/500.2881d171.chunk.js": "/static/js/500.2881d171.chunk.js",
     "static/js/760.cb0f0e18.chunk.js": "/static/js/760.cb0f0e18.chunk.js",
     "static/js/646.a5525f99.chunk.js": "/static/js/646.a5525f99.chunk.js",
@@ -16,7 +16,7 @@
     "static/js/681.99450bbf.chunk.js": "/static/js/681.99450bbf.chunk.js",
     "static/js/27.b870cc25.chunk.js": "/static/js/27.b870cc25.chunk.js",
     "static/js/787.67c99879.chunk.js": "/static/js/787.67c99879.chunk.js",
-    "static/js/360.30e746a4.chunk.js": "/static/js/360.30e746a4.chunk.js",
+    "static/js/360.c25f7d11.chunk.js": "/static/js/360.c25f7d11.chunk.js",
     "static/js/450.b33ff191.chunk.js": "/static/js/450.b33ff191.chunk.js",
     "static/js/798.31fed3e6.chunk.js": "/static/js/798.31fed3e6.chunk.js",
     "static/js/271.3dbf6bf9.chunk.js": "/static/js/271.3dbf6bf9.chunk.js",
@@ -31,6 +31,7 @@
     "static/media/temptalk.gif": "/static/media/temptalk.8fdbcb1fc5fbaa0af5f5.gif",
     "static/media/drawant.gif": "/static/media/drawant.68a0eb91a12f64dfdc61.gif",
     "static/media/vikingsdev.webp": "/static/media/vikingsdev.dcddbc3d1e88ed0f3793.webp",
+    "static/media/sfuosdev.webp": "/static/media/sfuosdev.ab8a35086b8c2f4ee160.webp",
     "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
     "static/media/erd.png": "/static/media/erd.0c4781a24e846aa529c4.png",
@@ -43,14 +44,13 @@
     "static/media/wave.webp": "/static/media/wave.a69aeed83f5434abf376.webp",
     "static/media/pocketpinata.webp": "/static/media/pocketpinata.446d8fb9992bcf54dc9f.webp",
     "static/media/memory.webp": "/static/media/memory.8aa4d884189aa4fbc3df.webp",
-    "static/media/sfuosdev.webp": "/static/media/sfuosdev.9af51d4d49d50fcfc7ea.webp",
     "static/media/kumon.webp": "/static/media/kumon.b90833d6551a4dc60cff.webp",
     "index.html": "/index.html",
     "main.e4b5aef5.css.map": "/static/css/main.e4b5aef5.css.map",
-    "main.768bc345.js.map": "/static/js/main.768bc345.js.map"
+    "main.7c201992.js.map": "/static/js/main.7c201992.js.map"
   },
   "entrypoints": [
     "static/css/main.e4b5aef5.css",
-    "static/js/main.768bc345.js"
+    "static/js/main.7c201992.js"
   ]
 }
