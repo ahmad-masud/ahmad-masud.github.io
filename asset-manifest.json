@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.e4b5aef5.css",
-    "main.js": "/static/js/main.7c201992.js",
+    "main.js": "/static/js/main.b3fb4461.js",
     "static/js/500.2881d171.chunk.js": "/static/js/500.2881d171.chunk.js",
     "static/js/760.cb0f0e18.chunk.js": "/static/js/760.cb0f0e18.chunk.js",
     "static/js/646.a5525f99.chunk.js": "/static/js/646.a5525f99.chunk.js",
     "static/js/875.38668a73.chunk.js": "/static/js/875.38668a73.chunk.js",
     "static/js/266.2b7abd75.chunk.js": "/static/js/266.2b7abd75.chunk.js",
+    "static/js/305.a5f1c547.chunk.js": "/static/js/305.a5f1c547.chunk.js",
     "static/js/809.16eb8121.chunk.js": "/static/js/809.16eb8121.chunk.js",
     "static/js/289.da997ab6.chunk.js": "/static/js/289.da997ab6.chunk.js",
     "static/js/886.90cd8265.chunk.js": "/static/js/886.90cd8265.chunk.js",
@@ -20,7 +21,7 @@
     "static/js/450.b33ff191.chunk.js": "/static/js/450.b33ff191.chunk.js",
     "static/js/798.31fed3e6.chunk.js": "/static/js/798.31fed3e6.chunk.js",
     "static/js/271.3dbf6bf9.chunk.js": "/static/js/271.3dbf6bf9.chunk.js",
-    "static/js/67.ded7e5bb.chunk.js": "/static/js/67.ded7e5bb.chunk.js",
+    "static/js/67.be0c72a9.chunk.js": "/static/js/67.be0c72a9.chunk.js",
     "static/media/sfuhikershub.gif": "/static/media/sfuhikershub.bc3282879d57eeea6053.gif",
     "static/media/compcode.gif": "/static/media/compcode.3296ecc47b9e6f16a318.gif",
     "static/media/sortingvisualizer.gif": "/static/media/sortingvisualizer.946f2b445149c65ba0b0.gif",
@@ -35,22 +36,23 @@
     "static/media/optimistic_display_bold.ttf": "/static/media/optimistic_display_bold.7bb5bcbaff7101b549fb.ttf",
     "static/media/optimistic_display_regular.ttf": "/static/media/optimistic_display_regular.a2d89457e5008e42c82a.ttf",
     "static/media/erd.png": "/static/media/erd.0c4781a24e846aa529c4.png",
-    "static/media/walmart.webp": "/static/media/walmart.83726adc9415944f7fd1.webp",
     "static/media/optimistic_display_medium.ttf": "/static/media/optimistic_display_medium.e0b75e72a3e72ebb582b.ttf",
     "static/media/linuxshell.webp": "/static/media/linuxshell.12e7d2254aec0bf3d963.webp",
     "static/media/sfuhikingclub.webp": "/static/media/sfuhikingclub.4a35b540af4f8ab3cde7.webp",
     "static/media/logo.webp": "/static/media/logo.a850876ba3ad6f0aba18.webp",
+    "static/media/walmart.webp": "/static/media/walmart.46e7bdcd99230467615a.webp",
     "static/media/ahmadmasud.webp": "/static/media/ahmadmasud.94cffa4a82546576269c.webp",
     "static/media/wave.webp": "/static/media/wave.a69aeed83f5434abf376.webp",
     "static/media/pocketpinata.webp": "/static/media/pocketpinata.446d8fb9992bcf54dc9f.webp",
     "static/media/memory.webp": "/static/media/memory.8aa4d884189aa4fbc3df.webp",
     "static/media/kumon.webp": "/static/media/kumon.b90833d6551a4dc60cff.webp",
+    "static/media/hitachi.webp": "/static/media/hitachi.fb45a050cdc423751c47.webp",
     "index.html": "/index.html",
     "main.e4b5aef5.css.map": "/static/css/main.e4b5aef5.css.map",
-    "main.7c201992.js.map": "/static/js/main.7c201992.js.map"
+    "main.b3fb4461.js.map": "/static/js/main.b3fb4461.js.map"
   },
   "entrypoints": [
     "static/css/main.e4b5aef5.css",
-    "static/js/main.7c201992.js"
+    "static/js/main.b3fb4461.js"
   ]
 }
