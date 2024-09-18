@@ -1,8 +1,20 @@
 [
     {
+        "image": "hitachi.webp",
+        "startDate": "Sep 2024",
+        "endDate": null,
+        "present": true,
+        "position": "Software Engineer Intern",
+        "company": "Hitachi",
+        "location": "Burnaby, BC",
+        "listItems": [
+            "Currently completing a 32-week internship, working on Automatic Train Supervision (ATS) control systems"
+        ]
+    },
+    {
         "image": "sfuosdev.webp",
         "startDate": "Feb 2024",
-        "endDate": null,
+        "endDate": "Aug 2024",
         "present": true,
         "position": "Software Developer",
         "company": "SFU OS Dev Club",
@@ -31,8 +43,8 @@
     },
     {
         "image": "kumon.webp",
-        "startDate": "Jun 2023",
-        "endDate": "Jan 2024",
+        "startDate": "May 2023",
+        "endDate": "Dec 2023",
         "present": false,
         "position": "Teaching Assistant",
         "company": "Kumon",
