@@ -1,14 +1,14 @@
 [
     {
-        "image": "hitachi.webp",
+        "image": "hitachirail.webp",
         "startDate": "Sep 2024",
         "endDate": null,
         "present": true,
         "position": "Software Engineer Intern",
-        "company": "Hitachi",
+        "company": "Hitachi Rail",
         "location": "Burnaby, BC",
         "listItems": [
-            "Currently completing a 32-week internship, working on Automatic Train Supervision (ATS) control systems"
+            "Scheduled to complete a 32-week internship, working on Automatic Train Supervision (ATS) control systems"
         ]
     },
     {
