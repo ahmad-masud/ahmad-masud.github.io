@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[309],{309:(e,p,a)=>{e.exports=a.p+"static/media/hitachirail.e7ddec452a625e1e3715.webp"}}]);
