@@ -1,15 +1,15 @@
 .projects-title {
-    font-size: calc(var(--font-size)*2);
-    font-weight: bold;
-    color: var(--font-color);
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 20px;
+  font-size: calc(var(--font-size) * 2);
+  font-weight: bold;
+  color: var(--font-color);
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .projects {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-bottom: 100px;
 }

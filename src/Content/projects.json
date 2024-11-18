@@ -1,114 +1,129 @@
 [
-    {
-        "title": "CompCode",
-        "date": "Jul 2024",
-        "description": "CompCode is a web application designed to help you prepare for coding interviews by solving commonly asked LeetCode problems from various popular companies. The app provides a user-friendly interface to browse, solve, and track your progress on these problems.",
-        "github": "https://github.com/ahmad-masud/CompCode",
-        "link": "https://ahmadmasud.com/CompCode",
-        "stacks": ["React", "Firebase", "Node.js", "Javascript"],
-        "image": "compcode.gif",
-        "pinned": true
-    },
-    {
-        "title": "Linux Memory Allocator",
-        "date": "Jul 2024",
-        "description": "Linux Memory Allocator is a multithreaded C++ memory allocator designed to provide advanced allocation strategies and optimized memory management. This project offers flexibility and efficiency for managing memory in C++ applications.",
-        "github": "https://github.com/ahmad-masud/Linux-Memory-Allocator",
-        "stacks": ["Linux", "C++", "Posix", "Pthread"],
-        "image": "memory.webp",
-        "pinned": true
-    },
-    {
-        "title": "Linux Shell",
-        "date": "Jun 2024",
-        "description": "A simple Linux shell written in C that accepts user commands and executes each command in a separate process, providing basic shell functionalities including process handling, internal commands, and a history feature.",
-        "github": "https://github.com/ahmad-masud/Linux-Shell",
-        "stacks": ["C", "Linux", "Shell"],
-        "image": "linuxshell.webp",
-        "pinned": false
-    },
-    {   
-        "title": "Remindable",
-        "date": "May 2024",
-        "description": "Remindable is a simple yet powerful reminder app built using the MERN stack. With Remindable, users can create reminders with a title, date, and time, and get notified via email at the specified date and time.",
-        "github": "https://github.com/ahmad-masud/Remindable",
-        "link": "https://remindable.vercel.app/",
-        "stacks": ["React", "Express", "Node.js", "MongoDB"],
-        "image": "remindable.gif",
-        "pinned": "true"
-    },
-    {
-        "title": "SFU Hikers Hub",
-        "date": "Apr 2024",
-        "description": "The SFU Hikers Hub is a centralized digital platform designed for the SFU Hiking Club. Its purpose is to enhance community engagement, facilitate the organization of events, and provide a dedicated space for members to share and find information about hiking trails, weather updates, and related activities.",
-        "github": "https://github.com/TonyDEChen/SFU-Hikers-Hub",
-        "stacks": ["Spring Boot", "Java", "Javascript", "PostgreSQL", "Docker", "Google Maps API"],
-        "image": "sfuhikershub.gif",
-        "pinned": true
-    },
-    {
-        "title": "Research Grant Council Database",
-        "date": "Mar 2024",
-        "description": "A Database made for tracking grant competitions for research proposals. The system allows users to create, update, and delete grant competitions, proposals, and reviewers.",
-        "github": "https://github.com/ahmad-masud/Research-Grant-Council-Database",
-        "stacks": ["Python", "Jupyter Notebook", "SQLite"],
-        "image": "erd.png",
-        "pinned": false
-    },
-    {
-        "title": "TempTalk",
-        "date": "Mar 2024",
-        "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure.",
-        "github": "https://github.com/ahmad-masud/TempTalk",
-        "link": "https://ahmadmasud.com/TempTalk",
-        "stacks": ["React", "Firebase", "Node.js", "Javascript"],
-        "image": "temptalk.gif",
-        "pinned": false
-    },
-    {
-        "title": "Database Schema Constructor",
-        "date": "Feb 2024",
-        "description": "Database Schema Constructor is a web application for visually creating and manipulating database schemas and then exporting them as SQL Query files. Features include cloud saving, draggable tables for layout flexibility, and responsive design.",
-        "github": "https://github.com/ahmad-masud/Database-Schema-Constructor",
-        "link": "https://dbsc.online/",
-        "stacks": ["React", "Firebase", "Node.js", "jsPlumb", "Javascript"],
-        "image": "dbsc.gif",
-        "pinned": true
-    },
-    {
-        "title": "Quant Market Predictor",
-        "date": "Jan 2024",
-        "description": "Quant Market Predictor is a Python-based tool designed to forecast future stock prices using historical market data from NASDAQ. Utilizing Linear Regression to make a Statistics Model, this project aims to provide users with insights into potential future market prices.",
-        "github": "https://github.com/ahmad-masud/Quant-Market-Predictor",
-        "stacks": ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn"],
-        "image": "qmp.gif",
-        "pinned": true
-    },
-    {
-        "title": "DrawAnt",
-        "date": "Apr 2023",
-        "description": "DrawAnt is a simple drawing program designed for ease of use and versatility. With DrawAnt, you can create beautiful drawings with a variety of tools such as pencils, brushes, shapes, and text. You can also adjust the size, color, and opacity of your tools to create the perfect design.",
-        "github": "https://github.com/ahmad-masud/DrawAnt",
-        "stacks": ["Java", "Swing", "Ant"],
-        "image": "drawant.gif",
-        "pinned": false
-    },
-    {
-        "title": "ahmadmasud.com",
-        "date": "Feb 2023",
-        "description": "My personal portfolio website built using React. The website showcases my projects, skills, and contact information. The website content is dynamically generated using JSON files, making it easy to update.",
-        "github": "https://github.com/ahmad-masud/ahmad-masud.github.io",
-        "stacks": ["React", "Javascript"],
-        "image": "ahmadmasud.webp",
-        "pinned": false
-    },
-    {
-        "title": "Sorting Visualizer",
-        "date": "Dec 2022",
-        "description": "An desktop application to visualize the process of popular sorting algorithms. Implemented alogrithms include Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort.",
-        "github": "https://github.com/ahmad-masud/Sorting-Visualizer",
-        "stacks": ["Java", "Swing", "Maven"],
-        "image": "sortingvisualizer.gif",
-        "pinned": true
-    }
-  ]  
+  {
+    "title": "CompCode",
+    "date": "Jul 2024",
+    "description": "CompCode is a web application designed to help you prepare for coding interviews by solving commonly asked LeetCode problems from various popular companies. The app provides a user-friendly interface to browse, solve, and track your progress on these problems.",
+    "github": "https://github.com/ahmad-masud/CompCode",
+    "link": "https://compcode.tech",
+    "stacks": [
+      "React",
+      "Firebase",
+      "Node.js",
+      "Javascript",
+      "Axios",
+      "GitHub API",
+      "Stripe"
+    ],
+    "image": "compcode.gif",
+    "pinned": true
+  },
+  {
+    "title": "Linux Memory Allocator",
+    "date": "Jul 2024",
+    "description": "Linux Memory Allocator is a multithreaded C++ memory allocator designed to provide advanced allocation strategies and optimized memory management. This project offers flexibility and efficiency for managing memory in C++ applications.",
+    "github": "https://github.com/ahmad-masud/Linux-Memory-Allocator",
+    "stacks": ["Linux", "C++", "Posix", "Pthread"],
+    "image": "memory.webp",
+    "pinned": true
+  },
+  {
+    "title": "Linux Shell",
+    "date": "Jun 2024",
+    "description": "A simple Linux shell written in C that accepts user commands and executes each command in a separate process, providing basic shell functionalities including process handling, internal commands, and a history feature.",
+    "github": "https://github.com/ahmad-masud/Linux-Shell",
+    "stacks": ["C", "Linux", "Shell"],
+    "image": "linuxshell.webp",
+    "pinned": false
+  },
+  {
+    "title": "Remindable",
+    "date": "May 2024",
+    "description": "Remindable is a simple yet powerful reminder app built using the MERN stack. With Remindable, users can create reminders with a title, date, and time, and get notified via email at the specified date and time.",
+    "github": "https://github.com/ahmad-masud/Remindable",
+    "link": "https://remindable.vercel.app/",
+    "stacks": ["React", "Express", "Node.js", "MongoDB"],
+    "image": "remindable.gif",
+    "pinned": "true"
+  },
+  {
+    "title": "SFU Hikers Hub",
+    "date": "Apr 2024",
+    "description": "The SFU Hikers Hub is a centralized digital platform designed for the SFU Hiking Club. Its purpose is to enhance community engagement, facilitate the organization of events, and provide a dedicated space for members to share and find information about hiking trails, weather updates, and related activities.",
+    "github": "https://github.com/TonyDEChen/SFU-Hikers-Hub",
+    "stacks": [
+      "Spring Boot",
+      "Java",
+      "Javascript",
+      "PostgreSQL",
+      "Docker",
+      "Google Maps API"
+    ],
+    "image": "sfuhikershub.gif",
+    "pinned": true
+  },
+  {
+    "title": "Research Grant Council Database",
+    "date": "Mar 2024",
+    "description": "A Database made for tracking grant competitions for research proposals. The system allows users to create, update, and delete grant competitions, proposals, and reviewers.",
+    "github": "https://github.com/ahmad-masud/Research-Grant-Council-Database",
+    "stacks": ["Python", "Jupyter Notebook", "SQLite"],
+    "image": "erd.png",
+    "pinned": false
+  },
+  {
+    "title": "TempTalk",
+    "date": "Mar 2024",
+    "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure.",
+    "github": "https://github.com/ahmad-masud/TempTalk",
+    "link": "https://ahmadmasud.com/TempTalk",
+    "stacks": ["React", "Firebase", "Node.js", "Javascript"],
+    "image": "temptalk.gif",
+    "pinned": false
+  },
+  {
+    "title": "Database Schema Constructor",
+    "date": "Feb 2024",
+    "description": "Database Schema Constructor is a web application for visually creating and manipulating database schemas and then exporting them as SQL Query files. Features include cloud saving, draggable tables for layout flexibility, and responsive design.",
+    "github": "https://github.com/ahmad-masud/Database-Schema-Constructor",
+    "link": "https://dbsc.online/",
+    "stacks": ["React", "Firebase", "Node.js", "jsPlumb", "Javascript"],
+    "image": "dbsc.gif",
+    "pinned": true
+  },
+  {
+    "title": "Quant Market Predictor",
+    "date": "Jan 2024",
+    "description": "Quant Market Predictor is a Python-based tool designed to forecast future stock prices using historical market data from NASDAQ. Utilizing Linear Regression to make a Statistics Model, this project aims to provide users with insights into potential future market prices.",
+    "github": "https://github.com/ahmad-masud/Quant-Market-Predictor",
+    "stacks": ["Python", "Pandas", "Numpy", "Matplotlib", "Scikit-learn"],
+    "image": "qmp.gif",
+    "pinned": true
+  },
+  {
+    "title": "DrawAnt",
+    "date": "Apr 2023",
+    "description": "DrawAnt is a simple drawing program designed for ease of use and versatility. With DrawAnt, you can create beautiful drawings with a variety of tools such as pencils, brushes, shapes, and text. You can also adjust the size, color, and opacity of your tools to create the perfect design.",
+    "github": "https://github.com/ahmad-masud/DrawAnt",
+    "stacks": ["Java", "Swing", "Ant"],
+    "image": "drawant.gif",
+    "pinned": false
+  },
+  {
+    "title": "ahmadmasud.com",
+    "date": "Feb 2023",
+    "description": "My personal portfolio website built using React. The website showcases my projects, skills, and contact information. The website content is dynamically generated using JSON files, making it easy to update.",
+    "github": "https://github.com/ahmad-masud/ahmad-masud.github.io",
+    "stacks": ["React", "Javascript"],
+    "image": "ahmadmasud.webp",
+    "pinned": false
+  },
+  {
+    "title": "Sorting Visualizer",
+    "date": "Dec 2022",
+    "description": "An desktop application to visualize the process of popular sorting algorithms. Implemented alogrithms include Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort.",
+    "github": "https://github.com/ahmad-masud/Sorting-Visualizer",
+    "stacks": ["Java", "Swing", "Maven"],
+    "image": "sortingvisualizer.gif",
+    "pinned": true
+  }
+]

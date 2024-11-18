@@ -1,106 +1,106 @@
 .education-title {
-    font-size: calc(var(--font-size)*2);
-    font-weight: bold;
-    color: var(--font-color);
-    text-align: center;
-    margin-top: 60px;
+  font-size: calc(var(--font-size) * 2);
+  font-weight: bold;
+  color: var(--font-color);
+  text-align: center;
+  margin-top: 60px;
 }
 
 .transcript {
-    background: var(--secondary-color);
-    max-width: var(--width);
-    width: 90%;
-    margin: 20px auto 100px auto;
-    border-radius: var(--border-radius);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--font-color);
-    border: 1px solid var(--border-color);
+  background: var(--secondary-color);
+  max-width: var(--width);
+  width: 90%;
+  margin: 20px auto 100px auto;
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--font-color);
+  border: 1px solid var(--border-color);
 }
 
 .transcript-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  margin: 20px;
 }
 
 .transcript-sections {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .transcript-headers {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .transcript-header:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .transcript-school {
-    font-weight: bold;
-    font-size: calc(var(--font-size)*1.75);
-    color: var(--accent-color);
-    text-decoration: itali;
+  font-weight: bold;
+  font-size: calc(var(--font-size) * 1.75);
+  color: var(--accent-color);
+  text-decoration: itali;
 }
 
 .transcript-study {
-    font-weight: bold;
-    font-size: calc(var(--font-size)*1.25);
-    color: var(--font-color);
-    text-decoration: itali;
+  font-weight: bold;
+  font-size: calc(var(--font-size) * 1.25);
+  color: var(--font-color);
+  text-decoration: itali;
 }
 
 .transcript-date {
-    font-size: calc(var(--font-size));
-    opacity: 0.75;
+  font-size: calc(var(--font-size));
+  opacity: 0.75;
 }
 
 .transcript-location {
-    font-size: calc(var(--font-size));
-    opacity: 0.75;
+  font-size: calc(var(--font-size));
+  opacity: 0.75;
 }
 
 .transcript-courses-title {
-    font-weight: 500;
-    font-size: calc(var(--font-size)*1.25);
-    text-decoration: underline;
+  font-weight: 500;
+  font-size: calc(var(--font-size) * 1.25);
+  text-decoration: underline;
 }
 
 .transcript-section-title {
-    font-weight: 500;
-    font-size: calc(var(--font-size)*1.25);
+  font-weight: 500;
+  font-size: calc(var(--font-size) * 1.25);
 }
 
 .course-list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .course {
-    font-size: var(--font-size);
-    opacity: 0.75;
-    line-height: 2em;
+  font-size: var(--font-size);
+  opacity: 0.75;
+  line-height: 2em;
 }
 
 .course:before {
-    content: '• ';
-    color: var(--accent-color);
+  content: '• ';
+  color: var(--accent-color);
 }
 
-@media screen and (max-width: 600px){
-    .transcript-headers {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .transcript-header:nth-child(2) {
-        align-items: flex-start;
-    }
+@media screen and (max-width: 600px) {
+  .transcript-headers {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .transcript-header:nth-child(2) {
+    align-items: flex-start;
+  }
 }

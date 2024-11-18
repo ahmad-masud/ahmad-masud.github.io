@@ -10,13 +10,10 @@ function Projects() {
 
   return (
     <div>
-      <p className='projects-title'>Projects</p>
-      <div className='projects'>
+      <p className="projects-title">Projects</p>
+      <div className="projects">
         {projects.map((project, index) => (
-          <Project
-            key={index}
-            data={project}
-          />
+          <Project key={index} data={project} />
         ))}
       </div>
     </div>

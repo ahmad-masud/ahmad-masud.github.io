@@ -27,16 +27,11 @@
     },
     {
       "category": "Mathematics in Computer Science",
-      "courses": [
-        "Discrete Mathematics",
-        "Numerical Analysis (MATLAB)"
-      ]
+      "courses": ["Discrete Mathematics", "Numerical Analysis (MATLAB)"]
     },
     {
       "category": "Statistics",
-      "courses": [
-        "Probability and Statistics (R)"
-      ]
+      "courses": ["Probability and Statistics (R)"]
     }
   ]
-} 
+}

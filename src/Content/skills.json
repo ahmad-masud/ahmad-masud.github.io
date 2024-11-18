@@ -1,37 +1,31 @@
 [
-    {
-        "category": "Languages",
-        "skills": [
-            "Java/C#",
-            "Python",
-            "C/C++",
-            "SQL",
-            "GraphQL",
-            "JavaScript",
-            "HTML/CSS"
-        ]
-    },
-    {
-        "category": "Frameworks",
-        "skills": [
-            "React.js",
-            "Node.js",
-            "Express.js",
-            "JUnit",
-            "Firebase",
-            "Gatsby.js",
-            "Spring Boot",
-            "Mongoose"
-        ]
-    },
-    {
-        "category": "DevOps",
-        "skills": [
-            "Git/Github",
-            "Docker",
-            "CI/CD",
-            "Agile",
-            "Google Analytics"
-        ]
-    }
-] 
+  {
+    "category": "Languages",
+    "skills": [
+      "Java/C#",
+      "Python",
+      "C/C++",
+      "SQL",
+      "GraphQL",
+      "JavaScript",
+      "HTML/CSS"
+    ]
+  },
+  {
+    "category": "Frameworks",
+    "skills": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "JUnit",
+      "Firebase",
+      "Gatsby.js",
+      "Spring Boot",
+      "Mongoose"
+    ]
+  },
+  {
+    "category": "DevOps",
+    "skills": ["Git/Github", "Docker", "CI/CD", "Agile", "Google Analytics"]
+  }
+]

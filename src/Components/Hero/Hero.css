@@ -1,89 +1,88 @@
 .hero-container {
-    width: 100%;
-    background: var(--main-color);
-    overflow: hidden;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  background: var(--main-color);
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero {
-    margin: 70px auto;
-    display: flex;
-    gap: 25px;
-    max-width: var(--width);
-    width: 90%;
-    align-items: center;
-    justify-content: center;
+  margin: 70px auto;
+  display: flex;
+  gap: 25px;
+  max-width: var(--width);
+  width: 90%;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-texts {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-weight: 500;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 500;
+  align-items: center;
 }
 
 .hero-greeting-text {
-    font-size: calc(var(--font-size)*3.5);
-    font-weight: bold;
-    color: var(--font-color);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5px;
+  font-size: calc(var(--font-size) * 3.5);
+  font-weight: bold;
+  color: var(--font-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
 }
 
 .hero-text {
-    font-size: calc(var(--font-size)*2);
-    color: var(--font-color);
-    text-align: center;
+  font-size: calc(var(--font-size) * 2);
+  color: var(--font-color);
+  text-align: center;
 }
 
 .hero-links {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .hero-link {
-    padding: 10px 15px;
-    border-radius: var(--border-radius);
-    font-size: var(--font-size);
-    font-weight: 500;
+  padding: 10px 15px;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+  font-weight: 500;
 }
 
 .hero .fa-up-right-from-square {
-    font-size: 0.75em;
+  font-size: 0.75em;
 }
 
-
 .hero-link:nth-child(1) {
-    background: var(--accent-color);
-    color: white;
+  background: var(--accent-color);
+  color: white;
 }
 
 .hero-link:nth-child(2) {
-    background: var(--main-color);
-    color: var(--font-color);
-    border: 1px solid var(--border-color);
+  background: var(--main-color);
+  color: var(--font-color);
+  border: 1px solid var(--border-color);
 }
 
 .hero-link:hover {
-    filter: brightness(0.75);
+  filter: brightness(0.75);
 }
 
 @media screen and (max-width: 800px) {
-    .hero {
-        flex-direction: column-reverse;
-    }
+  .hero {
+    flex-direction: column-reverse;
+  }
 }
 
 .hero .highlight {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .wave {
-    width: 60px;
+  width: 60px;
 }

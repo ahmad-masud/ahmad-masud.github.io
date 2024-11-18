@@ -13,21 +13,20 @@ function Home() {
   }, []);
 
   return (
-    <div className='home'>
+    <div className="home">
       <Hero />
       <Info />
-      <p className='projects-title'>Highlighted Projects</p>
-      <div className='projects'>
-        {projects.map((project, index) => (
-          project.pinned &&
-            <Project
-              key={index}
-              data={project}
-            />
-        ))}
+      <p className="projects-title">Highlighted Projects</p>
+      <div className="projects">
+        {projects.map(
+          (project, index) =>
+            project.pinned && <Project key={index} data={project} />
+        )}
       </div>
-      <div className='projects-link-container'>
-        <Link to='/projects' className='projects-link'>View all projects {'>'}</Link>
+      <div className="projects-link-container">
+        <Link to="/projects" className="projects-link">
+          View all projects {'>'}
+        </Link>
       </div>
       <Skills />
     </div>

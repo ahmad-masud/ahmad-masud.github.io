@@ -1,4 +1,5 @@
 # Ahmad's Portfolio Website
+
 ![Performance](/resources/performance.png)
 
 ## Overview
@@ -18,9 +19,11 @@ This project is my personal portfolio website, built with React.js using Create 
 ## Getting Started
 
 ### Prerequisites
+
 Before you begin, ensure you have the latest version of Node.js and npm installed on your system.
 
 ### Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/ahmad-masud/ahmad-masud.github.io.git
@@ -40,6 +43,7 @@ Before you begin, ensure you have the latest version of Node.js and npm installe
    This command runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Technologies Used
+
 - React.js
 - CSS for styling
 - React Router for navigation
@@ -47,7 +51,9 @@ Before you begin, ensure you have the latest version of Node.js and npm installe
 - React Simple Typewriter
 
 ## Contributing
+
 I'm always open to contributions and improvements to my portfolio. If you have suggestions or want to contribute, please fork the repository and create a pull request.
 
 ## License
+
 This project is open source and available under the [MIT License](LICENSE).

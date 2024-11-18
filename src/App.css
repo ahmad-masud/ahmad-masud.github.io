@@ -1,77 +1,83 @@
 :root {
-   --font-size: 1.25em;
-   --width: 1200px;
-   --main-color: white;
-   --secondary-color: rgb(245,245,245);
-   --accent-color: #3797d3;
-   --font-color: rgb(50, 50, 50);
-   --border-color: rgba(0, 0, 0, 0.15);
-   --highlight-color: rgb(225,225,225);
-   --nav-color: rgba(255, 255, 255, 0.95);
-   --border-radius: 6px;
+  --font-size: 1.25em;
+  --width: 1200px;
+  --main-color: white;
+  --secondary-color: rgb(245, 245, 245);
+  --accent-color: #3797d3;
+  --font-color: rgb(50, 50, 50);
+  --border-color: rgba(0, 0, 0, 0.15);
+  --highlight-color: rgb(225, 225, 225);
+  --nav-color: rgba(255, 255, 255, 0.95);
+  --border-radius: 6px;
 }
 
 :root.dark {
-   --main-color: #23272F;
-   --secondary-color: #1B1D23;
-   --font-color: white;
-   --border-color: rgba(255, 255, 255, 0.15);
-   --highlight-color: rgb(50, 54, 62);
-   --nav-color: rgba(35, 39, 47, 0.9);
+  --main-color: #23272f;
+  --secondary-color: #1b1d23;
+  --font-color: white;
+  --border-color: rgba(255, 255, 255, 0.15);
+  --highlight-color: rgb(50, 54, 62);
+  --nav-color: rgba(35, 39, 47, 0.9);
 }
 
 @media only screen and (max-width: 600px) {
-   :root {
-       --font-size: 1em;
-   }
+  :root {
+    --font-size: 1em;
+  }
 }
 
 * {
-   margin: 0;
-   padding: 0;
-   transition: all 200ms ease-in-out;
+  margin: 0;
+  padding: 0;
+  transition: all 200ms ease-in-out;
 }
 
 @font-face {
-   font-family: "optimistic_display";
-   src: local("optimistic_display_regular"),
-      url("./Fonts/optimistic_display/optimistic_display_regular.ttf") format("truetype");
-   font-display: swap;
+  font-family: 'optimistic_display';
+  src:
+    local('optimistic_display_regular'),
+    url('./Fonts/optimistic_display/optimistic_display_regular.ttf')
+      format('truetype');
+  font-display: swap;
 }
- 
- @font-face {
-   font-family: "optimistic_display";
-   src: local("optimistic_display_medium"),
-      url("./Fonts/optimistic_display/optimistic_display_medium.ttf") format("truetype");
-   font-weight: 500;
-   font-display: swap;
+
+@font-face {
+  font-family: 'optimistic_display';
+  src:
+    local('optimistic_display_medium'),
+    url('./Fonts/optimistic_display/optimistic_display_medium.ttf')
+      format('truetype');
+  font-weight: 500;
+  font-display: swap;
 }
- 
- @font-face {
-   font-family: "optimistic_display";
-   src: local("optimistic_display_bold"),
-      url("./Fonts/optimistic_display/optimistic_display_bold.ttf") format("truetype");
-   font-weight: bold;
-   font-display: swap;
+
+@font-face {
+  font-family: 'optimistic_display';
+  src:
+    local('optimistic_display_bold'),
+    url('./Fonts/optimistic_display/optimistic_display_bold.ttf')
+      format('truetype');
+  font-weight: bold;
+  font-display: swap;
 }
- 
+
 body {
-   font-family: 'optimistic_display', 'sans-serif';
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   background: var(--main-color);
+  font-family: 'optimistic_display', 'sans-serif';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--main-color);
 }
 
 .app {
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .bi-box-arrow-up-right {
-   font-size: 0.75em;
+  font-size: 0.75em;
 }

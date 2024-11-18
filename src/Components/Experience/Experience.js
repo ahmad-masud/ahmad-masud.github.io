@@ -10,7 +10,7 @@ function Experience({ data }) {
         const image = await import(`../../Content/images/${data.image}`);
         setImageSrc(image.default);
       } catch (error) {
-        console.error("Failed to load image", error);
+        console.error('Failed to load image', error);
         setImageSrc('path/to/default/or/error/image.jpg');
       }
     };
@@ -19,27 +19,34 @@ function Experience({ data }) {
   }, [data.image]);
 
   return (
-    <div className='experience'>
-      <div className='experience-container'>
-        <div className='experience-info-container'>
-          <div className='experience-header-container'>
-            <img className='experience-image' src={imageSrc} alt={data.title + " Image"} width='100px' />
-            <div className='experience-sub-header-container'>
-              <div className='experience-header'>
-                <span className='experience-title'>{data.company}</span>
-                <span className='experience-position'>{data.position}</span>
+    <div className="experience">
+      <div className="experience-container">
+        <div className="experience-info-container">
+          <div className="experience-header-container">
+            <img
+              className="experience-image"
+              src={imageSrc}
+              alt={data.title + ' Image'}
+              width="100px"
+            />
+            <div className="experience-sub-header-container">
+              <div className="experience-header">
+                <span className="experience-title">{data.company}</span>
+                <span className="experience-position">{data.position}</span>
               </div>
-              <div className='experience-header'>
-                <span className='experience-date'>
+              <div className="experience-header">
+                <span className="experience-date">
                   {data.startDate} - {data.present ? 'Present' : data.endDate}
                 </span>
-                <span className='experience-location'>{data.location}</span>
+                <span className="experience-location">{data.location}</span>
               </div>
             </div>
           </div>
-          <ul className='experience-list'>
+          <ul className="experience-list">
             {data.listItems.map((listItem, index) => (
-              <li className='experience-list-item' key={index}>{listItem}</li>
+              <li className="experience-list-item" key={index}>
+                {listItem}
+              </li>
             ))}
           </ul>
         </div>

@@ -1,33 +1,33 @@
 .not-found {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 150px;
-    color: var(--font-color);
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+  color: var(--font-color);
+  gap: 20px;
 }
 
 .not-found-title {
-    font-size: 8em;
-    font-weight: bold;
+  font-size: 8em;
+  font-weight: bold;
 }
 
 .not-found-sentence {
-    font-size: 2em;
-    font-weight: 500;
+  font-size: 2em;
+  font-weight: 500;
 }
 
 .not-found-button {
-    color: var(--font-color);
-    padding: 10px 20px;
-    border-radius: var(--border-radius);
-    font-size: var(--font-size);
-    font-weight: 500;
-    border: 1px solid var(--border-color);
-    background: var(--main-color);
+  color: var(--font-color);
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size);
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+  background: var(--main-color);
 }
 
-.not-found-button:Hover {
-    filter: brightness(0.75);
+.not-found-button:hover {
+  filter: brightness(0.75);
 }

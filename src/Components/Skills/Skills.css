@@ -1,50 +1,50 @@
 .skills {
-    color: var(--font-color);
-    padding: 100px 0;
-    background: var(--secondary-color);
-    border-top: 1px solid var(--border-color);
+  color: var(--font-color);
+  padding: 100px 0;
+  background: var(--secondary-color);
+  border-top: 1px solid var(--border-color);
 }
 
 .skills-container {
-    max-width: var(--width);
-    width: 90%;
-    margin: 0 auto;
+  max-width: var(--width);
+  width: 90%;
+  margin: 0 auto;
 }
 
 .skills-title {
-    margin: 0 0 25px 0;
-    font-size: calc(var(--font-size)*2);
-    font-weight: bold;
-    color: var(--font-color);
-    text-align: center;
+  margin: 0 0 25px 0;
+  font-size: calc(var(--font-size) * 2);
+  font-weight: bold;
+  color: var(--font-color);
+  text-align: center;
 }
 
 .skills-subtitle {
-    margin: 20px 0 10px 0;
-    font-size: calc(var(--font-size)*1.25);
-    font-weight: 500;
+  margin: 20px 0 10px 0;
+  font-size: calc(var(--font-size) * 1.25);
+  font-weight: 500;
 }
 
 .skills-list {
-    list-style-type: none;
-    font-size: var(--font-size);
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    line-height: 1.5em;
-    gap: 7px;
+  list-style-type: none;
+  font-size: var(--font-size);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  line-height: 1.5em;
+  gap: 7px;
 }
 
 .skills-item {
-    padding: 10px 15px;
-    border-radius: var(--border-radius);
-    border: 1px solid var(--border-color);
-    background: var(--main-color);
-    color: var(--font-color);
+  padding: 10px 15px;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  background: var(--main-color);
+  color: var(--font-color);
 }
 
 @media only screen and (max-width: 600px) {
-    .skills-list {
-        font-size: var(--font-size);
-    }
+  .skills-list {
+    font-size: var(--font-size);
+  }
 }

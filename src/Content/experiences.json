@@ -1,107 +1,106 @@
 [
-    {
-        "image": "hitachirail.webp",
-        "startDate": "Sep 2024",
-        "endDate": null,
-        "present": true,
-        "position": "Software Engineer Intern",
-        "company": "Hitachi Rail",
-        "location": "Burnaby, BC",
-        "listItems": [
-            "Scheduled to complete a 32-week internship, working on Automatic Train Supervision (ATS) control systems"
-        ]
-    },
-    {
-        "image": "sfuosdev.webp",
-        "startDate": "Feb 2024",
-        "endDate": "Aug 2024",
-        "present": true,
-        "position": "Software Developer",
-        "company": "SFU OS Dev Club",
-        "location": "Burnaby, BC",
-        "listItems": [
-            "A non-profit club at SFU aimed at developing open-source web solutions",
-            "Developed a NBA Statistics Tracker web app using React as the front end and BALLDONTLIE for data",
-            "Worked as a team, adopting Agile methodologies to ensure timely delivery of 3 major updates",
-            "Utilized GitHub for version control, and collaboration through 60+ code reviews and merges"
-        ]
-    },
-    {
-        "image": "sfuhikingclub.webp",
-        "startDate": "Jan 2024",
-        "endDate": "Apr 2024",
-        "present": false,
-        "position": "Software Developer Consultant",
-        "company": "SFU Hiking Club",
-        "location": "Burnaby, BC",
-        "listItems": [
-            "A outdoor community club at SFU that organizes hiking trips and events",
-            "Developed a web app for the club to manage events, members, and trip details using Spring Boot",
-            "Implemented REST Controllers to handle CRUD operations for events, members, and trip details",
-            "Utilized PostgreSQL for database management, ensuring data integrity and security"
-        ]
-    },
-    {
-        "image": "kumon.webp",
-        "startDate": "May 2023",
-        "endDate": "Dec 2023",
-        "present": false,
-        "position": "Teaching Assistant",
-        "company": "Kumon",
-        "location": "Burnaby, BC",
-        "listItems": [
-            "Kumon learning centers for children specializes in nationwide after school math and reading",
-            "Tutored students in Calculus, Algebra, Trigonometry, Reading, Writing, and Poetry through personalized instruction",
-            "Assisted students in mastering and advancing through incremental levels of math and reading curriculum",
-            "Graded 500+ student assignments and provided feedback for improvements, optimizing student productivity"
-        ]
-    },
-    {
-        "image": "walmart.webp",
-        "startDate": "Nov 2021",
-        "endDate": "Mar 2023",
-        "present": false,
-        "position": "Store Standards Associate",
-        "company": "Walmart",
-        "location": "Vancouver, BC",
-        "listItems": [
-            "Walmart is an American multinational retail corporation that operates a chain of hypermarkets",
-            "Excelled in customer service by warmly greeting and assisting shoppers, enhancing their overall experience",
-            "Facilitated smooth store operations by efficiently transporting heavy items and restocking shelves",
-            "Operated a CARTMANAGER XD for effective cart management, ensuring availability of 300+ carts per shift",
-            "Demonstrated proficiency in using a pallet jack for safe and strategic movement of heavy merchandise"
-        ]
-    },
-    {
-        "image": "vikingsdev.webp",
-        "startDate": "Oct 2021",
-        "endDate": "Jul 2022",
-        "present": false,
-        "position": "Teaching Assistant",
-        "company": "VikingsDev",
-        "location": "Burnaby, BC",
-        "listItems": [
-            "VikingsDev is a club giving students a chance to learn the fundamentals of computer programming",
-            "Mentored 20+ high school students in Python and guided them to create their first personal projects",
-            "Led 10 interactive workshops, simplifying coding concepts in Python, resulting in increased student engagement",
-            "Provided individual support and mentorship, significantly improving students’ confidence and proficiency in Python",
-            "Developed engaging curriculum materials, fostering a hands-on learning environment for high school students"
-            
-        ]
-    },
-    {
-        "image": "pocketpinata.webp",
-        "startDate": "Apr 2021",
-        "endDate": "May 2021",
-        "present": false,
-        "position": "Game Tester",
-        "company": "Pocket Pinata Interactive",
-        "location": "Remote",
-        "listItems": [
-            "A game developement company that creates games for mobile and PC platforms",
-            "Performed functionality tests on Draw a Stickman, a game played 100M+ times and winner of 5 Webby Awards",
-            "Accelerated product iterations by reducing 30% of bugs, directly influencing the launch timeline of 3 major games",
-            "Created written and recorded testing reports, suggesting improvements for possible issues in software/game-play"
-        ]
-    }
-  ]
+  {
+    "image": "hitachirail.webp",
+    "startDate": "Sep 2024",
+    "endDate": null,
+    "present": true,
+    "position": "Software Engineer Intern",
+    "company": "Hitachi Rail",
+    "location": "Burnaby, BC",
+    "listItems": [
+      "Scheduled to complete a 32-week internship, working on Automatic Train Supervision (ATS) control systems"
+    ]
+  },
+  {
+    "image": "sfuosdev.webp",
+    "startDate": "Feb 2024",
+    "endDate": "Aug 2024",
+    "present": true,
+    "position": "Software Developer",
+    "company": "SFU OS Dev Club",
+    "location": "Burnaby, BC",
+    "listItems": [
+      "A non-profit club at SFU aimed at developing open-source web solutions",
+      "Developed a NBA Statistics Tracker web app using React as the front end and BALLDONTLIE for data",
+      "Worked as a team, adopting Agile methodologies to ensure timely delivery of 3 major updates",
+      "Utilized GitHub for version control, and collaboration through 60+ code reviews and merges"
+    ]
+  },
+  {
+    "image": "sfuhikingclub.webp",
+    "startDate": "Jan 2024",
+    "endDate": "Apr 2024",
+    "present": false,
+    "position": "Software Developer Consultant",
+    "company": "SFU Hiking Club",
+    "location": "Burnaby, BC",
+    "listItems": [
+      "A outdoor community club at SFU that organizes hiking trips and events",
+      "Developed a web app for the club to manage events, members, and trip details using Spring Boot",
+      "Implemented REST Controllers to handle CRUD operations for events, members, and trip details",
+      "Utilized PostgreSQL for database management, ensuring data integrity and security"
+    ]
+  },
+  {
+    "image": "kumon.webp",
+    "startDate": "May 2023",
+    "endDate": "Dec 2023",
+    "present": false,
+    "position": "Teaching Assistant",
+    "company": "Kumon",
+    "location": "Burnaby, BC",
+    "listItems": [
+      "Kumon learning centers for children specializes in nationwide after school math and reading",
+      "Tutored students in Calculus, Algebra, Trigonometry, Reading, Writing, and Poetry through personalized instruction",
+      "Assisted students in mastering and advancing through incremental levels of math and reading curriculum",
+      "Graded 500+ student assignments and provided feedback for improvements, optimizing student productivity"
+    ]
+  },
+  {
+    "image": "walmart.webp",
+    "startDate": "Nov 2021",
+    "endDate": "Mar 2023",
+    "present": false,
+    "position": "Store Standards Associate",
+    "company": "Walmart",
+    "location": "Vancouver, BC",
+    "listItems": [
+      "Walmart is an American multinational retail corporation that operates a chain of hypermarkets",
+      "Excelled in customer service by warmly greeting and assisting shoppers, enhancing their overall experience",
+      "Facilitated smooth store operations by efficiently transporting heavy items and restocking shelves",
+      "Operated a CARTMANAGER XD for effective cart management, ensuring availability of 300+ carts per shift",
+      "Demonstrated proficiency in using a pallet jack for safe and strategic movement of heavy merchandise"
+    ]
+  },
+  {
+    "image": "vikingsdev.webp",
+    "startDate": "Oct 2021",
+    "endDate": "Jul 2022",
+    "present": false,
+    "position": "Teaching Assistant",
+    "company": "VikingsDev",
+    "location": "Burnaby, BC",
+    "listItems": [
+      "VikingsDev is a club giving students a chance to learn the fundamentals of computer programming",
+      "Mentored 20+ high school students in Python and guided them to create their first personal projects",
+      "Led 10 interactive workshops, simplifying coding concepts in Python, resulting in increased student engagement",
+      "Provided individual support and mentorship, significantly improving students’ confidence and proficiency in Python",
+      "Developed engaging curriculum materials, fostering a hands-on learning environment for high school students"
+    ]
+  },
+  {
+    "image": "pocketpinata.webp",
+    "startDate": "Apr 2021",
+    "endDate": "May 2021",
+    "present": false,
+    "position": "Game Tester",
+    "company": "Pocket Pinata Interactive",
+    "location": "Remote",
+    "listItems": [
+      "A game developement company that creates games for mobile and PC platforms",
+      "Performed functionality tests on Draw a Stickman, a game played 100M+ times and winner of 5 Webby Awards",
+      "Accelerated product iterations by reducing 30% of bugs, directly influencing the launch timeline of 3 major games",
+      "Created written and recorded testing reports, suggesting improvements for possible issues in software/game-play"
+    ]
+  }
+]
