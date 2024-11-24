@@ -36,17 +36,19 @@ function Project({ data }) {
             <p className="project-overview">{data.description}</p>
             <div className="box-list-container">
               <div className="links">
-                <a
-                  aria-label="github"
-                  href={data.github}
-                  className="link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="bi bi-github"></i> Github{' '}
-                  <i className="bi bi-box-arrow-up-right"></i>
-                </a>
-                {data.link != null && (
+                {data.github &&
+                  <a
+                    aria-label="github"
+                    href={data.github}
+                    className="link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="bi bi-github"></i> Github{' '}
+                    <i className="bi bi-box-arrow-up-right"></i>
+                  </a>
+                }
+                {data.link && (
                   <a
                     href={data.link}
                     className="link"
