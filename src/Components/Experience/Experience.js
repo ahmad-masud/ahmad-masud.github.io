@@ -3,6 +3,7 @@ import './Experience.css';
 
 function Experience({ data }) {
   const [imageSrc, setImageSrc] = useState('');
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   useEffect(() => {
     const loadImage = async () => {
@@ -23,12 +24,15 @@ function Experience({ data }) {
       <div className="experience-container">
         <div className="experience-info-container">
           <div className="experience-header-container">
-            <img
-              className="experience-image"
-              src={imageSrc}
-              alt={data.title + ' Image'}
-              width="100px"
-            />
+            <div className="experience-image-container">
+              <img
+                className={`experience-image ${isImageLoaded ? 'loaded' : 'loading'}`}
+                src={imageSrc}
+                alt={data.title + ' Image'}
+                width="100px"
+                onLoad={() => setIsImageLoaded(true)}
+              />
+            </div>
             <div className="experience-sub-header-container">
               <div className="experience-header">
                 <span className="experience-title">{data.company}</span>

@@ -3,6 +3,7 @@ import './Project.css';
 
 function Project({ data }) {
   const [imageSrc, setImageSrc] = useState('');
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   useEffect(() => {
     const loadImage = async () => {
@@ -22,12 +23,14 @@ function Project({ data }) {
     <div>
       <div className="project-container">
         <div className="project">
-          <img
-            className="project-image"
-            src={imageSrc}
-            alt={data.title + ' Image'}
-            width="40%"
-          />
+          <div className="project-image-container">
+            <img
+              className={`project-image ${isImageLoaded ? 'loaded' : 'loading'}`}
+              src={imageSrc}
+              alt={data.title + ' Image'}
+              onLoad={() => setIsImageLoaded(true)}
+            />
+          </div>
           <div className="project-info-container">
             <div className="project-header-container">
               <span className="project-title">{data.title}</span>
@@ -36,7 +39,7 @@ function Project({ data }) {
             <p className="project-overview">{data.description}</p>
             <div className="box-list-container">
               <div className="links">
-                {data.github &&
+                {data.github && (
                   <a
                     aria-label="github"
                     href={data.github}
@@ -47,7 +50,7 @@ function Project({ data }) {
                     <i className="bi bi-github"></i> Github{' '}
                     <i className="bi bi-box-arrow-up-right"></i>
                   </a>
-                }
+                )}
                 {data.link && (
                   <a
                     href={data.link}

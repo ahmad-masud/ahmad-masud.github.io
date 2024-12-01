@@ -10,7 +10,7 @@ function Contact() {
 
     emailjs
       .sendForm(
-        'service_3yamhe1',
+        'service_n7k628w',
         'template_v2uaobc',
         form.current,
         'tqejVuoeOE6huM6Cw'
