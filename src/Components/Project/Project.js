@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import './Project.css';
+import { useState, useEffect } from "react";
+import "./Project.css";
 
 function Project({ data }) {
-  const [imageSrc, setImageSrc] = useState('');
+  const [imageSrc, setImageSrc] = useState("");
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   useEffect(() => {
@@ -11,8 +11,8 @@ function Project({ data }) {
         const image = await import(`../../Content/images/${data.image}`);
         setImageSrc(image.default);
       } catch (error) {
-        console.error('Failed to load image', error);
-        setImageSrc('path/to/default/or/error/image.jpg');
+        console.error("Failed to load image", error);
+        setImageSrc("path/to/default/or/error/image.jpg");
       }
     };
 
@@ -25,9 +25,9 @@ function Project({ data }) {
         <div className="project">
           <div className="project-image-container">
             <img
-              className={`project-image ${isImageLoaded ? 'loaded' : 'loading'}`}
+              className={`project-image ${isImageLoaded ? "loaded" : "loading"}`}
               src={imageSrc}
-              alt={data.title + ' Image'}
+              alt={data.title + " Image"}
               onLoad={() => setIsImageLoaded(true)}
             />
           </div>
@@ -47,7 +47,7 @@ function Project({ data }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="bi bi-github"></i> Github{' '}
+                    <i className="bi bi-github"></i> Github{" "}
                     <i className="bi bi-box-arrow-up-right"></i>
                   </a>
                 )}

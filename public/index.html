@@ -17,14 +17,14 @@
     <title>Ahmad Masud</title>
     <script type="text/javascript">
       (function (l) {
-        if (l.search[1] === '/') {
+        if (l.search[1] === "/") {
           var decoded = l.search
             .slice(1)
-            .split('&')
+            .split("&")
             .map(function (s) {
-              return s.replace(/~and~/g, '&');
+              return s.replace(/~and~/g, "&");
             })
-            .join('?');
+            .join("?");
           window.history.replaceState(
             null,
             null,

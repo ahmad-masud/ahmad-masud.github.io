@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
-import experiences from '../../Content/experiences.json';
-import Experience from '../../Components/Experience/Experience.js';
-import './Experiences.css';
+import { useEffect } from "react";
+import experiences from "../../Content/experiences.json";
+import Experience from "../../Components/Experience/Experience.js";
+import "./Experiences.css";
 
 function Experiences() {
   useEffect(() => {
-    document.title = 'Experience | Ahmad Masud';
+    document.title = "Experience | Ahmad Masud";
   }, []);
 
   return (

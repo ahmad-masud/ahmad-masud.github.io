@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
-import Project from '../../Components/Project/Project.js';
-import projects from '../../Content/projects.json';
-import './Projects.css';
+import { useEffect } from "react";
+import Project from "../../Components/Project/Project.js";
+import projects from "../../Content/projects.json";
+import "./Projects.css";
 
 function Projects() {
   useEffect(() => {
-    document.title = 'Projects | Ahmad Masud';
+    document.title = "Projects | Ahmad Masud";
   }, []);
 
   return (

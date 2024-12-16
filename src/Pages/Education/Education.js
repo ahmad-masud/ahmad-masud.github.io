@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
-import './Education.css';
-import education from '../../Content/education.json';
+import { useEffect } from "react";
+import "./Education.css";
+import education from "../../Content/education.json";
 
 function Education() {
   useEffect(() => {
-    document.title = 'Education | Ahmad Masud';
+    document.title = "Education | Ahmad Masud";
   }, []);
 
   return (

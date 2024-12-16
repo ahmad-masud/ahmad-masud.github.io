@@ -1,7 +1,7 @@
-import './Hero.css';
-import { Link } from 'react-router-dom';
-import { Typewriter } from 'react-simple-typewriter';
-import wave from '../../Content/images/wave.webp';
+import "./Hero.css";
+import { Link } from "react-router-dom";
+import { Typewriter } from "react-simple-typewriter";
+import wave from "../../Content/images/wave.webp";
 
 function Hero() {
   return (
@@ -15,10 +15,10 @@ function Hero() {
             <p className="hero-text">I'm Ahmad,</p>
             <p className="hero-text">Nice to meet you,</p>
             <p className="hero-text">
-              I'm a{' '}
+              I'm a{" "}
               <span className="highlight">
                 <Typewriter
-                  words={['CS Student.', 'Developer.', 'Creator.', 'Leader.']}
+                  words={["CS Student.", "Developer.", "Creator.", "Leader."]}
                   loop={Infinity}
                   cursor
                 />

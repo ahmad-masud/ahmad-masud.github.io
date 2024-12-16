@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import './Experience.css';
+import { useState, useEffect } from "react";
+import "./Experience.css";
 
 function Experience({ data }) {
-  const [imageSrc, setImageSrc] = useState('');
+  const [imageSrc, setImageSrc] = useState("");
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   useEffect(() => {
@@ -11,13 +11,36 @@ function Experience({ data }) {
         const image = await import(`../../Content/images/${data.image}`);
         setImageSrc(image.default);
       } catch (error) {
-        console.error('Failed to load image', error);
-        setImageSrc('path/to/default/or/error/image.jpg');
+        console.error("Failed to load image", error);
+        setImageSrc("path/to/default/or/error/image.jpg");
       }
     };
 
     loadImage();
   }, [data.image]);
+
+  const renderListItem = (listItem) => {
+    const regex = /\*\*(.*?)\*\*/g;
+    const parts = [];
+    let match;
+    let lastIndex = 0;
+
+    while ((match = regex.exec(listItem)) !== null) {
+      if (match.index > lastIndex) {
+        parts.push(listItem.slice(lastIndex, match.index));
+      }
+
+      parts.push(<strong key={match.index}>{match[1]}</strong>);
+
+      lastIndex = regex.lastIndex;
+    }
+
+    if (lastIndex < listItem.length) {
+      parts.push(listItem.slice(lastIndex));
+    }
+
+    return parts;
+  };
 
   return (
     <div className="experience">
@@ -26,9 +49,9 @@ function Experience({ data }) {
           <div className="experience-header-container">
             <div className="experience-image-container">
               <img
-                className={`experience-image ${isImageLoaded ? 'loaded' : 'loading'}`}
+                className={`experience-image ${isImageLoaded ? "loaded" : "loading"}`}
                 src={imageSrc}
-                alt={data.title + ' Image'}
+                alt={data.title + " Image"}
                 width="100px"
                 onLoad={() => setIsImageLoaded(true)}
               />
@@ -40,7 +63,7 @@ function Experience({ data }) {
               </div>
               <div className="experience-header">
                 <span className="experience-date">
-                  {data.startDate} - {data.present ? 'Present' : data.endDate}
+                  {data.startDate} - {data.present ? "Present" : data.endDate}
                 </span>
                 <span className="experience-location">{data.location}</span>
               </div>
@@ -49,7 +72,7 @@ function Experience({ data }) {
           <ul className="experience-list">
             {data.listItems.map((listItem, index) => (
               <li className="experience-list-item" key={index}>
-                {listItem}
+                {renderListItem(listItem)}
               </li>
             ))}
           </ul>

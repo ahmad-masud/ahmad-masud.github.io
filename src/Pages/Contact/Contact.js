@@ -1,49 +1,49 @@
-import './Contact.css';
-import { useRef, useState, useEffect } from 'react';
-import emailjs from '@emailjs/browser';
+import "./Contact.css";
+import { useRef, useState, useEffect } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const form = useRef();
-  const [message, setMessage] = useState('Sent Successfully ✅');
+  const [message, setMessage] = useState("Sent Successfully ✅");
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        'service_n7k628w',
-        'template_v2uaobc',
+        "service_n7k628w",
+        "template_v2uaobc",
         form.current,
-        'tqejVuoeOE6huM6Cw'
+        "tqejVuoeOE6huM6Cw"
       )
       .then(
         (result) => {
           console.log(result.text);
-          setMessage('Sent Successfully ✅');
-          document.getElementById('success-label').style.marginTop = '80px';
+          setMessage("Sent Successfully ✅");
+          document.getElementById("success-label").style.marginTop = "80px";
           setTimeout(function () {
-            document.getElementById('success-label').style.marginTop = '-70px';
+            document.getElementById("success-label").style.marginTop = "-70px";
           }, 5000);
         },
         (error) => {
           console.log(error.text);
-          setMessage('Error Occurred ❌');
-          document.getElementById('success-label').style.marginTop = '80px';
+          setMessage("Error Occurred ❌");
+          document.getElementById("success-label").style.marginTop = "80px";
           setTimeout(function () {
-            document.getElementById('success-label').style.marginTop = '-70px';
+            document.getElementById("success-label").style.marginTop = "-70px";
           }, 5000);
         }
       );
   };
 
   useEffect(() => {
-    document.title = 'Contact | Ahmad Masud';
+    document.title = "Contact | Ahmad Masud";
   }, []);
 
   return (
     <div className="contact">
       <p className="contact-title">Contact</p>
       <label className="contact-success-label" id="success-label">
-        {message}{' '}
+        {message}{" "}
       </label>
       <form className="contact-form" ref={form} onSubmit={sendEmail}>
         <label className="contact-name-label required">Name</label>

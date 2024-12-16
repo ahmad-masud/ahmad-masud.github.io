@@ -102,7 +102,7 @@
 }
 
 .experience-list-item::before {
-  content: '• ';
+  content: "• ";
   color: var(--accent-color);
   font-size: var(--font-size);
 }

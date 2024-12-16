@@ -34,36 +34,36 @@
 }
 
 @font-face {
-  font-family: 'optimistic_display';
+  font-family: "optimistic_display";
   src:
-    local('optimistic_display_regular'),
-    url('./Fonts/optimistic_display/optimistic_display_regular.ttf')
-      format('truetype');
+    local("optimistic_display_regular"),
+    url("./Fonts/optimistic_display/optimistic_display_regular.ttf")
+      format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'optimistic_display';
+  font-family: "optimistic_display";
   src:
-    local('optimistic_display_medium'),
-    url('./Fonts/optimistic_display/optimistic_display_medium.ttf')
-      format('truetype');
+    local("optimistic_display_medium"),
+    url("./Fonts/optimistic_display/optimistic_display_medium.ttf")
+      format("truetype");
   font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'optimistic_display';
+  font-family: "optimistic_display";
   src:
-    local('optimistic_display_bold'),
-    url('./Fonts/optimistic_display/optimistic_display_bold.ttf')
-      format('truetype');
+    local("optimistic_display_bold"),
+    url("./Fonts/optimistic_display/optimistic_display_bold.ttf")
+      format("truetype");
   font-weight: bold;
   font-display: swap;
 }
 
 body {
-  font-family: 'optimistic_display', 'sans-serif';
+  font-family: "optimistic_display", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--main-color);

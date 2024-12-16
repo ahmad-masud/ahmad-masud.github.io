@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './NotFound.css';
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import "./NotFound.css";
 
 function NotFound() {
   useEffect(() => {
-    document.title = '404 | Ahmad Masud';
+    document.title = "404 | Ahmad Masud";
   }, []);
 
   return (

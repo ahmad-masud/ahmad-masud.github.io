@@ -1,13 +1,13 @@
-import './App.css';
-import Navbar from './Components/Navbar/Navbar.js';
-import Footer from './Components/Footer/Footer.js';
-import Home from './Pages/Home/Home.js';
-import Experiences from './Pages/Experience/Experiences.js';
-import Education from './Pages/Education/Education.js';
-import Projects from './Pages/Projects/Projects.js';
-import Contact from './Pages/Contact/Contact.js';
-import NotFound from './Pages/NotFound/NotFound.js';
-import { Routes, Route } from 'react-router-dom';
+import "./App.css";
+import Navbar from "./Components/Navbar/Navbar.js";
+import Footer from "./Components/Footer/Footer.js";
+import Home from "./Pages/Home/Home.js";
+import Experiences from "./Pages/Experience/Experiences.js";
+import Education from "./Pages/Education/Education.js";
+import Projects from "./Pages/Projects/Projects.js";
+import Contact from "./Pages/Contact/Contact.js";
+import NotFound from "./Pages/NotFound/NotFound.js";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (

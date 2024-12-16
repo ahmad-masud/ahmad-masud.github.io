@@ -4,6 +4,8 @@
     "skills": [
       "Java/C#",
       "Python",
+      "Ruby",
+      "Groovy",
       "C/C++",
       "SQL",
       "GraphQL",
@@ -19,13 +21,22 @@
       "Express.js",
       "JUnit",
       "Firebase",
-      "Gatsby.js",
       "Spring Boot",
+      "Maven",
+      "MSBuild",
       "Mongoose"
     ]
   },
   {
     "category": "DevOps",
-    "skills": ["Git/Github", "Docker", "CI/CD", "Agile", "Google Analytics"]
+    "skills": [
+      "Git/GitHub",
+      "Bitbucket",
+      "Docker",
+      "JFrog Artifactory",
+      "Jenkins",
+      "CI/CD",
+      "Agile Development"
+    ]
   }
 ]

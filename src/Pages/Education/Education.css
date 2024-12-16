@@ -91,7 +91,7 @@
 }
 
 .course:before {
-  content: '• ';
+  content: "• ";
   color: var(--accent-color);
 }
 

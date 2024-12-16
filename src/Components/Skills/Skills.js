@@ -1,5 +1,5 @@
-import './Skills.css';
-import skills from '../../Content/skills.json';
+import "./Skills.css";
+import skills from "../../Content/skills.json";
 
 function Skills() {
   return (

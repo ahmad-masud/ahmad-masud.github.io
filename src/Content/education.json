@@ -1,6 +1,6 @@
 {
   "school": "Simon Fraser University",
-  "study": "Bachelor of Science in Computer Science (Co-op)",
+  "study": "Bachelor of Science, Computer Science",
   "graduationDate": "Dec 2026",
   "location": "Burnaby, BC",
   "courses": [
@@ -27,7 +27,11 @@
     },
     {
       "category": "Mathematics in Computer Science",
-      "courses": ["Discrete Mathematics", "Numerical Analysis (MATLAB)"]
+      "courses": [
+        "Discrete Mathematics I",
+        "Discrete Mathematics II",
+        "Numerical Analysis (MATLAB)"
+      ]
     },
     {
       "category": "Statistics",

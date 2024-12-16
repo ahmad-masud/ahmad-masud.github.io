@@ -1,8 +1,8 @@
-import './Navbar.css';
-import { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
-import Cookies from 'js-cookie';
-import logo from '../../Content/images/logo.webp';
+import "./Navbar.css";
+import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+import Cookies from "js-cookie";
+import logo from "../../Content/images/logo.webp";
 
 function Navbar() {
   const [darkModeOn, setDarkModeOn] = useState(false);
@@ -12,23 +12,23 @@ function Navbar() {
   const toggleButtonRef = useRef(null);
 
   useEffect(() => {
-    const root = document.querySelector(':root');
+    const root = document.querySelector(":root");
     const updateColorMode = () => {
-      if (Cookies.get('colorMode') === 'dark') {
-        root.classList.add('dark');
+      if (Cookies.get("colorMode") === "dark") {
+        root.classList.add("dark");
         setDarkModeOn(true);
-      } else if (Cookies.get('colorMode') === 'light') {
-        root.classList.remove('dark');
+      } else if (Cookies.get("colorMode") === "light") {
+        root.classList.remove("dark");
         setDarkModeOn(false);
       } else {
         if (
           window.matchMedia &&
-          window.matchMedia('(prefers-color-scheme: dark)').matches
+          window.matchMedia("(prefers-color-scheme: dark)").matches
         ) {
-          root.classList.add('dark');
+          root.classList.add("dark");
           setDarkModeOn(true);
         } else {
-          root.classList.remove('dark');
+          root.classList.remove("dark");
           setDarkModeOn(false);
         }
       }
@@ -36,43 +36,43 @@ function Navbar() {
     updateColorMode();
 
     const handleScroll = () => {
-      navRef.current.classList.toggle('sticky', window.scrollY > 0);
+      navRef.current.classList.toggle("sticky", window.scrollY > 0);
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     const handleResize = () => {
       if (window.innerWidth >= 700) {
         closeNav();
       }
     };
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Cleanup to avoid memory leaks
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   const changeColorMode = () => {
-    const root = document.querySelector(':root');
-    const newColorMode = darkModeOn ? 'light' : 'dark';
-    root.classList.toggle('dark', newColorMode === 'dark');
-    Cookies.set('colorMode', newColorMode);
+    const root = document.querySelector(":root");
+    const newColorMode = darkModeOn ? "light" : "dark";
+    root.classList.toggle("dark", newColorMode === "dark");
+    Cookies.set("colorMode", newColorMode);
     setDarkModeOn(!darkModeOn);
   };
 
   const closeNav = () => {
-    mediaNavRef.current.style.marginTop = '55px';
-    mediaNavRef.current.style.opacity = '0';
-    mediaNavRef.current.style.visibility = 'hidden';
+    mediaNavRef.current.style.marginTop = "55px";
+    mediaNavRef.current.style.opacity = "0";
+    mediaNavRef.current.style.visibility = "hidden";
     setIsNavOpen(false);
   };
 
   const openNav = () => {
-    mediaNavRef.current.style.marginTop = '60px';
-    mediaNavRef.current.style.opacity = '1';
-    mediaNavRef.current.style.visibility = 'visible';
+    mediaNavRef.current.style.marginTop = "60px";
+    mediaNavRef.current.style.opacity = "1";
+    mediaNavRef.current.style.visibility = "visible";
     setIsNavOpen(true);
   };
 
