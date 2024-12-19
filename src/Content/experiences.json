@@ -8,18 +8,17 @@
     "company": "Hitachi",
     "location": "Burnaby, BC",
     "listItems": [
-      "Developed SkyTrain monitoring tools using C++ for real-time supervision of **400+ Rolling stock units**",
-      "Programmed features for CBTC systems using SelTrac technologies, improving Automatic Train Supervision (ATS) for collision avoidance, train separation, and speed regulation",
+      "Contributed to SkyTrain monitoring tools using C++ for real-time supervision of **400+ Rolling stock units**",
+      "Integrated concurrent data processing in the CBTC train-scheduling module using pthreads, reducing latency by **25ms** per cycle and enabling immediate re-optimization of train headways under various conditions",
       "Streamlined build processes with MSBuild, Gmake, and Jenkins, reducing build times for a team of **60+ developers**",
       "Automated repetitive tests using Groovy scripting in Jenkins, saving **16 hours** of manual testing per sprint",
-      "Authored unit tests for **500+ lines of code**, increasing overall code coverage and reducing production bugs"
+      "Converted Ruby testing framework to run from a MSI package, reducing testing time by **50%** per release"
     ]
   },
   {
     "image": "sfuosdev.webp",
     "startDate": "Feb 2024",
     "endDate": "Aug 2024",
-    "present": true,
     "position": "Software Developer",
     "company": "SFU OS Dev Club",
     "location": "Burnaby, BC",
