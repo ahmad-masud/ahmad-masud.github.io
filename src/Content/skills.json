@@ -2,15 +2,15 @@
   {
     "category": "Languages",
     "skills": [
-      "Java/C#",
       "Python",
       "Ruby",
       "Groovy",
+      "JavaScript",
+      "Java/C#",
       "C/C++",
       "SQL",
-      "GraphQL",
-      "JavaScript",
-      "HTML/CSS"
+      "HTML/CSS",
+      "GraphQL"
     ]
   },
   {
@@ -30,11 +30,10 @@
   {
     "category": "DevOps",
     "skills": [
-      "Git/GitHub",
-      "Bitbucket",
+      "Git",
+      "Jenkins",
       "Docker",
       "JFrog Artifactory",
-      "Jenkins",
       "CI/CD",
       "Agile Development"
     ]

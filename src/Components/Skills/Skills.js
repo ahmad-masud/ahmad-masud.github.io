@@ -12,7 +12,7 @@ function Skills() {
               {skillCategory.category}
             </header>
             <ul className="skills-list">
-              {skillCategory.skills.sort().map((skill, index) => (
+              {skillCategory.skills.map((skill, index) => (
                 <li className="skills-item" key={index}>
                   {skill}
                 </li>
