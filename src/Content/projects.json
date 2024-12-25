@@ -1,7 +1,7 @@
 [
   {
     "title": "CompCode",
-    "date": "Jul 2024",
+    "date": "Aug 2024",
     "description": "CompCode is a web application designed to help you prepare for coding interviews by solving commonly asked LeetCode problems from various popular companies. The app provides a user-friendly interface to browse, solve, and track your progress on these problems.",
     "link": "https://compcode.tech",
     "stacks": [
