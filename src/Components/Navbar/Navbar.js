@@ -120,15 +120,6 @@ function Navbar() {
             <Link to="/Contact" className="nav-link contact-nav-link">
               Contact
             </Link>
-            <a
-              aria-label="resume"
-              target="_blank"
-              rel="noreferrer"
-              href="/Resume.pdf"
-              className="nav-link resume-nav-link"
-            >
-              Resume
-            </a>
             <button
               aria-label="change theme"
               onClick={changeColorMode}
@@ -183,16 +174,6 @@ function Navbar() {
           >
             Contact
           </Link>
-          <a
-            aria-label="resume"
-            target="_blank"
-            rel="noreferrer"
-            href="Resume.pdf"
-            className="media-nav-link resume-media-nav-link"
-            onClick={closeNav}
-          >
-            Resume
-          </a>
         </div>
       </div>
     </>

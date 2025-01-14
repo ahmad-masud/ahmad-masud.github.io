@@ -8,11 +8,12 @@
     "company": "Hitachi",
     "location": "Burnaby, BC",
     "listItems": [
-      "Contributed to SkyTrain monitoring tools using C++ for real-time supervision of **400+ Rolling stock units**",
-      "Integrated concurrent data processing in the CBTC train-scheduling module using pthreads, reducing latency by **25ms** per cycle and enabling immediate re-optimization of train headways under various conditions",
+      "Contributed to core train server software and various scripts using C++, Python, Javascript, and Ruby",
+      "Implemented caching of build data to AWS Artifactory, ensuring backups and cutting down on redundant downloads",
       "Streamlined build processes with MSBuild, Gmake, and Jenkins, reducing build times for a team of **60+ developers**",
       "Automated repetitive tests using Groovy scripting in Jenkins, saving **16 hours** of manual testing per sprint",
-      "Converted Ruby testing framework to run from a MSI package, reducing testing time by **50%** per release"
+      "Converted Ruby testing framework to run from an MSI package, reducing testing time by **50%** per release",
+      "Caught **8 high priority bugs** in production and increased my team's code coverage from **63% to 77%**"
     ]
   },
   {
