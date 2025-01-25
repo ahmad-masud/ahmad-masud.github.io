@@ -2,40 +2,148 @@
   {
     "category": "Languages",
     "skills": [
-      "Python",
-      "Ruby",
-      "Groovy",
-      "JavaScript",
-      "Java/C#",
-      "C/C++",
-      "SQL",
-      "HTML/CSS",
-      "GraphQL"
+      {
+        "name": "C",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+      },
+      {
+        "name": "C++",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+      },
+      {
+        "name": "C#",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+      },
+      {
+        "name": "HTML",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+      },
+      {
+        "name": "Java",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "Python",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+      },
+      {
+        "name": "Ruby",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+      },
+      {
+        "name": "Perl",
+        "icon": "https://api.iconify.design/logos-perl.svg"
+      },
+      {
+        "name": "MySQL",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+      },
+      {
+        "name": "SQLite",
+        "icon": "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg"
+      },
+      {
+        "name": "Lua",
+        "icon": "https://www.vectorlogo.zone/logos/lua/lua-icon.svg"
+      }
     ]
   },
   {
-    "category": "Frameworks",
+    "category": "Frameworks/Libraries",
     "skills": [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "JUnit",
-      "Firebase",
-      "Spring Boot",
-      "Maven",
-      "MSBuild",
-      "Mongoose"
+      {
+        "name": "React.js",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+      },
+      {
+        "name": "Node.js",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+      },
+      {
+        "name": "Express.js",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+      },
+      {
+        "name": "Firebase",
+        "icon": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+      },
+      {
+        "name": "Spring",
+        "icon": "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+      },
+      {
+        "name": ".NET",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg"
+      },
+      {
+        "name": "Gatsby",
+        "icon": "https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg"
+      },
+      {
+        "name": "GraphQL",
+        "icon": "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg"
+      },
+      {
+        "name": "Mongoose",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+      },
+      {
+        "name": "Next.js",
+        "icon": "https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
+      }
     ]
   },
   {
-    "category": "DevOps",
+    "category": "DevOps/Tools",
     "skills": [
-      "Git",
-      "Jenkins",
-      "Docker",
-      "JFrog Artifactory",
-      "CI/CD",
-      "Agile Development"
+      {
+        "name": "Git",
+        "icon": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+      },
+      {
+        "name": "GitHub",
+        "icon": "https://www.vectorlogo.zone/logos/github/github-icon.svg"
+      },
+      {
+        "name": "Jenkins",
+        "icon": "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
+      },
+      {
+        "name": "Docker",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+      },
+      {
+        "name": "Linux",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+      },
+      {
+        "name": "BitBucket",
+        "icon": "https://www.vectorlogo.zone/logos/bitbucket/bitbucket-icon.svg"
+      },
+      {
+        "name": "Jira",
+        "icon": "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg"
+      },
+      {
+        "name": "JFrog",
+        "icon": "https://www.vectorlogo.zone/logos/jfrog/jfrog-icon.svg"
+      }
     ]
   }
 ]

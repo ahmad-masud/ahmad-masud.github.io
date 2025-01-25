@@ -14,7 +14,7 @@ function Skills() {
             <ul className="skills-list">
               {skillCategory.skills.map((skill, index) => (
                 <li className="skills-item" key={index}>
-                  {skill}
+                  <img src={skill.icon} alt={skill.name} width="40" height="40" />{skill.name}
                 </li>
               ))}
             </ul>

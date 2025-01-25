@@ -41,6 +41,10 @@
   border: 1px solid var(--border-color);
   background: var(--main-color);
   color: var(--font-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 @media only screen and (max-width: 600px) {

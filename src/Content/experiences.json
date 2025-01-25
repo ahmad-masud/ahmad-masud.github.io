@@ -6,15 +6,15 @@
     "present": true,
     "position": "Software Engineer Intern",
     "company": "Hitachi Rail",
-    "location": "Burnaby, BC",
+    "location": "Burnaby, British Columbia, Canada",
     "listItems": [
-      "Contributed to core train server software and various scripts using C++, Python, Javascript, and Ruby",
-      "Implemented caching of build data to AWS Artifactory, ensuring backups and cutting down on redundant downloads",
+      "Built a frontend status dashboard using JavaScript, providing a real-time visualization of **150+ trains daily**",
+      "Designed and implemented multi-threaded data processing using pthreads in C++, maximizing server utilization",
+      "Implemented caching of build data to AWS Artifactory, ensuring backups and reducing redundant downloads",
       "Streamlined build processes with MSBuild, Gmake, and Jenkins, reducing build times for a team of **60+ developers**",
       "Automated repetitive tests using Groovy scripting in Jenkins, saving **16 hours** of manual testing per sprint",
-      "Converted Ruby testing framework to run from an MSI package, reducing testing time by **50%** per release",
-      "Caught **8 high priority bugs** in production and increased my team's code coverage from **63% to 77%**"
-    ]
+      "Caught **8 high-priority bugs** in production and increased my team's code coverage from **63% to 77%**"
+    ]  
   },
   {
     "image": "sfuosdev.webp",
@@ -22,7 +22,7 @@
     "endDate": "Aug 2024",
     "position": "Software Developer",
     "company": "SFU OS Dev Club",
-    "location": "Burnaby, BC",
+    "location": "Burnaby, British Columbia, Canada",
     "listItems": [
       "A non-profit club at SFU aimed at developing open-source web solutions",
       "Integrated a web API into React using Axios, displaying detailed stats for over **500 NBA players**",
@@ -37,10 +37,10 @@
     "present": false,
     "position": "Software Developer Consultant",
     "company": "SFU Hiking Club",
-    "location": "Burnaby, BC",
+    "location": "Burnaby, British Columbia, Canada",
     "listItems": [
       "A outdoor community club at SFU that organizes hiking trips and events",
-      "Developed a web app for the club to manage events, members, and trip details using Spring Boot",
+      "Developed a web app for the club to manage events, members, and trip details using the **MVC architecture** in Spring Boot",
       "Implemented REST Controllers to handle CRUD operations for events, members, and trip details",
       "Utilized PostgreSQL for database management, ensuring data integrity and security"
     ]
@@ -52,12 +52,12 @@
     "present": false,
     "position": "Teaching Assistant",
     "company": "Kumon",
-    "location": "Burnaby, BC",
+    "location": "Burnaby, British Columbia, Canada",
     "listItems": [
       "Kumon learning centers for children specializes in nationwide after school math and reading",
       "Tutored students in Calculus, Algebra, Trigonometry, Reading, Writing, and Poetry through personalized instruction",
       "Assisted students in mastering and advancing through incremental levels of math and reading curriculum",
-      "Graded 500+ student assignments and provided feedback for improvements, optimizing student productivity"
+      "Graded **500+** student assignments and provided feedback for improvements, optimizing student productivity"
     ]
   },
   {
@@ -67,12 +67,12 @@
     "present": false,
     "position": "Store Standards Associate",
     "company": "Walmart",
-    "location": "Vancouver, BC",
+    "location": "Vancouver, British Columbia, Canada",
     "listItems": [
       "Walmart is an American multinational retail corporation that operates a chain of hypermarkets",
       "Excelled in customer service by warmly greeting and assisting shoppers, enhancing their overall experience",
       "Facilitated smooth store operations by efficiently transporting heavy items and restocking shelves",
-      "Operated a CARTMANAGER XD for effective cart management, ensuring availability of 300+ carts per shift",
+      "Operated a CARTMANAGER XD for effective cart management, ensuring availability of **300+ carts** per shift",
       "Demonstrated proficiency in using a pallet jack for safe and strategic movement of heavy merchandise"
     ]
   },
@@ -83,11 +83,11 @@
     "present": false,
     "position": "Teaching Assistant",
     "company": "VikingsDev",
-    "location": "Burnaby, BC",
+    "location": "Burnaby, British Columbia, Canada",
     "listItems": [
       "VikingsDev is a club giving students a chance to learn the fundamentals of computer programming",
-      "Mentored 20+ high school students in Python and guided them to create their first personal projects",
-      "Led 10 interactive workshops, simplifying coding concepts in Python, resulting in increased student engagement",
+      "Mentored **20+ high school students** in Python and guided them to create their first personal projects",
+      "Led **10 interactive workshops**, simplifying coding concepts in Python, resulting in increased student engagement",
       "Provided individual support and mentorship, significantly improving students’ confidence and proficiency in Python",
       "Developed engaging curriculum materials, fostering a hands-on learning environment for high school students"
     ]
@@ -102,8 +102,8 @@
     "location": "Remote",
     "listItems": [
       "A game developement company that creates games for mobile and PC platforms",
-      "Performed functionality tests on Draw a Stickman, a game played 100M+ times and winner of 5 Webby Awards",
-      "Accelerated product iterations by reducing 30% of bugs, directly influencing the launch timeline of 3 major games",
+      "Performed functionality tests on Draw a Stickman, a game played **100M+** times and winner of **5 Webby Awards**",
+      "Accelerated product iterations by reducing **30% of bugs**, directly influencing the launch timeline of **3 major games**",
       "Created written and recorded testing reports, suggesting improvements for possible issues in software/game-play"
     ]
   }
