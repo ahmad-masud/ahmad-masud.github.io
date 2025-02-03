@@ -1,5 +1,15 @@
 [
   {
+    "title": "AppliSense",
+    "date": "Feb 2025",
+    "description": "ApplisSense is a job application tracker for those who value statistics. Stay organized in your job search with my app! Effortlessly track job applications, monitor progress, set reminders, and stay on top of your career opportunities—all in one place.",
+    "github": "https://github.com/ahmad-masud/AppliSense",
+    "link": "https://applisense.vercel.app/",
+    "stacks": ["JavaScript", "React", "Express", "Node.js", "MongoDB"],
+    "image": "applisense.png",
+    "pinned": "true"
+  },
+  {
     "title": "CompCode",
     "date": "Aug 2024",
     "description": "CompCode is a web application designed to help you prepare for coding interviews by solving commonly asked LeetCode problems from various popular companies. The app provides a user-friendly interface to browse, solve, and track your progress on these problems.",
@@ -33,16 +43,6 @@
     "stacks": ["C", "Linux", "Shell"],
     "image": "linuxshell.webp",
     "pinned": false
-  },
-  {
-    "title": "Remindable",
-    "date": "May 2024",
-    "description": "Remindable is a simple yet powerful reminder app built using the MERN stack. With Remindable, users can create reminders with a title, date, and time, and get notified via email at the specified date and time.",
-    "github": "https://github.com/ahmad-masud/Remindable",
-    "link": "https://remindable.vercel.app/",
-    "stacks": ["React", "Express", "Node.js", "MongoDB"],
-    "image": "remindable.gif",
-    "pinned": "true"
   },
   {
     "title": "SFU Hikers Hub",
