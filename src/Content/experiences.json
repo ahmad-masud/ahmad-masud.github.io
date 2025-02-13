@@ -9,11 +9,11 @@
     "location": "Burnaby, British Columbia, Canada",
     "listItems": [
       "Built a frontend status dashboard using JavaScript, providing a real-time visualization of **150+ trains daily**",
-      "Designed and implemented multi-threaded data processing using pthreads in C++, maximizing server utilization",
-      "Implemented caching of build data to AWS Artifactory, ensuring backups and reducing redundant downloads",
-      "Streamlined build processes with MSBuild, Gmake, and Jenkins, reducing build times for a team of **60+ developers**",
-      "Automated repetitive tests using Groovy scripting in Jenkins, saving **16 hours** of manual testing per sprint",
-      "Caught **8 high-priority bugs** in production and increased my team's code coverage from **63% to 77%**"
+      "Built high-performance web components with Stencil.js, optimizing lazy loading and reducing bundle sizes by **40%**",
+      "Developed scalable backend services using Spring Boot, leveraging RESTful APIs and PostgreSQL for data retrieval",
+      "Implemented caching of build data to JFrog Artifactory using Ruby, reducing build times for **60+ developers**",
+      "Created a desktop application in C++ using .NET, leveraging multithreading and memory management",
+      "Automated manual tests using Groovy scripting in Jenkins, saving **16 hours** of manual testing per sprint"
     ]
   },
   {
