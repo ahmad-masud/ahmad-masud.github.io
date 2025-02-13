@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[848],{848:(p,e,s)=>{p.exports=s.p+"static/media/applisense.8fbb59cbca0dffe82317.gif"}}]);
