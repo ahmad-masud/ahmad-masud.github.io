@@ -74,7 +74,7 @@
     "date": "Mar 2024",
     "description": "TempTalk is a web-based chat application that lets you chat with others without the headache of signing up. Make disposable chat rooms instantly and share the link with others to start chatting. TempTalk is designed to be simple, fast, and secure.",
     "github": "https://github.com/ahmad-masud/TempTalk",
-    "link": "https://ahmadmasud.com/TempTalk",
+    "link": "https://ahmadmasud.info/TempTalk",
     "stacks": ["React", "Firebase", "Node.js", "Javascript"],
     "image": "temptalk.gif",
     "pinned": false
@@ -84,7 +84,7 @@
     "date": "Feb 2024",
     "description": "Database Schema Constructor is a web application for visually creating and manipulating database schemas and then exporting them as SQL Query files. Features include cloud saving, draggable tables for layout flexibility, and responsive design.",
     "github": "https://github.com/ahmad-masud/Database-Schema-Constructor",
-    "link": "https://dbsc.online/",
+    "link": "https://database-schema-constructor.netlify.app",
     "stacks": ["React", "Firebase", "Node.js", "jsPlumb", "Javascript"],
     "image": "dbsc.gif",
     "pinned": true
