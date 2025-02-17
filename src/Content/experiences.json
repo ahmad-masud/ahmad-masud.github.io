@@ -25,8 +25,9 @@
     "location": "Burnaby, British Columbia, Canada",
     "listItems": [
       "A non-profit club at SFU aimed at developing open-source web solutions",
-      "Integrated a web API into React using Axios, displaying detailed stats for over **500 NBA players**",
-      "Worked as a team, adopting Agile methodologies to ensure timely delivery of **3 major updates**",
+      "Refactored legacy codebases to improve readability and maintainability, reducing technical debt by **30%**",
+      "Integrated a web API into React using Axios, displaying detailed stats for over **500+ NBA players**",
+      "Worked as a team, adopting Agile methodologies to ensure timely delivery of **3 projects**",
       "Implemented automated testing and **CI/CD pipelines** using GitHub workflows to ensure production-ready code"
     ]
   },
@@ -35,16 +36,17 @@
     "startDate": "Jan 2024",
     "endDate": "Apr 2024",
     "present": false,
-    "position": "Software Developer Consultant",
+    "position": "Software Developer",
     "company": "SFU Hiking Club",
     "location": "Burnaby, British Columbia, Canada",
     "listItems": [
       "A outdoor community club at SFU that organizes hiking trips and events",
-      "Developed a web app for the club to manage events, members, and trip details using the **MVC architecture** in Spring Boot",
-      "Implemented REST Controllers to handle CRUD operations for events, members, and trip details",
-      "Utilized PostgreSQL for database management, ensuring data integrity and security"
+      "Coded a full-stack website using Spring Boot, increasing event coordination and monthly club sign-ups by **22%**",
+      "Implemented REST Controllers to handle CRUD operations, simplifying database management in **PostgreSQL**",
+      "Integrated Google Maps API to display interactive hiking routes, cutting route planning times by **30 minutes** per trip",
+      "Dockerized and deployed a website with containerized REST API endpoints, migrating over **40+ existing users**"
     ]
-  },
+  },  
   {
     "image": "kumon.webp",
     "startDate": "May 2023",

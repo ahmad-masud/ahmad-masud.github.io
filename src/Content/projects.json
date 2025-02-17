@@ -2,7 +2,7 @@
   {
     "title": "AppliSense",
     "date": "Feb 2025",
-    "description": "ApplisSense is a job application tracker for those who value statistics. Stay organized in your job search with my app! Effortlessly track job applications, monitor progress, and stay on top of your career opportunities—all in one place.",
+    "description": "AppliSense is a job application tracker for those who value statistics. Stay organized in your job search with my app! Effortlessly track job applications, monitor progress, and stay on top of your career opportunities—all in one place.",
     "github": "https://github.com/ahmad-masud/AppliSense",
     "link": "https://applisense.vercel.app/",
     "stacks": ["JavaScript", "React", "Express", "Node.js", "MongoDB"],
