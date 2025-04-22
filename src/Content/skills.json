@@ -11,10 +11,6 @@
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
       },
       {
-        "name": "C#",
-        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
-      },
-      {
         "name": "Java",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
       },
@@ -35,20 +31,12 @@
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg"
       },
       {
-        "name": "Perl",
-        "icon": "https://api.iconify.design/logos-perl.svg"
-      },
-      {
         "name": "Lua",
         "icon": "https://www.vectorlogo.zone/logos/lua/lua-icon.svg"
       },
       {
         "name": "Go",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg"
-      },
-      {
-        "name": "PHP",
-        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
       }
     ]
   },
@@ -97,16 +85,16 @@
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
       },
       {
-        "name": ".NET",
-        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg"
-      },
-      {
         "name": "Spring",
         "icon": "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
       },
       {
         "name": "GraphQL",
         "icon": "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg"
+      },
+      {
+        "name": "FastAPI",
+        "icon": "https://avatars.githubusercontent.com/u/156354296?s=280&v=4"
       }
     ]
   },
@@ -167,10 +155,6 @@
         "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
       },
       {
-        "name": "NGINX",
-        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg"
-      },
-      {
         "name": "Google Cloud",
         "icon": "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
       },
@@ -215,6 +199,10 @@
       {
         "name": "Webpack",
         "icon": "https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
       }
     ]
   }

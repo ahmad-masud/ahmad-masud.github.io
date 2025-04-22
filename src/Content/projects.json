@@ -1,5 +1,27 @@
 [
   {
+    "title": "SurfMarc",
+    "date": "Mar 2025",
+    "description": "Get comprehensive product information, price history, and reviews all in one place. SurfMarc is a web application that helps users make informed purchase decisions by providing comprehensive product information, price tracking, and sentiment analysis.",
+    "github": "https://github.com/ahmad-masud/SurfMarc",
+    "link": "https://surfmarc.vercel.app/",
+    "stacks": [
+      "TypeScript",
+      "Python",
+      "Next.js",
+      "FastAPI",
+      "Node.js",
+      "Supabase",
+      "Tailwind",
+      "Docker",
+      "playwright",
+      "PyTorch",
+      "huggingface-transformers"
+    ],
+    "image": "surfmarc.webp",
+    "pinned": "true"
+  },
+  {
     "title": "AppliSense",
     "date": "Feb 2025",
     "description": "AppliSense is a job application tracker for those who value statistics. Stay organized in your job search with my app! Effortlessly track job applications, monitor progress, and stay on top of your career opportunities—all in one place.",
@@ -13,6 +35,7 @@
     "title": "CompCode",
     "date": "Aug 2024",
     "description": "CompCode is a web application designed to help you prepare for coding interviews by solving commonly asked LeetCode problems from various popular companies. The app provides a user-friendly interface to browse, solve, and track your progress on these problems.",
+    "github": "https://github.com/ahmad-masud/CompCode",
     "link": "https://compcode.tech",
     "stacks": [
       "React",
@@ -33,7 +56,7 @@
     "github": "https://github.com/ahmad-masud/Linux-Memory-Allocator",
     "stacks": ["Linux", "C++", "Posix", "Pthread"],
     "image": "memory.webp",
-    "pinned": true
+    "pinned": false
   },
   {
     "title": "Linux Shell",
