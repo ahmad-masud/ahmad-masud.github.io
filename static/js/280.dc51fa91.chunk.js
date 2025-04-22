@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[280],{280:(p,a,e)=>{p.exports=e.p+"static/media/surfmarc.5ac54d06ff1ac6591771.webp"}}]);
