@@ -39,7 +39,8 @@
     "link": "https://compcode.tech",
     "stacks": [
       "React",
-      "Firebase",
+      "Express",
+      "MongoDB",
       "Node.js",
       "Javascript",
       "Axios",
