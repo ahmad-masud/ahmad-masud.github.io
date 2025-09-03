@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a12afea9.css",
-    "main.js": "/static/js/main.0f0e77b3.js",
+    "main.js": "/static/js/main.b1868d77.js",
     "static/js/500.2881d171.chunk.js": "/static/js/500.2881d171.chunk.js",
     "static/js/848.a6a36bb0.chunk.js": "/static/js/848.a6a36bb0.chunk.js",
     "static/js/760.cb0f0e18.chunk.js": "/static/js/760.cb0f0e18.chunk.js",
@@ -22,6 +22,7 @@
     "static/js/280.dc51fa91.chunk.js": "/static/js/280.dc51fa91.chunk.js",
     "static/js/798.31fed3e6.chunk.js": "/static/js/798.31fed3e6.chunk.js",
     "static/js/271.3dbf6bf9.chunk.js": "/static/js/271.3dbf6bf9.chunk.js",
+    "static/js/991.fe627320.chunk.js": "/static/js/991.fe627320.chunk.js",
     "static/js/67.be0c72a9.chunk.js": "/static/js/67.be0c72a9.chunk.js",
     "static/media/applisense.gif": "/static/media/applisense.8fbb59cbca0dffe82317.gif",
     "static/media/sfuhikershub.gif": "/static/media/sfuhikershub.bc3282879d57eeea6053.gif",
@@ -46,15 +47,16 @@
     "static/media/hitachirail.webp": "/static/media/hitachirail.e7ddec452a625e1e3715.webp",
     "static/media/ahmadmasud.webp": "/static/media/ahmadmasud.94cffa4a82546576269c.webp",
     "static/media/wave.webp": "/static/media/wave.a69aeed83f5434abf376.webp",
+    "static/media/visier.jpg": "/static/media/visier.e4ddbfcd3be812265f38.jpg",
     "static/media/pocketpinata.webp": "/static/media/pocketpinata.446d8fb9992bcf54dc9f.webp",
     "static/media/memory.webp": "/static/media/memory.8aa4d884189aa4fbc3df.webp",
     "static/media/kumon.webp": "/static/media/kumon.b90833d6551a4dc60cff.webp",
     "index.html": "/index.html",
     "main.a12afea9.css.map": "/static/css/main.a12afea9.css.map",
-    "main.0f0e77b3.js.map": "/static/js/main.0f0e77b3.js.map"
+    "main.b1868d77.js.map": "/static/js/main.b1868d77.js.map"
   },
   "entrypoints": [
     "static/css/main.a12afea9.css",
-    "static/js/main.0f0e77b3.js"
+    "static/js/main.b1868d77.js"
   ]
 }
