@@ -69,13 +69,15 @@ function Experience({ data }) {
               </div>
             </div>
           </div>
-          <ul className="experience-list">
-            {data.listItems.map((listItem, index) => (
-              <li className="experience-list-item" key={index}>
-                {renderListItem(listItem)}
-              </li>
-            ))}
-          </ul>
+          {data.listItems && (
+            <ul className="experience-list">
+              {data.listItems.map((listItem, index) => (
+                <li className="experience-list-item" key={index}>
+                  {renderListItem(listItem)}
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
     </div>

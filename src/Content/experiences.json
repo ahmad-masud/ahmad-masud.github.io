@@ -1,19 +1,26 @@
 [
   {
+    "image": "visier.jpg",
+    "startDate": "Sep 2024",
+    "endDate": "Apr 2026",
+    "position": "Software Engineer Intern",
+    "company": "Visier",
+    "location": "Vancouver, British Columbia, Canada"
+  },
+  {
     "image": "hitachirail.webp",
     "startDate": "Sep 2024",
-    "endDate": null,
-    "present": true,
+    "endDate": "Apr 2025",
     "position": "Software Engineer Intern",
     "company": "Hitachi Rail",
     "location": "Burnaby, British Columbia, Canada",
     "listItems": [
-      "Built a frontend status dashboard using JavaScript, providing a real-time visualization of **150+ trains daily**",
-      "Built high-performance web components with Stencil.js, optimizing lazy loading and reducing bundle sizes by **40%**",
-      "Developed scalable backend services using Spring Boot, leveraging RESTful APIs and PostgreSQL for data retrieval",
+      "Built **10+** high-performance React components, optimizing lazy loading and reducing bundle sizes by **40%**",
+      "Developed RESTful APIs in Spring Boot, communicating with distributed SQL databases hosted on Amazon RDS",
+      "Containerized **5+** backend services with Docker and deployed them on a Kubernetes cluster, with a **99.9%** uptime",
       "Implemented caching of build data to JFrog Artifactory using Ruby, reducing build times for **60+ developers**",
-      "Created a desktop application in C++ using .NET, leveraging multithreading and memory management",
-      "Automated manual tests using Groovy scripting in Jenkins, saving **16 hours** of manual testing per sprint"
+      "Maintained legacy train software in C++, using multithreading, low-level system programming, and OOP",
+      "Automated regression tests using Groovy scripting in Jenkins, saving **16 hours** of manual testing per sprint"
     ]
   },
   {
@@ -76,37 +83,6 @@
       "Facilitated smooth store operations by efficiently transporting heavy items and restocking shelves",
       "Operated a CARTMANAGER XD for effective cart management, ensuring availability of **300+ carts** per shift",
       "Demonstrated proficiency in using a pallet jack for safe and strategic movement of heavy merchandise"
-    ]
-  },
-  {
-    "image": "vikingsdev.webp",
-    "startDate": "Oct 2021",
-    "endDate": "Jul 2022",
-    "present": false,
-    "position": "Teaching Assistant",
-    "company": "VikingsDev",
-    "location": "Burnaby, British Columbia, Canada",
-    "listItems": [
-      "VikingsDev is a club giving students a chance to learn the fundamentals of computer programming",
-      "Mentored **20+ high school students** in Python and guided them to create their first personal projects",
-      "Led **10 interactive workshops**, simplifying coding concepts in Python, resulting in increased student engagement",
-      "Provided individual support and mentorship, significantly improving students’ confidence and proficiency in Python",
-      "Developed engaging curriculum materials, fostering a hands-on learning environment for high school students"
-    ]
-  },
-  {
-    "image": "pocketpinata.webp",
-    "startDate": "Apr 2021",
-    "endDate": "May 2021",
-    "present": false,
-    "position": "Game Tester",
-    "company": "Pocket Pinata Interactive",
-    "location": "Remote",
-    "listItems": [
-      "A game developement company that creates games for mobile and PC platforms",
-      "Performed functionality tests on Draw a Stickman, a game played **100M+** times and winner of **5 Webby Awards**",
-      "Accelerated product iterations by reducing **30% of bugs**, directly influencing the launch timeline of **3 major games**",
-      "Created written and recorded testing reports, suggesting improvements for possible issues in software/game-play"
     ]
   }
 ]

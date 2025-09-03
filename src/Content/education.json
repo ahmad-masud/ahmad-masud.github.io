@@ -9,15 +9,14 @@
       "courses": [
         "Programming I (Python)",
         "Programming II (C/C++)",
-        "Data Structures and Algorithms (C++)",
+        "Data Structures and Algorithms",
         "Object Oriented Design (Java)",
         "Software Engineering (Java, JavaScript)",
         "Computer Systems (C)",
         "Operating Systems (C)",
         "Database Systems (Python, SQLite)",
-        "Aritificial Intelligence",
-        "Data Communications and Networking",
-        "Special Topics in Computer Science, Software Engineering"
+        "Aritificial Intelligence (Python)",
+        "Data Communications and Networking (Python, Java)"
       ]
     },
     {
