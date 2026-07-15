@@ -1,0 +1,44 @@
+# Ignore build output
+build/
+dist/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Dependency directories
+bower_components/
+jspm_packages/
+
+# Test coverage
+coverage/
+
+# Next.js build directory (if using)
+.next/
+
+# Gatsby build directory (if using)
+public/
+
+# Static files
+*.css.map
+*.js.map
+
+# Git and environment files
+.git/
+.env
+.env.local
+.env.*.local
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Ignore package lock files (optional, if you don’t want to format them)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore JSON files you don’t want touched
+*.snap

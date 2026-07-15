@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[22],{22:(p,e,a)=>{p.exports=a.p+"static/media/pocketpinata.446d8fb9992bcf54dc9f.webp"}}]);
